@@ -1,3 +1,76 @@
-baseURL = "http://kaliriu.com/"
-languageCode = "en-us"
+DefaultContentLanguage = "en"
+Paginate = 16
+PaginatePath = "page"
+baseURL = "https://kaliriu.com"
+defaultContentLanguageInSubdir = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
+disqusShortname = "kaliriudev"
+metaDataFormat = "yaml"
+pluralizeListTitles = false
 title = "Kaliriu"
+[languages.en]
+contentDir = "content/english"
+description = "Kaliriu in English"
+languageName = "English"
+weight = 1
+[languages.es]
+contentDir = "content/spanish"
+description = "Kaliriu en Español"
+languageName = "Español"
+weight = 2
+[markup]
+defaultMarkdownHandler = "goldmark"
+[markup.blackFriday]
+angledQuotes = false
+footnoteAnchorPrefix = ""
+footnoteReturnLinkContents = ""
+fractions = true
+hrefTargetBlank = false
+latexDashes = true
+nofollowLinks = false
+noreferrerLinks = false
+plainIDAnchors = true
+skipHTML = false
+smartDashes = true
+smartypants = true
+smartypantsQuotesNBSP = false
+taskLists = true
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+[markup.goldmark.parser]
+attribute = true
+autoHeadingID = true
+autoHeadingIDType = "github"
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe = false
+xhtml = false
+[markup.highlight]
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = "monokai"
+tabWidth = 4
+[markup.tableOfContents]
+endLevel = 2
+ordered = false
+startLevel = 2
+[params]
+assetsURL = ""
+blogEntryBackground = "https://res.cloudinary.com/drs4ol5tl/image/upload/c_scale,f_auto,q_auto,w_2000/v1583278924/assets/bg-blogpost.jpg"
+blogIndexBackground = "https://res.cloudinary.com/drs4ol5tl/image/upload/v1603014717/tom-adams-JDHQM-y4nxg-unsplash_ykvch3.jpg"
+cloudinaryURL = "https://res.cloudinary.com/drs4ol5tl/image/upload"
+contentPageBackground = "https://res.cloudinary.com/drs4ol5tl/image/upload/c_scale,f_auto,q_auto,w_2000/v1583841880/assets/bg-city.png"
+logo = "https://res.cloudinary.com/drs4ol5tl/image/upload/v1592055027/Asset_52_500x_aek0xl.svg"
+paginationNextIcon = "https://res.cloudinary.com/drs4ol5tl/image/upload/v1584794239/assets/arrow-primary.svg"
+paginationPreviousIcon = "https://res.cloudinary.com/drs4ol5tl/image/upload/v1584794239/assets/arrow-primary.svg"
