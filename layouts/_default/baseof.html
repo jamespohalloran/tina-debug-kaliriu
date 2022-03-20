@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
+  {{ $styles := resources.Get "css/styles.css" | resources.ExecuteAsTemplate "css/styles.css" . | resources.Minify }}
+  <link rel="stylesheet" type="text/css" href="{{ $styles.RelPermalink }}">
+</head>
+
+<body class="notranslate">
+
+  {{ block "main" . }}
+  {{ end }}
+
+
+  <script async src="/js/scripts.js"></script>
+
+</body>
+</html>
