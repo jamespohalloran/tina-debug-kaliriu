@@ -18,6 +18,10 @@ sections:
   label: Secciones
   create: none
   match: "**"
+- type: document
+  path: config.toml
+  label: Global Settings
+  match: "**/*"
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
