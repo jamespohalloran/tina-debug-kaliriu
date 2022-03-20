@@ -8,7 +8,6 @@ disqusShortname = "kaliriudev"
 metaDataFormat = "yaml"
 pluralizeListTitles = false
 title = "Kaliriu"
-theme = "hugo-starter"
 [languages.en]
     contentDir = "content/english"
     description = "Kaliriu in English"
