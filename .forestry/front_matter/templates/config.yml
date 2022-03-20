@@ -93,5 +93,3 @@ fields:
       name: weight
       label: weight
   hidden: true
-pages:
-- config.toml
