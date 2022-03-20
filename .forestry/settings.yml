@@ -18,6 +18,8 @@ sections:
   label: Secciones
   create: none
   match: "**"
+- type: heading
+  label: GLOBAL
 - type: document
   path: config.toml
   label: Global Settings
