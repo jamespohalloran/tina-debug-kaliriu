@@ -1,0 +1,53 @@
+---
+label: 'Module: Perks'
+hide_body: true
+display_field: title
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: subtitle_1
+  type: text
+  config:
+    required: false
+  label: subtitle 1
+- name: description_1
+  type: text
+  config:
+    required: false
+  label: description 1
+- name: subtitle_2
+  type: text
+  config:
+    required: false
+  label: subtitle 2
+- name: description_2
+  type: text
+  config:
+    required: false
+  label: description 2
+- name: subtitle_3
+  type: text
+  config:
+    required: false
+  label: subtitle 3
+- name: description_3
+  type: text
+  config:
+    required: false
+  label: description 3
+- name: subtitle_4
+  type: text
+  config:
+    required: false
+  label: subtitle 4
+- name: description_4
+  type: text
+  config:
+    required: false
+  label: description 4
+pages:
+- data/en/perks.yml
+- data/es/perks.yml

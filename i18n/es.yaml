@@ -1,0 +1,18 @@
+---
+- id: author
+  translation: Escrito por
+- id: previous
+  translation: Anterior
+- id: next
+  translation: Siguiente
+- id: recent-posts
+  translation: Posts recientes
+- id: cookies-text
+  translation: Utilizamos cookies para asegurarnos de que puedas tener la mejor experiencia
+    posible en nuestra página.
+- id: cookies-button
+  translation: ACEPTO
+- id: share
+  translation: COMPARTIR
+- id: more-info
+  translation: Ver más

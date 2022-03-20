@@ -1,0 +1,53 @@
+{{ define "main" }}
+  {{ $formdata := (index .Site.Data .Site.Language.Lang).contactform }}
+  {{ with .Params }}
+    <main class="b-contact-page__background">
+      <div class="b-contact-page__container" id="contact">
+        <div class="b-contact-page__form">
+          <h1 class="b-contact-page__title">{{ .title }}</h1>
+          {{/* TEXT BLOCK */ -}}
+          {{ partial "utilities/markdownify-block" .text | replaceRE "<p>" "<p class=\"b-contact-page__text\">" | safeHTML }}
+          <form class="b-contact-page__input" data-netlify="true" method="POST" name="quote" action="/#contact">
+            <div>
+              <input name="name" type="text" id="name" required placeholder="{{ .form_settings.name_placeholder }}">
+            </div>
+            <div>
+              <input name="email" type="email" id="email" required placeholder="{{ .form_settings.email_placeholder }}">
+            </div>
+            <div>
+              <textarea class="data-hj-allow" name="message" id="message" rows="6" required placeholder="{{ .form_settings.message_placeholder }}"></textarea>
+            </div>
+            <button type="submit" onclick="location.href='#popup1'" class="b-contact-page__submit">{{ .form_settings.button_text }}</button>
+          </form>
+        </div>
+        <img alt="{{ .title }}" title="{{ .title }}" class="b-contact-page__image" src="https://res.cloudinary.com/drs4ol5tl/image/upload/v1612735363/assets/1_eyiulf.svg">
+      </div>
+
+      <script>
+        /* CONFIRMATION PAGE */
+        let testForm = document.querySelector("#contact form");      
+        testForm.addEventListener('submit', e => {
+          e.preventDefault();
+          const formData = new FormData(testForm);
+          fetch(testForm.getAttribute('action'), {
+            method: 'POST',
+            headers: {
+              'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
+              'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+            },
+            body: new URLSearchParams(formData).toString()
+          })
+          .then(res => {
+            if (res) {
+              M.toast({
+                html: 'Thank you for your submission!',
+                classes: 'pulse'
+              });
+            }
+          });
+        });
+      </script>
+
+    </main>
+  {{ end }}
+{{ end }}

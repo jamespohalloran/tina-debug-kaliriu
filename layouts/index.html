@@ -1,0 +1,20 @@
+{{ define "main" }}
+  {{ with .Params }}
+	  <main class="l-index-page">
+	  	{{/* HERO */ -}}
+	    {{ with .hero }}
+		  <section class="b-hero">
+			<div class="b-hero__text">
+				<h1 class="b-hero__slogan">{{ .title }}</h1>
+				{{ with .button }}
+					{{ if .enable }}
+					<a href="{{ .link }}" class="b-hero__cta">{{ .cta }}</a>
+					{{ end }}
+			  	{{ end }}
+			</div>
+			<img alt="{{ .title }}" title="{{ .title }}" class="b-hero__image" src="{{ .background_image | relURL }}">
+	      </section>
+		{{ end }}
+	  </main>
+  {{ end }}
+{{ end }}

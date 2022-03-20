@@ -1,0 +1,84 @@
+---
+label: 'Module: Footer'
+hide_body: true
+display_field: module_name
+fields:
+- name: module_name
+  type: text
+  label: Module Name
+  description: Used only for display purposes in the CMS
+- type: file
+  name: logo
+  label: logo
+- type: field_group
+  name: group_1
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: item_1
+    label: item_1
+  - type: text
+    name: item_1_link
+    label: item_1_link
+  - type: text
+    name: item_2
+    label: item_2
+  - type: text
+    name: item_2_link
+    label: item_2_link
+  - type: text
+    name: item_3
+    label: item_3
+  - type: text
+    name: item_3_link
+    label: item_3_link
+  label: Column 1
+- type: field_group
+  name: group_2
+  label: Column 2
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: item_1
+    label: item_1
+  - type: text
+    name: item_1_link
+    label: item_1_link
+  - type: text
+    name: item_2
+    label: item_2
+  - type: text
+    name: item_2_link
+    label: item_2_link
+  - type: text
+    name: item_3
+    label: item_3
+  - type: text
+    name: item_3_link
+    label: item_3_link
+- type: field_group
+  name: group_3
+  label: Column 3
+  fields:
+  - type: text
+    name: item_1
+    label: item_1
+  - type: text
+    name: item_1_link
+    label: item_1_link
+  - type: text
+    name: item_2
+    label: item_2
+  - name: item_2_link
+    type: text
+    label: Item 2 link
+  - type: text
+    name: item_3
+    label: item_3
+pages:
+- data/en/footer.yml
+- data/es/footer.yml

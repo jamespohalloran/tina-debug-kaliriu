@@ -1,0 +1,25 @@
+---
+label: 'Page: Blog'
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+  description: Applies to the blog index only
+- type: text
+  name: meta_description
+  label: meta_description
+  description: Applies to the blog index only
+- type: datetime
+  name: date
+  label: date
+  hidden: true
+- type: boolean
+  name: show_bottom_cta
+  label: show_bottom_cta
+- type: boolean
+  name: show_newsletter
+  label: show_newsletter
+pages:
+- content/english/blog/_index.html
+- content/spanish/blog/_index.html

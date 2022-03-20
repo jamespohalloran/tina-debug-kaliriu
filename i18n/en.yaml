@@ -1,0 +1,17 @@
+---
+- id: author
+  translation: Written by
+- id: previous
+  translation: Previous
+- id: next
+  translation: Next
+- id: recent-posts
+  translation: Recent Blog Posts
+- id: cookies-text
+  translation: We use cookies to ensure you get the best experience on our website.
+- id: cookies-button
+  translation: GOT IT
+- id: share
+  translation: SHARE
+- id: more-info
+  translation: More info

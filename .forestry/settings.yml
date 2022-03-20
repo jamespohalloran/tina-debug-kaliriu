@@ -1,0 +1,110 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: static/admin
+webhook_url: 
+sections:
+- type: heading
+  label: ENGLISH
+- type: directory
+  path: content/english
+  label: Sections
+  create: none
+  match: "**"
+- type: document
+  path: content/english/blog/_index.html
+  label: Blog Settings
+- type: directory
+  path: content/english/blog
+  label: Posts
+  create: documents
+  match: "**/*"
+  exclude: _index.html
+  templates:
+  - blog-post
+- type: directory
+  path: content/english/translations
+  label: Translations
+  create: documents
+  match: "**/*"
+  exclude: _index.html
+  templates:
+  - page-translations
+- type: directory
+  path: data/en
+  label: Site Modules
+  create: none
+  match: "**/*"
+  new_doc_ext: yml
+  templates:
+  - module-perks
+  - module-footer
+  - module-bottomcta
+  - module-newsletter
+  - module-services
+  - module-faq
+- type: document
+  path: i18n/en.yaml
+  label: String ID
+- type: heading
+  label: SPANISH
+- type: directory
+  path: content/spanish
+  label: Secciones
+  create: none
+  match: "**"
+- type: document
+  path: content/spanish/blog/_index.html
+  label: Ajustes del Blog
+- type: directory
+  path: content/spanish/blog
+  label: Posts
+  create: documents
+  match: "**/*"
+  exclude: _index.html
+  templates:
+  - blog-post
+- type: directory
+  path: content/spanish/translations
+  label: Traducciones
+  create: documents
+  match: "**/*"
+  exclude: _index.html
+  templates:
+  - page-translations
+- type: directory
+  path: data/es
+  label: Módulos del Sitio
+  create: none
+  match: "**/*"
+  templates:
+  - module-perks
+  - module-footer
+  - module-newsletter
+  - module-bottomcta
+  - module-services
+  - module-faq
+- type: document
+  path: i18n/es.yaml
+  label: Hilo ID
+- type: heading
+  label: GLOBAL
+- type: document
+  path: config.toml
+  label: Global Settings
+upload_dir: ''
+public_path: https://res.cloudinary.com/drs4ol5tl/image/upload
+front_matter_path: ''
+use_front_matter_path: 
+file_template: ":filename:"
+build:
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.56.3
+  preview_output_directory: public
+  preview_docker_image: forestryio/hugo:latest
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
+    -d public
+version: 0.56.3

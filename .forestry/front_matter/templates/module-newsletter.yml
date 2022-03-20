@@ -1,0 +1,27 @@
+---
+label: 'Module: Newsletter'
+hide_body: true
+display_field: module_name
+fields:
+- name: module_name
+  type: text
+  config:
+    required: true
+  label: Module Name
+  description: Used only for display purposes in the CMS
+  default: Newsletter
+- type: text
+  name: title
+  label: title
+- type: text
+  name: text
+  label: text
+- type: text
+  name: placeholder
+  label: placeholder
+- type: text
+  name: button_text
+  label: button_text
+pages:
+- data/en/newsletter.yml
+- data/es/newsletter.yml

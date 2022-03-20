@@ -1,8 +1,8 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | humanize }}"
+title: {{ replace .Name "-" " " | title }}
 date: {{ .Date }}
 draft: false
-noTitle: false
-noIndex: false
+translationKey:
+slug:
 ---
 

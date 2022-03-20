@@ -1,0 +1,8 @@
+{{ define "main" }}
+  <main class="l-legal">
+    <div class="b-legal-page__container">
+      <h1 class="b-legal-page__title">{{ .Title }}</h1>
+      {{ .Content | replaceRE "<p>" "<p class=\"b-legal-page__text\">" | replaceRE "<h2" "<h2 class=\"b-legal-page__subheading\" "  | replaceRE "<ul>" "<ul class=\"b-legal-page__list\">" | replaceRE "<li>" "<li class=\"b-legal-page__list-item\">" |  safeHTML }}
+    </div>
+  </main>
+{{ end }}

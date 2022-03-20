@@ -1,0 +1,132 @@
+---
+label: 'Page: About'
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: subtitle_1
+  type: text
+  config:
+    required: false
+  label: Subtitle 1
+- name: description_1
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description 1
+- name: subtitle_2
+  type: text
+  config:
+    required: false
+  label: Subtitle 2
+- name: value_1
+  type: text
+  config:
+    required: false
+  label: Value 1
+- name: value_2
+  type: text
+  config:
+    required: false
+  label: Value 2
+- name: value_3
+  type: text
+  config:
+    required: false
+  label: Value 3
+- name: value_4
+  type: text
+  config:
+    required: false
+  label: Value 4
+- name: subtitle_3
+  type: text
+  config:
+    required: false
+  label: Subtitle 3
+- name: description_3
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description 3
+- name: subtitle_4
+  type: text
+  config:
+    required: false
+  label: Subtitle 4
+- name: description_4
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description 4
+- name: subtitle_5
+  type: text
+  config:
+    required: false
+  label: Subtitle 5
+- name: bio_1
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: subtitle
+    type: text
+    config:
+      required: false
+    label: Subtitle
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  label: Bio 1
+- name: bio_2
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: subtitle
+    type: text
+    config:
+      required: false
+    label: Subtitle
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  label: Bio 2
+pages:
+- content/english/about.md
+- content/spanish/about.md

@@ -1,0 +1,65 @@
+{{ with (index .Site.Data .Site.Language.Lang).FAQ }}
+    <div class="b-faq__background">
+        <div class="b-faq__container">
+            <h2 class="b-faq__title">{{ .title }}</h2>
+            <ul class="b-faq__list">
+                <li>
+                    <a id="show1" href="#show1" class="collapse-toggle-show">{{ .question_1 }}</a>
+                    <a id="hide1" href="#hide1" class="collapse-toggle-hide"><h3>{{ .question_1 }}</h3></a>
+                    <p class="collapse-details">
+                        {{ .answer_1 }}
+                    </p>
+                </li>
+                <li>
+                    <a id="show2" href="#show2" class="collapse-toggle-show">{{ .question_2 }}</a>
+                    <a id="hide2" href="#hide2" class="collapse-toggle-hide"><h3>{{ .question_2 }}</h3></a>
+                    <p class="collapse-details">
+                        {{ .answer_2 }}
+                    </p>
+                </li>
+                <li>
+                    <a id="show3" href="#show3" class="collapse-toggle-show">{{ .question_3 }}</a>
+                    <a id="hide3" href="#hide3" class="collapse-toggle-hide"><h3>{{ .question_3 }}</h3></a>
+                    <p class="collapse-details">
+                        {{ .answer_3 }}
+                    </p>
+                </li>
+                <li>
+                    <a id="show4" href="#show4" class="collapse-toggle-show">{{ .question_4 }}</a>
+                    <a id="hide4" href="#hide4" class="collapse-toggle-hide"><h3>{{ .question_4 }}</h3></a>
+                    <p class="collapse-details">
+                        {{ .answer_4 }}
+                    </p>
+                </li>
+                <li>
+                    <a id="show5" href="#show5" class="collapse-toggle-show">{{ .question_5 }}</a>
+                    <a id="hide5" href="#hide5" class="collapse-toggle-hide"><h3>{{ .question_5 }}</h3></a>
+                    <div class="collapse-details">
+                        {{ partial "utilities/markdownify-block" .answer_5 | replaceRE "<p>" "<p class=\"\">" | safeHTML }}
+                    </div>
+                </li>
+                <li>
+                    <a id="show6" href="#show6" class="collapse-toggle-show">{{ .question_6 }}</a>
+                    <a id="hide6" href="#hide6" class="collapse-toggle-hide"><h3>{{ .question_6 }}</h3></a>
+                    <p class="collapse-details">
+                        {{ .answer_6 }}
+                    </p>
+                </li>
+                <li>
+                    <a id="show7" href="#show7" class="collapse-toggle-show">{{ .question_7 }}</a>
+                    <a id="hide7" href="#hide7" class="collapse-toggle-hide"><h3>{{ .question_7 }}</h3></a>
+                    <p class="collapse-details">
+                        {{ .answer_7 }}
+                    </p>
+                </li>
+                <li>
+                    <a id="show8" href="#show8" class="collapse-toggle-show">{{ .question_8 }}</a>
+                    <a id="hide8" href="#hide8" class="collapse-toggle-hide"><h3>{{ .question_8 }}</h3></a>
+                    <p class="collapse-details">
+                        {{ .answer_8 }}
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+{{ end }}

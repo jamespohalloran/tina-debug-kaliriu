@@ -1,0 +1,12 @@
+{{ with (index .Site.Data .Site.Language.Lang).bottomcta }}
+  <section class="b-bottom-cta">
+    <div class="b-bottom-cta__container">
+      <div class="b-bottom-cta__txt-container">
+        <p class="b-bottom-cta__title">{{ .title }}</p>
+        <p class="b-bottom-cta__text">{{ .text }}</p>
+        <a href="{{ .button_link }}" class="b-bottom-cta__button">{{ .button_cta }}</a>
+      </div>
+      <img alt="{{ .title }}" title="{{ .title }}" class="b-bottom-cta__image" src="https://res.cloudinary.com/drs4ol5tl/image/upload/v1613079506/assets/success_fdq5h6.svg">
+    </div>
+  </section>
+{{ end }}
