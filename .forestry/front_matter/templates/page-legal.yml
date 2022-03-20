@@ -1,33 +1,22 @@
 ---
 label: 'Page: Legal'
-hide_body: false
+hide_body: true
+display_field: title
 fields:
-- type: text
-  name: title
-  label: title
-- type: text
-  name: meta_description
-  label: meta_description
-  description: Meta description for SEO purposes
-- type: datetime
-  name: date
-  label: date
-  hidden: true
-  default: now
-- type: text
-  name: translationKey
-  label: translationKey
-  hidden: true
-- type: text
-  name: slug
-  label: slug
-  description: This will be used in the URL
-- type: text
-  name: type
-  label: type
-  hidden: true
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
 pages:
-- content/english/privacy.md
-- content/english/terms-conditions.md
-- content/spanish/privacy.md
-- content/spanish/terms-conditions.md
+- content/privacy-policy.md
+- content/terms-and-conditions.md

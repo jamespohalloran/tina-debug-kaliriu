@@ -1,53 +1,17 @@
 ---
 label: 'Page: Contact'
 hide_body: true
+display_field: cms_display_name
 fields:
-- type: text
-  name: title
-  label: title
-- type: text
-  name: meta_description
-  label: meta_description
-- type: datetime
-  name: date
-  label: date
-- type: text
-  name: translationKey
-  label: translationKey
-- type: text
-  name: slug
-  label: slug
-- type: text
-  name: type
-  label: type
-- type: textarea
-  name: text
-  label: text
-- type: field_group
-  name: form_settings
-  label: Form Settings
-  fields:
-  - type: text
-    name: name_placeholder
-    label: name_placeholder
-  - type: text
-    name: email_placeholder
-    label: email_placeholder
-  - type: text
-    name: message_placeholder
-    label: message_placeholder
-  - type: text
-    name: button_text
-    label: button_text
-- name: show_faq
-  type: boolean
-  label: show_faq
-- type: boolean
-  name: show_bottom_cta
-  label: show_bottom_cta
-- type: boolean
-  name: show_newsletter
-  label: show_newsletter
+- name: cms_display_name
+  type: text
+  config:
+    required: false
+  label: CMS Display Name
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 pages:
-- content/english/contact.md
-- content/spanish/contact.md
+- content/contact.md

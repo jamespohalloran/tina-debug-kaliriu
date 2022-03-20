@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+<div class="b-contact__background">
+  <div class="b-contact__container b-contact__input">
+    <h1 class="b-contact__title">{{ .Title }}</h1>
+    <form name="contact" method="POST" data-netlify="true">
+        <div class="b-contact__section">
+          <input placeholder="NAME" type="text" name="name" /> 
+          <input placeholder="EMAIL" type="email" name="email" />
+        </div>
+        <textarea placeholder="MESSAGE..." id="mytextarea" name="message" rows="1"></textarea>
+        <button class="b-contact__submit-button" type="submit">SEND</button>
+    </form>
+  </div>
+</div>
+{{ partial "footer.html" . }}

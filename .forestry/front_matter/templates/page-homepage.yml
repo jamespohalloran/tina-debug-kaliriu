@@ -3,76 +3,45 @@ label: 'Page: Homepage'
 hide_body: true
 display_field: cms_display_name
 fields:
-- type: text
-  name: title
-  label: title
-- type: text
-  name: meta_description
-  label: meta_description
-  description: Meta description for SEO purposes
 - name: cms_display_name
   type: text
   config:
     required: false
   label: CMS Display Name
-  hidden: true
-- type: datetime
-  name: date
-  label: date
-  hidden: true
+  hidden: false
+- name: title
+  type: text
   config:
     required: false
-  default: now
-- type: text
-  name: translationKey
-  label: translationKey
-  hidden: true
-- type: field_group
-  name: hero
-  label: hero
+  label: Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Description
+- name: blog
+  type: field_group
+  config: {}
   fields:
   - name: title
     type: text
     config:
       required: false
     label: Title
-  - type: file
-    name: background_image
-    label: background_image
-  - type: field_group
-    name: button
-    label: button
-    fields:
-    - type: boolean
-      name: enable
-      label: enable
-    - type: text
-      name: cta
-      label: cta
-    - type: text
-      name: link
-      label: link
-- name: show_services
-  type: boolean
-  label: show_services
-- name: show_perks
-  type: boolean
-  label: show_perks
-- name: show_industry
-  type: boolean
-  label: show_industry
-- name: show_languages
-  type: boolean
-  label: show_languages
-- name: show_clients
-  type: boolean
-  label: show_clients
-- type: boolean
-  name: show_bottom_cta
-  label: show_bottom_cta
-- type: boolean
-  name: show_newsletter
-  label: show_newsletter
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: description_2
+    type: text
+    config:
+      required: false
+    label: Description 2
+  label: Blog
 pages:
-- content/english/_index.md
-- content/spanish/_index.md
+- content/_index.md
