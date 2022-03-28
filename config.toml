@@ -1,84 +1,21 @@
-DefaultContentLanguage = "en"
-Paginate = 16
-PaginatePath = "page"
-baseURL = "https://kaliriu.com"
-defaultContentLanguageInSubdir = true
-disableKinds = ["taxonomy", "taxonomyTerm"]
-disqusShortname = "kaliriudev"
-metaDataFormat = "yaml"
-pluralizeListTitles = false
-title = "Kaliriu"
-[languages.en]
-    contentDir = "content/english"
-    description = "Kaliriu in English"
-    languageName = "English"
-    weight = 1
-[languages.es]
-    contentDir = "content/spanish"
-    description = "Kaliriu en Español"
-    languageName = "Español"
-    weight = 2
-[markup]
-    defaultMarkdownHandler = "goldmark"
-[markup.blackFriday]
-    angledQuotes = false
-    footnoteAnchorPrefix = ""
-    footnoteReturnLinkContents = ""
-    fractions = true
-    hrefTargetBlank = false
-    latexDashes = true
-    nofollowLinks = false
-    noreferrerLinks = false
-    plainIDAnchors = true
-    skipHTML = false
-    smartDashes = true
-    smartypants = true
-    smartypantsQuotesNBSP = false
-    taskLists = true
-[markup.goldmark.extensions]
-    definitionList = true
-    footnote = true
-    linkify = true
-    strikethrough = true
-    table = true
-    taskList = true
-    typographer = true
-[markup.goldmark.parser]
-    attribute = true
-    autoHeadingID = true
-    autoHeadingIDType = "github"
-[markup.goldmark.renderer]
-    hardWraps = false
-    unsafe = false
-    xhtml = false
-[markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = "monokai"
-    tabWidth = 4
-[markup.tableOfContents]
-    endLevel = 2
-    ordered = false
-    startLevel = 2
-[params]
-    assetsURL = ""
+baseURL = "https://palomachiara.com"
+title = "Paloma Chiara"
+theme = "hugo-starter"
+
 [menu]
-  [[menu.en]]
+  [[menu.main]]
     identifier = "home"
     name = "Home"
     url = "/"
     weight = 10
-  [[menu.en]]
+
+  [[menu.main]]
     identifier = "blog"
     name = "Blog"
     url = "/blog"
     weight = 20
-  [[menu.en]]
+
+  [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url = "/contact"

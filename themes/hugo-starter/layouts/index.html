@@ -1,0 +1,63 @@
+{{ partial "header.html" . }}
+
+    <div class="b-index__hero-background">
+        <div class="b-index__hero-container">
+            <div class="b-index__hero-photo"></div>
+            <div class="b-index__hero-text">
+                <h1 class="b-index__hero-title">{{ .Title }}</h1>
+                <div class="b-index__hero-description">
+                    <p>
+                        I am a multicultural and trilingual traveler who has lived in the USA, Mexico, France, and Spain.  
+                    </p>
+                    <p>
+                        I dedicate my time to creating art, taking photos, writing code, and blogging. 
+                    </p>
+                    <p>
+                        Join me as I share my journey of self-development and useful travel tips with you from around the globe.
+                    </p>
+                </div>
+                <a href="/blog" class="b-index__hero-btn">Go to Blog &rarr;</a>
+            </div>
+        </div>
+    </div>
+
+    {{ with .Site.GetPage "/blog" }}
+    <section style="display: none;" class="b-post-sidebar__recent">
+      <ul class="b-post-sidebar__recent-list">
+          <!-- orders content according to the "date" field in front matter -->
+          {{ range first 5 (where site.RegularPages "Type" "in" site.Params.mainSections).ByDate.Reverse }}
+              <li class="b-post-sidebar__recent-item">
+                  <a class="b-post-sidebar__recent-item-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </li>
+          {{ end }}
+      </ul>
+      <a class="b-post-sidebar__recent-action" href="/{{ .Section }}">Blog</a>
+    </section>
+  {{ end }}
+
+    {{ with .Params.blog }}
+    <div class="b-index__blog-background">
+        <div class="b-index__blog-container">
+            <h2 class="b-index__blog-section-title">BLOG</h2>
+            <div class="b-index__blog-row">
+                <div class="b-index__blog-title-btn b-index__blog-txt">
+                    <h3 class="b-index__blog-title">{{ .title }}</h3>
+                    <a href="/blog/what-solo-travel-taught-me-about-the-world/" class="b-index__blog-btn">Read more</a>
+                </div>
+                <div class="b-index__blog-photo" style="background-image: url(https://res.cloudinary.com/ddtcgm4kc/image/upload/v1605443725/photo-3.jpg);"></div>
+            </div>
+            <div class="b-index__blog-row">
+                <div class="b-index__blog-photo" style="background-image: url(https://res.cloudinary.com/ddtcgm4kc/image/upload/v1605443725/photo-2.jpg);"></div>
+                <p class="b-index__description b-index__blog-txt">{{ .description }}</p>
+            </div>
+            <div class="b-index__blog-row">
+                <p class="b-index__description b-index__blog-txt">{{ .description_2 }}</p>
+                <div class="b-index__blog-photo" style="background-image: url(https://res.cloudinary.com/ddtcgm4kc/image/upload/v1623703733/selfie-castle.jpg);"></div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+
+{{ partial "newsletter.html" . }}
+{{ partial "instagram.html" . }}
+{{ partial "footer.html" . }}

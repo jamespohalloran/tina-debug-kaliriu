@@ -1,0 +1,8 @@
+{{ partial "header.html" . }}
+<div class="b-legal__background">
+  <div class="b-legal__container">
+    <h1 class="b-legal__title">{{ .Title }}</h1>
+    <div class="b-legal__description">{{ .Params.Description | markdownify }}</p>
+  </div>
+</div>
+{{ partial "footer.html" . }}

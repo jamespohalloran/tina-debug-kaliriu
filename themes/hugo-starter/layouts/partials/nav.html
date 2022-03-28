@@ -1,0 +1,19 @@
+<header class="b-header">
+  <div class="b-header__container">
+
+    <a class="b-header__logo" href="{{ .Site.BaseURL }}">
+      {{ .Site.Title }}
+    </a>
+
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+    <ul class="b-header-nav menu">
+      {{ range.Site.Menus.main }}
+      <li class="b-header-nav__list-item">
+        <a class="b-header-nav__list-link" href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</header>
