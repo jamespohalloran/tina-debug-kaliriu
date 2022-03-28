@@ -7,30 +7,34 @@ sections:
 - type: heading
   label: ENGLISH
 - type: directory
-  path: content
+  path: content/english
   label: Sections
-  create: documents
+  create: none
   match: "**"
+- type: heading
+  label: SPANISH
 - type: directory
-  path: content/blog
-  label: Posts
-  create: documents
-  match: "**/*"
-  exclude: _index.html
-  templates:
-  - blog
+  path: content/spanish
+  label: Secciones
+  create: none
+  match: "**"
+- type: heading
+  label: GLOBAL
+- type: document
+  path: config.toml
+  label: Global Settings
 upload_dir: ''
-public_path: https://res.cloudinary.com/ddtcgm4kc/image/upload
+public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.76.5
+  - HUGO_VERSION=0.81.0
   preview_output_directory: public
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: hugo server -D -E -F --renderToDisk -d public
-version: 0.76.5
+version: 0.81.0
