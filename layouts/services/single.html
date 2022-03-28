@@ -1,0 +1,15 @@
+{{ define "main" }}
+  {{ with .Params }}
+    <main class="b-services-page__background">
+      <div class="b-services-page__container">
+        <div class="b-services-page__hero-background">
+          <div class="b-services-page__hero">
+            <div class="b-services-page__txt">
+              <h1 class="b-services-page__title">{{ .title }}</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  {{ end }}
+{{ end }}

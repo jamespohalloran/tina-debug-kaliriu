@@ -83,7 +83,3 @@ title = "Kaliriu"
     name = "Contact"
     url = "/contact"
     weight = 30
-[[redirects]]
-	from = "/*"
-	to = "/index.html"
-	status = 200
