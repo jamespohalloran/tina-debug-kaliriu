@@ -16,7 +16,11 @@
           <a class="b-header-nav__list-link {{ if $currentPage.IsMenuCurrent $currentMenu . }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
         </li>
       {{ end }}
-
+      {{ range.Site.Menus.main }}
+      <li class="b-header-nav__list-item">
+        <a class="b-header-nav__list-link" href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
     </ul>
 
   </div>
