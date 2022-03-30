@@ -31,11 +31,11 @@ languageName = "English"
 weight = 1
 [[languages.en.menu.main]]
 name = "Home"
-url = "/"
+url = "/en/"
 weight = 0
 [[languages.en.menu.main]]
 name = "Services"
-url = "/services"
+url = "/en/services"
 weight = 1
 [languages.es]
 contentDir = "content/spanish"
@@ -44,11 +44,11 @@ languageName = "Español"
 weight = 2
 [[languages.es.menu.main]]
 name = "Inicio"
-url = "/"
+url = "/es"
 weight = 0
 [[languages.es.menu.main]]
 name = "Servicios"
-url = "/servicios"
+url = "/es/servicios"
 weight = 1
 [[redirects]]
 defaultContentLanguage = "en"
