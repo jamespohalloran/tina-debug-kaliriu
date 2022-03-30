@@ -41,7 +41,7 @@ a {
   top: 0;
   width: 100%;
   z-index: 999;
-  background-color: var(--primary);
+  background-color: transparent;
 }
 #header.fade-in{
   background-color: #fff;
@@ -88,10 +88,10 @@ a {
   letter-spacing: 1.6px;
   font-weight: 500;
   text-transform: uppercase;
-  color: white;
+  color: var(--primary);
 }
 #header.fade-in .b-header-nav__list-link{
-  color: #4B5055;
+  color: var(--primary);
 }
 .menu-icon {
   cursor: pointer;
@@ -105,7 +105,7 @@ a {
           user-select: none;
 }
 .menu-icon .navicon {
-  background: white;
+  background: var(--primary);
   display: block;
   height: 4px;
   position: relative;
@@ -115,7 +115,7 @@ a {
 }
 .menu-icon .navicon:before,
 .menu-icon .navicon:after {
-  background: white;
+  background: var(--primary);
   content: '';
   display: block;
   height: 100%;
@@ -174,4 +174,25 @@ a {
 }
 .b-cookie__text {
   margin-bottom: 20px;
+}
+
+/* PAGE - BASIC ********************************/
+.b-basic-page__background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+.b-basic-page__container {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+  padding: 55px 20px;
+}
+.b-basic-page__title {
+  margin: 0 auto 35px;
+}
+.b-basic-page__subtitle {
+  margin-bottom: 0;
 }
