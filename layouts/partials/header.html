@@ -8,15 +8,14 @@
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 
-
-    <ul>
+    <ul class="b-header-nav">
       {{- $currentPage := . -}}
       {{ range .Site.Menus.main -}}
-      <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-          <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+      <li class='b-header-nav__list-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}'>
+          <a class="b-header-nav__list-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
       </li>
       {{- end }}
-  </ul>
+    </ul>
 
   </div>
 </header>
