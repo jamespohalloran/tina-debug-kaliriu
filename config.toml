@@ -65,8 +65,6 @@ baseURL = "https://kaliriu.com"
     name = "Contact"
     url = "/contact"
     weight = 30
-
-[menu]
   [[menu.es]]
     identifier = "home"
     name = "Inicio"
