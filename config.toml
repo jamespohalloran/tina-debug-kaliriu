@@ -24,13 +24,25 @@ command = "hugo --gc --minify --enableGitInfo"
 [context.split1.environment]
 HUGO_ENV = "production"
 HUGO_VERSION = "0.81.0"
-defaultContentLanguage = 'en'
-
-[[menu.en]]
-identifier = "contact"
-name = "Contact"
-url = "/contact"
+defaultContentLanguage = "en"
+[languages.en]
+contentDir = "content/english"
+description = "Kaliriu in English"
+languageName = "English"
+weight = 1
+[[languages.en.menu.main]]
+name = "Home"
+url = "/"
+weight = 0
+[languages.es]
+contentDir = "content/spanish"
+description = "Kaliriu en Español"
+languageName = "Español"
 weight = 2
+[[languages.es.menu.main]]
+name = "Inicio"
+url = "/"
+weight = 0
 [[menu.en]]
 identifier = "home"
 name = "Home"
@@ -40,26 +52,3 @@ weight = 1
 from = "/npmjs/*"
 status = 200
 to = "/npmjs/"
-
-
-[languages]
-  [languages.es]
-    contentDir = "content/spanish"
-    description = "Kaliriu en Español"
-    languageName = "Español"
-    weight = 2
-    [languages.es.menu]
-[[languages.es.menu.main]]
-      name = 'Inicio'
-      url = '/'
-      weight = 0
-  [languages.en]
-    contentDir = "content/english"
-    description = "Kaliriu in English"
-    languageName = "English"
-    weight = 1
-    [languages.en.menu]
-[[languages.en.menu.main]]
-      name = 'Home'
-      url = '/'
-      weight = 0
