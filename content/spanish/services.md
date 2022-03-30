@@ -2,11 +2,9 @@
 title: Servicios
 description: ''
 menu:
-  en:
-    weight: 3
   es:
-    identifier: contact
     name: Contacto
+    identifier: contact
     weight: 3
 
 ---
