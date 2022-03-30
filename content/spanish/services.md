@@ -1,4 +1,9 @@
 ---
 title: UI UX Services
-draft: false
+menu:
+  es:
+    identifier: contact
+    name: Contacto
+    weight: 2
+
 ---

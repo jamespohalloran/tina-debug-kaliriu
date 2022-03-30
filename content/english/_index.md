@@ -1,4 +1,9 @@
 ---
 title: Kaliriu in english
-draft: false
+menu:
+  es:
+    identifier: home
+    name: Inicio
+    weight: 1
+
 ---

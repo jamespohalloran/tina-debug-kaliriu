@@ -1,82 +1,49 @@
 DefaultContentLanguage = "en"
 PaginatePath = "page"
 baseURL = "https://kaliriu.com"
-
-[languages.en]
-    contentDir = "content/english"
-    description = "Kaliriu in English"
-    languageName = "English"
-    weight = 1
-[languages.es]
-    contentDir = "content/spanish"
-    description = "Kaliriu en Español"
-    languageName = "Español"
-    weight = 2
-
 [build]
-    publish = "public"
-    command = "hugo --gc --minify"
-
-[context.production.environment]
-    HUGO_VERSION = "0.81.0"
-    HUGO_ENV = "production"
-    HUGO_ENABLEGITINFO = "true"
-
-[context.split1]
-    command = "hugo --gc --minify --enableGitInfo"
-
-[context.split1.environment]
-    HUGO_VERSION = "0.81.0"
-    HUGO_ENV = "production"
-
-[context.deploy-preview]
-    command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
-
-[context.deploy-preview.environment]
-    HUGO_VERSION = "0.96.0"
-
+command = "hugo --gc --minify"
+publish = "public"
 [context.branch-deploy]
-    command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
-
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 [context.branch-deploy.environment]
-    HUGO_VERSION = "0.96.0"
-
+HUGO_VERSION = "0.96.0"
+[context.deploy-preview]
+command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.96.0"
 [context.next.environment]
-    HUGO_ENABLEGITINFO = "true"
-
+HUGO_ENABLEGITINFO = "true"
+[context.production.environment]
+HUGO_ENABLEGITINFO = "true"
+HUGO_ENV = "production"
+HUGO_VERSION = "0.81.0"
+[context.split1]
+command = "hugo --gc --minify --enableGitInfo"
+[context.split1.environment]
+HUGO_ENV = "production"
+HUGO_VERSION = "0.81.0"
+[languages.en]
+contentDir = "content/english"
+description = "Kaliriu in English"
+languageName = "English"
+weight = 1
+[languages.es]
+contentDir = "content/spanish"
+description = "Kaliriu en Español"
+languageName = "Español"
+weight = 2
+[[menu.en]]
+identifier = "contact"
+name = "Contact"
+url = "/contact"
+weight = 2
+[[menu.en]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
 [[redirects]]
-    from = "/npmjs/*"
-    to = "/npmjs/"
-    status = 200
-
-[menu]
-  [[menu.en]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 10
-  [[menu.en]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog"
-    weight = 20
-  [[menu.en]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact"
-    weight = 30
-  [[menu.es]]
-    identifier = "home"
-    name = "Inicio"
-    url = "/"
-    weight = 10
-  [[menu.es]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog"
-    weight = 20
-  [[menu.es]]
-    identifier = "contact"
-    name = "Contact0"
-    url = "/contact"
-    weight = 30
+from = "/npmjs/*"
+status = 200
+to = "/npmjs/"
