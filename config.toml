@@ -1,6 +1,7 @@
 DefaultContentLanguage = "en"
 PaginatePath = "page"
 baseURL = "https://kaliriu.com"
+sectionPagesMenu = "main"
 [build]
 command = "hugo --gc --minify"
 publish = "public"
