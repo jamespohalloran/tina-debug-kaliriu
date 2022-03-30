@@ -5,6 +5,6 @@ menu:
   es:
     identifier: contact
     name: Contacto
-    weight: 2
+    weight: 3
 
 ---
