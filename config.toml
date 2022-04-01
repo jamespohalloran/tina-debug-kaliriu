@@ -45,7 +45,7 @@ weight = 2
 contentDir = "content/spanish"
 description = "Kaliriu en Español"
 languageName = "Español"
-weight = 2
+weight = 0
 [[languages.es.menu.main]]
 name = "Inicio"
 url = "/es"
