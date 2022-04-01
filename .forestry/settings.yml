@@ -26,6 +26,14 @@ sections:
   label: Secciones
   create: none
   match: "**"
+- type: directory
+  path: content/spanish/blog
+  label: Posts
+  create: documents
+  match: "**/*"
+  exclude: _index.html
+  templates:
+  - blog-post
 - type: heading
   label: GLOBAL
 - type: document
