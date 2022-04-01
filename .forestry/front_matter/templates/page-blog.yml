@@ -7,6 +7,3 @@ fields:
   config:
     required: false
   label: Title
-pages:
-- content/english/blog/what-goals-should-you-set-yourself-in-2021.md
-- content/spanish/blog/what-goals-should-you-set-yourself-in-2021.md
