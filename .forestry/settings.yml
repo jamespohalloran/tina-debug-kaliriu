@@ -11,6 +11,14 @@ sections:
   label: Sections
   create: none
   match: "**"
+- type: directory
+  path: content/english/blog
+  label: Posts
+  create: documents
+  match: "**/*"
+  exclude: _index.html
+  templates:
+  - blog-post
 - type: heading
   label: SPANISH
 - type: directory
