@@ -41,6 +41,10 @@ weight = 1
 name = "Contact"
 url = "/en/contact"
 weight = 2
+[[languages.en.menu.main]]
+name = "Blog"
+url = "/en/blog"
+weight = 3
 [languages.es]
 contentDir = "content/spanish"
 description = "Kaliriu en Español"
@@ -57,7 +61,11 @@ weight = 1
 [[languages.es.menu.main]]
 name = "Contacto"
 url = "/es/contacto"
-weight = 1
+weight = 2
+[[languages.es.menu.main]]
+name = "Blog"
+url = "/es/blog"
+weight = 3
 [[redirects]]
 defaultContentLanguage = "en"
 from = "/npmjs/*"
