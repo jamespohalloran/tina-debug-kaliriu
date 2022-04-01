@@ -37,6 +37,10 @@ weight = 0
 name = "Services"
 url = "/en/services"
 weight = 1
+[[languages.en.menu.main]]
+name = "Contact"
+url = "/en/contact"
+weight = 2
 [languages.es]
 contentDir = "content/spanish"
 description = "Kaliriu en Español"
@@ -49,6 +53,10 @@ weight = 0
 [[languages.es.menu.main]]
 name = "Servicios"
 url = "/es/servicios"
+weight = 1
+[[languages.es.menu.main]]
+name = "Contacto"
+url = "/es/contacto"
 weight = 1
 [[redirects]]
 defaultContentLanguage = "en"
