@@ -1,6 +1,6 @@
 ---
 label: Blog post
-hide_body: true
+hide_body: false
 display_field: title
 fields:
 - name: title
@@ -8,6 +8,12 @@ fields:
   config:
     required: false
   label: Title
+- name: slug
+  type: text
+  label: slug
+- name: meta_description
+  type: text
+  label: meta_description
 - name: description
   type: textarea
   default: ''
