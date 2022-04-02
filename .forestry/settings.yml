@@ -11,6 +11,9 @@ sections:
   label: Sections
   create: none
   match: "**"
+- type: document
+  path: content/english/blog/_index.html
+  label: Blog Settings
 - type: directory
   path: content/english/blog
   label: Posts
@@ -26,6 +29,9 @@ sections:
   label: Secciones
   create: none
   match: "**"
+- type: document
+  path: content/spanish/blog/_index.html
+  label: Ajustes del Blog
 - type: directory
   path: content/spanish/blog
   label: Posts
@@ -40,7 +46,7 @@ sections:
   path: config.toml
   label: Global Settings
 upload_dir: ''
-public_path: ''
+public_path: https://res.cloudinary.com/ddtcgm4kc/image/upload
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
