@@ -4,7 +4,7 @@
       <div class="b-basic-page__container">
         <h1 class="b-basic-page__title">Blog list</h1>
         <ul class="">
-          {{ range .Paginator.Pages }}
+          {{ range.Data.Pages }}
             <li class="">
               <a href="{{ .RelPermalink }}">
                 <h2 class="b-content-page__blog-item-title">{{ .Title }}</h2>
