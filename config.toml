@@ -2,6 +2,8 @@ DefaultContentLanguage = "en"
 PaginatePath = "page"
 baseURL = "https://kaliriu.com"
 sectionPagesMenu = "main"
+title = "Kaliriu"
+theme = "hugo-starter"
 [build]
 command = "hugo --gc --minify"
 publish = "public"
