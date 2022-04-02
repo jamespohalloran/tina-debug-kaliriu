@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+
+<body class="notranslate">
+
+  {{ partial "header" . }}
+
+  {{ block "main" . }}
+  {{ end }}
+
+
+  <script async src="/js/scripts.js"></script>
+
+</body>
+</html>
