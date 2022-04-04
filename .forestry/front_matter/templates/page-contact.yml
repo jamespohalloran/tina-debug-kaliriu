@@ -1,7 +1,6 @@
 ---
 label: 'Page: Contact'
 hide_body: true
-layout: 'contact'
 fields:
 - name: title
   type: text
@@ -10,4 +9,4 @@ fields:
   label: Title
 pages:
 - content/english/contact/index.md
-- content/spanish/contact.md
+- content/spanish/contact/index.md
