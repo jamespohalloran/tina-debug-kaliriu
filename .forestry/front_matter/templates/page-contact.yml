@@ -1,6 +1,7 @@
 ---
 label: 'Page: Contact'
 hide_body: true
+layout: 'contact'
 fields:
 - name: title
   type: text
