@@ -1,6 +1,5 @@
+{{ define "main"}}
 <h1>{{ .Title }}</h1>
-
-{{ .Content }}
 
 {{ range.Data.Pages }}
 <article class="post-snippet">
@@ -11,5 +10,6 @@
 		{{ .Date.Format "January 2, 2006" }}
 	</time>
 </article>
+{{ end }}
 {{ end }}
 
