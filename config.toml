@@ -42,13 +42,13 @@ weight = 1
 
 [[languages.en.menu.main]]
 name = 'Services'
-url = "/en/services"
+url = "/services"
 pageRef = 'services'
 weight = 2
 
 [[languages.en.menu.main]]
 name = 'Contact'
-url = "/en/contact"
+url = "/contact"
 pageRef = 'contact'
 weight = 3
 
