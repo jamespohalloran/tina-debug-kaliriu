@@ -55,7 +55,6 @@ weight = 3
 [[languages.en.menu.main]]
 name = 'Blog'
 url = "/en/blog"
-pageRef = 'blog'
 weight = 4
 
 [languages.es]
@@ -85,5 +84,4 @@ weight = 2
 [[languages.es.menu.main]]
 name = 'Blog'
 url = "/es/blog"
-pageRef = 'blog'
 weight = 3
