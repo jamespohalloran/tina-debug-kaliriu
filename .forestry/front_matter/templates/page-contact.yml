@@ -8,5 +8,5 @@ fields:
     required: false
   label: Title
 pages:
-- content/english/contact.md
+- content/english/contact/index.md
 - content/spanish/contact.md
