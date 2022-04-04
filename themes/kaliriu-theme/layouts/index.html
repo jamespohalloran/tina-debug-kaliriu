@@ -1,5 +1,9 @@
-{{ partial "header.html" . }}
-
-{{ .Content }}
-
-{{ partial "footer.html" . }}
+{{ define "main" }}
+  {{ with .Params }}
+    <main id="main" class="b-basic-page__background">
+      <div class="b-basic-page__container">
+        <h1 class="b-basic-page__title">{{ .title }}</h1>
+      </div>
+    </main>
+  {{ end }}
+{{ end }}
