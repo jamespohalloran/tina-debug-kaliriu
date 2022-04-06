@@ -281,8 +281,6 @@ p {
   background-repeat: no-repeat;
   border: 1px solid var(--primary);
   border-radius: 4px;
-  letter-spacing: 1.6px;
-  font-size: 18px;
   padding: 4px 25px 4px 7px;
   position: relative;
   text-align: left;
@@ -291,16 +289,16 @@ p {
   width: -moz-fit-content;
   width: fit-content;
 }
-.footer__language-selector:hover {
+.language-selector:hover {
   background-image: none;
 }
-.footer__language-item a,
-.footer__current-language {
+.language-item a,
+.current-language {
   color: var(--primary);
   cursor: pointer;
-  font-weight: 500;
+  font-size: 16px;
 }
-.footer__available-languages {
+.available-languages {
   background-color: #fff;
   border: 1px solid var(--primary);
   border-bottom-left-radius: 4px;
@@ -312,8 +310,8 @@ p {
   position: absolute;
   width: calc(100% + 2px);
 }
-.footer__language-selector:hover
-.footer__available-languages {
+.language-selector:hover
+.available-languages {
   display: block;
 }
 
