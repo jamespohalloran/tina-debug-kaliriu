@@ -277,7 +277,7 @@ p {
   background-position: calc(100% - 8px) center;
   background-size: 13px;
   background-repeat: no-repeat;
-  border: 1px solid var(--primary);
+  border: 2px solid var(--primary);
   border-radius: 4px;
   padding: 4px 25px 4px 7px;
   position: relative;
