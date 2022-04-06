@@ -367,7 +367,7 @@ p {
 @media (max-width: 850px){
   
     /* PARTIAL - HEADER ********************************/
-    .b-header-nav {
+    .header-nav {
       clear: both;
       max-height: 0;
       transition: max-height .2s ease-out;
@@ -378,13 +378,13 @@ p {
       flex-direction: column;
       background-color: var(--primary);
     }
-    #header.fade-in .b-header-nav{
+    #header.fade-in .header-nav{
       background-color: #fff;
       background-color: rgba(255, 255, 255, 0.95);
       -webkit-backdrop-filter: blur(5px);
       backdrop-filter: blur(5px);
     }
-    .b-header-nav__list-item {
+    .header-nav__list-item {
       margin: 0 0 20px;
     }
     .menu-icon {
