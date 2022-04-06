@@ -251,17 +251,7 @@ p {
   display: none;
 }
 .menu-btn:checked ~ .header-nav {
-  clear: both;
-  max-height: calc(100vh - 30px);
-  transition: max-height .2s ease-out;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  max-height: calc(100vh - 80px);
 }
 #header.fade-in .menu-icon .navicon,
 #header.fade-in .menu-icon .navicon:before,
@@ -376,6 +366,20 @@ p {
 @media (max-width: 850px){
   
     /* PARTIAL - HEADER ********************************/
+    .header-nav {
+      clear: both;
+      max-height: 0;
+      transition: max-height .2s ease-out;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--primary);
+    }
     #header.fade-in .header-nav{
       background-color: #fff;
       background-color: rgba(255, 255, 255, 0.95);
