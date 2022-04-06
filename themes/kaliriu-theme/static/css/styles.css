@@ -12,10 +12,10 @@ body {
 }
 * {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-size: 100%;
   font-variant-ligatures: none;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0;
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
@@ -203,8 +203,6 @@ p {
 }
 .header-nav__list-link {
   font-size: 16px;
-  letter-spacing: 1.6px;
-  font-weight: 500;
   text-transform: uppercase;
   color: var(--white);
 }
