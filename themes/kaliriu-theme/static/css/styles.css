@@ -164,7 +164,7 @@ p {
 }
 #header.fade-in{
   background-color: var(--white);
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.85);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   border-bottom: 1px solid rgb(var(--primary), .5);
@@ -196,11 +196,6 @@ p {
   align-items: center;
   justify-content: flex-end;
   width: 100%;
-  margin-left: auto;
-  overflow: hidden;
-  clear: none;
-  float: right;
-  max-height: none;
 }
 .header-nav__list-item {
   padding-left: 30px;
@@ -255,7 +250,6 @@ p {
 }
 .menu-btn:checked ~ .header-nav {
   margin-top: 0;
-  height: calc(100vh - 80px);
 }
 #header.fade-in .menu-icon .navicon,
 #header.fade-in .menu-icon .navicon:before,
@@ -379,19 +373,20 @@ p {
       bottom: 0;
       left: 0;
       right: 0;
+      height: 100vh;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background-color: var(--primary);
-    }
-    #header.fade-in .header-nav{
-      background-color: #fff;
-      background-color: rgba(255, 255, 255, 0.95);
+      background-color: var(--white);
+      background-color: rgba(255, 255, 255, 0.85);
       -webkit-backdrop-filter: blur(5px);
       backdrop-filter: blur(5px);
     }
     .header-nav__list-item {
       padding: 0 0 20px;
+    }
+    .header-nav__list-link {
+      color: var(--primary);
     }
     .menu-icon {
       display: inline-block;
