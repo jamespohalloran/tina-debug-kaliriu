@@ -365,7 +365,7 @@ p {
   background-image: url("https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649278408/Kaliriu/Design/back.svg");
   background-position: bottom;
   background-size: contain;
-  height: 100vh;
+  height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -375,7 +375,7 @@ p {
   /*background-attachment: fixed;*/
 }
 .home-page__hero-container{
-  height: 100vh;
+  height: 800px;
   width: 100%;
 }
 .home-page__hero-container:after{
@@ -383,7 +383,7 @@ p {
   background-image: url("https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649278408/Kaliriu/Design/front.svg");
   background-position: bottom;
   background-size: contain;
-  height: 100vh;
+  height: 800px;
   width: 100%;
   display: flex;
   justify-content: center;
