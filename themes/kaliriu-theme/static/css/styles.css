@@ -409,8 +409,17 @@ p {
   position: relative;
   z-index: 2;
 }
+.home-page__benefits-container{
+  padding: 120px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .home-page__benefits-background{
   background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649273130/Kaliriu/Design/space.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
 }
 .home-page__benefits-list{
   display: flex;
@@ -419,6 +428,16 @@ p {
 .home-page__benefits-list li{
   width: 100%;
   max-width: 50%;
+  padding: 20px;
+}
+.home-page__benefits-list li div{
+  padding: 20px;
+  background-color: var(--primary);
+  border: 2px solid var(--white);
+  border-radius: 12px;
+}
+.home-page__benefits-list li div p{
+  color: var(--white);
 }
 
 /* MEDIA QUERY ********************************/
