@@ -41,6 +41,8 @@ ol{
 }
 
 /* CONTAINER */
+.home-page__benefits-container,
+.home-page__product-container,
 .header__container,
 .home-page__hero-container {
   max-width: 1200px;
@@ -402,6 +404,21 @@ p {
   font-size: 64px;
   z-index: -1;
   color: white;
+}
+.home-page__background-gradient{
+  position: relative;
+  z-index: 2;
+}
+.home-page__benefits-background{
+  background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649273130/Kaliriu/Design/space.svg');
+}
+.home-page__benefits-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-page__benefits-list li{
+  width: 100%;
+  max-width: 50%;
 }
 
 /* MEDIA QUERY ********************************/
