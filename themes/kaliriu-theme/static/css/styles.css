@@ -26,6 +26,10 @@ body {
   -webkit-text-size-adjust: 100%;
   color: var(--gray);
 }
+ul,
+ol{
+  list-style: none;
+}
 
 /* BACKGROUND COLOR */
 .home-page__hero-background {
@@ -193,7 +197,6 @@ p {
   clear: none;
   float: right;
   max-height: none;
-  list-style: none;
 }
 .header-nav__list-item {
   padding-left: 30px;
@@ -270,8 +273,9 @@ p {
 .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
-.b-footer__language-selector {
-  background-color: #fff;
+.language-selector {
+  margin-left: 30px;
+  background-color: var(--white);
   background-position: calc(100% - 8px) center;
   background-size: 13px;
   background-repeat: no-repeat;
@@ -279,7 +283,6 @@ p {
   border-radius: 4px;
   letter-spacing: 1.6px;
   font-size: 18px;
-  margin: 0 0 14px;
   padding: 4px 25px 4px 7px;
   position: relative;
   text-align: left;
@@ -288,16 +291,16 @@ p {
   width: -moz-fit-content;
   width: fit-content;
 }
-.b-footer__language-selector:hover {
+.footer__language-selector:hover {
   background-image: none;
 }
-.b-footer__language-item a,
-.b-footer__current-language {
+.footer__language-item a,
+.footer__current-language {
   color: var(--primary);
   cursor: pointer;
   font-weight: 500;
 }
-.b-footer__available-languages {
+.footer__available-languages {
   background-color: #fff;
   border: 1px solid var(--primary);
   border-bottom-left-radius: 4px;
@@ -309,8 +312,8 @@ p {
   position: absolute;
   width: calc(100% + 2px);
 }
-.b-footer__language-selector:hover
-.b-footer__available-languages {
+.footer__language-selector:hover
+.footer__available-languages {
   display: block;
 }
 
@@ -360,4 +363,34 @@ p {
 .home-page__hero-container{
   height: 150vh;
   padding: 120px 20px;
+}
+
+/* MEDIA QUERY ********************************/
+@media (max-width: 850px){
+  
+    /* PARTIAL - HEADER ********************************/
+    .b-header-nav {
+      clear: both;
+      max-height: 0;
+      transition: max-height .2s ease-out;
+      position: absolute;
+      top: 67px;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      background-color: var(--primary);
+    }
+    #header.fade-in .b-header-nav{
+      background-color: #fff;
+      background-color: rgba(255, 255, 255, 0.95);
+      -webkit-backdrop-filter: blur(5px);
+      backdrop-filter: blur(5px);
+    }
+    .b-header-nav__list-item {
+      margin: 0 0 20px;
+    }
+    .menu-icon {
+      display: inline-block;
+    }
+
 }
