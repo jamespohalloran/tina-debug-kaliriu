@@ -16,6 +16,3 @@ fields:
     schema:
       format: markdown
   label: Description
-pages:
-- content/english/services/index.md
-- content/spanish/services/index.md
