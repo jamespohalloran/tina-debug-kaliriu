@@ -25,6 +25,7 @@ body {
   -webkit-font-variant-ligatures: none;
   -webkit-text-size-adjust: 100%;
   color: var(--gray);
+  letter-spacing: .5px;
 }
 ul,
 ol{
@@ -221,7 +222,7 @@ p {
           user-select: none;
 }
 .menu-icon .navicon {
-  background: var(--primary);
+  background: var(--white);
   display: block;
   height: 4px;
   position: relative;
@@ -231,7 +232,7 @@ p {
 }
 .menu-icon .navicon:before,
 .menu-icon .navicon:after {
-  background: var(--primary);
+  background: var(--white);
   content: '';
   display: block;
   height: 100%;
@@ -249,7 +250,7 @@ p {
 .menu-btn {
   display: none;
 }
-.menu-btn:checked ~ .b-header-nav {
+.menu-btn:checked ~ .header-nav {
   max-height: 240px;
 }
 #header.fade-in .menu-icon .navicon,
