@@ -1,5 +1,5 @@
-<header id="header" class="b-header">
-  <div class="b-header__container">
+<header id="header" class="header">
+  <div class="header__container">
     <a href="/{{ .Site.Language.Lang }}/" aria-label="Kaliriu">
         <img src="https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649273027/Kaliriu/Logo/Blanco.svg" class="b-header__logo-white" role="presentation" />
         <img src="https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649273026/Kaliriu/Logo/Color.svg" class="b-header__logo" role="presentation" />
@@ -8,11 +8,11 @@
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 
-    <ul class="b-header-nav">
+    <ul class="header-nav">
       {{- $currentPage := . -}}
       {{ range .Site.Menus.main -}}
-      <li class='b-header-nav__list-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}'>
-          <a class="b-header-nav__list-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+      <li class='header-nav__list-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}'>
+          <a class="header-nav__list-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
       </li>
       {{- end }}
     </ul>
