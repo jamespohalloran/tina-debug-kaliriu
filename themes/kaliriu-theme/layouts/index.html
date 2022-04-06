@@ -1,9 +1,53 @@
 {{ define "main" }}
   {{ with .Params }}
-    <main id="main" class="home-page__hero-background">
-      <div class="home-page__hero-container">
-        <h1 class="home-page__hero-title">{{ .title }}</h1>
-      </div>
+    <main id="main">
+      <section class="home-page__hero-background">
+        <div class="home-page__hero-container">
+          <h1 class="home-page__hero-title">{{ .title }}</h1>
+        </div>
+      </section>
+      <section class="home-page__background-gradient">
+
+        <section class="home-page__product-background">
+          <div class="home-page__product-container">
+            <h2 class="home-page__product-title">Some of our UI Design projects</h1>
+          </div>
+        </section>
+
+        <section class="home-page__benefits-background">
+          <div class="home-page__benefits-container">
+            <img src="https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649273027/Kaliriu/Logo/Blanco.svg" class="header__logo-white" role="presentation" />
+            <ul class="home-page__benefits-list">
+              <li>
+                <div>
+                  <h2>Title</p>
+                  <p>Description</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h2>Title</p>
+                  <p>Description</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h2>Title</p>
+                  <p>Description</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h2>Title</p>
+                  <p>Description</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+      </section>
+
     </main>
   {{ end }}
 {{ end }}
