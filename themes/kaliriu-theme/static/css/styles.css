@@ -403,15 +403,18 @@ p {
   height: 50vh;
 }
 .waves *{
-  fill: white;
+  fill: var(--primary);
 }
 .waves g use:nth-child(1) {
+  fill: var(--secondary);
   opacity: .7;
 }
 .waves g use:nth-child(2) {
+  fill: var(--secondary);
   opacity: .5;
 }
 .waves g use:nth-child(3) {
+  fill: var(--primary);
   opacity: .3;
 }
 /* Animation */
