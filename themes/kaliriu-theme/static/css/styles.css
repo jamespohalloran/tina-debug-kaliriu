@@ -56,6 +56,7 @@ ol{
 }
 
 /* BUTTON */
+.home-page__cta-btn,
 .home-page__product-btn{
   letter-spacing: .5px;
   font-size: 16px;
@@ -82,10 +83,12 @@ html[lang=es] .popup-button:hover::before,
   background-position: right center;
 }
 /* Secondary */
+.home-page__cta-btn,
 .home-page__product-btn {
   background-color: var(--terciary);
   color: var(--primary);
 }
+.home-page__cta-btn:hover,
 .home-page__product-btn:hover {
   transition: 0.5s;
   background-color: var(--primary);
@@ -97,7 +100,7 @@ html[lang=es] .popup-button:hover::before,
 .home-page__hero-title {
   font-size: 64px;
   font-weight: 700;
-  letter-spacing: 1.8px;
+  letter-spacing: 2.4px;
   line-height: 1.5;
 }
 
@@ -105,15 +108,16 @@ html[lang=es] .popup-button:hover::before,
 .home-page__product-title {
   font-size: 44px;
   font-weight: 700;
-  letter-spacing: 1.4px;
+  letter-spacing: 2px;
   line-height: 1.6;
 }
 
 /* TERCIARY TITLE */
+.home-page__cta-title,
 .home-page__steps-title {
   font-size: 32px;
   font-weight: 700;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.8px;
   line-height: 1.7;
 }
 
@@ -121,7 +125,7 @@ html[lang=es] .popup-button:hover::before,
 .home-page__hero-p {
   font-size: 24px;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 1.4px;
   line-height: 1.8;
 }
 
@@ -129,16 +133,17 @@ html[lang=es] .popup-button:hover::before,
 .home-page__steps-list h3,
 .home-page__benefits-list h2 {
   font-size: 20px;
-  font-weight: 500;
-  letter-spacing: .8px;
+  font-weight: 600;
+  letter-spacing: 1px;
   line-height: 1.9;
 }
 
 /* PARAGRAPH - SMALL */
+.home-page__cta-p,
 .home-page__steps-p {
   font-size: 18px;
   font-weight: 500;
-  letter-spacing: .4px;
+  letter-spacing: .8px;
   line-height: 2;
 }
 
@@ -147,11 +152,13 @@ html[lang=es] .popup-button:hover::before,
 .home-page__benefits-list p {
   font-size: 16px;
   font-weight: 500;
-  letter-spacing: .2px;
+  letter-spacing: .4px;
   line-height: 2.1;
 }
 
 /* White */
+.home-page__cta-p,
+.home-page__cta-title,
 .home-page__benefits-list li div *,
 .home-page__steps-p,
 .home-page__steps-title,
@@ -524,10 +531,11 @@ html[lang=es] .popup-button:hover::before,
   border-radius: 12px;
 }
 .home-page__cta-container{
+  padding: 120px 20px;
   display: grid;
+  align-items: center;
   grid-template-columns: repeat(2,1fr);
   grid-column-gap: 40px;
-  grid-row-gap: 40px;
 }
 
 /* MEDIA QUERY ********************************/
