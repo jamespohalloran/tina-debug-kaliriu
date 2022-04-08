@@ -255,6 +255,7 @@ p {
 }
 .menu-btn:checked ~ .header-nav {
   margin-top: 0;
+  visibility: visible;
 }
 #header.fade-in .menu-icon .navicon,
 #header.fade-in .menu-icon .navicon:before,
@@ -446,7 +447,8 @@ p {
     /* PARTIAL - HEADER ********************************/
     .header-nav {
       clear: both;
-      margin-top: -150%;
+      margin-top: -100%;
+      visibility: hidden;
       transition: .2s ease-out;
       position: absolute;
       top: 73px;
