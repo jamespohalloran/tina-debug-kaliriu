@@ -153,6 +153,7 @@ p {
   color: var(--white);
 }
 /* Center */
+.home-page__product-container,
 .home-page__hero-p,
 .home-page__product-title,
 .home-page__hero-title{
@@ -413,11 +414,25 @@ p {
   position: relative;
   z-index: 2;
 }
+.home-page__product-container{
+  padding: 24px 20px 44px;
+}
 .home-page__benefits-container{
   padding: 120px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.home-page__product-list{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.home-page__product-list li{
+  height: 250px;
+  width: 100%;
+  border-radius: 12px;
 }
 .home-page__benefits-background{
   background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649273130/Kaliriu/Design/space.svg');
