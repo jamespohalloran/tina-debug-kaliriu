@@ -376,6 +376,7 @@ p {
 /* PAGE - HOMEPAGE ********************************/
 .home-page__hero-background{
   height: 100vh;
+  overflow: hidden;
   position: relative;
   z-index: 0;
   display: flex;
@@ -399,6 +400,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
+  height: 50vh;
 }
 .waves *{
   fill: white;
