@@ -120,7 +120,7 @@ h3 {
 }
 
 /* SUBTITLE */
-h4 {
+.home-page__hero-p {
   color: var(--primary);
   font-weight: 600;
   font-size: 25px;
@@ -152,11 +152,13 @@ p {
 }
 
 /* White */
+.home-page__hero-p,
 .home-page__product-title,
 .home-page__hero-title{
   color: var(--white);
 }
 /* Center */
+.home-page__hero-p,
 .home-page__product-title,
 .home-page__hero-title{
   text-align: center;
@@ -382,24 +384,29 @@ p {
   justify-content: center;
   align-items: center;
 }
-.home-page__hero-container{
-  padding: 44px 20px 0;
-}
-.home-page__hero-img{
+.home-page__hero-background:after{
+  content: '';
   background-image: url("https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649278408/Kaliriu/Design/front.svg");
   background-position: bottom;
   background-size: contain;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-repeat-y: no-repeat;
-
   z-index: 9;
 }
-.home-page__hero-title{
-  margin: 0;
-  /*position: fixed;
+.home-page__hero-container{
+  padding: 44px 20px 0;
+  position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
-  top: 0;*/
+  top: 0;
+}
+.home-page__hero-title{
+  margin: 0 0 10px;
   display: flex;
   justify-content: center;
   align-items: center;
