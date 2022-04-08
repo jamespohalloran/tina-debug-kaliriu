@@ -401,20 +401,22 @@ p {
   right: 0;
   bottom: 0;
   height: 50vh;
+  width: 100%;
 }
-.waves *{
-  fill: var(--primary);
+.waves .gradient-bg {
+  fill: url(#header-shape-gradient) #fff;
+}
+#header-shape-gradient {
+  --color-stop: #f12c06;
+  --color-bot: #faed34;
 }
 .waves g use:nth-child(1) {
-  fill: var(--secondary);
   opacity: .7;
 }
 .waves g use:nth-child(2) {
-  fill: var(--secondary);
   opacity: .5;
 }
 .waves g use:nth-child(3) {
-  fill: var(--primary);
   opacity: .3;
 }
 /* Animation */
