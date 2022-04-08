@@ -100,13 +100,9 @@ h1 {
   letter-spacing: 1px;
   line-height: 1.1;
 }
-/* White */
-.home-page__hero-title{
-  color: var(--white);
-}
 
 /* SECONDARY TITLE */
-h2 {
+.home-page__product-title {
   color: var(--primary);
   font-size: 40px;
   font-weight: 700;
@@ -153,6 +149,12 @@ p {
   font-weight: 500;
   letter-spacing: .3px;
   line-height: 1.5;
+}
+
+/* White */
+.home-page__product-title,
+.home-page__hero-title{
+  color: var(--white);
 }
 
 /* PARTIAL - HEADER ********************************/
