@@ -403,7 +403,7 @@ p {
   height: 50vh;
   width: 100%;
 }
-.waves .gradient-bg {
+.waves * {
   fill: url(#header-shape-gradient) #fff;
 }
 #header-shape-gradient {
