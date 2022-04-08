@@ -456,6 +456,7 @@ p {
   background-position: right;
 }
 .home-page__benefits-list{
+  display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-column-gap: 40px;
   grid-row-gap: 40px;
@@ -473,9 +474,10 @@ p {
   padding: 44px 20px;
 }
 .home-page__steps-title{
-  margin: 0 0 20px;
+  margin: 0 0 12px;
 }
 .home-page__steps-list{
+  display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-column-gap: 40px;
   grid-row-gap: 40px;
