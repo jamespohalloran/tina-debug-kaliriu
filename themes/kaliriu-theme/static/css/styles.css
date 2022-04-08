@@ -39,6 +39,9 @@ ol{
 .home-page__background-gradient{
   background-image: linear-gradient(to bottom, var(--primary), var(--secondary));
 }
+.home-page__benefits-list li div{
+  background-image: linear-gradient(to top, var(--primary), var(--secondary));
+}
 
 /* CONTAINER */
 .home-page__steps-container,
@@ -495,7 +498,6 @@ p {
 }
 .home-page__benefits-list li div{
   padding: 60px 20px 20px 20px;
-  background-color: var(--primary);
   border: 2px solid var(--terciary);
   border-radius: 12px;
 }
