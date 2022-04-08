@@ -403,6 +403,15 @@ p {
 .waves *{
   fill: white;
 }
+.waves g use:nth-child(1) {
+  opacity: .7;
+}
+.waves g use:nth-child(2) {
+  opacity: .5;
+}
+.waves g use:nth-child(3) {
+  opacity: .3;
+}
 /* Animation */
 .parallax > use {
   animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
