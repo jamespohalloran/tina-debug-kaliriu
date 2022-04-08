@@ -41,6 +41,7 @@ ol{
 }
 
 /* CONTAINER */
+.home-page__steps-container,
 .home-page__benefits-container,
 .home-page__product-container,
 .header__container,
@@ -62,6 +63,7 @@ ol{
   cursor: pointer;
   outline: none;
   box-shadow: 0 4px 14px rgba(var(--primary), 0.25);
+  border: 2px solid transparent;
 }
 /* Primary */
 .popup-button {
@@ -84,13 +86,14 @@ html[lang=es] .popup-button:hover::before,
   transition: 0.5s;
   background-color: var(--primary);
   color: var(--white);
+  border-color: var(--white);
 }
 
 /* PRIMARY TITLE */
 .home-page__hero-title,
 h1 {
   color: var(--primary);
-  font-size: 60px;
+  font-size: 64px;
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 1.1;
@@ -99,17 +102,17 @@ h1 {
 /* SECONDARY TITLE */
 .home-page__product-title {
   color: var(--primary);
-  font-size: 40px;
+  font-size: 44px;
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 1.1;
 }
 
 /* TERCIARY TITLE */
-h3 {
+.home-page__steps-title {
   color: var(--primary);
   font-weight: 700;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 1;
   letter-spacing: 1px;
 }
@@ -118,7 +121,7 @@ h3 {
 .home-page__hero-p {
   color: var(--primary);
   font-weight: 600;
-  font-size: 25px;
+  font-size: 24px;
   line-height: 1.3;
 }
 
@@ -131,7 +134,7 @@ p {
 }
 
 /* PARAGRAPH - SMALL */
-p {
+.home-page__steps-p {
   font-size: 18px;
   font-weight: 500;
   letter-spacing: .3px;
@@ -147,12 +150,16 @@ p {
 }
 
 /* White */
+.home-page__steps-p,
+.home-page__steps-title,
 .home-page__hero-p,
 .home-page__product-title,
 .home-page__hero-title{
   color: var(--white);
 }
 /* Center */
+.home-page__steps-p,
+.home-page__steps-title,
 .home-page__product-container,
 .home-page__hero-p,
 .home-page__product-title,
@@ -192,7 +199,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
+  padding: 10px 20px;
 }
 .header__container > a{
   display: flex;
@@ -423,7 +430,11 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+.home-page__product-title{
+  margin: 0 0 44px;
+}
 .home-page__product-list{
+  margin: 0 0 44px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-column-gap: 20px;
@@ -433,6 +444,10 @@ p {
   height: 250px;
   width: 100%;
   border-radius: 12px;
+  border: 4px solid white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .home-page__benefits-background{
   background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649273130/Kaliriu/Design/space.svg');
@@ -441,13 +456,9 @@ p {
   background-position: right;
 }
 .home-page__benefits-list{
-  display: flex;
-  flex-wrap: wrap;
-}
-.home-page__benefits-list li{
-  width: 100%;
-  max-width: 50%;
-  padding: 20px;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
 }
 .home-page__benefits-list li div{
   padding: 60px 20px 20px 20px;
@@ -457,6 +468,23 @@ p {
 }
 .home-page__benefits-list li div *{
   color: var(--white);
+}
+.home-page__steps-container{
+  padding: 44px 20px;
+}
+.home-page__steps-title{
+  margin: 0 0 20px;
+}
+.home-page__steps-list{
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+.home-page__steps-list li div{
+  padding: 60px 20px 20px 20px;
+  background-color: var(--white);
+  border: 2px solid var(--white);
+  border-radius: 12px;
 }
 
 /* MEDIA QUERY ********************************/
