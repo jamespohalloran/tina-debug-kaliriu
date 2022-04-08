@@ -398,21 +398,21 @@ p {
   z-index: 9;
 }
 .home-page__hero-container{
-  padding: 44px 20px 0;
+  padding: 44px 20px;
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 0;
-  top: 0;
+  top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
 }
 .home-page__hero-title{
   margin: 0 0 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 64px;
   z-index: -1;
-  color: white;
 }
 .home-page__background-gradient{
   position: relative;
