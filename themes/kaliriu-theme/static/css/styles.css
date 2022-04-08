@@ -1,6 +1,6 @@
 :root {
-  --primary: #4A00E0;
-  --secondary: #8E2DE2;
+  --primary: #0f0c29;
+  --secondary: #302b63;
   --terciary: #F1EFF5;
   --white: #FFF;
   --gray: #212121;
@@ -68,7 +68,7 @@ ol{
 /* Primary */
 .popup-button {
   background-image: linear-gradient(to right, var(--primary), var(--secondary));
-  color: var(--white);
+  color: var(--terciary);
   background-size: 200% auto;
 }
 .b-services__button:hover,
@@ -79,14 +79,14 @@ html[lang=es] .popup-button:hover::before,
 }
 /* Secondary */
 .home-page__product-btn {
-  background-color: var(--white);
+  background-color: var(--terciary);
   color: var(--primary);
 }
 .home-page__product-btn:hover {
   transition: 0.5s;
   background-color: var(--primary);
-  color: var(--white);
-  border-color: var(--white);
+  color: var(--terciary);
+  border-color: var(--terciary);
 }
 
 /* PRIMARY TITLE */
@@ -155,7 +155,7 @@ p {
 .home-page__hero-p,
 .home-page__product-title,
 .home-page__hero-title{
-  color: var(--white);
+  color: var(--terciary);
 }
 /* Center */
 .home-page__steps-p,
@@ -180,7 +180,7 @@ p {
   background-color: transparent;
 }
 #header.fade-in{
-  background-color: var(--white);
+  background-color: var(--terciary);
   background-color: rgba(255, 255, 255, 0.9);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
@@ -220,7 +220,7 @@ p {
 .header-nav__list-link {
   font-size: 16px;
   text-transform: uppercase;
-  color: var(--white);
+  color: var(--terciary);
 }
 #header.fade-in .header-nav__list-link{
   color: var(--primary);
@@ -237,7 +237,7 @@ p {
           user-select: none;
 }
 .menu-icon .navicon {
-  background: var(--white);
+  background: var(--terciary);
   display: block;
   height: 3px;
   position: relative;
@@ -247,7 +247,7 @@ p {
 }
 .menu-icon .navicon:before,
 .menu-icon .navicon:after {
-  background: var(--white);
+  background: var(--terciary);
   content: '';
   display: block;
   height: 100%;
@@ -290,7 +290,7 @@ p {
 }
 .language-selector {
   margin-left: 30px;
-  background-color: var(--white);
+  background-color: var(--terciary);
   background-position: calc(100% - 8px) center;
   background-size: 13px;
   background-repeat: no-repeat;
@@ -315,7 +315,7 @@ p {
   font-size: 16px;
 }
 .available-languages {
-  background-color: var(--white);
+  background-color: var(--terciary);
   border: 2px solid var(--primary);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -336,7 +336,6 @@ p {
 .b-cookie {
   display: none;
   box-shadow: 0 1px 20px -5px rgba(56, 112, 224,.25), 0 2px 9px -8px rgba(56, 112, 224,.3), 0 -6px 16px -6px rgba(56, 112, 224,.025);
-  background-color: #f9f9fa;
   padding: 30px;
   position: fixed;
   bottom: 10px;
@@ -475,7 +474,7 @@ p {
   height: 250px;
   width: 100%;
   border-radius: 12px;
-  border: 4px solid var(--white);
+  border: 4px solid var(--terciary);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -497,11 +496,11 @@ p {
 .home-page__benefits-list li div{
   padding: 60px 20px 20px 20px;
   background-color: var(--primary);
-  border: 2px solid var(--white);
+  border: 2px solid var(--terciary);
   border-radius: 12px;
 }
 .home-page__benefits-list li div *{
-  color: var(--white);
+  color: var(--terciary);
 }
 .home-page__steps-container{
   padding: 44px 20px;
@@ -518,8 +517,8 @@ p {
 }
 .home-page__steps-list li div{
   padding: 60px 20px 20px 20px;
-  background-color: var(--white);
-  border: 2px solid var(--white);
+  background-color: var(--terciary);
+  border: 2px solid var(--terciary);
   border-radius: 12px;
 }
 
@@ -541,7 +540,7 @@ p {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background-color: var(--white);
+      background-color: var(--terciary);
       background-color: rgba(255, 255, 255, 0.85);
       -webkit-backdrop-filter: blur(5px);
       backdrop-filter: blur(5px);
