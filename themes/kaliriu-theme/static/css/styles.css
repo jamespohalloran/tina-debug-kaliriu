@@ -386,7 +386,7 @@ p {
   height: 800px;
   width: 100%;
 }
-.home-page__background-gradient:after{
+.home-page__background-gradient:before{
   content: '';
   background-image: url("https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649278408/Kaliriu/Design/front.svg");
   background-position: bottom;
