@@ -406,10 +406,6 @@ p {
 .waves * {
   fill: url(#header-shape-gradient) #fff;
 }
-#header-shape-gradient {
-  --color-stop: #f12c06;
-  --color-bot: #faed34;
-}
 .waves g use:nth-child(1) {
   opacity: .7;
 }
