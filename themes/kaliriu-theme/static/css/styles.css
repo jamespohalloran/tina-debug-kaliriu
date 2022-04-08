@@ -37,7 +37,7 @@ ol{
   background-color: var(--primary);
 }
 .home-page__background-gradient{
-  /*background-image: linear-gradient(to bottom, var(--primary), var(--secondary));*/
+  background-image: linear-gradient(to bottom, var(--primary), var(--secondary));
 }
 
 /* CONTAINER */
@@ -385,10 +385,13 @@ p {
 .home-page__hero-container{
   padding: 44px 20px 0;
 }
-.home-page__background-gradient{
-  background-image: linear-gradient(to bottom, var(--primary), var(--secondary)), url("https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649278408/Kaliriu/Design/front.svg");
-  background-position: top;
+.home-page__hero-img{
+  background-image: url("https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649278408/Kaliriu/Design/front.svg");
+  background-position: bottom;
   background-size: contain;
+  background-repeat-y: no-repeat;
+
+  z-index: 9;
 }
 .home-page__hero-title{
   margin: 0;
