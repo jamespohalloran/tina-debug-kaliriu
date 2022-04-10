@@ -1,5 +1,6 @@
 ---
 title: Contact
 description: ''
-layout: 'contact'
+layout: "/page/contact"
+
 ---
