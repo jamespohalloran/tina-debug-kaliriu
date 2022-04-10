@@ -1,5 +1,6 @@
 ---
 label: 'Page: Services'
+layout: 'services'
 hide_body: true
 fields:
 - name: title
