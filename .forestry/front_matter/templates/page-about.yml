@@ -1,5 +1,5 @@
 ---
-label: 'Page: Contact'
+label: 'Page: About'
 hide_body: true
 fields:
 - name: title
@@ -8,5 +8,5 @@ fields:
     required: false
   label: Title
 pages:
-- content/english/contact.md
-- content/spanish/contact.md
+- content/english/about.md
+- content/spanish/about.md

@@ -13,13 +13,13 @@ sections:
   path: content/english/projects.md
   label: Projects
 - type: document
-  path: content/english/about/_index.md
+  path: content/english/about.md
   label: About
 - type: document
   path: content/english/blog/_index.md
   label: Blog
 - type: document
-  path: content/english/contact/_index.md
+  path: content/english/contact.md
   label: Contact
 - type: directory
   path: content/english/blog
@@ -38,13 +38,13 @@ sections:
   path: content/spanish/projects.md
   label: Proyectos
 - type: document
-  path: content/spanish/about/_index.md
+  path: content/spanish/about.md
   label: Sobre nosotros
 - type: document
   path: content/spanish/blog/_index.md
   label: Blog
 - type: document
-  path: content/spanish/contact/_index.md
+  path: content/spanish/contact.md
   label: Contacto
 - type: directory
   path: content/spanish/blog

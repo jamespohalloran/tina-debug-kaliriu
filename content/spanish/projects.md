@@ -1,6 +1,5 @@
 ---
 title: Proyectos!!!!!!
 description: ''
-layout: projects
-
+type: 'projects'
 ---
