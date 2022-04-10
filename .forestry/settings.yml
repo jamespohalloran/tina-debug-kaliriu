@@ -12,8 +12,14 @@ sections:
   create: none
   match: "**"
 - type: document
+  path: content/english/_index.md
+  label: Homepage
+- type: document
   path: content/english/blog/_index.html
   label: Blog
+- type: document
+  path: content/english/contact/_index.html
+  label: Contact
 - type: directory
   path: content/english/blog
   label: Posts
