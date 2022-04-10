@@ -184,6 +184,7 @@ html[lang=es] .popup-button:hover::before,
   color: var(--primary);
 }
 /* Center */
+.projects__header-title,
 .home-page__steps-p,
 .home-page__steps-title,
 .home-page__product-container,
@@ -418,6 +419,12 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* PAGE - HEADERS ********************************/
+.projects__header-background,
+.home-page__hero-background{
+  padding-top: 64px;
+  overflow: hidden;
+  position: relative;
+}
 .projects__header-container {
   padding: 44px 20px;
 }
@@ -476,8 +483,6 @@ html[lang=es] .popup-button:hover::before,
 /* PAGE - HOMEPAGE ********************************/
 .home-page__hero-background{
   height: 100vh;
-  overflow: hidden;
-  position: relative;
   z-index: 0;
   display: flex;
   justify-content: center;
