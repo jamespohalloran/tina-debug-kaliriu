@@ -9,5 +9,4 @@ fields:
   label: Title
 pages:
 - content/english/_index.md
-- content/english/_index.md
 - content/spanish/_index.md
