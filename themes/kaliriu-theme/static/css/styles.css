@@ -33,6 +33,9 @@ ol{
 }
 
 /* BACKGROUND COLOR */
+.projects__header-background{
+  background-color: var(--primary);
+}
 .footer__background,
 .home-page__hero-background {
   background-color: var(--secondary);
@@ -45,6 +48,7 @@ ol{
 }
 
 /* CONTAINER */
+.projects__header-container,
 .footer__container,
 .home-page__cta-container,
 .home-page__steps-container,
@@ -107,6 +111,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* SECONDARY TITLE */
+.projects__header-title,
 .home-page__product-title {
   font-size: 44px;
   font-weight: 700;
@@ -161,6 +166,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* White */
+.projects__header-title,
 .footer__list a,
 .footer__p,
 .home-page__cta-p,
@@ -412,6 +418,9 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* PAGE - HEADERS ********************************/
+.projects__header-container {
+  padding: 44px 20px;
+}
 .waves {
   position: absolute;
   left: 0;
@@ -421,6 +430,9 @@ html[lang=es] .popup-button:hover::before,
   width: 100%;
 }
 .waves * {
+  fill: var(--terciary);
+}
+.home-page__hero-background .waves *{
   fill: var(--primary);
 }
 .waves g use:nth-child(1) {
