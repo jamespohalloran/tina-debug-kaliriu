@@ -17,5 +17,5 @@ fields:
       format: markdown
   label: Description
 pages:
-- content/english/projects/_index.md
+- content/english/projects.md
 - content/spanish/projects/_index.md

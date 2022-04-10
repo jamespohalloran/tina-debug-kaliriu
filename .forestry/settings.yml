@@ -10,7 +10,7 @@ sections:
   path: content/english/_index.md
   label: Homepage
 - type: document
-  path: content/english/projects/_index.md
+  path: content/english/projects.md
   label: Projects
 - type: document
   path: content/english/about/_index.md
