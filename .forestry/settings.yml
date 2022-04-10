@@ -10,8 +10,8 @@ sections:
   path: content/english/_index.md
   label: Homepage
 - type: document
-  path: content/english/services/_index.md
-  label: Services
+  path: content/english/projects/_index.md
+  label: Projects
 - type: document
   path: content/english/about/_index.md
   label: About
@@ -36,7 +36,7 @@ sections:
   label: Inicio
 - type: document
   path: content/spanish/services/_index.md
-  label: Servicios
+  label: Proyectos
 - type: document
   path: content/spanish/about/_index.md
   label: Sobre nosotros
