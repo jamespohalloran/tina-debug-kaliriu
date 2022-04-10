@@ -41,6 +41,7 @@ ol{
 .home-page__hero-background {
   background-color: var(--secondary);
 }
+.contact__background,
 .home-page__background-gradient{
   background-image: linear-gradient(to bottom, var(--primary), var(--secondary));
 }
@@ -49,6 +50,7 @@ ol{
 }
 
 /* CONTAINER */
+.contact__background,
 .blog__header-container,
 .projects__header-container,
 .footer__container,
@@ -113,6 +115,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* SECONDARY TITLE */
+.contact__title,
 .blog__header-title,
 .projects__header-title,
 .home-page__product-title {
@@ -169,6 +172,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* White */
+.contact__title,
 .blog__header-title,
 .projects__header-title,
 .footer__list a,
@@ -188,6 +192,7 @@ html[lang=es] .popup-button:hover::before,
   color: var(--primary);
 }
 /* Center */
+.contact__title,
 .blog__header-title,
 .projects__header-title,
 .home-page__steps-p,
@@ -424,6 +429,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* PAGE - HEADERS ********************************/
+.contact__background,
 .blog__header-background,
 .projects__header-background,
 .home-page__hero-background{
@@ -431,10 +437,12 @@ html[lang=es] .popup-button:hover::before,
   overflow: hidden;
   position: relative;
 }
+.contact__container,
 .blog__header-container,
 .projects__header-container {
   padding: 64px 20px 164px;
 }
+.contact__title,
 .blog__header-title,
 .projects__header-title{
   text-transform: uppercase;
@@ -594,6 +602,11 @@ html[lang=es] .popup-button:hover::before,
   align-items: center;
   grid-template-columns: repeat(2,1fr);
   grid-column-gap: 40px;
+}
+
+/* PAGE - CONTACT ********************************/
+.contact__background{
+  min-height: 100vh;
 }
 
 /* MEDIA QUERY ********************************/

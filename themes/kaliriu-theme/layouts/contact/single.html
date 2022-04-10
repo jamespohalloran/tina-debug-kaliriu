@@ -1,9 +1,12 @@
 {{ define "main" }}
     {{ with .Params }}
         <main id="main">
-            <section class="projects__header-background">
-                <div class="projects__header-container">
-                    <h1 class="projects__header-title">{{ .Title }}</h1>
+            <section class="contact__background">
+                <div class="contact__container">
+                    <h1 class="contact__title">{{ .Title }}</h1>
+                    
+                    <p>Form</p>
+
                 </div>
                 <!--Waves Container-->
                     <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -20,7 +23,6 @@
                     </svg>
                 <!--Waves end-->
             </section>
-
         </main>
     {{ end }}
 {{ end }}
