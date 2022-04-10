@@ -54,11 +54,6 @@ sections:
   exclude: _index.html
   templates:
   - blog-post
-- type: heading
-  label: GLOBAL
-- type: document
-  path: config.toml
-  label: Global Settings
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
