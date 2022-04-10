@@ -1,5 +1,5 @@
 ---
-title: Services
+title: Projects
 description: ''
-layout: 'services'
+layout: 'projects'
 ---
