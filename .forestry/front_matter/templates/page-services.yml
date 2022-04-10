@@ -17,4 +17,4 @@ fields:
       format: markdown
   label: Description
 pages:
-- content/english/contact.md
+- content/english/services/_index.md
