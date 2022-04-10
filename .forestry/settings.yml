@@ -10,6 +10,12 @@ sections:
   path: content/english/_index.md
   label: Homepage
 - type: document
+  path: content/english/services/_index.md
+  label: Services
+- type: document
+  path: content/english/about/_index.md
+  label: About
+- type: document
   path: content/english/blog/_index.html
   label: Blog
 - type: document
@@ -28,6 +34,12 @@ sections:
 - type: document
   path: content/spanish/_index.md
   label: Inicio
+- type: document
+  path: content/spanish/services/_index.md
+  label: Servicios
+- type: document
+  path: content/spanish/about/_index.md
+  label: Sobre nosotros
 - type: document
   path: content/spanish/blog/_index.html
   label: Blog
