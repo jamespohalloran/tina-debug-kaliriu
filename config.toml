@@ -41,9 +41,9 @@ pageRef = '/'
 weight = 1
 
 [[languages.en.menu.main]]
-name = 'Services'
-url = "/services"
-pageRef = 'services'
+name = 'Projects'
+url = "/projects"
+pageRef = 'projects'
 weight = 2
 
 [[languages.en.menu.main]]
@@ -70,9 +70,9 @@ pageRef = '/'
 weight = 1
 
 [[languages.es.menu.main]]
-name = 'Servicios'
-url = "/es/servicios"
-pageRef = 'services'
+name = 'Projects'
+url = "/es/proyectos"
+pageRef = 'proyectos'
 weight = 1
 
 [[languages.es.menu.main]]
