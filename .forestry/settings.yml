@@ -35,7 +35,7 @@ sections:
   path: content/spanish/_index.md
   label: Inicio
 - type: document
-  path: content/spanish/services/_index.md
+  path: content/spanish/projects.md
   label: Proyectos
 - type: document
   path: content/spanish/about/_index.md
