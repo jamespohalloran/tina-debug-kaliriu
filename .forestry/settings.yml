@@ -6,11 +6,6 @@ webhook_url:
 sections:
 - type: heading
   label: ENGLISH
-- type: directory
-  path: content/english
-  label: Sections
-  create: none
-  match: "**"
 - type: document
   path: content/english/_index.md
   label: Homepage
@@ -18,7 +13,7 @@ sections:
   path: content/english/blog/_index.html
   label: Blog
 - type: document
-  path: content/english/contact/_index.html
+  path: content/english/contact/_index.md
   label: Contact
 - type: directory
   path: content/english/blog
@@ -30,16 +25,14 @@ sections:
   - blog-post
 - type: heading
   label: SPANISH
-- type: directory
-  path: content/spanish
-  label: Secciones
-  create: none
-  match: "**"
+- type: document
+  path: content/english/_index.md
+  label: Inicio
 - type: document
   path: content/spanish/blog/_index.html
   label: Blog
 - type: document
-  path: content/spanish/contact/_index.html
+  path: content/spanish/contact/_index.md
   label: Contacto
 - type: directory
   path: content/spanish/blog
