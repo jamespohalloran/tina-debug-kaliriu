@@ -7,3 +7,6 @@ fields:
   config:
     required: false
   label: Title
+pages:
+- content/english/contact/_index.md
+- content/spanish/contact/_index.md
