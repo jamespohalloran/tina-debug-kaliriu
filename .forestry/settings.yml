@@ -16,7 +16,7 @@ sections:
   path: content/english/about.md
   label: About
 - type: document
-  path: content/english/blog/_index.md
+  path: content/english/blog/_index.html
   label: Blog
 - type: document
   path: content/english/contact.md
@@ -41,7 +41,7 @@ sections:
   path: content/spanish/about.md
   label: Sobre nosotros
 - type: document
-  path: content/spanish/blog/_index.md
+  path: content/spanish/blog/_index.html
   label: Blog
 - type: document
   path: content/spanish/contact.md
