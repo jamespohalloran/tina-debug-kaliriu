@@ -13,7 +13,7 @@ sections:
   match: "**"
 - type: document
   path: content/english/blog/_index.html
-  label: Blog Settings
+  label: Blog
 - type: directory
   path: content/english/blog
   label: Posts
@@ -31,7 +31,10 @@ sections:
   match: "**"
 - type: document
   path: content/spanish/blog/_index.html
-  label: Ajustes del Blog
+  label: Blog
+- type: document
+  path: content/spanish/contact/_index.html
+  label: Contacto
 - type: directory
   path: content/spanish/blog
   label: Posts
