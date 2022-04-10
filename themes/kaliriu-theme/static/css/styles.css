@@ -358,13 +358,17 @@ html[lang=es] .popup-button:hover::before,
   align-items: center;
   padding: 15px 20px;
   border-top: 1px solid var(--primary);
-  opacity: .8;
 }
 .footer__list{
   display: flex;
 }
 .footer__list li{
   padding-left: 16px;
+}
+.footer__p,
+.footer__list li a{
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /* PARTIAL - COOKIES ********************************/
