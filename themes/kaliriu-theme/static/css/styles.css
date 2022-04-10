@@ -33,6 +33,7 @@ ol{
 }
 
 /* BACKGROUND COLOR */
+.footer__background,
 .home-page__hero-background {
   background-color: var(--secondary);
 }
@@ -44,6 +45,7 @@ ol{
 }
 
 /* CONTAINER */
+.footer__container,
 .home-page__cta-container,
 .home-page__steps-container,
 .home-page__benefits-container,
@@ -148,6 +150,8 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* PARAGRAPH - EXTRA SMALL */
+.footer__list a,
+.footer__p,
 .home-page__steps-list p,
 .home-page__benefits-list p {
   font-size: 16px;
@@ -157,6 +161,8 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* White */
+.footer__list a,
+.footer__p,
 .home-page__cta-p,
 .home-page__cta-title,
 .home-page__benefits-list li div *,
@@ -345,6 +351,18 @@ html[lang=es] .popup-button:hover::before,
   display: block;
 }
 
+/* PARTIAL - FOOTER ********************************/
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__list{
+  display: flex;
+}
+.footer__list li{
+  padding-left: 6px;
+}
 
 /* PARTIAL - COOKIES ********************************/
 .b-cookie {
