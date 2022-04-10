@@ -16,3 +16,6 @@ fields:
     schema:
       format: markdown
   label: Description
+pages:
+- content/services/_index.md
+- content/services/_index.md
