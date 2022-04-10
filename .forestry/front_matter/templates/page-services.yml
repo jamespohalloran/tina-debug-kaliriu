@@ -1,6 +1,5 @@
 ---
 label: 'Page: Services'
-layout: 'services'
 hide_body: true
 fields:
 - name: title
@@ -17,6 +16,3 @@ fields:
     schema:
       format: markdown
   label: Description
-pages:
-- content/english/services/index.md
-- content/spanish/services/index.md

@@ -1,5 +1,6 @@
 ---
-title: Contact
+title: Contact!!!
 description: ''
-layout: 'contact'
+layout: contact
+
 ---
