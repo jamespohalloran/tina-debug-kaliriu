@@ -621,6 +621,9 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* PAGE - BLOG ********************************/
+.blog__list-container {
+  padding: 64px 20px 120px;
+}
 .blog__list{
   display: grid;
   grid-template-columns: repeat(3,1fr);
