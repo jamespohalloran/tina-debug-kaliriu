@@ -52,7 +52,7 @@ a {
 .home-page__background-gradient{
   background-image: linear-gradient(to bottom, var(--primary), var(--secondary));
 }
-.blog__list li article::after,
+.blog__list li article a::after,
 .home-page__benefits-list li div{
   background-image: linear-gradient(320deg, var(--primary), var(--secondary));
 }
@@ -121,7 +121,7 @@ html[lang=es] .popup-button:hover::before,
   font-size: 64px;
   font-weight: 700;
   letter-spacing: 2.4px;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 /* SECONDARY TITLE */
@@ -132,7 +132,7 @@ html[lang=es] .popup-button:hover::before,
   font-size: 44px;
   font-weight: 700;
   letter-spacing: 2px;
-  line-height: 1.6;
+  line-height: 1.25;
 }
 
 /* TERCIARY TITLE */
@@ -141,7 +141,7 @@ html[lang=es] .popup-button:hover::before,
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 1.8px;
-  line-height: 1.7;
+  line-height: 1.3;
 }
 
 /* SUBTITLE */
@@ -150,7 +150,7 @@ html[lang=es] .popup-button:hover::before,
   font-size: 24px;
   font-weight: 600;
   letter-spacing: 1.4px;
-  line-height: 1.8;
+  line-height: 1.4;
 }
 
 /* PARAGRAPH - LARGE */
@@ -159,7 +159,7 @@ html[lang=es] .popup-button:hover::before,
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 1px;
-  line-height: 1.9;
+  line-height: 1.5;
 }
 
 /* PARAGRAPH - SMALL */
@@ -168,7 +168,7 @@ html[lang=es] .popup-button:hover::before,
   font-size: 18px;
   font-weight: 500;
   letter-spacing: .8px;
-  line-height: 2;
+  line-height: 1.6;
 }
 
 /* PARAGRAPH - EXTRA SMALL */
@@ -643,7 +643,7 @@ html[lang=es] .popup-button:hover::before,
   grid-row-gap: 20px;
 }
 .blog__list li article a{
-  height: 250px;
+  min-height: 250px;
   padding: 20px;
   background-position: center;
   background-repeat: no-repeat;
