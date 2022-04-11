@@ -645,6 +645,10 @@ html[lang=es] .popup-button:hover::before,
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }
+.blog__list li article{
+  border: 4px solid var(--terciary);
+  box-shadow: 0 4px 14px rgba(var(--primary-rgb), 0.25);
+}
 .blog__list li article a{
   min-height: 250px;
   padding: 20px;
@@ -653,6 +657,11 @@ html[lang=es] .popup-button:hover::before,
   background-size: cover;
   border-radius: 12px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+}
 }
 .blog__list li article a::after {
   content: '';
@@ -661,9 +670,10 @@ html[lang=es] .popup-button:hover::before,
   right: 0;
   top: 0;
   bottom: 0;
-  opacity: .6;
+  opacity: .8;
   border-radius: 12px;
 }
+.blog__list li article a p,
 .blog__list li article a h2 {
   position: relative;
   z-index: 9;
