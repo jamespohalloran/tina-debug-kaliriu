@@ -3,6 +3,7 @@
   --primary-rgb: 15, 12, 41;
   --secondary: #302b63;
   --terciary: #F1EFF5;
+  --terciary-rgb: 241, 239, 245;
   --white: #FFF;
   --gray: #212121;
   --black: #000;
@@ -179,12 +180,14 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* PARAGRAPH - EXTRA SMALL */
+.contact__form textarea,
+.contact__form input,
 .footer__list a,
 .footer__p,
 .home-page__steps-list p,
 .home-page__benefits-list p {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: .4px;
   line-height: 2.1;
 }
@@ -697,14 +700,14 @@ html[lang=es] .popup-button:hover::before,
 }
 .contact__form textarea,
 .contact__form input{
-  background-color: transparent;
+  background-color: rgb(var(--terciary-rgb), .2);
   border-radius: 0;
   width: 100%;
-  margin: 0 0 16px;
+  margin: 0 0 20px;
   padding: 8px 15px;
   resize: none;
   appearance: none;
-  border-bottom: 4px solid var(--terciary);
+  border: 2px solid var(--terciary);
   color: var(--terciary);
 }
 .contact__form textarea:focus,
