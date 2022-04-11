@@ -629,7 +629,7 @@ html[lang=es] .popup-button:hover::before,
   height: 250px;
   width: 100%;
   border-radius: 12px;
-  border: 4px solid var(--terciary);
+  border: 2px solid var(--terciary);
   box-shadow: 0 4px 14px rgba(var(--primary-rgb), 0.25);
   background-size: cover;
   background-repeat: no-repeat;
@@ -653,7 +653,7 @@ html[lang=es] .popup-button:hover::before,
   grid-row-gap: 20px;
 }
 .blog__list li article a{
-  border: 4px solid var(--terciary);
+  border: 2px solid var(--terciary);
   box-shadow: 0 4px 14px rgba(var(--primary-rgb), 0.25);
   min-height: 250px;
   padding: 20px;
@@ -688,7 +688,7 @@ html[lang=es] .popup-button:hover::before,
   min-height: 100vh;
 }
 .contact__container{
-  padding: 84px 20px 120px;
+  padding: 44px 20px 120px;
 }
 .contact__form{
   display: flex;
@@ -700,11 +700,12 @@ html[lang=es] .popup-button:hover::before,
 }
 .contact__form textarea,
 .contact__form input{
-  background-color: rgb(var(--terciary-rgb), .2);
+  background-color: rgb(var(--terciary-rgb), .05);
   border-radius: 0;
   width: 100%;
   margin: 0 0 20px;
   padding: 8px 15px;
+  border-radius: 12px;
   resize: none;
   appearance: none;
   border: 2px solid var(--terciary);
