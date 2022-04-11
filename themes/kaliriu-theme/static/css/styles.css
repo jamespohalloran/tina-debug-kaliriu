@@ -34,14 +34,15 @@ ol{
 }
 
 /* BACKGROUND COLOR */
-.blog__header-background,
-.projects__header-background{
+.footer__background{
   background-color: var(--primary);
 }
-.footer__background,
+.blog__header-background,
+.projects__header-background,
 .home-page__hero-background {
   background-color: var(--secondary);
 }
+.blog__list-background,
 .projects__list-background {
   background-color: var(--terciary);
 }
@@ -54,6 +55,7 @@ ol{
 }
 
 /* CONTAINER */
+.blog__list-container,
 .projects__list-container,
 .contact__background,
 .blog__header-container,
@@ -616,6 +618,14 @@ html[lang=es] .popup-button:hover::before,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* PAGE - BLOG ********************************/
+.blog__list{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
 /* PAGE - CONTACT ********************************/
