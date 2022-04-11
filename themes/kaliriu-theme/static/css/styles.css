@@ -645,11 +645,9 @@ html[lang=es] .popup-button:hover::before,
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }
-.blog__list li article{
+.blog__list li article a{
   border: 4px solid var(--terciary);
   box-shadow: 0 4px 14px rgba(var(--primary-rgb), 0.25);
-}
-.blog__list li article a{
   min-height: 250px;
   padding: 20px;
   background-position: center;
@@ -661,7 +659,6 @@ html[lang=es] .popup-button:hover::before,
   flex-direction: column;
   justify-content: space-between;
   align-items: baseline;
-}
 }
 .blog__list li article a::after {
   content: '';
