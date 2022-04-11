@@ -467,6 +467,7 @@ html[lang=es] .popup-button:hover::before,
 .home-page__hero-background .waves{
   height: 50vh;
 }
+.contact__background .waves *,
 .home-page__hero-background .waves *{
   fill: var(--primary);
 }
