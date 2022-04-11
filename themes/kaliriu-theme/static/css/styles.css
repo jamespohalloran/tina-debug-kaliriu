@@ -143,6 +143,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* SUBTITLE */
+.blog__list li article a h3,
 .home-page__hero-p {
   font-size: 24px;
   font-weight: 600;
@@ -180,6 +181,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* White */
+.blog__list li article a h3,
 .contact__title,
 .blog__header-title,
 .projects__header-title,
@@ -638,10 +640,16 @@ html[lang=es] .popup-button:hover::before,
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }
-.blog__list li{
+.blog__list li article a{
+  height: 250px;
+  padding: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
   position: relative;
 }
-.blog__list li article::after {
+.blog__list li article a::after {
   content: '';
   position: absolute;
   left: 0;
@@ -649,12 +657,7 @@ html[lang=es] .popup-button:hover::before,
   top: 0;
   bottom: 0;
   opacity: .6;
-}
-.blog__list li article{
-  height: 250px;
-}
-.blog__list li article a{
-  height: 100%;
+  border-radius: 12px;
 }
 
 /* PAGE - CONTACT ********************************/
