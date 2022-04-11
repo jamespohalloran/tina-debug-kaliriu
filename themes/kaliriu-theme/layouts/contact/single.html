@@ -4,9 +4,12 @@
             <section class="contact__background">
                 <div class="contact__container">
                     <h1 class="contact__title">{{ .Title }}</h1>
-                    
-                    <p>Form</p>
-
+                    <form class="contact__form" data-netlify="true" method="POST" name="quote" action="/#contact">
+                        <input name="name" type="text" id="name" required placeholder="name">
+                        <input name="email" type="email" id="email" required placeholder="email">
+                        <textarea class="data-hj-allow" name="message" id="message" rows="6" required placeholder="message"></textarea>
+                        <button type="submit">{{ .form_settings.button_text }}</button>
+                    </form>
                 </div>
                 <!--Waves Container-->
                     <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"

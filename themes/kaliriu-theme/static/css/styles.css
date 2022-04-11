@@ -76,6 +76,7 @@ a {
 }
 
 /* BUTTON */
+.contact__form button,
 .blog__list li article a p,
 .home-page__cta-btn,
 .home-page__product-btn{
@@ -104,12 +105,14 @@ html[lang=es] .popup-button:hover::before,
   background-position: right center;
 }
 /* Secondary */
+.contact__form button,
 .blog__list li article a p,
 .home-page__cta-btn,
 .home-page__product-btn {
   background-color: var(--terciary);
   color: var(--primary);
 }
+.contact__form button:hover,
 .blog__list li article a:hover p,
 .home-page__cta-btn:hover,
 .home-page__product-btn:hover {
@@ -668,7 +671,7 @@ html[lang=es] .popup-button:hover::before,
   top: 0;
   bottom: 0;
   opacity: .8;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 .blog__list li article a p,
 .blog__list li article a h2 {
@@ -679,6 +682,14 @@ html[lang=es] .popup-button:hover::before,
 /* PAGE - CONTACT ********************************/
 .contact__background{
   min-height: 100vh;
+}
+.contact__container{
+  padding: 84px 20px 120px;
+}
+.contact__form textarea,
+.contact__form input{
+  background-color: transparent;
+  border-radius: 12px;
 }
 
 /* MEDIA QUERY ********************************/
