@@ -32,7 +32,9 @@ ul,
 ol{
   list-style: none;
 }
-
+a {
+  display: inline-block;
+}
 /* BACKGROUND COLOR */
 .footer__background{
   background-color: var(--primary);
@@ -143,7 +145,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* SUBTITLE */
-.blog__list li article a h3,
+.blog__list li article a h2,
 .home-page__hero-p {
   font-size: 24px;
   font-weight: 600;
@@ -181,7 +183,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* White */
-.blog__list li article a h3,
+.blog__list li article a h2,
 .contact__title,
 .blog__header-title,
 .projects__header-title,
