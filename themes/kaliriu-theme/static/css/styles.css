@@ -698,14 +698,23 @@ html[lang=es] .popup-button:hover::before,
 .contact__form textarea,
 .contact__form input{
   background-color: transparent;
-  border-radius: 12px;
+  border-radius: 0;
   width: 100%;
-  margin: 0 0 10px;
-  padding: 10px 15px;
+  margin: 0 0 16px;
+  padding: 8px 15px;
   resize: none;
   appearance: none;
-  border: 4px solid var(--terciary);
+  border-bottom: 4px solid var(--terciary);
   color: var(--terciary);
+}
+.contact__form textarea:focus,
+.contact__form input:focus{
+  outline: none;
+}
+.contact__form textarea::placeholder,
+.contact__form input::placeholder{
+  color: var(--terciary);
+  opacity: .8;
 }
 
 /* MEDIA QUERY ********************************/
