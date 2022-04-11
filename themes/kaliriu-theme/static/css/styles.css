@@ -548,11 +548,13 @@ html[lang=es] .popup-button:hover::before,
 }
 .projects__list,
 .home-page__product-list{
-  margin: 0 0 44px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
+}
+.home-page__product-btn {
+  margin: 44px 0 0;
 }
 .projects__list li,
 .home-page__product-list li{
