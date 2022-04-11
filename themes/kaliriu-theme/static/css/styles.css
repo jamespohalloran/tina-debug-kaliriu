@@ -76,6 +76,7 @@ a {
 }
 
 /* BUTTON */
+.blog__list li article a p,
 .home-page__cta-btn,
 .home-page__product-btn{
   letter-spacing: .5px;
@@ -103,11 +104,13 @@ html[lang=es] .popup-button:hover::before,
   background-position: right center;
 }
 /* Secondary */
+.blog__list li article a p,
 .home-page__cta-btn,
 .home-page__product-btn {
   background-color: var(--terciary);
   color: var(--primary);
 }
+.blog__list li article a:hover p,
 .home-page__cta-btn:hover,
 .home-page__product-btn:hover {
   transition: 0.5s;
@@ -660,6 +663,10 @@ html[lang=es] .popup-button:hover::before,
   bottom: 0;
   opacity: .6;
   border-radius: 12px;
+}
+.blog__list li article a h2 {
+  position: relative;
+  z-index: 9;
 }
 
 /* PAGE - CONTACT ********************************/
