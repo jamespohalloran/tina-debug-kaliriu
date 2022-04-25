@@ -239,6 +239,7 @@ html[lang=es] .popup-button:hover::before,
 }
 #header.fade-in{
   background-color: var(--primary);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .header__container {
   display: flex;
@@ -265,9 +266,6 @@ html[lang=es] .popup-button:hover::before,
   font-size: 16px;
   text-transform: uppercase;
   color: var(--terciary);
-}
-#header.fade-in .header-nav__list-link{
-  color: var(--primary);
 }
 .menu-icon {
   cursor: pointer;
