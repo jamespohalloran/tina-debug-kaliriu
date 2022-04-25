@@ -29,6 +29,10 @@ sections:
   exclude: _index.html
   templates:
   - blog-post
+- type: document
+  path: content/english/privacy-policy.md
+  label: Privacy Policy
+  match: "**/*"
 - type: heading
   label: SPANISH
 - type: document
