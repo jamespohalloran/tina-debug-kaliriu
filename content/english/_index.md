@@ -19,5 +19,12 @@ steps:
   description: We make sure that your project gets the care it needs all the way through
   step_1_title: Brefing
   step_1__description: Brefing description
+  step_1_description: Brefing description
+  step_2_title: Research
+  step_2_description: Research description
+  step_3_title: Prototype
+  step_3_description: Prototype description
+  step_4_title: Validation
+  step_4_description: Validation description
 
 ---
