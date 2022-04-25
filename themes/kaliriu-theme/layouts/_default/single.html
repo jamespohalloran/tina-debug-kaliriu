@@ -25,6 +25,7 @@
                 <div class="blog__container">
                     <article id="blog" class="b-post">
                         {{ .description | replaceRE "<h2 " "<h2 class=\"blog__h2\"" | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}
+                        {{ partial "utilities/markdownify-block" .description | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}
                     </article>
                 </div>
             </section>
