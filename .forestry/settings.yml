@@ -4,6 +4,14 @@ auto_deploy: false
 admin_path: static/admin
 webhook_url: 
 sections:
+- type: directory
+  path: content/english/legal
+  label: Legal
+  create: documents
+  match: "**/*"
+  exclude: _index.html
+  templates:
+  - legal-post
 - type: heading
   label: ENGLISH
 - type: document
