@@ -45,6 +45,7 @@ a {
 .home-page__hero-background {
   background-color: var(--secondary);
 }
+.blog__background,
 .blog__list-background,
 .projects__list-background {
   background-color: var(--terciary);
@@ -59,6 +60,7 @@ a {
 }
 
 /* CONTAINER */
+.blog__container,
 .contact__container,
 .blog__list-container,
 .projects__list-container,
@@ -161,6 +163,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* PARAGRAPH - LARGE */
+.blog__h2,
 .home-page__steps-list h3,
 .home-page__benefits-list h2 {
   font-size: 20px;
@@ -179,6 +182,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* PARAGRAPH - EXTRA SMALL */
+.blog__p,
 .contact__form textarea,
 .contact__form input,
 .footer__list a,
@@ -209,6 +213,8 @@ html[lang=es] .popup-button:hover::before,
   color: var(--terciary);
 }
 /* Primary */
+.blog__h2,
+.blog__p,
 .home-page__steps-list h3{
   color: var(--primary);
 }

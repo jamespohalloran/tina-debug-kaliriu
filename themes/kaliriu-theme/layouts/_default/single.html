@@ -20,9 +20,11 @@
             <!--Waves end-->
         </section>
 
-        <section>
-            <div>
-                
+        <section class="blog__background">
+            <div class="blog__container">
+                <article id="blog" class="b-post">
+                    {{ .Content | replaceRE "<h2 " "<h2 class=\"blog__h2\"" | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}
+                </article>
             </div>
         </section>
     </main>
