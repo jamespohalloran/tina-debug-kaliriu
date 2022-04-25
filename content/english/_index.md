@@ -14,5 +14,10 @@ benefits:
   description_3: Description
   title_4: Modern
   description_4: Description
+steps:
+  title: We take you through a step-by-step process...
+  description: We make sure that your project gets the care it needs all the way through
+  step_1_title: Brefing
+  step_1__description: Brefing description
 
 ---
