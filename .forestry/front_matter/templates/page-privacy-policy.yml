@@ -8,7 +8,11 @@ fields:
     required: false
   label: Title
 - name: description
-  type: text
+  type: textarea
+  default: ''
   config:
     required: false
+    wysiwyg: true
+    schema:
+      format: markdown
   label: Description
