@@ -20,11 +20,11 @@ steps:
   step_1_title: Brefing
   step_1__description: Brefing description
   step_1_description: Brefing description
-  step_2_title: Brefing
-  step_2_description: Brefing description
-  step_3_title: Brefing
-  step_3_description: Brefing description
-  step_4_title: Brefing
-  step_4_description: Brefing description
+  step_2_title: Research
+  step_2_description: Research description
+  step_3_title: Prototype
+  step_3_description: Prototype description
+  step_4_title: Validation
+  step_4_description: Validation description
 
 ---
