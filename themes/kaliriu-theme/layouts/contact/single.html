@@ -5,10 +5,10 @@
                 <div class="contact__container">
                     <h1 class="contact__title">{{ .Title }}</h1>
                     <form class="contact__form" data-netlify="true" method="POST" name="quote" action="/#contact">
-                        <input name="name" type="text" id="name" required placeholder="name">
-                        <input name="email" type="email" id="email" required placeholder="email">
-                        <textarea class="data-hj-allow" name="message" id="message" rows="6" required placeholder="message"></textarea>
-                        <button type="submit">send</button>
+                        <input name="name" type="text" id="name" required placeholder="{{ .name_placeholder }}">
+                        <input name="email" type="email" id="email" required placeholder="{{ .email_placeholder }}">
+                        <textarea class="data-hj-allow" name="message" id="message" rows="6" required placeholder="{{ .message_placeholder }}"></textarea>
+                        <button type="submit">{{ .button }}</button>
                     </form>
                 </div>
                 <!--Waves Container-->

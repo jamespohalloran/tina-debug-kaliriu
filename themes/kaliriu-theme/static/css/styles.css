@@ -671,6 +671,9 @@ html[lang=es] .popup-button:hover::before,
   position: relative;
   z-index: 9;
 }
+.blog__container {
+  padding: 64px 20px 120px;
+}
 
 /* PAGE - CONTACT ********************************/
 .contact__background{
