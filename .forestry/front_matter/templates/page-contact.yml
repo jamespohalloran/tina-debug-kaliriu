@@ -7,6 +7,26 @@ fields:
   config:
     required: false
   label: Title
+- name: name_placeholder
+  type: text
+  config:
+    required: false
+  label: Name placeholder
+- name: email_placeholder
+  type: text
+  config:
+    required: false
+  label: Email placeholder
+- name: message_placeholder
+  type: text
+  config:
+    required: false
+  label: Message placeholder
+- name: button
+  type: text
+  config:
+    required: false
+  label: Button
 pages:
 - content/english/contact.md
 - content/spanish/contact.md
