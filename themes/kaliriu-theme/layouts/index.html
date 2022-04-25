@@ -5,7 +5,7 @@
       <section class="home-page__hero-background">
         <div class="home-page__hero-container">
           <h1 class="home-page__hero-title">{{ .title }}</h1>
-          <p class="home-page__hero-p">adipisicing elit. Explicabo, in! Assumenda optio distinctio aliquam modi quae quisquam</p>
+          <p class="home-page__hero-p">{{ .description }}</p>
         </div>
         <!--Waves Container-->
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -27,11 +27,11 @@
 
         <section class="home-page__product-background">
           <div class="home-page__product-container">
-            <h2 class="home-page__product-title">Some of our UI Design projects</h2>
+            <h2 class="home-page__product-title">{{ .projects.title }}</h2>
             <ul class="home-page__product-list">
               <li style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649273027/Kaliriu/Logo/Blanco.svg');"></li>
             </ul>
-            <a class="home-page__product-btn">button</a>
+            <a class="home-page__product-btn">{{ .projects.button }}</a>
           </div>
         </section>
 
