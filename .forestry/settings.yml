@@ -29,14 +29,6 @@ sections:
   exclude: _index.html
   templates:
   - blog-post
-- type: directory
-  path: content/english/legal
-  label: Legal
-  create: documents
-  match: "**/*"
-  exclude: _index.html
-  templates:
-  - legal-post
 - type: heading
   label: SPANISH
 - type: document
