@@ -8,6 +8,11 @@ fields:
   config:
     required: false
   label: Title
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
 - name: description
   type: textarea
   default: ''
