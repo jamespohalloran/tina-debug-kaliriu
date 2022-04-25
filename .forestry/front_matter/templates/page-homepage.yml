@@ -7,6 +7,26 @@ fields:
   config:
     required: false
   label: Title
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+- name: projects
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: button
+    type: text
+    config:
+      required: false
+    label: Button
+  label: Projects
 pages:
 - content/english/_index.md
 - content/spanish/_index.md
