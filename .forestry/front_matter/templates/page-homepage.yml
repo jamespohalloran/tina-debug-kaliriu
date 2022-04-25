@@ -72,6 +72,31 @@ fields:
       required: false
     label: Description 4
   label: Benefits
+- name: steps
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
+  - name: step_1_title
+    type: text
+    config:
+      required: false
+    label: 'Step 1: Title'
+  - name: step_1__description
+    type: text
+    config:
+      required: false
+    label: 'Step 1: Description'
+  label: Steps
 pages:
 - content/english/_index.md
 - content/spanish/_index.md
