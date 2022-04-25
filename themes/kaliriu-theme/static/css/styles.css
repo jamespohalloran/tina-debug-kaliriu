@@ -238,20 +238,7 @@ html[lang=es] .popup-button:hover::before,
   background-color: transparent;
 }
 #header.fade-in{
-  background-color: var(--terciary);
-  background-color: rgba(255, 255, 255, 0.9);
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-  border-bottom: 1px solid rgb(var(--primary), .5);
-}
-.header__logo{
-  display: none;
-}
-#header.fade-in .header__logo-white{
-  display: none;
-}
-#header.fade-in .header__logo{
-  display: block;
+  background-color: var(--primary);
 }
 .header__container {
   display: flex;
@@ -262,8 +249,7 @@ html[lang=es] .popup-button:hover::before,
 .header__container > a{
   display: flex;
 }
-.header__logo-white,
-.header__logo {
+.header__logo-white {
   height: 44px;
 }
 .header-nav {
