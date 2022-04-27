@@ -628,6 +628,16 @@ html[lang=es] .popup-button:hover::before,
 }
 .projects__list li h2{
   opacity: 0;
+  transition: 0.5s;
+  height: 100%;
+  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects__list li:hover h2{
+  opacity: 1;
+  transition: 0.5s;
 }
 
 /* PAGE - BLOG ********************************/
