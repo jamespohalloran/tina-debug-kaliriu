@@ -26,11 +26,9 @@
                     <ul class="projects__list">
                         {{ range . }}
                             {{ if (reflect.IsMap .) }}
-                                {{ if (.enable) }}
-                                    <li style="background-image: url('{{ .img }}')">
-                                        <h2>{{ .title }}</h2>
-                                    </li>
-                                {{ end }}
+                                <li style="background-image: url('{{ .img }}')">
+                                    <h2>{{ .title }}</h2>
+                                </li>
                             {{ end }}
                         {{ end }}
 
