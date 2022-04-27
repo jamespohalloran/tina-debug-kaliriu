@@ -21,7 +21,6 @@ sections:
 - type: document
   path: content/english/cta.md
   label: Bottom CTA
-  match: "**/*"
 - type: document
   path: content/english/blog/_index.html
   label: Blog
