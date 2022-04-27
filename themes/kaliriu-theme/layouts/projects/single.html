@@ -24,14 +24,12 @@
             <section class="projects__list-background">
                 <div class="projects__list-container">
                     <ul class="projects__list">
-                        {{ range . }}
-                            {{ if (reflect.IsMap .) }}
-                                <li style="background-image: url('{{ .img }}')">
-                                    <h2>{{ .title }}</h2>
-                                </li>
-                            {{ end }}
-                        {{ end }}
 
+                        {{ range .projects }}
+                            <li style="background-image: url('{{ .projects.img }}')">
+                                <h2>{{ .projects.title }}</h2>
+                            </li>
+                        {{ end }}
                     </ul>
                 </div>
             </section>
