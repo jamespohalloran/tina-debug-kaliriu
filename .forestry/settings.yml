@@ -16,11 +16,15 @@ sections:
   path: content/english/about.md
   label: About
 - type: document
-  path: content/english/blog/_index.html
-  label: Blog
-- type: document
   path: content/english/contact.md
   label: Contact
+- type: document
+  path: content/english/cta.md
+  label: Bottom CTA
+  match: "**/*"
+- type: document
+  path: content/english/blog/_index.html
+  label: Blog
 - type: directory
   path: content/english/blog
   label: Posts
@@ -41,11 +45,11 @@ sections:
   path: content/spanish/about.md
   label: Sobre nosotros
 - type: document
-  path: content/spanish/blog/_index.html
-  label: Blog
-- type: document
   path: content/spanish/contact.md
   label: Contacto
+- type: document
+  path: content/spanish/blog/_index.html
+  label: Blog
 - type: directory
   path: content/spanish/blog
   label: Posts
