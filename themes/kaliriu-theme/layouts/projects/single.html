@@ -25,8 +25,8 @@
                 <div class="projects__list-container">
                     <ul class="projects__list">
                         {{ range .Params.projects }}
-                            <li style="background-image: url('{{ .img }}')">
-                                <h2>{{ .title }}</h2>
+                            <li style="background-image: url('{{ .projects.img }}')">
+                                <h2>{{ .projects.title }}</h2>
                             </li>
                         {{ end }}
                     </ul>
