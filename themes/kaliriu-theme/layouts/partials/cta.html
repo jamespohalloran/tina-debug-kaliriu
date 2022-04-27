@@ -1,4 +1,4 @@
-{{ with .Params.cta }}
+{{ with (index .Site.Data .Site.Language.Lang).cta }}
 	<section class="home-page__cta-background">
 		<div class="home-page__cta-container">
 			<div>
