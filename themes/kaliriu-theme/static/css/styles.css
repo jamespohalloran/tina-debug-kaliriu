@@ -627,10 +627,11 @@ html[lang=es] .popup-button:hover::before,
   background-position: center;
 }
 .projects__list li h2{
+  border-radius: 12px;
   opacity: 0;
   transition: 0.5s;
   height: 100%;
-  background-color: var(--primary);
+  background-color: rgba(var(--primary-rgb), 0.6);
   display: flex;
   justify-content: center;
   align-items: center;
