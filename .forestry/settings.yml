@@ -60,7 +60,6 @@ sections:
 - type: document
   path: content/spanish/cta.md
   label: CTA
-  match: "**/*"
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
