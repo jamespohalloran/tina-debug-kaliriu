@@ -25,7 +25,7 @@
                 <div class="projects__list-container">
                     <ul class="projects__list">
                         {{ range .projects }}
-                            <li style="background-image: url('{{ .img }}')">
+                            <li style="background-image: url('{{ .img | relURL }} }}')">
                                 <h2>{{ .title }}</h2>
                             </li>
                         {{ end }}
