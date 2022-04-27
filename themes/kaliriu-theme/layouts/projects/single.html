@@ -24,7 +24,11 @@
             <section class="projects__list-background">
                 <div class="projects__list-container">
                     <ul class="projects__list">
-                        <li style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649273027/Kaliriu/Logo/Color.svg');"></li>
+                        {{ range .Params.projects }}
+                            <li style="background-image: url('{{ .img }}')">
+                                <h2>{{ .title }}</h2>
+                            </li>
+                        {{ end }}
                     </ul>
                 </div>
             </section>
