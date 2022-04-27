@@ -1,12 +1,14 @@
 {{ with (index .Site.Data .Site.Language.Lang).cta }}
-	<section class="home-page__cta-background">
-		<div class="home-page__cta-container">
-			<div>
-				<h4 class="home-page__cta-title">{{ .title }}</h4>
-				<p class="home-page__cta-p">{{ .description }}</p>
-				<a href="{{ .button_link }}" class="home-page__cta-btn">{{ .button_text }}</a>
+	{{ with .Params }}
+		<section class="home-page__cta-background">
+			<div class="home-page__cta-container">
+				<div>
+					<h4 class="home-page__cta-title">{{ .title }}</h4>
+					<p class="home-page__cta-p">{{ .description }}</p>
+					<a href="{{ .button_link }}" class="home-page__cta-btn">{{ .button_text }}</a>
+				</div>
+				<img src="https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649273027/Kaliriu/Logo/Blanco.svg" class="header__logo-white" role="presentation" />
 			</div>
-			<img src="https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649273027/Kaliriu/Logo/Blanco.svg" class="header__logo-white" role="presentation" />
-		</div>
-	</section>
+		</section>
+	{{ end }}
 {{ end }}
