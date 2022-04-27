@@ -1,5 +1,5 @@
 ---
-label: 'Module: Bottom CTA'
+label: 'Module: CTA'
 hide_body: true
 fields:
 - name: title
@@ -24,3 +24,4 @@ fields:
   label: Button Link
 pages:
 - content/english/cta.md
+- content/spanish/cta.md
