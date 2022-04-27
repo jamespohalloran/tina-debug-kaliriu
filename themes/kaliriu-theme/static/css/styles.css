@@ -173,6 +173,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* PARAGRAPH - SMALL */
+.projects__list li h2,
 .home-page__cta-p,
 .home-page__steps-p {
   font-size: 18px;
@@ -196,6 +197,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* White */
+.projects__list li h2,
 .blog__list li article a h2,
 .contact__title,
 .blog__header-title,
@@ -623,6 +625,9 @@ html[lang=es] .popup-button:hover::before,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.projects__list li h2{
+  opacity: 0;
 }
 
 /* PAGE - BLOG ********************************/
