@@ -20,7 +20,7 @@ sections:
   label: Contact
 - type: document
   path: content/english/cta.md
-  label: Bottom CTA
+  label: CTA
 - type: document
   path: content/english/blog/_index.html
   label: Blog
@@ -57,6 +57,10 @@ sections:
   exclude: _index.html
   templates:
   - blog-post
+- type: document
+  path: content/spanish/cta.md
+  label: CTA
+  match: "**/*"
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
