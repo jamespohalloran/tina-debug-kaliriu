@@ -173,7 +173,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* PARAGRAPH - SMALL */
-.projects__list li h2,
+.projects__list li a h2,
 .home-page__cta-p,
 .home-page__steps-p {
   font-size: 18px;
@@ -183,6 +183,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* PARAGRAPH - EXTRA SMALL */
+.projects__list li a p,
 .blog__p,
 .contact__form textarea,
 .contact__form input,
@@ -197,7 +198,8 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* White */
-.projects__list li h2,
+.projects__list li a p,
+.projects__list li a h2,
 .blog__list li article a h2,
 .contact__title,
 .blog__header-title,
@@ -626,7 +628,7 @@ html[lang=es] .popup-button:hover::before,
   background-repeat: no-repeat;
   background-position: center;
 }
-.projects__list li h2{
+.projects__list li a{
   border-radius: 12px;
   opacity: 0;
   transition: 0.5s;
@@ -636,9 +638,12 @@ html[lang=es] .popup-button:hover::before,
   justify-content: center;
   align-items: center;
 }
-.projects__list li:hover h2{
+.projects__list li:hover a{
   opacity: 1;
   transition: 0.5s;
+}
+.projects__list li a p{
+  margin-top: 6px;
 }
 
 /* PAGE - BLOG ********************************/

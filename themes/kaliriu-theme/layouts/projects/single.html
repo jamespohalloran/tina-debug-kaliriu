@@ -26,7 +26,10 @@
                     <ul class="projects__list">
                         {{ range .projects }}
                             <li style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .img | relURL }}')">
-                                <h2>{{ .title }}</h2>
+                                <a href="{{ .link }}">
+                                    <h2>{{ .title }}</h2>
+                                    <p>{{ .link_text }}</p>
+                                </a>
                             </li>
                         {{ end }}
                     </ul>
