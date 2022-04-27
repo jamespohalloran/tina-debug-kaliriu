@@ -246,10 +246,10 @@ html[lang=es] .popup-button:hover::before,
   width: 100%;
   z-index: 999;
   background-color: transparent;
+  border-bottom: 1px solid var(--secondary);
 }
 #header.fade-in{
   background-color: var(--primary);
-  border-bottom: 1px solid var(--secondary);
 }
 .header__container {
   display: flex;
@@ -635,6 +635,7 @@ html[lang=es] .popup-button:hover::before,
   height: 100%;
   background-color: rgba(var(--primary-rgb), 0.6);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -644,6 +645,7 @@ html[lang=es] .popup-button:hover::before,
 }
 .projects__list li a p{
   margin-top: 6px;
+  opacity: .65;
 }
 
 /* PAGE - BLOG ********************************/
