@@ -26,5 +26,6 @@ steps:
   step_3_description: Prototype description
   step_4_title: Validation
   step_4_description: Validation description
+show_cta: true
 
 ---
