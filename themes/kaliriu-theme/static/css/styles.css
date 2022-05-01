@@ -731,12 +731,18 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* PARTIAL - CTA ********************************/
+.cta__background{
+  position: relative;
+}
 .cta__container{
   padding: 120px 20px;
   display: grid;
   align-items: center;
   grid-template-columns: repeat(2,1fr);
   grid-column-gap: 40px;
+}
+.cta__p {
+  margin: 20px 0 40px;
 }
 
 /* MEDIA QUERY ********************************/
