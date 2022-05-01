@@ -16,6 +16,10 @@
 
   {{ block "main" . }}{{ end }}
 
+  {{ if .Params.show_cta }}
+    {{ partial "cta" . }}
+  {{ end }}
+
   {{ partial "footer.html" . }}
 
   <script async src="/js/scripts.js"></script>
