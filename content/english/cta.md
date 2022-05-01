@@ -1,7 +1,7 @@
 ---
 title: Title
-description: descriptions
-button_link: "/contacts"
+description: description
+button_link: "/contact"
 button_text: button texts
 
 ---
