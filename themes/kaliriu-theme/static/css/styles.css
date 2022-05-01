@@ -40,6 +40,7 @@ a {
 .footer__background{
   background-color: var(--primary);
 }
+.cta__background,
 .blog__header-background,
 .projects__header-background,
 .home-page__hero-background {
@@ -67,7 +68,7 @@ a {
 .blog__header-container,
 .projects__header-container,
 .footer__container,
-.home-page__cta-container,
+.cta__container,
 .home-page__steps-container,
 .home-page__benefits-container,
 .home-page__product-container,
@@ -81,7 +82,7 @@ a {
 /* BUTTON */
 .contact__form button,
 .blog__list li article a p,
-.home-page__cta-btn,
+.cta__btn,
 .home-page__product-btn{
   letter-spacing: .5px;
   font-size: 16px;
@@ -110,14 +111,14 @@ html[lang=es] .popup-button:hover::before,
 /* Secondary */
 .contact__form button,
 .blog__list li article a p,
-.home-page__cta-btn,
+.cta__btn,
 .home-page__product-btn {
   background-color: var(--terciary);
   color: var(--primary);
 }
 .contact__form button:hover,
 .blog__list li article a:hover p,
-.home-page__cta-btn:hover,
+.cta__btn:hover,
 .home-page__product-btn:hover {
   transition: 0.5s;
   background-color: var(--primary);
@@ -145,7 +146,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* TERCIARY TITLE */
-.home-page__cta-title,
+.cta__title,
 .home-page__steps-title {
   font-size: 32px;
   font-weight: 700;
@@ -174,7 +175,7 @@ html[lang=es] .popup-button:hover::before,
 
 /* PARAGRAPH - SMALL */
 .projects__list li a h2,
-.home-page__cta-p,
+.cta__p,
 .home-page__steps-p {
   font-size: 18px;
   font-weight: 500;
@@ -206,8 +207,8 @@ html[lang=es] .popup-button:hover::before,
 .projects__header-title,
 .footer__list a,
 .footer__p,
-.home-page__cta-p,
-.home-page__cta-title,
+.cta__p,
+.cta__title,
 .home-page__benefits-list li div *,
 .home-page__steps-p,
 .home-page__steps-title,
@@ -598,13 +599,6 @@ html[lang=es] .popup-button:hover::before,
   border: 2px solid var(--terciary);
   border-radius: 12px;
 }
-.home-page__cta-container{
-  padding: 120px 20px;
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(2,1fr);
-  grid-column-gap: 40px;
-}
 
 /* PAGE - PROJECTS ********************************/
 .projects__list-container{
@@ -734,6 +728,15 @@ html[lang=es] .popup-button:hover::before,
 .contact__form input::placeholder{
   color: var(--terciary);
   opacity: .8;
+}
+
+/* PARTIAL - CTA ********************************/
+.cta__container{
+  padding: 120px 20px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 40px;
 }
 
 /* MEDIA QUERY ********************************/
