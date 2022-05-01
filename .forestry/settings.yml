@@ -47,6 +47,9 @@ sections:
   path: content/spanish/contact.md
   label: Contacto
 - type: document
+  path: content/spanish/cta.md
+  label: CTA
+- type: document
   path: content/spanish/blog/_index.html
   label: Blog
 - type: directory
@@ -57,9 +60,6 @@ sections:
   exclude: _index.html
   templates:
   - blog-post
-- type: document
-  path: content/spanish/cta.md
-  label: CTA
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
