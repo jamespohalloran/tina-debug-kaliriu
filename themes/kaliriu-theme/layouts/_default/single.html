@@ -25,8 +25,7 @@
                 <div class="blog__container">
                     <article id="blog" class="b-post">
                         {{ .Content | replaceRE "<p>" "<p class=\"b-legal-page__text\">" | replaceRE "<h2" "<h2 class=\"b-legal-page__subheading\" "  | replaceRE "<ul>" "<ul class=\"b-legal-page__list\">" | replaceRE "<li>" "<li class=\"b-legal-page__list-item\">" |  safeHTML }}
-                        {{ .description | markdownify }}
-                        {{ .description | replaceRE "<h2 " "<h2 class=\"blog__h2\" | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}
+                        {{ .description | markdownify | replaceRE "<h2 " "<h2 class=\"blog__h2\"" | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}
                     </article>
                 </div>
             </section>
