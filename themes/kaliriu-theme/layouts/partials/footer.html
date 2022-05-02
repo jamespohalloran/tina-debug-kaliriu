@@ -1,4 +1,4 @@
-{{ with (index .Site.Data .Site.Language.Lang).footer }}
+{{ with (.Site.Data .Site.Language.Lang).footer }}
 	<footer class="footer__background">
 		<div class="footer__container">
 			<p class="footer__p">{{ dateFormat "2006" now }} {{ .Site.Title }}</p>
