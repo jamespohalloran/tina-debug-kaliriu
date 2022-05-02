@@ -243,7 +243,7 @@ html[lang=es] .popup-button:hover::before,
   top: 0;
   width: 100%;
   z-index: 999;
-  background-color: transparent;
+  background-color: var(--secondary);
   border-bottom: 1px solid var(--secondary);
 }
 #header.fade-in{
