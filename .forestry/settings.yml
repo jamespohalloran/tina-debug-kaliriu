@@ -46,6 +46,9 @@ sections:
   exclude: _index.html
   templates:
   - legal-post
+- type: document
+  path: i18n/en.yaml
+  label: String ID
 - type: heading
   label: SPANISH
 - type: document
@@ -88,6 +91,9 @@ sections:
   exclude: _index.html
   templates:
   - legal-post
+- type: document
+  path: i18n/es.yaml
+  label: Hilo ID
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
