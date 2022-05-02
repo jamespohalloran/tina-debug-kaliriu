@@ -121,6 +121,7 @@ html[lang=es] .popup-button:hover::before,
 .home-page__product-btn {
   background-color: var(--terciary);
   color: var(--primary);
+  border-color: var(--primary);
 }
 .cookies__button:hover,
 .basic-page__btn:hover,
@@ -419,15 +420,17 @@ html[lang=es] .popup-button:hover::before,
 .cookies__background {
   display: none;
   position: fixed;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
-  border-radius: 12px 12px 0 0;
   z-index: 999;
 }
-.is-noConsent .cookie {
+.is-noConsent .cookies__background {
   display: block;
+}
+.cookies__container {
+  padding: 20px;
 }
 
 /* PAGE - BASIC ********************************/
