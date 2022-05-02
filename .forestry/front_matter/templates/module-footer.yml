@@ -21,4 +21,5 @@ fields:
     labelField: 
   label: Legal
 pages:
+- data/en/footer.yml
 - data/es/footer.yml
