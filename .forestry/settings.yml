@@ -21,8 +21,9 @@ sections:
 - type: directory
   path: data/en
   label: Site Modules
-  create: none
+  create: documents
   match: "**/*"
+  new_doc_ext: ".yml"
   templates:
   - module-cta
 - type: document
