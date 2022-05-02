@@ -22,3 +22,5 @@ fields:
   config:
     required: false
   label: Button Link
+pages:
+- data/en/cta.yml
