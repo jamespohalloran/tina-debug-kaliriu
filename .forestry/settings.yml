@@ -18,14 +18,9 @@ sections:
 - type: document
   path: content/english/contact.md
   label: Contact
-- type: directory
-  path: data/en
-  label: Modules
-  create: none
-  match: "**/*"
-  new_doc_ext: yml
-  templates:
-  - module-cta
+- type: document
+  path: data/en/cta.yml
+  label: CTA
 - type: document
   path: content/english/blog/_index.html
   label: Blog
@@ -51,14 +46,9 @@ sections:
 - type: document
   path: content/spanish/contact.md
   label: Contacto
-- type: directory
-  path: data/es
-  label: Módulos
-  create: none
-  match: "**/*"
-  new_doc_ext: yml
-  templates:
-  - module-cta
+- type: document
+  path: data/es/cta.yml
+  label: CTA
 - type: document
   path: content/spanish/blog/_index.html
   label: Blog
