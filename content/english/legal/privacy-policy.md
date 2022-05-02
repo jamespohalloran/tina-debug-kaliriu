@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+type: 'legal'
 slug: privacy-policy
 description: |-
   Your privacy is important to us. It is Paladria’s policy to respect your privacy regarding any information we may collect from you across our website, https://www.paladria.com/, and other sites we own and operate.

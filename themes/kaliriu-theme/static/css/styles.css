@@ -439,6 +439,9 @@ html[lang=es] .popup-button:hover::before,
 .basic-page__container {
   padding: 55px 20px;
 }
+.basic-page__subtitle{
+  margin: 16px 0 34px;
+}
 
 /* PAGE - HEADERS ********************************/
 .contact__background,
