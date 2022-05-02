@@ -46,7 +46,7 @@ function eraseCookie(name) {
 }
 let isCookieConsent = getCookie("consent");
 const fontSheet = document.querySelector('#fontsheet');
-const cookieButton = document.querySelector('.b-cookie__button');
+const cookieButton = document.querySelector('.cookie__button');
 if(!isCookieConsent) {
   document.body.classList.add('is-noConsent');
 }

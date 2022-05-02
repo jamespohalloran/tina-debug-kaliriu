@@ -411,7 +411,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* PARTIAL - COOKIES ********************************/
-.b-cookie {
+.cookie {
   display: none;
   padding: 30px;
   position: fixed;
@@ -421,10 +421,10 @@ html[lang=es] .popup-button:hover::before,
   border-radius: 12px;
   z-index: 999;
 }
-.is-noConsent .b-cookie {
+.is-noConsent .cookie {
   display: block;
 }
-.b-cookie__text {
+.cookie__text {
   margin-bottom: 20px;
 }
 
