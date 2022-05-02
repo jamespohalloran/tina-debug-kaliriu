@@ -19,9 +19,6 @@ sections:
   path: content/english/contact.md
   label: Contact
 - type: document
-  path: data/en/cta.yml
-  label: CTA
-- type: document
   path: content/english/blog/_index.html
   label: Blog
 - type: directory
@@ -32,6 +29,14 @@ sections:
   exclude: _index.html
   templates:
   - blog-post
+- type: directory
+  path: data/en
+  label: Modules
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".yml"
+  templates:
+  - module-cta
 - type: heading
   label: SPANISH
 - type: document
