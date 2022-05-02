@@ -7,8 +7,9 @@ fields:
   config:
     required: false
   label: Title
-- name: legal
-  type: field_group_list
+- name: privacy_policy
+  type: field_group
+  config: {}
   fields:
   - name: link_text
     type: text
@@ -20,11 +21,7 @@ fields:
     config:
       required: false
     label: Link
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Legal
+  label: Privacy Policy
 pages:
 - data/en/footer.yml
 - data/es/footer.yml
