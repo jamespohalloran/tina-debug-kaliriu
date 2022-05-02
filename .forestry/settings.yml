@@ -20,7 +20,7 @@ sections:
   label: Contact
 - type: directory
   path: data/en
-  label: Site Modules
+  label: Modules
   create: none
   match: "**/*"
   new_doc_ext: yml
@@ -53,7 +53,7 @@ sections:
   label: Contacto
 - type: directory
   path: data/es
-  label: Site Modules
+  label: Módulos
   create: none
   match: "**/*"
   new_doc_ext: yml

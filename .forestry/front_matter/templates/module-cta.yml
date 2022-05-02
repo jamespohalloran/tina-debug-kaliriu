@@ -22,6 +22,3 @@ fields:
   config:
     required: false
   label: Button Link
-pages:
-- content/english/cta.md
-- content/spanish/cta.md
