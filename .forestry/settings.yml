@@ -37,6 +37,7 @@ sections:
   new_doc_ext: yml
   templates:
   - module-cta
+  - module-footer
 - type: heading
   label: SPANISH
 - type: document
@@ -70,6 +71,7 @@ sections:
   new_doc_ext: yml
   templates:
   - module-cta
+  - module-footer
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
