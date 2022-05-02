@@ -1,4 +1,6 @@
 ---
 legal:
+- link_text: Terms & Conditions
+  link: "/terms-conditions"
 - link_text: Privacy Policy
   link: "/privacy-policy"
