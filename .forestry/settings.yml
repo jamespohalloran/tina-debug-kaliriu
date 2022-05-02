@@ -34,7 +34,7 @@ sections:
   label: Modules
   create: documents
   match: "**/*"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
   templates:
   - module-cta
 - type: heading
