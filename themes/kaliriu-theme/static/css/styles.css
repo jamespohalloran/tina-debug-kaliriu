@@ -74,14 +74,13 @@ a {
 .home-page__product-container,
 .header__container,
 .home-page__hero-container {
-  max-width: 1200px;
+  max-width: 1100px;
   width: 100%;
   margin: auto;
 }
 
 /* BUTTON */
 .contact__form button,
-.blog__list li article a p,
 .cta__btn,
 .home-page__product-btn{
   letter-spacing: .5px;
@@ -110,14 +109,12 @@ html[lang=es] .popup-button:hover::before,
 }
 /* Secondary */
 .contact__form button,
-.blog__list li article a p,
 .cta__btn,
 .home-page__product-btn {
   background-color: var(--terciary);
   color: var(--primary);
 }
 .contact__form button:hover,
-.blog__list li article a:hover p,
 .cta__btn:hover,
 .home-page__product-btn:hover {
   transition: 0.5s;
@@ -683,7 +680,6 @@ html[lang=es] .popup-button:hover::before,
   opacity: .8;
   border-radius: 8px;
 }
-.blog__list li article a p,
 .blog__list li article a h2 {
   position: relative;
   z-index: 9;
