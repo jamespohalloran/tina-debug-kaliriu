@@ -62,6 +62,14 @@ sections:
   exclude: _index.html
   templates:
   - blog-post
+- type: directory
+  path: data/es
+  label: Módulos
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".yml"
+  templates:
+  - module-cta
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
