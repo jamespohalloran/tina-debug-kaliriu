@@ -67,7 +67,7 @@ sections:
   label: Módulos
   create: documents
   match: "**/*"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
   templates:
   - module-cta
 upload_dir: ''
