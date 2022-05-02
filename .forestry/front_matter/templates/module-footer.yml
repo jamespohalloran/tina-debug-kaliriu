@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Title
+- name: link_1_title
+  type: text
+  config:
+    required: false
+  label: 'Link 1: Title'
 - name: privacy_policy
   type: field_group
   config: {}
