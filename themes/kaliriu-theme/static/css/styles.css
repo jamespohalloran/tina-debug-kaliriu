@@ -163,7 +163,6 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* SUBTITLE */
-.basic-page__subtitle,
 .blog__list li article a h2,
 .home-page__hero-p {
   font-size: 24px;
@@ -209,7 +208,6 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* White */
-.basic-page__subtitle,
 .basic-page__title,
 .projects__list li a p,
 .projects__list li a h2,
@@ -443,8 +441,8 @@ html[lang=es] .popup-button:hover::before,
 .basic-page__container {
   padding: 55px 20px;
 }
-.basic-page__subtitle{
-  margin: 16px 0 34px;
+.basic-page__title{
+  margin: 0 0 34px;
 }
 
 /* PAGE - HEADERS ********************************/

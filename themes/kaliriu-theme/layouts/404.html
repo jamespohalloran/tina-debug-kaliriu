@@ -1,9 +1,8 @@
 {{ define "main"}}
   <main id="main" class="basic-page__background">
     <div class="basic-page__container">
-      <h1 class="basic-page__title">Page Not Found</h1>
-      <p class="basic-page__subtitle">This page doesn't exist.</p>
-      <a class="basic-page__btn" href="/">&#8592; Go back</a>
+      <h1 class="basic-page__title">{{ T "404-title" }}</h1>
+      <a class="basic-page__btn" href="/">&#8592; {{ T "404-btn" }}</a>
     </div>
   </main>
 {{ end }}
