@@ -19,6 +19,10 @@ sections:
   path: content/english/contact.md
   label: Contact
 - type: document
+  path: data/en/cta.yml
+  label: CTA
+  match: "**/*"
+- type: document
   path: content/english/blog/_index.html
   label: Blog
 - type: directory
