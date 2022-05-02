@@ -691,6 +691,12 @@ html[lang=es] .popup-button:hover::before,
 .blog__container {
   padding: 64px 20px 120px;
 }
+.blog__p{
+  margin: 0 0 12px;
+}
+.blog__h2{
+  margin: 34px 0 12px;
+}
 
 /* PAGE - CONTACT ********************************/
 .contact__background{
