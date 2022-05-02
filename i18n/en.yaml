@@ -1,4 +1,6 @@
 ---
+- id: 404-btn
+  translation: Go back
 - id: 404-title
   translation: Page Not Found
 - id: cookies-text
