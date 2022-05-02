@@ -19,7 +19,7 @@ sections:
   path: content/english/contact.md
   label: Contact
 - type: document
-  path: content/english/cta.md
+  path: data/en/cta.yml
   label: CTA
 - type: document
   path: content/english/blog/_index.html
@@ -47,7 +47,7 @@ sections:
   path: content/spanish/contact.md
   label: Contacto
 - type: document
-  path: content/spanish/cta.md
+  path: data/es/cta.yml
   label: CTA
 - type: document
   path: content/spanish/blog/_index.html
