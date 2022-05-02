@@ -20,3 +20,5 @@ fields:
     max: 
     labelField: 
   label: Legal
+pages:
+- data/es/footer.yml
