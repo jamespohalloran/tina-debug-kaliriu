@@ -21,7 +21,6 @@ sections:
 - type: document
   path: data/en/cta.yml
   label: CTA
-  match: "**/*"
 - type: document
   path: content/english/blog/_index.html
   label: Blog
@@ -47,6 +46,10 @@ sections:
 - type: document
   path: content/spanish/contact.md
   label: Contacto
+- type: document
+  path: data/es/cta.yml
+  label: CTA
+  match: "**/*"
 - type: document
   path: content/spanish/blog/_index.html
   label: Blog
