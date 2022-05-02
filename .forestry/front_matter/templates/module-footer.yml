@@ -1,4 +1,22 @@
 ---
 label: 'Module: Footer'
 hide_body: true
-fields: []
+fields:
+- name: legal
+  type: field_group_list
+  fields:
+  - name: link_text
+    type: text
+    config:
+      required: false
+    label: Link Text
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Legal
