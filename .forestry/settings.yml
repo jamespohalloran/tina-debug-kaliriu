@@ -18,10 +18,16 @@ sections:
 - type: document
   path: content/english/contact.md
   label: Contact
+- type: directory
+  path: data/en
+  label: Site Modules
+  create: none
+  match: "**/*"
+  templates:
+  - module-cta
 - type: document
   path: data/en/cta.yml
   label: CTA
-  match: "**/*"
 - type: document
   path: content/english/blog/_index.html
   label: Blog
