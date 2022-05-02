@@ -1,6 +1,7 @@
 baseURL = "https://kaliriu.com/"
 title = "Kaliriu"
 theme = "kaliriu-theme"
+metaDataFormat = "yaml"
 
 [build]
 command = "hugo --gc --minify"
@@ -43,7 +44,6 @@ weight = 1
 [[languages.en.menu.main]]
 name = 'Projects'
 url = "/projects"
-pageRef = 'projects'
 weight = 2
 
 [[languages.en.menu.main]]
@@ -54,7 +54,6 @@ weight = 3
 [[languages.en.menu.main]]
 name = 'Contact'
 url = "/contact"
-pageRef = 'contact'
 weight = 4
 
 [languages.es]
@@ -72,7 +71,6 @@ weight = 1
 [[languages.es.menu.main]]
 name = 'Projects'
 url = "/es/proyectos"
-pageRef = 'proyectos'
 weight = 1
 
 [[languages.es.menu.main]]
@@ -83,5 +81,4 @@ weight = 2
 [[languages.es.menu.main]]
 name = 'Contacto'
 url = "/es/contacto"
-pageRef = 'contact'
 weight = 3
