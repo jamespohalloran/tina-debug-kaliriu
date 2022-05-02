@@ -38,6 +38,14 @@ sections:
   templates:
   - module-cta
   - module-footer
+- type: directory
+  path: content/english/legal
+  label: Legal
+  create: documents
+  match: "**/*"
+  exclude: _index.html
+  templates:
+  - legal-post
 - type: heading
   label: SPANISH
 - type: document
@@ -72,6 +80,14 @@ sections:
   templates:
   - module-cta
   - module-footer
+- type: directory
+  path: content/spanish/legal
+  label: Legal
+  create: documents
+  match: "**/*"
+  exclude: _index.html
+  templates:
+  - legal-post
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
