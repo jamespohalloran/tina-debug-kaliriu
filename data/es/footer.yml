@@ -9,5 +9,5 @@ privacy_policy:
   link_text: Privacy Policy
   link: "/privacy-policy"
 terms_and_conditions:
-  link_text: ''
-  link: ''
+  link_text: Terms & Conditions
+  link: "/terms-conditions"
