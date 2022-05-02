@@ -1,8 +1,8 @@
 ---
-- id: 404-btn
-  translation: Go back
 - id: 404-title
   translation: Page Not Found
+- id: 404-btn
+  translation: Go back
 - id: cookies-text
   translation: We use cookies to ensure you get the best experience on our website.
 - id: cookies-button
