@@ -183,6 +183,7 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* PARAGRAPH - SMALL */
+.cookies__text,
 .projects__list li a h2,
 .cta__p,
 .home-page__steps-p {
@@ -193,7 +194,6 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* PARAGRAPH - EXTRA SMALL */
-.cookies__text,
 .projects__list li a p,
 .blog__p,
 .contact__form textarea,
@@ -431,6 +431,9 @@ html[lang=es] .popup-button:hover::before,
 }
 .cookies__container {
   padding: 20px;
+}
+.cookies__text {
+  margin: 0 0 8px;
 }
 
 /* PAGE - BASIC ********************************/
