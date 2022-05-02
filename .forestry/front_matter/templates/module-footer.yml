@@ -22,6 +22,21 @@ fields:
       required: false
     label: Link
   label: Privacy Policy
+- name: terms_and_conditions
+  type: field_group
+  config: {}
+  fields:
+  - name: link_text
+    type: text
+    config:
+      required: false
+    label: Link Text
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  label: Terms & Conditions
 pages:
 - data/en/footer.yml
 - data/es/footer.yml
