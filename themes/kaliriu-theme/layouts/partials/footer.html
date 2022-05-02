@@ -3,13 +3,12 @@
 		<div class="footer__container">
 			<p class="footer__p">{{ dateFormat "2006" now }} {{ .Site.Title }}</p>
 			<ul class="footer__list">
-				{{ range . }}
-                	{{ if (reflect.IsMap .) }}
-						<li>
-							<a href="{{ .link }}">{{ .link_text }}</a>
-						</li>
-					{{ end }}
-				{{ end }}
+				<li>
+					<a href="{{ .privacy_policy.link }}">{{ .privacy_policy.link_text }}</a>
+				</li>
+				<li>
+					<a href="{{ .terms_and_conditions.link }}">{{ .terms_and_conditions.link_text }}</a>
+				</li>
 			</ul>
 		</div>
 	</footer>
