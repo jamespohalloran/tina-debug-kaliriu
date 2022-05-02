@@ -23,4 +23,5 @@ fields:
     required: false
   label: Button Link
 pages:
-- data/es/titulo.yml
+- data/en/cta.yml
+- data/es/cta.yml
