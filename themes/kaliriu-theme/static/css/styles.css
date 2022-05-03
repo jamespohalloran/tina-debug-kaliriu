@@ -563,6 +563,10 @@ html[lang=es] .popup-button:hover::before,
   justify-content: space-between;
   align-items: center;
 }
+.home-page__benefits-img {
+  max-width: 320px;
+  width: 100%;
+}
 .home-page__product-title{
   margin: 0 0 44px;
 }
