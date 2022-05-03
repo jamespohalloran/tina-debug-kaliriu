@@ -334,12 +334,6 @@ html[lang=es] .popup-button:hover::before,
   margin-top: 0;
   visibility: visible;
 }
-#header.fade-in .menu-icon .navicon,
-#header.fade-in .menu-icon .navicon:before,
-#header.fade-in .menu-icon .navicon:after{
-  background: var(--primary);
-}
-#header.fade-in .menu-btn:checked ~ .menu-icon .navicon,
 .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent;
 }
@@ -849,6 +843,9 @@ html[lang=es] .popup-button:hover::before,
   .home-page__benefits-list {
     grid-template-columns: repeat(1,1fr);
     grid-row-gap: 20px;
+  }
+  .footer__container{
+    display: block;
   }
 
 }
