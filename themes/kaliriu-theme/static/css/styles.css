@@ -481,9 +481,6 @@ html[lang=es] .popup-button:hover::before,
 .waves * {
   fill: var(--terciary);
 }
-.home-page__hero-background .waves{
-  height: 50vh;
-}
 .contact__background .waves *,
 .home-page__hero-background .waves *{
   fill: var(--primary);
@@ -529,6 +526,7 @@ html[lang=es] .popup-button:hover::before,
 /* PAGE - HOMEPAGE ********************************/
 .home-page__hero-background{
   height: 100vh;
+  padding-top: 0;
   z-index: 0;
   display: flex;
   justify-content: center;
@@ -539,7 +537,6 @@ html[lang=es] .popup-button:hover::before,
   position: fixed;
   left: 0;
   right: 0;
-  top: 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -574,10 +571,18 @@ html[lang=es] .popup-button:hover::before,
   margin: 44px 0 0;
 }
 .home-page__benefits-background{
+  position: relative;
+}
+.home-page__benefits-background::before{
+  content: '';
   background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649273130/Kaliriu/Design/space.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
+}
+.home-page__benefits-background::after{
+  content: '';
+  background-color: var(--terciary);
 }
 .home-page__benefits-list{
   width: 100%;
