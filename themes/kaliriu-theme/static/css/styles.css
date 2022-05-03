@@ -778,6 +778,11 @@ html[lang=es] .popup-button:hover::before,
 .cta__p {
   margin: 20px 0 40px;
 }
+.cta__img {
+  height: auto;
+  width: 100%;
+  max-width: 420px;
+}
 
 /* MEDIA QUERY ********************************/
 
@@ -842,7 +847,8 @@ html[lang=es] .popup-button:hover::before,
   .home-page__product-list,
   .home-page__steps-list,
   .home-page__benefits-list {
-    grid-template-columns: repeat(1,1fr)
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 20px;
   }
 
 }
