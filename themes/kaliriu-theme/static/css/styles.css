@@ -780,6 +780,18 @@ html[lang=es] .popup-button:hover::before,
 }
 
 /* MEDIA QUERY ********************************/
+
+@media (max-width: 1100px){
+
+  /* COLUMNS ********************************/
+  .cta__container,
+  .home-page__benefits-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
 @media (max-width: 850px){
   
     /* PARTIAL - HEADER ********************************/
@@ -812,5 +824,25 @@ html[lang=es] .popup-button:hover::before,
     .menu-icon {
       display: inline-block;
     }
+
+    /* COLUMNS ********************************/
+    .blog__list,
+    .projects__list, 
+    .home-page__product-list{
+      grid-template-columns: repeat(2,1fr)
+    }
+
+}
+
+@media (max-width: 650px) {
+
+  /* COLUMNS ********************************/
+  .blog__list,
+  .projects__list, 
+  .home-page__product-list,
+  .home-page__steps-list,
+  .home-page__benefits-list {
+    grid-template-columns: repeat(1,1fr)
+  }
 
 }
