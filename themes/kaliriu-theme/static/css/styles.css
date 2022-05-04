@@ -395,7 +395,7 @@ html[lang=es] .popup-button:hover::before,
 .language-selector {
   margin-left: 30px;
   background-color: rgb(var(--terciary-rgb), .05);
-  border: 2px solid var(--primary);
+  border: 2px solid var(--terciary);
   border-radius: 40px;
   padding: 4px 30px 4px 12px;
   position: relative;
@@ -419,13 +419,13 @@ html[lang=es] .popup-button:hover::before,
 }
 .language-item a,
 .current-language {
-  color: var(--primary);
+  color: var(--terciary);
   cursor: pointer;
   font-size: 16px;
 }
 .available-languages {
   background-color: var(--terciary);
-  border: 2px solid var(--primary);
+  border: 2px solid var(--terciary);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   border-top: none;
