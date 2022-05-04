@@ -23,5 +23,8 @@ fields:
     schema:
       format: markdown
   label: Description
+- name: show_cta
+  type: boolean
+  label: Show CTA
 pages:
 - content/english/blog/ui-design.md
