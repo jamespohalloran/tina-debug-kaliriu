@@ -646,10 +646,10 @@ html[lang=es] .popup-button:hover::before,
 .home-page__benefits-background::after{
   content: '';
   background-color: var(--terciary);
-  width: 37%;
-  height: 175px;
+  width: 54%;
+  height: 170px;
   position: absolute;
-  top: 52.2%;
+  top: 53%;
   transform: translateY(-50%);
   right: 0;
   border-radius: 50px 0 0 50px;
@@ -879,6 +879,15 @@ html[lang=es] .popup-button:hover::before,
   }
   .cta__img{
     margin: 44px auto 0;
+  }
+
+  .home-page__steps-background::before,
+  .home-page__benefits-background::before{
+    top: 66%;
+  }
+  .home-page__steps-background::after,
+  .home-page__benefits-background::after{
+    display: none;
   }
 
 }
