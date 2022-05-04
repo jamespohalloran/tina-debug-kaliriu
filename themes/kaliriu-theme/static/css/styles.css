@@ -602,10 +602,10 @@ html[lang=es] .popup-button:hover::before,
   z-index: 2;
 }
 .home-page__product-container{
-  padding: 24px 20px 44px;
+  padding: 120px 20px 40px;
 }
 .home-page__benefits-container{
-  padding: 120px 20px;
+  padding: 80px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -672,7 +672,7 @@ html[lang=es] .popup-button:hover::before,
   box-shadow: 0 4px 14px rgba(var(--primary-rgb), 0.25);
 }
 .home-page__steps-container{
-  padding: 44px 20px;
+  padding: 80px 20px;
 }
 .home-page__steps-title{
   margin: 0 0 12px;
@@ -840,7 +840,7 @@ html[lang=es] .popup-button:hover::before,
   position: relative;
 }
 .cta__container{
-  padding: 120px 20px;
+  padding: 40px 20px;
   display: grid;
   align-items: center;
   grid-template-columns: repeat(2,1fr);
