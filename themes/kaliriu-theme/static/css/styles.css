@@ -612,9 +612,8 @@ html[lang=es] .popup-button:hover::before,
   align-items: center;
 }
 .home-page__benefits-img {
-  max-width: 320px;
+  max-width: 300px;
   width: 100%;
-  margin: 0 auto -33px 0;
 }
 .home-page__product-title{
   margin: 0 0 44px;
@@ -882,6 +881,9 @@ html[lang=es] .popup-button:hover::before,
     margin: 44px auto 0;
   }
 
+  .home-page__benefits-img {
+    margin: 0 auto -33px 0;
+  }
   .home-page__steps-background::before,
   .home-page__benefits-background::before{
     top: 66%;
