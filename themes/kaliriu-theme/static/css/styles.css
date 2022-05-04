@@ -128,57 +128,6 @@ i {
   margin: auto;
 }
 
-/* BUTTON */
-.cookies__button,
-.basic-page__btn,
-.contact__form button,
-.cta__btn,
-.home-page__product-btn{
-  letter-spacing: .5px;
-  font-size: 16px;
-  font-weight: 500;
-  border-radius: 30px;
-  padding: 10px 20px;
-  display: inline-block;
-  transition: 0.5s;
-  cursor: pointer;
-  outline: none;
-  box-shadow: 0 4px 14px rgba(var(--primary-rgb), 0.25);
-  border: 2px solid transparent;
-}
-/* Primary */
-.popup-button {
-  background-image: linear-gradient(to right, var(--primary), var(--secondary));
-  color: var(--terciary);
-  background-size: 200% auto;
-}
-.b-services__button:hover,
-html[lang=es] .popup-button:hover::before,
-.popup-button:hover {
-  transition: 0.5s;
-  background-position: right center;
-}
-/* Secondary */
-.cookies__button,
-.basic-page__btn,
-.contact__form button,
-.cta__btn,
-.home-page__product-btn {
-  background-color: var(--terciary);
-  color: var(--primary);
-  border-color: var(--primary);
-}
-.cookies__button:hover,
-.basic-page__btn:hover,
-.contact__form button:hover,
-.cta__btn:hover,
-.home-page__product-btn:hover {
-  transition: 0.5s;
-  background-color: var(--primary);
-  color: var(--terciary);
-  border-color: var(--terciary);
-}
-
 /* PRIMARY TITLE */
 .home-page__hero-title {
   font-size: 64px;
@@ -293,6 +242,57 @@ html[lang=es] .popup-button:hover::before,
   text-align: center;
 }
 
+/* BUTTON */
+.cookies__button,
+.basic-page__btn,
+.contact__form button,
+.cta__btn,
+.home-page__product-btn{
+  letter-spacing: .5px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: 0.6s;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 4px 14px rgba(var(--primary-rgb), 0.25);
+  border: 2px solid transparent;
+}
+/* Primary */
+.popup-button {
+  background-image: linear-gradient(to right, var(--primary), var(--secondary));
+  color: var(--terciary);
+  background-size: 200% auto;
+}
+.b-services__button:hover,
+html[lang=es] .popup-button:hover::before,
+.popup-button:hover {
+  transition: 0.5s;
+  background-position: right center;
+}
+/* Secondary */
+.cookies__button,
+.basic-page__btn,
+.contact__form button,
+.cta__btn,
+.home-page__product-btn {
+  background-color: var(--terciary);
+  color: var(--primary);
+  border-color: var(--primary);
+}
+.cookies__button:hover,
+.basic-page__btn:hover,
+.contact__form button:hover,
+.cta__btn:hover,
+.home-page__product-btn:hover {
+  transition: 0.5s;
+  background-color: var(--primary);
+  color: var(--terciary);
+  border-color: var(--terciary);
+}
+
 /* PARTIAL - HEADER ********************************/
 .header {
   display: flex;
@@ -377,8 +377,8 @@ html[lang=es] .popup-button:hover::before,
 }
 .menu-btn:checked ~ .header-nav {
   opacity: 1;
+  pointer-events: initial;
   transition: opacity .4s;
-  visibility: visible;
 }
 .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent;
@@ -395,7 +395,7 @@ html[lang=es] .popup-button:hover::before,
 }
 .language-selector {
   margin-left: 30px;
-  background-color: rgb(var(--terciary-rgb), .5);
+  background-color: rgb(var(--terciary-rgb), .15);
   border: 2px solid var(--terciary);
   border-radius: 40px;
   padding: 4px 30px 4px 12px;
@@ -425,16 +425,20 @@ html[lang=es] .popup-button:hover::before,
   cursor: pointer;
   font-size: 16px;
 }
+.language-item a {
+  color: var(--primary);
+}
 .available-languages {
-  background-color: rgb(var(--terciary-rgb), .5);
+  background-color: var(--terciary);
   border: 2px solid var(--terciary);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   border-top: none;
   display: none;
-  left: -2px;
   padding: 8px 12px;
   position: absolute;
+  left: -2px;
+  bottom: -42px;
   width: calc(100% + 4px);
 }
 .language-selector:hover
@@ -848,7 +852,8 @@ html[lang=es] .popup-button:hover::before,
     /* PARTIAL - HEADER ********************************/
     .header-nav {
       clear: both;
-      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
       transition: opacity .4s;
       position: absolute;
       top: 60px;
@@ -864,7 +869,7 @@ html[lang=es] .popup-button:hover::before,
       -webkit-backdrop-filter: blur(5px);
       backdrop-filter: blur(5px);
     }
-    .header-nav__list-item {
+    .header-nav__list-link {
       padding: 10px 0;
       font-size: 24px;
     }
