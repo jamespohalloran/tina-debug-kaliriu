@@ -614,6 +614,7 @@ html[lang=es] .popup-button:hover::before,
 .home-page__benefits-img {
   max-width: 320px;
   width: 100%;
+  margin: 0 auto -33px 0;
 }
 .home-page__product-title{
   margin: 0 0 44px;
@@ -665,8 +666,8 @@ html[lang=es] .popup-button:hover::before,
   max-width: 700px;
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-column-gap: 40px;
-  grid-row-gap: 40px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 .home-page__benefits-list li div{
   padding: 60px 20px 20px 20px;
@@ -684,8 +685,8 @@ html[lang=es] .popup-button:hover::before,
   margin: 44px 0 0;
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-column-gap: 40px;
-  grid-row-gap: 40px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 .home-page__steps-list li div{
   padding: 60px 20px 20px 20px;
@@ -956,7 +957,6 @@ html[lang=es] .popup-button:hover::before,
   .home-page__steps-list,
   .home-page__benefits-list {
     grid-template-columns: repeat(1,1fr);
-    grid-row-gap: 20px;
   }
   .footer__container{
     flex-direction: column-reverse;
