@@ -749,8 +749,8 @@ html[lang=es] .popup-button:hover::before,
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: baseline;
+  justify-content: center;
+  align-items: center;
 }
 .blog__list li article a::after {
   content: '';
@@ -759,8 +759,13 @@ html[lang=es] .popup-button:hover::before,
   right: 0;
   top: 0;
   bottom: 0;
-  opacity: .8;
+  opacity: .65;
+  transition: opacity .4s;
   border-radius: 8px;
+}
+.blog__list li article a:hover::after {
+  transition: opacity .4s;
+  opacity: .95;
 }
 .blog__list li article a h2 {
   position: relative;
@@ -779,6 +784,9 @@ html[lang=es] .popup-button:hover::before,
 /* PAGE - CONTACT ********************************/
 .contact__background{
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contact__container{
   padding: 44px 20px 120px;
