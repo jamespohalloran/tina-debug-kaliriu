@@ -11,5 +11,6 @@ projects:
   title: Paladria
   link: https://paladria.com/
   link_text: Go to site
+show_cta: true
 
 ---
