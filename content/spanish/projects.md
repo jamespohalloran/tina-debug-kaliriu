@@ -1,5 +1,8 @@
 ---
 title: Proyectos!!!!!!
 description: ''
-type: 'projects'
+type: projects
+projects: []
+show_cta: true
+
 ---
