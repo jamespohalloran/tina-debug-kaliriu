@@ -269,7 +269,7 @@ i {
 .b-services__button:hover,
 html[lang=es] .popup-button:hover::before,
 .popup-button:hover {
-  transition: 0.5s;
+  transition: 0.6s;
   background-position: right center;
 }
 /* Secondary */
@@ -620,9 +620,11 @@ html[lang=es] .popup-button:hover::before,
 .home-page__product-btn {
   margin: 44px 0 0;
 }
+.home-page__steps-background,
 .home-page__benefits-background{
   position: relative;
 }
+.home-page__steps-background::before,
 .home-page__benefits-background::before{
   content: '';
   background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649273130/Kaliriu/Design/space.svg');
@@ -634,6 +636,10 @@ html[lang=es] .popup-button:hover::before,
   position: absolute;
   z-index: -1;
 }
+.home-page__steps-background::before{
+  transform: rotateY(180deg);
+}
+.home-page__steps-background::after,
 .home-page__benefits-background::after{
   content: '';
   background-color: var(--terciary);
@@ -645,6 +651,11 @@ html[lang=es] .popup-button:hover::before,
   right: 0;
   border-radius: 60px 0 0 60px;
   z-index: -1;
+}
+.home-page__steps-background::after{
+  right: initial;
+  left: 0;
+  border-radius: 0 60px 60px 0;
 }
 .home-page__benefits-list{
   width: 100%;
@@ -658,6 +669,7 @@ html[lang=es] .popup-button:hover::before,
   padding: 60px 20px 20px 20px;
   border: 2px solid var(--terciary);
   border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(var(--primary-rgb), 0.25);
 }
 .home-page__steps-container{
   padding: 44px 20px;
@@ -677,6 +689,7 @@ html[lang=es] .popup-button:hover::before,
   background-color: var(--terciary);
   border: 2px solid var(--terciary);
   border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(var(--primary-rgb), 0.25);
 }
 
 /* PAGE - PROJECTS ********************************/
@@ -760,11 +773,11 @@ html[lang=es] .popup-button:hover::before,
   top: 0;
   bottom: 0;
   opacity: .65;
-  transition: opacity .4s;
+  transition: opacity .6s;
   border-radius: 8px;
 }
 .blog__list li article a:hover::after {
-  transition: opacity .4s;
+  transition: opacity .6s;
   opacity: .95;
 }
 .blog__list li article a h2 {
@@ -839,7 +852,8 @@ html[lang=es] .popup-button:hover::before,
 .cta__img {
   height: auto;
   width: 100%;
-  max-width: 420px;
+  max-width: 620px;
+  margin: 0 0 0 auto;
 }
 
 /* MEDIA QUERY ********************************/
@@ -851,6 +865,13 @@ html[lang=es] .popup-button:hover::before,
   .home-page__benefits-container{
     display: flex;
     flex-direction: column;
+  }
+
+  .cta__container{
+    text-align: center;
+  }
+  .cta__img{
+    margin: 44px auto 0;
   }
 
 }
