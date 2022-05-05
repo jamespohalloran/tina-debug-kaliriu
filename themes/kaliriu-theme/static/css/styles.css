@@ -591,7 +591,6 @@ i {
   background-image: url('https://images.unsplash.com/photo-1617396900799-f4ec2b43c7ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
   background-size: cover;
   background-position: center;
-  cursor: none;
 }
 .mouse {
 	position: absolute;
@@ -684,6 +683,10 @@ i {
 .home-page__hero-btn{
   display: flex;
   justify-content: center;
+  margin-top: 44px;
+}
+.home-page__hero-btn a:first-of-type{
+  margin-right: 8px;
 }
 .home-page__background-gradient{
   position: relative;
