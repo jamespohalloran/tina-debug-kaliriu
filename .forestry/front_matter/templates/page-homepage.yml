@@ -27,6 +27,21 @@ fields:
       required: false
     label: Link
   label: Button primary
+- name: button_secondary
+  type: field_group
+  config: {}
+  fields:
+  - name: link_text
+    type: text
+    config:
+      required: false
+    label: Link Text
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  label: Button secondary
 - name: projects
   type: field_group
   config: {}
