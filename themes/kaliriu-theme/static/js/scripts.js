@@ -63,14 +63,3 @@ cookieButton.addEventListener('click', function(e){
     anchors[i].setAttribute('rel', 'noreferrer nofollow');
   }
 }
-
-// Cursor
-$("body").mousemove(function(e){
-	var mouse = $(".mouse");
-	// Add the mouse position to new cursor and followers
-	mouse.css({
-		left: e.pageX,
-		top: e.pageY,
-		opacity: 1, // show the cursor only when move mouse
-	});
-});
