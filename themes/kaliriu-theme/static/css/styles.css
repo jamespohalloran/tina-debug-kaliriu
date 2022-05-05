@@ -868,7 +868,7 @@ html[lang=es] .popup-button:hover::before,
 	width: 100%;
 }
 
-section{
+article section{
 	/*border-radius*/
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -1026,11 +1026,8 @@ four { from {
 shadow: 0 0 250px 20px #781848;
 }
 
-to { shadow: 0 0 100px 15px #F2BBE9; }
-}
-
-#five
-{
+to { shadow: 0 0 100px 15px #F2BBE9; }}
+#five{
 	width: 60%;
 	/*animation*/
 	-webkit-animation: five 1s ease-in-out infinite alternate;
@@ -1039,35 +1036,10 @@ to { shadow: 0 0 100px 15px #F2BBE9; }
 	-o-animation: five 1s ease-in-out infinite alternate;
 	animation: five 1s ease-in-out infinite alternate;
 }
-@-webkit-keyframes 
-five { from {
--webkit-box-shadow: 0 0 250px 20px #42F2A1;
-}
-
-to { -webkit-box-shadow: 0 0 100px 15px #F4F6AD; }
-}
-@-moz-keyframes 
-five { from {
--moz-box-shadow: 0 0 250px 20px #42F2A1;
-}
-
-to { -moz-box-shadow: 0 0 100px 15px #F4F6AD; }
-}
-@-o-keyframes 
-five { from {
--o-box-shadow: 0 0 250px 20px #42F2A1;
-}
-
-to { -o-box-shadow: 0 0 100px 15px #F4F6AD; }
-}
-
-@keyframes 
-five { from {
-box-shadow: 0 0 250px 20px #42F2A1;
-}
-
-to { box-shadow: 0 0 100px 15px #F4F6AD; }
-}
+@-webkit-keyframes five { from {-webkit-box-shadow: 0 0 250px 20px #42F2A1;} to { -webkit-box-shadow: 0 0 100px 15px #F4F6AD; }}
+@-moz-keyframes five { from {-moz-box-shadow: 0 0 250px 20px #42F2A1;} to { -moz-box-shadow: 0 0 100px 15px #F4F6AD; }}
+@-o-keyframes five { from {-o-box-shadow: 0 0 250px 20px #42F2A1;} to { -o-box-shadow: 0 0 100px 15px #F4F6AD; }}
+@keyframes five { from {box-shadow: 0 0 250px 20px #42F2A1;} to { box-shadow: 0 0 100px 15px #F4F6AD; }}
 
 
 /* MEDIA QUERY ********************************/
