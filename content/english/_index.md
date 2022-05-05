@@ -31,7 +31,7 @@ button_primary:
   link_text: Contact us
   link: ''
 button_secondary:
-  link_text: ''
+  link_text: See portfolio
   link: ''
 
 ---
