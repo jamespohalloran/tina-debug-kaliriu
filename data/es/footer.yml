@@ -1,9 +1,9 @@
 ---
 legal:
 - link_text: Terms & Conditions
-  link: "/terms-conditions"
-- link_text: Privacy Policy
-  link: "/privacy-policy"
+  link: "/legal/terms-conditions"
+- link_text: Política de privacidad
+  link: "/legal/politica-privacidad"
 title: Footer
 privacy_policy:
   link_text: Privacy Policy

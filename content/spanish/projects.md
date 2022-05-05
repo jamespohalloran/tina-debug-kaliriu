@@ -1,5 +1,5 @@
 ---
-title: Proyectos!!!!!!
+title: Proyectos
 description: ''
 type: projects
 projects: []

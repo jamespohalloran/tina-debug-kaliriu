@@ -24,4 +24,6 @@ fields:
   label: Description
 pages:
 - content/english/legal/privacy-policy.md
+- content/english/legal/terms-conditions.md
 - content/spanish/legal/politica-de-privacidad.md
+- content/spanish/legal/terminos-y-condiciones.md
