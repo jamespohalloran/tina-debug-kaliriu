@@ -27,5 +27,11 @@ steps:
   step_4_title: Validation
   step_4_description: Validation description
 show_cta: true
+button_primary:
+  link_text: Contact us
+  link: ''
+button_secondary:
+  link_text: ''
+  link: ''
 
 ---
