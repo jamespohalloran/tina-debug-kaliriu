@@ -582,6 +582,20 @@ html[lang=es] .popup-button:hover::before,
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1617396900799-f4ec2b43c7ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  background-size: cover;
+  background-position: center;
+}
+.home-page__hero-background::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: var(--secondary);
+  opacity: 0.8;
+  z-index: -1;
 }
 .home-page__hero-container{
   padding: 104px 20px 144px;
