@@ -12,6 +12,21 @@ fields:
   config:
     required: false
   label: Description
+- name: button_primary
+  type: field_group
+  config: {}
+  fields:
+  - name: link_text
+    type: text
+    config:
+      required: false
+    label: Link Text
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  label: Button primary
 - name: projects
   type: field_group
   config: {}
