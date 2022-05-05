@@ -669,6 +669,7 @@ i {
 }
 .home-page__steps-background::before{
   transform: translateY(-50%) rotateY(180deg);
+  top: calc(50% - -46px);
 }
 .home-page__steps-background::after,
 .home-page__benefits-background::after{
@@ -687,6 +688,7 @@ i {
   right: initial;
   left: 0;
   border-radius: 0 50px 50px 0;
+  top: calc(53% - -49px);
 }
 .home-page__benefits-list{
   width: 100%;
