@@ -9,7 +9,6 @@ function add_class_on_scroll() {
 function remove_class_on_scroll() {
     header.classList.remove("fade-in");
 }
-
 window.addEventListener('scroll', function(){
     scrollpos = window.scrollY;
     if(scrollpos > 10){
@@ -56,11 +55,6 @@ cookieButton.addEventListener('click', function(e){
   document.body.classList.remove('is-noConsent');
 });
 
-/* CSS */
-window.onload = (function() {
-    fontSheet.setAttribute("rel", "stylesheet");
- });
-
 /* OPEN NEW TAB */
  window.onload = function(){
   var anchors = document.getElementById('blog').getElementsByTagName('a');
@@ -69,3 +63,14 @@ window.onload = (function() {
     anchors[i].setAttribute('rel', 'noreferrer nofollow');
   }
 }
+
+// Cursor
+$("body").mousemove(function(e){
+	var mouse = $(".mouse");
+	// Add the mouse position to new cursor and followers
+	mouse.css({
+		left: e.pageX,
+		top: e.pageY,
+		opacity: 1, // show the cursor only when move mouse
+	});
+});

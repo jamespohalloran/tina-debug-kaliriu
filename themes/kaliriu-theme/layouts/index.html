@@ -6,6 +6,10 @@
         <div class="home-page__hero-container">
           <h1 class="home-page__hero-title">{{ .title }}</h1>
           <p class="home-page__hero-p">{{ .description }}</p>
+          <div class="home-page__hero-btn">
+            <a class="home-page__hero-btn-secondary" href="{{ .button-secondary.link }}">{{ .button-secondary.link_text }}</a>
+            <a class="home-page__hero-btn-primary" href="{{ .button-primary.link }}">{{ .button-primary.link_text }}</a>
+          </div>
         </div>
         <!--Waves Container-->
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -21,6 +25,14 @@
         </g>
         </svg>
         <!--Waves end-->
+        <!-- Cursor -->
+        <div class="mouse cursor"></div>
+        <div class="mouse follow-cursor first"></div>
+        <div class="mouse follow-cursor second"></div>
+        <div class="mouse follow-cursor third"></div>
+        <div class="mouse follow-cursor fourth"></div>
+        <div class="mouse follow-cursor fifth"></div>
+        <!-- Cursor end -->
       </section>
       
       <section class="home-page__background-gradient">
