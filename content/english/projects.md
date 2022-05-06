@@ -7,7 +7,7 @@ projects:
   img: "/v1649273026/Kaliriu/Logo/Color.svg"
   link: ''
   link_text: See prototype
-- img: "/v1651568302/Kaliriu/Projects/Paladria.jpg"
+- img: "/v1651857979/Kaliriu/Projects/Paladria-1.jpg"
   title: Paladria
   link: https://paladria.com/
   link_text: Go to site
