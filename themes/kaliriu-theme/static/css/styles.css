@@ -831,13 +831,37 @@ i {
 }
 .blog__container {
   padding: 64px 20px 120px;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  justify-content: space-between;
+  -ms-grid-columns: minmax(50ch,70ch) 30px 230px;
+  grid-template-columns: minmax(50ch,70ch) 230px;
+  grid-gap: 40px;
+  padding: 40px 20px 0;
 }
 .blog__p{
   margin: 0 0 12px;
 }
 .blog__h2{
   margin: 34px 0 12px;
+}
+.blog__share{
+  position: sticky;
+  top: 0;
+}
+.blog__share-title{
+  margin-bottom: 12px;
+}
+.blog__share-list li{
+  margin-bottom: 8px;
+}
+.blog__share-list li:not(.blog__share-list-banner) a{
+  width: 20px;
+  height: 20px;
+  background-color: var(--primary);
+}
+.blog__share-list li:not(.blog__share-list-banner) a i{
+  font-size: 18px;
 }
 
 /* PAGE - CONTACT ********************************/
