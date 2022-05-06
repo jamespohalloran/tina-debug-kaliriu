@@ -26,7 +26,7 @@
           {{ range.Data.Pages }}
             <li>
               <article>
-                <a href="{{ .RelPermalink }}" style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload/v1605443725/photo-2.jpg');">
+                <a href="{{ .RelPermalink }}" style="background-image: url('{{ .image }}');">
                   <h2>{{ .Title }}</h2>
                 </a>
               </article>

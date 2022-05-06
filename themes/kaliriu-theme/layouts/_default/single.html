@@ -26,6 +26,47 @@
                     <article id="blog" class="b-post">
                         {{ .description | markdownify | replaceRE "<h2 " "<h2 class=\"blog__h2\"" | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}
                     </article>
+
+                    <div>
+                        <section class="b-post-sidebar__banner">
+                            <a title="pinterest" rel="noreferrer nofollow" target="_blank" href="https://pinterest.com/pin/create/button/?url={{ .Permalink }}&media={{ .Params.image }}&description=" target="popup" onclick="window.open('https://pinterest.com/pin/create/button/?url={{ .Permalink }}&media={{ .Params.sidebar_image }}&description=','popup','width=600,height=757,scrollbars=no,resizable=no'); return false;">
+                              <span class="b-post-sidebar__pinterest">Save</span>
+                              <img alt="pinterest" title="pinterest" class="b-post-sidebar__banner-image" src="{{ .Params.image }}">
+                            </a>
+                        </section>
+                        {{ $currentPermalink := .Permalink }}
+                        {{ $currentTitle := .Title }}
+                        {{ with .Site.GetPage "/blog" }}
+                            <p class="b-post-sidebar__social-title">{{ T "share" }}</p>
+                            <ul class="b-post-sidebar__social-list">
+                              <!-- FACEBOOK -->
+                              <li class="b-post-sidebar__social-item">
+                                <a title="facebook" rel="noreferrer nofollow" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ $currentPermalink }}" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ $currentPermalink }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
+                                    <i>&#xf30c;</i>                                
+                                </a>
+                              </li>
+                              <!-- TWITTER -->
+                              <li class="b-post-sidebar__social-item">
+                                <a title="twitter" rel="noreferrer nofollow" target="_blank" href="https://twitter.com/intent/tweet?text={{ $currentPermalink }}" target="popup" onclick="window.open('https://twitter.com/intent/tweet?text={{ $currentPermalink }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
+                                    <i>&#xf309;</i>
+                                </a>
+                              </li>
+                              <!-- EMAIL -->
+                              <li class="b-post-sidebar__social-item">
+                                <a title="email" rel="noreferrer nofollow" target="_blank" href="mailto:?subject=ASUNTO&amp;body=BODY" target="popup" onclick="window.open('mailto:?subject=ASUNTO&amp;body=BODY','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
+                                    <i>&#xe800;</i>
+                                </a>
+                              </li>
+                              <!-- LINKEDIN -->
+                              <li class="b-post-sidebar__social-item">
+                                <a title="linkedin" rel="noreferrer nofollow" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url={{ $currentPermalink }}&title={{ $currentTitle }}" target="popup" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url={{ $currentPermalink }}&title={{ $currentTitle }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
+                                    <i>&#xf318;</i>
+                                </a>
+                              </li>
+                            </ul>
+                        {{ end }}
+                    </div>
+
                 </div>
             </section>
         </main>
