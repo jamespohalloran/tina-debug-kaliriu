@@ -26,7 +26,7 @@
           {{ range.Data.Pages }}
             <li>
               <article>
-                <a href="{{ .RelPermalink }}" style="background-image: url('{{ .image }}');">
+                <a href="{{ .RelPermalink }}" style="background-image: url('{{ Params.image }}');">
                   <h2>{{ .Title }}</h2>
                 </a>
               </article>
