@@ -1,4 +1,6 @@
 ---
+- id: Share
+  translation: Share
 - id: 404-title
   translation: Page Not Found
 - id: 404-btn
