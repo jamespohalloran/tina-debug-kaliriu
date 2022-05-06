@@ -837,11 +837,10 @@ i {
 }
 .blog__container {
   padding: 64px 20px 120px;
-  display: -ms-grid;
   display: grid;
   justify-content: space-between;
-  -ms-grid-columns: minmax(50ch,70ch) 30px 230px;
-  grid-template-columns: minmax(50ch,70ch) 230px;
+  align-items: baseline;
+  grid-template-columns: minmax(50ch,80ch) 130px;
   grid-gap: 40px;
 }
 .blog__p{
@@ -852,7 +851,7 @@ i {
 }
 .blog__share{
   position: sticky;
-  top: 0;
+  top: 85px;
   text-align: center;
 }
 .blog__share-title{
@@ -871,9 +870,11 @@ i {
   justify-content: center;
   align-items: center;
   margin: auto;
+  transition: 0.5s;
 }
 .blog__share-list li:not(.blog__share-list-banner) a:hover{
   background-color: var(--terciary);
+  transition: 0.5s;
 }
 .blog__share-list li:not(.blog__share-list-banner) a i{
   font-size: 18px;
