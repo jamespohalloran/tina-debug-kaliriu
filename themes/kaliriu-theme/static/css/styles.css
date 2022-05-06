@@ -179,6 +179,7 @@ i {
 }
 
 /* PARAGRAPH - SMALL */
+.blog__share-title,
 .cookies__text,
 .cta__p,
 .home-page__steps-p {
@@ -198,7 +199,7 @@ i {
 .home-page__steps-list p,
 .home-page__benefits-list p {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: .4px;
   line-height: 2.1;
 }
@@ -224,6 +225,7 @@ i {
   color: var(--terciary);
 }
 /* Primary */
+.blog__share-title,
 .cookies__text,
 .blog__h2,
 .blog__p,
@@ -231,6 +233,7 @@ i {
   color: var(--primary);
 }
 /* Center */
+.blog__share-title,
 .contact__title,
 .blog__header-title,
 .projects__header-title,
@@ -837,7 +840,6 @@ i {
   -ms-grid-columns: minmax(50ch,70ch) 30px 230px;
   grid-template-columns: minmax(50ch,70ch) 230px;
   grid-gap: 40px;
-  padding: 40px 20px 0;
 }
 .blog__p{
   margin: 0 0 12px;
@@ -848,20 +850,34 @@ i {
 .blog__share{
   position: sticky;
   top: 0;
+  text-align: center;
 }
 .blog__share-title{
   margin-bottom: 12px;
 }
 .blog__share-list li{
-  margin-bottom: 8px;
+  margin: 0 0 8px;
 }
 .blog__share-list li:not(.blog__share-list-banner) a{
-  width: 20px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
   background-color: var(--primary);
+  border: 2px solid var(--terciary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.blog__share-list li:not(.blog__share-list-banner) a:hover{
+  background-color: var(--terciary);
 }
 .blog__share-list li:not(.blog__share-list-banner) a i{
   font-size: 18px;
+  color: var(--terciary);
+}
+.blog__share-list li:not(.blog__share-list-banner) a:hover i{
+  color: var(--primary);
 }
 
 /* PAGE - CONTACT ********************************/
@@ -1074,6 +1090,18 @@ i {
     .blog__list, 
     .home-page__product-list{
       grid-template-columns: repeat(2,1fr)
+    }
+
+    /* BLOG ********************************/
+    .blog__container {
+      display: block;
+    }
+    .blog__share-list{
+      display: flex;
+      justify-content: center;
+    }
+    .blog__share-list li{
+      margin: 0 6px;
     }
 
     .projects__list li{
