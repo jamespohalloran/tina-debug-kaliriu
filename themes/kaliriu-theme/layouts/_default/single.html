@@ -30,10 +30,9 @@
                         <p class="blog__share-title">{{ T "Share" }}</p>
                         <ul class="blog__share-list">
                             <!-- PINTEREST -->
-                            <li class="blog__share-list-banner">
+                            <li>
                                 <a title="pinterest" rel="noreferrer nofollow" target="_blank" href="https://pinterest.com/pin/create/button/?url={{ .Permalink }}&media={{ .Params.image }}&description=" target="popup" onclick="window.open('https://pinterest.com/pin/create/button/?url={{ .Permalink }}&media={{ .Params.image }}&description=','popup','width=600,height=757,scrollbars=no,resizable=no'); return false;">
-                                  <span class="b-post-sidebar__pinterest">Save</span>
-                                  <img alt="pinterest" title="pinterest" class="b-post-sidebar__banner-image" src="{{ .Params.image }}">
+                                    <i>&#xf312;</i>
                                 </a>
                             </li>
                             <!-- FACEBOOK -->
@@ -56,7 +55,7 @@
                             </li>
                             <!-- LINKEDIN -->
                             <li>
-                                <a id="linkedin" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}&title={{ .Title }}" target="popup" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}&title={{ .Title }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
+                                <a id="linkedin" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url={{ .RelPermalink }}&title={{ .Title }}" target="popup" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url={{ .RelPermalink }}&title={{ .Title }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
                                     <i>&#xf318;</i>
                                 </a>
                             </li>

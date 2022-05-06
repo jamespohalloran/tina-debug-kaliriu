@@ -225,12 +225,15 @@ i {
   color: var(--terciary);
 }
 /* Primary */
-.blog__share-title,
 .cookies__text,
 .blog__h2,
 .blog__p,
 .home-page__steps-list h3{
   color: var(--primary);
+}
+/* Secondary */
+.blog__share-title{
+  color: var(--secondary);
 }
 /* Center */
 .blog__share-title,
@@ -859,11 +862,11 @@ i {
   margin: 0 0 8px;
 }
 .blog__share-list li:not(.blog__share-list-banner) a{
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: var(--primary);
-  border: 2px solid var(--terciary);
+  border: 2px solid var(--primary);
   display: flex;
   justify-content: center;
   align-items: center;
