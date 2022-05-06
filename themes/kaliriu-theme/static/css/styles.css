@@ -603,6 +603,17 @@ i {
   opacity: 0.8;
   z-index: -1;
 }
+.cursor {
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-50%) translateY(-50%);
+  mix-blend-mode: difference;
+}
 @keyframes slideInFromTop { 0% {transform: translateY(-100%);} 100% {transform: translateY(0);}}
 .home-page__hero-container{
   animation: 1s ease-out 0s 1 slideInFromTop;
