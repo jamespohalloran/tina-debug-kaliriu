@@ -23,5 +23,10 @@ fields:
     schema:
       format: markdown
   label: Description
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
 pages:
 - content/english/blog/ui-design.md
