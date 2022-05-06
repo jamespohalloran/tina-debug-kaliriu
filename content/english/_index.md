@@ -5,6 +5,8 @@ description: We create effective UI/UX design for product-driven enterprises all
 projects:
   title: Some of our UI/UX design projects...
   button: View all projects
+  link_text: View all projects
+  link: "/projects"
 benefits:
   title_1: Quality
   description_1: Description
