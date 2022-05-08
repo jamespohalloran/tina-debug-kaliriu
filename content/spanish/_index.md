@@ -1,9 +1,13 @@
 ---
 title: Inicio
-description: ''
+description: Somos Kaliriu, tu agencia de diseño de interfaz. Has llegado al lugar
+  para que desarrolles una experiencia impecable para tus usuarios y clientes, y así
+  interactúen de forma fluida con tu negocio.
 projects:
-  title: ''
+  title: Nuestros proyectos de diseño de interfaz
   button: ''
+  link_text: Ver todos los proyectos
+  link: "/es/proyectos"
 benefits:
   title_1: ''
   description_1: ''
@@ -25,5 +29,11 @@ steps:
   step_4_title: ''
   step_4_description: ''
 show_cta: true
+button_primary:
+  link_text: ''
+  link: ''
+button_secondary:
+  link_text: ''
+  link: ''
 
 ---
