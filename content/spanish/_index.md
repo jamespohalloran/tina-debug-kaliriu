@@ -7,7 +7,7 @@ projects:
   title: Nuestros proyectos de diseño de interfaz
   button: ''
   link_text: Ver todos los proyectos
-  link: "/es/proyectos"
+  link: "/es/projects"
 benefits:
   title_1: Calidad
   description_1: Interfaces que generan grandes interacciones. El tipo de interacción
