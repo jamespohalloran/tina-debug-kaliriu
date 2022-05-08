@@ -41,7 +41,7 @@ button_primary:
   link_text: Ver portfolio
   link: "/es/proyectos"
 button_secondary:
-  link_text: Contáctanos
-  link: "/es/contacto"
+  link_text: Ver proyectos
+  link: "/es/projects"
 
 ---
