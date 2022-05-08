@@ -163,7 +163,7 @@ i {
 .blog__list li article a h2,
 .home-page__hero-p {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 1.4px;
   line-height: 1.35;
 }
@@ -173,7 +173,7 @@ i {
 .home-page__steps-list h3,
 .home-page__benefits-list h2 {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 1px;
   line-height: 1.4;
 }
@@ -184,7 +184,7 @@ i {
 .cta__p,
 .home-page__steps-p {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: .8px;
   line-height: 1.5;
 }
@@ -199,12 +199,9 @@ i {
 .home-page__steps-list p,
 .home-page__benefits-list p {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: .6px;
   line-height: 1.5;
-}
-.blog__p {
-  font-weight: 500;
 }
 
 /* White */
@@ -716,6 +713,9 @@ i {
   border-radius: 12px;
   box-shadow: 0 4px 14px rgba(var(--primary-rgb), 0.25);
 }
+.home-page__benefits-list li div h2{
+  margin: 0 0 4px;
+}
 .home-page__steps-container{
   padding: 90px 20px;
 }
@@ -736,6 +736,22 @@ i {
   border: 2px solid var(--terciary);
   border-radius: 12px;
   box-shadow: 0 4px 14px rgba(var(--primary-rgb), 0.25);
+}
+.home-page__steps-list li div h3{
+  margin: 0 0 4px;
+  position: relative;
+}
+.home-page__steps-list li div h3::before{
+  content: counter(item) " ";
+    counter-increment: item;
+    font-size: 200px;
+    color: #7F7F7F;
+    line-height: 1;
+    position: absolute;
+    left: -10px;
+    top: -60px;
+    opacity: 0.15;
+    z-index: -1;
 }
 
 /* PAGE - PROJECTS ********************************/
