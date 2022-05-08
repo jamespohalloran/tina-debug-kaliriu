@@ -134,7 +134,7 @@ i {
   font-size: 64px;
   font-weight: 700;
   letter-spacing: 2.4px;
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 /* SECONDARY TITLE */
@@ -153,7 +153,7 @@ i {
 .cta__title,
 .home-page__steps-title {
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 1.8px;
   line-height: 1.3;
 }
@@ -163,9 +163,9 @@ i {
 .blog__list li article a h2,
 .home-page__hero-p {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 1.4px;
-  line-height: 1.4;
+  line-height: 1.35;
 }
 
 /* PARAGRAPH - LARGE */
@@ -173,9 +173,9 @@ i {
 .home-page__steps-list h3,
 .home-page__benefits-list h2 {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 1px;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 /* PARAGRAPH - SMALL */
@@ -186,7 +186,7 @@ i {
   font-size: 18px;
   font-weight: 500;
   letter-spacing: .8px;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 /* PARAGRAPH - EXTRA SMALL */
@@ -201,7 +201,7 @@ i {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: .4px;
-  line-height: 2.1;
+  line-height: 1.5;
 }
 
 /* White */
@@ -707,6 +707,7 @@ i {
   grid-row-gap: 20px;
 }
 .home-page__benefits-list li div{
+  height: 100%;
   padding: 60px 20px 20px 20px;
   border: 2px solid var(--terciary);
   border-radius: 12px;
@@ -726,6 +727,7 @@ i {
   grid-row-gap: 20px;
 }
 .home-page__steps-list li div{
+  height: 100%;
   padding: 60px 20px 20px 20px;
   background-color: var(--terciary);
   border: 2px solid var(--terciary);
