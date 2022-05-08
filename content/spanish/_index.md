@@ -38,8 +38,8 @@ steps:
     ti, nuestro cliente.
 show_cta: true
 button_primary:
-  link_text: ''
-  link: ''
+  link_text: Ver portfolio
+  link: "/es/proyectos"
 button_secondary:
   link_text: ''
   link: ''
