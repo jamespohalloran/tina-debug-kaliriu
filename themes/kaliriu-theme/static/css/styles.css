@@ -729,6 +729,21 @@ i {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }
+.home-page__steps-list li{
+  position: relative;
+}
+.home-page__steps-list li::before{
+  content: counter(item) " ";
+  counter-increment: item;
+  font-size: 200px;
+  color: rgba(var(--primary-rgb), 0.25);
+  line-height: 1;
+  position: absolute;
+  left: -10px;
+  top: -60px;
+  opacity: 0.15;
+  z-index: 2;
+}
 .home-page__steps-list li div{
   height: 100%;
   padding: 60px 20px 20px 20px;
@@ -739,19 +754,6 @@ i {
 }
 .home-page__steps-list li div h3{
   margin: 0 0 4px;
-  position: relative;
-}
-.home-page__steps-list li div h3::before{
-  content: counter(item) " ";
-    counter-increment: item;
-    font-size: 200px;
-    color: #7F7F7F;
-    line-height: 1;
-    position: absolute;
-    left: -10px;
-    top: -60px;
-    opacity: 0.15;
-    z-index: -1;
 }
 
 /* PAGE - PROJECTS ********************************/
