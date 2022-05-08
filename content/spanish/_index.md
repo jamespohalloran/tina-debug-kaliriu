@@ -9,14 +9,20 @@ projects:
   link_text: Ver todos los proyectos
   link: "/es/proyectos"
 benefits:
-  title_1: ''
-  description_1: ''
-  title_2: ''
-  description_2: ''
-  title_3: ''
-  description_3: ''
-  title_4: ''
-  description_4: ''
+  title_1: Calidad
+  description_1: Interfaces que generan grandes interacciones. El tipo de interacción
+    que van a enganchar y enamorar a tus clientes.
+  title_2: Experiencia
+  description_2: Nuestra experiencia sirve para darte un servicio impecable, y que
+    durante todo momento sientas que estás en manos de los mejores profesionales a
+    través de una experiencia de cliente sumamente fluida.
+  title_3: Presentación
+  description_3: Una presentación hermosa seduce. Y un usuario seducido se convertirá
+    más fácilmente en un cliente, y además uno con un lifetime value superior.
+  title_4: Moderno
+  description_4: Sorpresivo, evocador y de buen gusto. Tus clientes sentirán que interactúan
+    con alguien que está a al tanto de las últimas tendencias. Con Kaliriu, definitivamente
+    lo estás.
 steps:
   title: ''
   description: ''
