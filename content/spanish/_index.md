@@ -1,5 +1,5 @@
 ---
-title: Encuentra lo más elegante y personalizado en diseño ux/ui
+title: Diseño UI/UX
 description: Somos Kaliriu, tu agencia de diseño de interfaz. Has llegado al lugar
   para que desarrolles una experiencia impecable para tus usuarios y clientes, y así
   interactúen de forma fluida con tu negocio.
@@ -38,10 +38,10 @@ steps:
     ti, nuestro cliente.
 show_cta: true
 button_primary:
-  link_text: ''
-  link: ''
+  link_text: Ver portfolio
+  link: "/es/proyectos"
 button_secondary:
-  link_text: ''
-  link: ''
+  link_text: Contáctanos
+  link: "/es/contacto"
 
 ---
