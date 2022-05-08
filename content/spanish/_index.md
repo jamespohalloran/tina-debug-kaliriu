@@ -24,16 +24,18 @@ benefits:
     con alguien que está a al tanto de las últimas tendencias. Con Kaliriu, definitivamente
     lo estás.
 steps:
-  title: ''
-  description: ''
-  step_1_title: ''
-  step_1_description: ''
-  step_2_title: ''
-  step_2_description: ''
-  step_3_title: ''
-  step_3_description: ''
-  step_4_title: ''
-  step_4_description: ''
+  title: El camino para llegar un gran diseño ux/ui
+  description: Convierte tu relación con los clientes en una ventaja competitiva estratégica
+  step_1_title: Brefing
+  step_1_description: Todo empieza con el briefing. Te escuchamos.
+  step_2_title: Investigación
+  step_2_description: 'Investigamos a tu competencia para saber qué hacen bien o mal,
+    y ayudarte a ser distinto. '
+  step_3_title: Prototipo
+  step_3_description: " Entregamos el prototipo según los resultados de la investigación "
+  step_4_title: Validación
+  step_4_description: Todo esto tiene que ser validado por la investigación y por
+    ti, nuestro cliente.
 show_cta: true
 button_primary:
   link_text: ''
