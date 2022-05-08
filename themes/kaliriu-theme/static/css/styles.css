@@ -163,7 +163,7 @@ i {
 
 /* SUBTITLE */
 .home-page__steps-list h3,
-.home-page__benefits-list h2 {
+.home-page__benefits-list div h3 {
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 1.1px;
@@ -713,7 +713,7 @@ i {
   border-radius: 12px;
   box-shadow: 0 4px 14px rgba(var(--primary-rgb), 0.25);
 }
-.home-page__benefits-list li div h2{
+.home-page__benefits-list li h3{
   margin: 0 0 4px;
 }
 .home-page__steps-container{
