@@ -130,14 +130,7 @@ i {
 }
 
 /* PRIMARY TITLE */
-.home-page__hero-title {
-  font-size: 64px;
-  font-weight: 700;
-  letter-spacing: 2.4px;
-  line-height: 1.2;
-}
-
-/* SECONDARY TITLE */
+.home-page__hero-title,
 .basic-page__title,
 .contact__title,
 .blog__header-title,
@@ -149,7 +142,8 @@ i {
   line-height: 1.25;
 }
 
-/* TERCIARY TITLE */
+/* SECONDARY TITLE */
+.blog__h2,
 .cta__title,
 .home-page__steps-title {
   font-size: 32px;
@@ -158,24 +152,30 @@ i {
   line-height: 1.3;
 }
 
-/* SUBTITLE */
+/* TERCIARY TITLE */
 .projects__list li a h2,
-.blog__list li article a h2,
-.home-page__hero-p {
+.blog__list li article a h2 {
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 1.4px;
   line-height: 1.35;
 }
 
-/* PARAGRAPH - LARGE */
-.blog__h2,
+/* SUBTITLE */
 .home-page__steps-list h3,
 .home-page__benefits-list h2 {
   font-size: 22px;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 1.1px;
   line-height: 1.4;
+}
+
+/* PARAGRAPH - LARGE */
+.home-page__hero-p{
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.45;
 }
 
 /* PARAGRAPH - SMALL */
