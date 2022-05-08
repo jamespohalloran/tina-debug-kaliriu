@@ -24,7 +24,7 @@ benefits:
     con alguien que está a al tanto de las últimas tendencias. Con Kaliriu, definitivamente
     lo estás.
 steps:
-  title: El camino para llegar un gran diseño ux/ui
+  title: El camino para llegar un gran diseño UI/UX
   description: Convierte tu relación con los clientes en una ventaja competitiva estratégica
   step_1_title: Brefing
   step_1_description: Todo empieza con el briefing. Te escuchamos.
