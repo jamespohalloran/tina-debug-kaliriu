@@ -21,8 +21,7 @@ benefits:
     más fácilmente en un cliente, y además uno con un lifetime value superior.
   title_4: Moderno
   description_4: Sorpresivo, evocador y de buen gusto. Tus clientes sentirán que interactúan
-    con alguien que está a al tanto de las últimas tendencias. Con Kaliriu, definitivamente
-    lo estás.
+    con alguien que está a al tanto de las últimas tendencias.
 steps:
   title: El camino para llegar un gran diseño UI/UX
   description: Convierte tu relación con los clientes en una ventaja competitiva estratégica
@@ -38,10 +37,10 @@ steps:
     ti, nuestro cliente.
 show_cta: true
 button_primary:
-  link_text: Ver portfolio
-  link: "/es/proyectos"
-button_secondary:
   link_text: Contáctanos
-  link: "/es/contacto"
+  link: "/es/contact"
+button_secondary:
+  link_text: Ver proyectos
+  link: "/es/projects"
 
 ---
