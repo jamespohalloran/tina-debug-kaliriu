@@ -731,17 +731,17 @@ i {
 }
 .home-page__steps-list li{
   position: relative;
+  counter-increment: item;
 }
 .home-page__steps-list li::before{
   content: counter(item) " ";
-  counter-increment: item;
-  font-size: 200px;
-  color: rgba(var(--primary-rgb), 0.25);
+  font-size: 100px;
+  font-weight: 700;
+  color: rgba(var(--primary-rgb), 0.15);
   line-height: 1;
   position: absolute;
-  left: -10px;
-  top: -60px;
-  opacity: 0.15;
+  left: 5px;
+  top: 5px;
   z-index: 2;
 }
 .home-page__steps-list li div{
