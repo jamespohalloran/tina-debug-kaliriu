@@ -36,23 +36,12 @@ description: |-
 
   El profesional encargado de esta fase, piensa y genera el producto, pero también la interfaz de usuario y la experiencia que el mismo tendrá en la web o en la aplicación. Las etapas que realiza, son las siguientes:
 
-  1. Investigación y análisis
+  1. Investigación y análisis: para comenzar el profesional identifica cuáles son las necesidades de los usuarios y los objetivos que debe lograr para satisfacer las expectativas de los mismos. Además, se crean diferentes perfiles de personas “tipos” para entender en profundidad las emociones y frustraciones.
 
-  Para comenzar el profesional identifica cuáles son las necesidades de los usuarios y los objetivos que debe lograr para satisfacer las expectativas de los mismos. Además, se crean diferentes perfiles de personas “tipos” para entender en profundidad las emociones y frustraciones.
-
-  Con estos perfiles, también es posible interpretar las características de cada persona y se intenta solucionar los problemas que van surgiendo a lo largo de la experiencia. Por último, se verifica cuál fue el recorrido que efectuó el usuario al navegar en la interfaz.
-
-  2. Creación y brainstorming
-
-  Se realiza un diagrama con las diferentes etapas que hizo el usuario en la interfaz. Gracias a esto, el diseñador puede lograr una visual de la interfaz de manera más sencilla. En pocas palabras, el diagrama es como se verá lo que se está desarrollando.
-
-  3. Implementación
-
-  En esta etapa interviene el diseñador UI que se encarga de hacer modelos (prototipos) que logren representar las ideas presentadas por el sector UX. Una vez que esos modelos son aprobados, se comienza a armar la interfaz.
-
-  4. Seguimiento
-
-  En esta última etapa de UX, se lleva a cabo la prueba de usuario, un proceso fundamental, ya que los usuarios reales son los encargados de probar la interfaz y dar una opinión objetiva de la experiencia. Además, los profesionales efectúan diferentes pruebas y analizan los resultados.
+     Con estos perfiles, también es posible interpretar las características de cada persona y se intenta solucionar los problemas que van surgiendo a lo largo de la experiencia. Por último, se verifica cuál fue el recorrido que efectuó el usuario al navegar en la interfaz.
+  2. Creación y brainstorming: se realiza un diagrama con las diferentes etapas que hizo el usuario en la interfaz. Gracias a esto, el diseñador puede lograr una visual de la interfaz de manera más sencilla. En pocas palabras, el diagrama es como se verá lo que se está desarrollando.
+  3. Implementación: en esta etapa interviene el diseñador UI que se encarga de hacer modelos (prototipos) que logren representar las ideas presentadas por el sector UX. Una vez que esos modelos son aprobados, se comienza a armar la interfaz.
+  4. Seguimiento: en esta última etapa de UX, se lleva a cabo la prueba de usuario, un proceso fundamental, ya que los usuarios reales son los encargados de probar la interfaz y dar una opinión objetiva de la experiencia. Además, los profesionales efectúan diferentes pruebas y analizan los resultados.
 
   ### Diseño UI: interfaz de usuario
 
