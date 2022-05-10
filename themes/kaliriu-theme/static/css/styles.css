@@ -153,6 +153,7 @@ i {
 }
 
 /* TERCIARY TITLE */
+.blog__h3,
 .projects__list li a h2,
 .blog__list li article a h2 {
   font-size: 24px;
@@ -162,6 +163,7 @@ i {
 }
 
 /* SUBTITLE */
+.blog__h4,
 .home-page__steps-list h3,
 .home-page__benefits-list div h3 {
   font-size: 22px;
@@ -882,6 +884,8 @@ article#blog ul li,
   grid-template-columns: minmax(50ch,80ch) 130px;
   grid-gap: 40px;
 }
+.blog__h3,
+.blog__h4,
 .blog__p{
   margin: 0 0 12px;
 }
