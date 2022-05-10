@@ -24,7 +24,7 @@
             <section class="blog__background">
                 <div class="blog__container">
                     <article id="blog">
-                        {{ .description | markdownify | replaceRE "<h2 " "<h2 class=\"blog__h2\"" | replaceRE "<p>" "<p class=\"blog__p\" | replaceRE "<h3>" "<h3 class=\"blog__h3\" | replaceRE "<h4>" "<h4 class=\"blog__h4\">" | safeHTML }}
+                        {{ .description | markdownify | replaceRE "<h2 " "<h2 class=\"blog__h2\"" | replaceRE "<h3 " "<h3 class=\"blog__h3\""| replaceRE "<h4 " "<h4 class=\"blog__h4\""  | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}
                     </article>
                     <div class="blog__share">
                         <p class="blog__share-title">{{ T "Share" }}</p>
