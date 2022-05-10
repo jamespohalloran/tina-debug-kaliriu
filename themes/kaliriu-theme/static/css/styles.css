@@ -138,7 +138,7 @@ i {
 .home-page__product-title {
   font-size: 44px;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   line-height: 1.25;
 }
 
@@ -148,7 +148,7 @@ i {
 .home-page__steps-title {
   font-size: 32px;
   font-weight: 700;
-  letter-spacing: 1.8px;
+  letter-spacing: 1.2px;
   line-height: 1.3;
 }
 
@@ -158,7 +158,7 @@ i {
 .blog__list li article a h2 {
   font-size: 24px;
   font-weight: 700;
-  letter-spacing: 1.4px;
+  letter-spacing: 1px;
   line-height: 1.35;
 }
 
@@ -168,7 +168,7 @@ i {
 .home-page__benefits-list div h3 {
   font-size: 22px;
   font-weight: 700;
-  letter-spacing: 1.1px;
+  letter-spacing: .8px;
   line-height: 1.4;
 }
 
@@ -176,7 +176,7 @@ i {
 .home-page__hero-p{
   font-size: 20px;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: .6px;
   line-height: 1.45;
 }
 
@@ -187,7 +187,7 @@ i {
 .home-page__steps-p {
   font-size: 18px;
   font-weight: 500;
-  letter-spacing: .8px;
+  letter-spacing: .4px;
   line-height: 1.6;
 }
 
@@ -217,7 +217,7 @@ article#blog ul li,
 .home-page__benefits-list p {
   font-size: 16px;
   font-weight: 500;
-  letter-spacing: .6px;
+  letter-spacing: .4px;
   line-height: 1.65;
 }
 
@@ -884,13 +884,18 @@ article#blog ul li,
   grid-template-columns: minmax(50ch,80ch) 130px;
   grid-gap: 40px;
 }
-.blog__h3,
-.blog__h4,
 .blog__p{
   margin: 0 0 12px;
 }
 .blog__h2{
-  margin: 34px 0 12px;
+  margin: 64px 0 20px;
+}
+.blog__h3,
+.blog__h4{
+  margin: 20px 0 12px;
+}
+.blog__p strong{
+  font-weight: 700;
 }
 .blog__share{
   position: sticky;
