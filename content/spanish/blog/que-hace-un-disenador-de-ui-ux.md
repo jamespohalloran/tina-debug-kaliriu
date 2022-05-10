@@ -64,7 +64,6 @@ description: |-
   * Agrega colores que llamen la atención, al igual que textos en espacios estratégicos.
   * El uso de la tipografía también se tiene en cuenta a la hora de desarrollar la interfaz, se emplean diferentes fuentes, se resaltan palabras, etc.
   * Diseño de la página: se colocan gráficos, imágenes, y espacios entre los bloques.
-image: ''
-draft: true
+image: "/v1652218563/daniel-korpai-mxPiMiz7KCo-unsplash_wbsjaf.jpg"
 
 ---
