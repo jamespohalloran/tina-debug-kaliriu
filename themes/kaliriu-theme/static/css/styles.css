@@ -189,7 +189,22 @@ i {
   line-height: 1.6;
 }
 
+/* List */
+article#blog ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+article#blog ol{
+  list-style: decimal-leading-zero;
+  list-style-position: inside;
+}
+article#blog ol li,
+article#blog ul li{
+  margin: 0 0 12px;
+}
 /* PARAGRAPH - EXTRA SMALL */
+article#blog ol li,
+article#blog ul li,
 .projects__list li a p,
 .blog__p,
 .contact__form textarea,
@@ -236,6 +251,7 @@ i {
   color: var(--secondary);
 }
 /* Center */
+.blog__list li article a h2,
 .blog__share-title,
 .contact__title,
 .blog__header-title,
