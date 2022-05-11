@@ -11,6 +11,15 @@ fields:
 - name: slug
   type: text
   label: slug
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - name: meta_description
   type: text
   label: meta_description

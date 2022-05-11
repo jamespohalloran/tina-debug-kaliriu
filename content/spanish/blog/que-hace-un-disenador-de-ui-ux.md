@@ -77,5 +77,6 @@ description: "¿Sabías que un diseñador de UI/UX se encarga de desarrollar y c
   desarrollar la interfaz, se emplean diferentes fuentes, se resaltan palabras, etc.\n*
   Diseño de la página: se colocan gráficos, imágenes, y espacios entre los bloques."
 image: "/v1652218563/daniel-korpai-mxPiMiz7KCo-unsplash_wbsjaf.jpg"
+date: 2022-05-10T22:00:00+00:00
 
 ---
