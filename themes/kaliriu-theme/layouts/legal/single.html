@@ -22,7 +22,7 @@
             </section>
 
             <section class="blog__background">
-                <div class="blog__container">
+                <div class="blog__container" style="display: block;">
                     <article id="blog" class="b-post">
                         {{ .description | markdownify | replaceRE "<h2 " "<h2 class=\"blog__h2\"" | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}
                     </article>
