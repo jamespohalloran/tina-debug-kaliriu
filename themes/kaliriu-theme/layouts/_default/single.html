@@ -23,9 +23,9 @@
         <section class="blog__background">
             <div class="blog__container">
                 {{ with .Params }}
-                <article id="blog">
-                    {{ .description | markdownify | replaceRE "<h2 " "<h2 class=\"blog__h2\"" | replaceRE "<h3 " "<h3 class=\"blog__h3\""| replaceRE "<h4 " "<h4 class=\"blog__h4\""  | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}
-                </article>
+                    <article id="blog">
+                        {{ .description | markdownify | replaceRE "<h2 " "<h2 class=\"blog__h2\"" | replaceRE "<h3 " "<h3 class=\"blog__h3\""| replaceRE "<h4 " "<h4 class=\"blog__h4\""  | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}
+                    </article>
                 {{ end }}
                 <div class="blog__share">
                     <p class="blog__share-title">{{ T "Share" }}</p>
@@ -33,12 +33,13 @@
                     {{ $currentTitle := .Title }}
                     {{ with .Site.GetPage "/blog" }}
                         <ul class="blog__share-list">
-                            <!-- PINTEREST -->
+                            <!-- PINTEREST 
                             <li>
                                 <a title="pinterest" rel="noreferrer nofollow" target="_blank" href="https://pinterest.com/pin/create/button/?url={{ $currentPermalink }}&media={{ .Params.image }}&description=" target="popup" onclick="window.open('https://pinterest.com/pin/create/button/?url={{ $currentPermalink }}&media={{ .Params.image }}&description=','popup','width=600,height=757,scrollbars=no,resizable=no'); return false;">
                                     <i>&#xf312;</i>
                                 </a>
                             </li>
+                            -->
                             <!-- FACEBOOK -->
                             <li>
                                 <a id="facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ $currentPermalink }}" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ $currentPermalink }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">

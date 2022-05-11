@@ -263,15 +263,12 @@ article#blog ul li,
   color: var(--terciary);
 }
 /* Primary */
+.blog__share-title,
 .cookies__text,
 .blog__h2,
 .blog__p,
 .home-page__steps-list h3{
   color: var(--primary);
-}
-/* Secondary */
-.blog__share-title{
-  color: var(--secondary);
 }
 /* Center */
 .blog__list li article a h2,
