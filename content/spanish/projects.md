@@ -4,15 +4,15 @@ description: ''
 type: projects
 projects:
 - title: Pascual Designer
-  img: ''
+  img: "/v1652298829/Kaliriu/Projects/Pascual-1.jpg"
   link_text: Ver prototipo
   link: ''
 - title: Paloma Chiara
-  img: ''
+  img: "/v1652298821/Kaliriu/Projects/Chiara-1.jpg"
   link_text: Ver prototipo
   link: ''
 - title: Paladria
-  img: ''
+  img: "/v1651857979/Kaliriu/Projects/Paladria-1.jpg"
   link_text: Ver prototipo
   link: ''
 show_cta: true
