@@ -14,8 +14,8 @@ benefits:
   title_2: Experiencia
   description_2: Durante todo momento sentirás que estás en manos de los mejores profesionales.
   title_3: Presentación
-  description_3: Una presentación hermosa seduce. Y un usuario seducido se convertirá
-    más fácilmente en un cliente, y además uno con un lifetime value superior.
+  description_3: Un usuario seducido se convertirá más fácilmente en un cliente, y
+    además uno con un lifetime value superior.
   title_4: Moderno
   description_4: Sorpresivo, evocador y de buen gusto. Tus clientes sentirán que interactúan
     con alguien que está a al tanto de las últimas tendencias.
