@@ -139,7 +139,7 @@ i {
   font-size: 44px;
   font-weight: 700;
   letter-spacing: 1.5px;
-  line-height: 1.25;
+  line-height: 1.3;
 }
 
 /* SECONDARY TITLE */
@@ -149,7 +149,7 @@ i {
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 1.2px;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 /* TERCIARY TITLE */
@@ -666,8 +666,9 @@ article#blog ul li,
   align-items: center;
 }
 .home-page__benefits-img {
-  max-width: 300px;
+  max-width: 390px;
   width: 100%;
+  margin: 0 34px 0 0;
 }
 .home-page__product-title{
   margin: 0 0 44px;
@@ -755,16 +756,16 @@ article#blog ul li,
   content: counter(item) " ";
   font-size: 100px;
   font-weight: 700;
-  color: rgba(var(--primary-rgb), 0.15);
+  color: rgba(var(--primary-rgb), 0.09);
   line-height: 1;
   position: absolute;
-  left: 5px;
+  left: 10px;
   top: 5px;
   z-index: 2;
 }
 .home-page__steps-list li div{
   height: 100%;
-  padding: 60px 20px 20px 20px;
+  padding: 54px 20px 20px 20px;
   background-color: var(--terciary);
   border: 2px solid var(--terciary);
   border-radius: 12px;
@@ -781,7 +782,7 @@ article#blog ul li,
 .projects__list,
 .home-page__product-list{
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(4,1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }
@@ -790,7 +791,7 @@ article#blog ul li,
 }
 .projects__list li,
 .home-page__product-list li{
-  height: 250px;
+  height: 180px;
   width: 100%;
   border-radius: 12px;
   border: 2px solid var(--terciary);
@@ -827,6 +828,12 @@ article#blog ul li,
 }
 
 /* PAGE - BLOG ********************************/
+.blog__header-background{
+  position: relative;
+}
+.blog__header-background::after{
+  content: '';
+}
 .blog__list-container {
   padding: 64px 20px 120px;
 }
@@ -979,7 +986,7 @@ article#blog ul li,
   overflow: hidden;
 }
 .cta__container{
-  padding: 40px 20px;
+  padding: 110px 20px;
   display: grid;
   align-items: center;
   grid-template-columns: repeat(2,1fr);
@@ -996,7 +1003,7 @@ article#blog ul li,
 }
 #lightings{
 	bottom: -60px;
-	position: relative;
+	position: absolute;
 	width: 100%;
 }
 #lightings div{
@@ -1027,10 +1034,10 @@ article#blog ul li,
 	-o-animation: two 4s ease-in-out infinite alternate;
 	animation: two 4s ease-in-out infinite alternate;
 }
-@-webkit-keyframes two { from {-webkit-box-shadow: 0 0 250px 20px #88FFF7;}to { -webkit-box-shadow: 0 0 100px 15px #7DEDFF; }}
-@-moz-keyframes two { from {-moz-box-shadow: 0 0 250px 20px #88FFF7;}to { -moz-box-shadow: 0 0 100px 15px #7DEDFF; }}
-@-o-keyframes two { from {-o-box-shadow: 0 0 250px 20px #88FFF7;}to { -o-box-shadow: 0 0 100px 15px #7DEDFF; }}
-@keyframes two { from {box-shadow: 0 0 250px 20px #88FFF7;}to { box-shadow: 0 0 100px 15px #7DEDFF; }}
+@-webkit-keyframes two { from {-webkit-box-shadow: 0 0 250px 20px #050953;}to { -webkit-box-shadow: 0 0 100px 15px #7DEDFF; }}
+@-moz-keyframes two { from {-moz-box-shadow: 0 0 250px 20px #050953;}to { -moz-box-shadow: 0 0 100px 15px #7DEDFF; }}
+@-o-keyframes two { from {-o-box-shadow: 0 0 250px 20px #050953;}to { -o-box-shadow: 0 0 100px 15px #7DEDFF; }}
+@keyframes two { from {box-shadow: 0 0 250px 20px #050953;}to { box-shadow: 0 0 100px 15px #7DEDFF; }}
 #three{
 	width: 80%;
 	-webkit-animation: three 3s ease-in-out infinite alternate;
@@ -1088,7 +1095,7 @@ article#blog ul li,
   }
 
   .home-page__benefits-img {
-    margin: 0 auto -33px 0;
+    margin: 0 auto -33px;
   }
   .home-page__steps-background::before,
   .home-page__benefits-background::before{

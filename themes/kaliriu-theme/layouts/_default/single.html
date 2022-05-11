@@ -1,7 +1,7 @@
 {{ define "main" }}
     {{ with .Params }}
         <main id="main">
-            <section class="blog__header-background">
+            <section class="blog__header-background" style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .Params.image }}');">
                 <div class="blog__header-container">
                     <h1 class="blog__header-title">{{ .Title }}</h1>
                 </div>
