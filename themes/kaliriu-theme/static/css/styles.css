@@ -203,19 +203,26 @@ article#blog ol li{
 }
 article#blog ol li::before,
 article#blog ul li::before{
-  content: '';
+  content: '\e804';
   position: absolute;
   left: 0;
   top: 15px;
-  width: 5px;
-  height: 5px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
+  font-size: 14px;
+  background-color: var(--primary);
+  color: var(--terciary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 article#blog ol li::before{
   content: counter(inst);
 }
 
 /* PARAGRAPH - EXTRA SMALL */
+article#blog ul li::before,
 article#blog ol li::before,
 article#blog ol li,
 article#blog ul li,
