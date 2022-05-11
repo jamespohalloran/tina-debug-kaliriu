@@ -28,8 +28,7 @@
                     </article>
                     <div class="blog__share">
                         <p class="blog__share-title">{{ T "Share" }}</p>
-                        {{ $currentPermalink := .Permalink }}
-                        {{ with .Site.GetPage "/blog" }}
+                        {{ $contactPage:= .Site.GetPage "/blog" }}
                             <ul class="blog__share-list">
                                 <!-- PINTEREST -->
                                 <li>
@@ -45,7 +44,7 @@
                                 </li>
                                 <!-- TWITTER -->
                                 <li>
-                                    <a id="twitter" target="_blank" href="https://twitter.com/intent/tweet?text={{ $currentPermalink }}" target="popup" onclick="window.open('https://twitter.com/intent/tweet?text={{ $currentPermalink }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
+                                    <a id="twitter" target="_blank" href="https://twitter.com/intent/tweet?text={{ $contactPage.Permalink}}" target="popup" onclick="window.open('https://twitter.com/intent/tweet?text={{ $currentPermalink }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
                                         <i>&#xf309;</i>
                                     </a>
                                 </li>
