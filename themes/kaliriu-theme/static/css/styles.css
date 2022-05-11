@@ -49,6 +49,9 @@ a {
 }
 
 /* ICONS */
+.form_message::before,
+.form_email::before,
+.form_name::before,
 article#blog ul li::before,
 .projects__list li a p::after,
 .language-selector::after,
@@ -340,6 +343,50 @@ article#blog ul li,
   transition: 0.5s;
   background-color: var(--terciary);
   color: var(--primary);
+}
+
+/* FORMULARIO ********************************/
+.form_message,
+.form_email,
+.form_name{
+  margin: 0 0 20px;
+  position: relative;
+}
+.form_message::before,
+.form_email::before,
+.form_name::before{
+  content: '\f061';
+  font-size: 14px;
+}
+.form_email::before{
+  content: '\e800';
+}
+.form_message::before{
+  content: '\e807';
+}
+textarea,
+input[type="email"],
+input[type="text"]{
+  background-color: rgb(var(--terciary-rgb), .05);
+  border-radius: 0;
+  width: 100%;
+  padding: 8px 16px 8px 32px;
+  border-radius: 12px;
+  resize: none;
+  appearance: none;
+  border: 2px solid var(--terciary);
+  color: var(--terciary);
+}
+textarea:focus,
+input[type="email"]:focus,
+input[type="text"]:focus{
+  outline: none;
+}
+textarea::placeholder,
+input[type="email"]::placeholder,
+input[type="text"]::placeholder{
+  color: var(--terciary);
+  opacity: .8;
 }
 
 /* PARTIAL - HEADER ********************************/
@@ -979,28 +1026,6 @@ article#blog ul li,
   width: 100%;
   margin: 20px auto 0;
 }
-.contact__form textarea,
-.contact__form input{
-  background-color: rgb(var(--terciary-rgb), .05);
-  border-radius: 0;
-  width: 100%;
-  margin: 0 0 20px;
-  padding: 8px 15px;
-  border-radius: 12px;
-  resize: none;
-  appearance: none;
-  border: 2px solid var(--terciary);
-  color: var(--terciary);
-}
-.contact__form textarea:focus,
-.contact__form input:focus{
-  outline: none;
-}
-.contact__form textarea::placeholder,
-.contact__form input::placeholder{
-  color: var(--terciary);
-  opacity: .8;
-}
 
 /* PARTIAL - CTA ********************************/
 .cta__background{
@@ -1258,7 +1283,7 @@ article#blog ul li,
     flex-direction: column-reverse;
   }
   .home-page__hero-btn a:first-of-type{
-    margin: 0 0 18px;
+    margin: 18px 0 0;
   }
 
 }
