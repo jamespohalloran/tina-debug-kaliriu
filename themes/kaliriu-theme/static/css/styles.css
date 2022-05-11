@@ -49,6 +49,7 @@ a {
 }
 
 /* ICONS */
+article#blog ul li::before,
 .projects__list li a p::after,
 .language-selector::after,
 i {
@@ -195,7 +196,7 @@ i {
 article#blog ol li,
 article#blog ul li{
   margin: 0 0 12px;
-  padding-left: 20px;
+  padding-left: 30px;
   position: relative;
 }
 article#blog ol li{
@@ -206,11 +207,11 @@ article#blog ul li::before{
   content: '\e804';
   position: absolute;
   left: 0;
-  top: 15px;
-  width: 15px;
-  height: 15px;
+  top: 3px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  font-size: 14px;
+  font-size: 12px;
   background-color: var(--primary);
   color: var(--terciary);
   display: flex;
@@ -222,8 +223,6 @@ article#blog ol li::before{
 }
 
 /* PARAGRAPH - EXTRA SMALL */
-article#blog ul li::before,
-article#blog ol li::before,
 article#blog ol li,
 article#blog ul li,
 .projects__list li a p,
