@@ -1,5 +1,5 @@
 {{ define "main" }}
-    {{ with .Params }}
+ 
         <main id="main">
             <section class="blog__header-background" style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .image }}');">
                 <div class="blog__header-container">
@@ -68,6 +68,6 @@
                 </div>
             </section>
         </main>
-    {{ end }}
+
     {{ partial "cta" . }}
 {{ end }}
