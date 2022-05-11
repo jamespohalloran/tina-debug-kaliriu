@@ -12,8 +12,7 @@ benefits:
   title_1: Calidad
   description_1: El tipo de interacción que van a enganchar y enamorar a tus clientes.
   title_2: Experiencia
-  description_2: Nuestra experiencia sirve que durante todo momento sientas que estás
-    en manos de los mejores profesionales.
+  description_2: Durante todo momento sentirás que estás en manos de los mejores profesionales.
   title_3: Presentación
   description_3: Una presentación hermosa seduce. Y un usuario seducido se convertirá
     más fácilmente en un cliente, y además uno con un lifetime value superior.
