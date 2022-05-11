@@ -616,6 +616,7 @@ article#blog ul li,
   background-size: cover;
   background-position: bottom;
 }
+.blog__header-background::after,
 .home-page__hero-background::after {
   content: '';
   position: absolute;
@@ -830,9 +831,6 @@ article#blog ul li,
 /* PAGE - BLOG ********************************/
 .blog__header-background{
   position: relative;
-}
-.blog__header-background::after{
-  content: '';
 }
 .blog__list-container {
   padding: 64px 20px 120px;
