@@ -1,6 +1,6 @@
 ---
 title: Política de Privacidad
-slug: "/politica-privacidad"
+slug: politica-privacidad
 description: |-
   Su privacidad es importante para nosotros. Es política de Kaliriu respetar su privacidad con respecto a cualquier información que podamos recoger de su parte a través de nuestra página web, https://www.kaliriu.com/, y otros sitios que poseemos y operamos.
 
