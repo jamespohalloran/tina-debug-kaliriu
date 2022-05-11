@@ -1,6 +1,7 @@
 {{ define "main" }}
-    {{ with .Params }}
+
         <main id="main">
+            {{ with .Params }}
             <section class="blog__header-background" style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .image }}');">
                 <div class="blog__header-container">
                     <h1 class="blog__header-title">{{ .Title }}</h1>
@@ -20,7 +21,7 @@
                     </svg>
                 <!--Waves end-->
             </section>
-
+            {{ end }}
             <section class="blog__background">
                 <div class="blog__container">
                     <article id="blog">
@@ -29,6 +30,7 @@
                     <div class="blog__share">
                         <p class="blog__share-title">{{ T "Share" }}</p>
                         {{ $currentPermalink := .Permalink }}
+                        {{ with .Site.GetPage "/blog" }}
                         <ul class="blog__share-list">
                             <!-- PINTEREST -->
                             <li>
@@ -44,7 +46,7 @@
                             </li>
                             <!-- TWITTER -->
                             <li>
-                                <a id="twitter" target="_blank" href="https://twitter.com/intent/tweet?text={{ .RelPermalink }}" target="popup" onclick="window.open('https://twitter.com/intent/tweet?text={{ $currentPermalink }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
+                                <a id="twitter" target="_blank" href="https://twitter.com/intent/tweet?text={{ $currentPermalink }}" target="popup" onclick="window.open('https://twitter.com/intent/tweet?text={{ $currentPermalink }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
                                     <i>&#xf309;</i>
                                 </a>
                             </li>
@@ -66,6 +68,6 @@
                 </div>
             </section>
         </main>
-    {{ end }}
+
     {{ partial "cta" . }}
 {{ end }}
