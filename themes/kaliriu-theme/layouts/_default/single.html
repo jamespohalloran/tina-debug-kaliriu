@@ -69,4 +69,10 @@
         </main>
     {{ end }}
     {{ partial "cta" . }}
+
+    {{ $currentPermalink := .Permalink }}
+        {{ $currentTitle := .Title }}
+        {{ with .Site.GetPage "/blog" }}
+        {{ $currentPermalink }}
+        {{ end }}
 {{ end }}
