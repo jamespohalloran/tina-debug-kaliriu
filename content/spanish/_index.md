@@ -10,12 +10,10 @@ projects:
   link: "/es/projects"
 benefits:
   title_1: Calidad
-  description_1: Interfaces que generan grandes interacciones. El tipo de interacción
-    que van a enganchar y enamorar a tus clientes.
+  description_1: El tipo de interacción que van a enganchar y enamorar a tus clientes.
   title_2: Experiencia
-  description_2: Nuestra experiencia sirve para darte un servicio impecable, y que
-    durante todo momento sientas que estás en manos de los mejores profesionales a
-    través de una experiencia de cliente sumamente fluida.
+  description_2: Nuestra experiencia sirve que durante todo momento sientas que estás
+    en manos de los mejores profesionales.
   title_3: Presentación
   description_3: Una presentación hermosa seduce. Y un usuario seducido se convertirá
     más fácilmente en un cliente, y además uno con un lifetime value superior.
