@@ -351,12 +351,17 @@ article#blog ul li,
 .form_name{
   margin: 0 0 20px;
   position: relative;
+  width: 100%;
 }
 .form_message::before,
 .form_email::before,
 .form_name::before{
+  color: var(--terciary);
   content: '\f061';
-  font-size: 14px;
+  font-size: 16px;
+  position: absolute;
+  top: 14px;
+  left: 16px;
 }
 .form_email::before{
   content: '\e800';
@@ -370,12 +375,22 @@ input[type="text"]{
   background-color: rgb(var(--terciary-rgb), .05);
   border-radius: 0;
   width: 100%;
-  padding: 8px 16px 8px 32px;
+  padding: 8px 16px 8px 40px;
   border-radius: 12px;
   resize: none;
   appearance: none;
   border: 2px solid var(--terciary);
   color: var(--terciary);
+}
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px rgb(var(--terciary-rgb), .05) inset;
+}
+input:-webkit-autofill{
+  -webkit-text-fill-color: var(--terciary);
 }
 textarea:focus,
 input[type="email"]:focus,
