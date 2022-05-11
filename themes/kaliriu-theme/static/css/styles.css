@@ -192,19 +192,31 @@ i {
 }
 
 /* List */
-article#blog ul {
-  list-style: disc;
-  list-style-position: inside;
-}
-article#blog ol{
-  list-style: decimal-leading-zero;
-  list-style-position: inside;
-}
 article#blog ol li,
 article#blog ul li{
   margin: 0 0 12px;
+  padding-left: 20px;
+  position: relative;
 }
+article#blog ol li{
+  counter-increment: inst;
+}
+article#blog ol li::before,
+article#blog ul li::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 15px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+article#blog ol li::before{
+  content: counter(inst);
+}
+
 /* PARAGRAPH - EXTRA SMALL */
+article#blog ol li::before,
 article#blog ol li,
 article#blog ul li,
 .projects__list li a p,
