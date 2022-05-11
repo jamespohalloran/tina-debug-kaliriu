@@ -1,8 +1,8 @@
 {{ define "main" }}
 
         <main id="main">
-            {{ with .Params }}
-            <section class="blog__header-background" style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .image }}');">
+       
+            <section class="blog__header-background" style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .Params.image }}');">
                 <div class="blog__header-container">
                     <h1 class="blog__header-title">{{ .Title }}</h1>
                 </div>
@@ -21,11 +21,11 @@
                     </svg>
                 <!--Waves end-->
             </section>
-            {{ end }}
+     
             <section class="blog__background">
                 <div class="blog__container">
                     <article id="blog">
-                        {{ .description | markdownify | replaceRE "<h2 " "<h2 class=\"blog__h2\"" | replaceRE "<h3 " "<h3 class=\"blog__h3\""| replaceRE "<h4 " "<h4 class=\"blog__h4\""  | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}
+                        {{ .Params.description | markdownify | replaceRE "<h2 " "<h2 class=\"blog__h2\"" | replaceRE "<h3 " "<h3 class=\"blog__h3\""| replaceRE "<h4 " "<h4 class=\"blog__h4\""  | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}
                     </article>
                     <div class="blog__share">
                         <p class="blog__share-title">{{ T "Share" }}</p>
