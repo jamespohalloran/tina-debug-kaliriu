@@ -1,7 +1,7 @@
 {{ define "main" }}
- 
+    {{ with .Params }}
         <main id="main">
-            <section class="blog__header-background" style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .Params.image }}');">
+            <section class="blog__header-background" style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .image }}');">
                 <div class="blog__header-container">
                     <h1 class="blog__header-title">{{ .Title }}</h1>
                 </div>
@@ -24,50 +24,50 @@
             <section class="blog__background">
                 <div class="blog__container">
                     <article id="blog">
-                        {{ .Params.description | markdownify | replaceRE "<h2 " "<h2 class=\"blog__h2\"" | replaceRE "<h3 " "<h3 class=\"blog__h3\""| replaceRE "<h4 " "<h4 class=\"blog__h4\""  | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}
+                        {{ .description | markdownify | replaceRE "<h2 " "<h2 class=\"blog__h2\"" | replaceRE "<h3 " "<h3 class=\"blog__h3\""| replaceRE "<h4 " "<h4 class=\"blog__h4\""  | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}
                     </article>
                     <div class="blog__share">
                         <p class="blog__share-title">{{ T "Share" }}</p>
                         {{ $currentPermalink := .Permalink }}
                         {{ with .Site.GetPage "/blog" }}
-                        <ul class="blog__share-list">
-                            <!-- PINTEREST -->
-                            <li>
-                                <a title="pinterest" rel="noreferrer nofollow" target="_blank" href="https://pinterest.com/pin/create/button/?url={{ .Permalink }}&media={{ .image }}&description=" target="popup" onclick="window.open('https://pinterest.com/pin/create/button/?url={{ .Permalink }}&media={{ .image }}&description=','popup','width=600,height=757,scrollbars=no,resizable=no'); return false;">
-                                    <i>&#xf312;</i>
-                                </a>
-                            </li>
-                            <!-- FACEBOOK -->
-                            <li>
-                                <a id="facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
-                                    <i>&#xf30c;</i>  
-                                </a>
-                            </li>
-                            <!-- TWITTER -->
-                            <li>
-                                <a id="twitter" target="_blank" href="https://twitter.com/intent/tweet?text={{ $currentPermalink }}" target="popup" onclick="window.open('https://twitter.com/intent/tweet?text={{ $currentPermalink }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
-                                    <i>&#xf309;</i>
-                                </a>
-                            </li>
-                            <!-- EMAIL -->
-                            <li>
-                                <a id="email" target="_blank" href="mailto:?subject=ASUNTO&amp;body=BODY" target="popup" onclick="window.open('mailto:?subject=ASUNTO&amp;body=BODY','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
-                                    <i>&#xe800;</i>
-                                </a>
-                            </li>
-                            <!-- LINKEDIN -->
-                            <li>
-                                <a id="linkedin" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url={{ .RelPermalink }}&title={{ .Title }}" target="popup" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url={{ .RelPermalink }}&title={{ .Title }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
-                                    <i>&#xf318;</i>
-                                </a>
-                            </li>
-                        </ul>
+                            <ul class="blog__share-list">
+                                <!-- PINTEREST -->
+                                <li>
+                                    <a title="pinterest" rel="noreferrer nofollow" target="_blank" href="https://pinterest.com/pin/create/button/?url={{ .Permalink }}&media={{ .image }}&description=" target="popup" onclick="window.open('https://pinterest.com/pin/create/button/?url={{ .Permalink }}&media={{ .image }}&description=','popup','width=600,height=757,scrollbars=no,resizable=no'); return false;">
+                                        <i>&#xf312;</i>
+                                    </a>
+                                </li>
+                                <!-- FACEBOOK -->
+                                <li>
+                                    <a id="facebook" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="popup" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
+                                        <i>&#xf30c;</i>  
+                                    </a>
+                                </li>
+                                <!-- TWITTER -->
+                                <li>
+                                    <a id="twitter" target="_blank" href="https://twitter.com/intent/tweet?text={{ $currentPermalink }}" target="popup" onclick="window.open('https://twitter.com/intent/tweet?text={{ $currentPermalink }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
+                                        <i>&#xf309;</i>
+                                    </a>
+                                </li>
+                                <!-- EMAIL -->
+                                <li>
+                                    <a id="email" target="_blank" href="mailto:?subject=ASUNTO&amp;body=BODY" target="popup" onclick="window.open('mailto:?subject=ASUNTO&amp;body=BODY','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
+                                        <i>&#xe800;</i>
+                                    </a>
+                                </li>
+                                <!-- LINKEDIN -->
+                                <li>
+                                    <a id="linkedin" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url={{ .RelPermalink }}&title={{ .Title }}" target="popup" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url={{ .RelPermalink }}&title={{ .Title }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
+                                        <i>&#xf318;</i>
+                                    </a>
+                                </li>
+                            </ul>
                         {{ end }}
                     </div>
 
                 </div>
             </section>
         </main>
-
+    {{ end }}
     {{ partial "cta" . }}
 {{ end }}
