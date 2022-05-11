@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: UI/UX Design Projects
 description: ''
 type: projects
 projects:
