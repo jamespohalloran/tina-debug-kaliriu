@@ -395,6 +395,7 @@ input:-webkit-autofill{
 textarea:focus,
 input[type="email"]:focus,
 input[type="text"]:focus{
+  background-color: var(--primary);
   outline: none;
 }
 textarea::placeholder,

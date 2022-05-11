@@ -28,10 +28,11 @@
                     </article>
                     <div class="blog__share">
                         <p class="blog__share-title">{{ T "Share" }}</p>
+                        {{ $currentPermalink := .Permalink }}
                         <ul class="blog__share-list">
                             <!-- PINTEREST -->
                             <li>
-                                <a title="pinterest" rel="noreferrer nofollow" target="_blank" href="https://pinterest.com/pin/create/button/?url={{ .Permalink }}&media={{ .Params.image }}&description=" target="popup" onclick="window.open('https://pinterest.com/pin/create/button/?url={{ .Permalink }}&media={{ .Params.image }}&description=','popup','width=600,height=757,scrollbars=no,resizable=no'); return false;">
+                                <a title="pinterest" rel="noreferrer nofollow" target="_blank" href="https://pinterest.com/pin/create/button/?url={{ .Permalink }}&media={{ .image }}&description=" target="popup" onclick="window.open('https://pinterest.com/pin/create/button/?url={{ .Permalink }}&media={{ .image }}&description=','popup','width=600,height=757,scrollbars=no,resizable=no'); return false;">
                                     <i>&#xf312;</i>
                                 </a>
                             </li>
@@ -43,7 +44,7 @@
                             </li>
                             <!-- TWITTER -->
                             <li>
-                                <a id="twitter" target="_blank" href="https://twitter.com/intent/tweet?text={{ .RelPermalink }}" target="popup" onclick="window.open('https://twitter.com/intent/tweet?text={{ .RelPermalink }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
+                                <a id="twitter" target="_blank" href="https://twitter.com/intent/tweet?text={{ $currentPermalink }}" target="popup" onclick="window.open('https://twitter.com/intent/tweet?text={{ $currentPermalink }}','popup','width=600,height=600,scrollbars=no,resizable=no'); return false;">
                                     <i>&#xf309;</i>
                                 </a>
                             </li>
