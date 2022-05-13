@@ -990,6 +990,10 @@ input[type="text"]::placeholder{
 .blog__p strong{
   font-weight: 700;
 }
+.blog__p a{
+  color: var(--secondary);
+  text-decoration: underline;
+}
 .blog__share{
   position: sticky;
   top: 85px;
