@@ -1,8 +1,8 @@
 ---
 title: Creamos diseños UI/UX para empresas cuyo propósito es crear productos que causen
   impacto
-description: Una agencia de diseño de interfaz para definir y desarrollar las experiencias
-  del usuario con el fin de lograr una interacción fluida con tu empresa.
+description: Somos una agencia de diseño de interfaz para definir y desarrollar las
+  experiencias del usuario con el fin de lograr una interacción fluida con tu empresa.
 projects:
   title: Nuestros proyectos de diseño de interfaz
   button: ''
