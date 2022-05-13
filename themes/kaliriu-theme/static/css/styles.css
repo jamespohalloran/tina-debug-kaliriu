@@ -267,9 +267,12 @@ article#blog ul li,
 .blog__share-title,
 .cookies__text,
 .blog__h2,
-.blog__p,
 .home-page__steps-list h3{
   color: var(--primary);
+}
+/* Gray */
+.blog__p{
+  color: var(--gray);
 }
 /* Center */
 .blog__list li article a h2,
