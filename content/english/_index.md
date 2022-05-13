@@ -32,9 +32,9 @@ steps:
 show_cta: true
 button_primary:
   link_text: Contact us
-  link: ''
+  link: "/contact"
 button_secondary:
   link_text: See portfolio
-  link: ''
+  link: "/projects"
 
 ---
