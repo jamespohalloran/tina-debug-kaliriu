@@ -1,8 +1,8 @@
 ---
-title: Diseño UI/UX
-description: Somos Kaliriu, tu agencia de diseño de interfaz. Has llegado al lugar
-  para que desarrolles una experiencia impecable para tus usuarios y clientes, y así
-  interactúen de forma fluida con tu negocio.
+title: Creamos diseños UI/UX para empresas cuyo propósito es crear productos que causen
+  impacto
+description: Una agencia de diseño de interfaz para definir y desarrollar las experiencias
+  del usuario con el fin de lograr una interacción fluida con tu empresa.
 projects:
   title: Nuestros proyectos de diseño de interfaz
   button: ''
