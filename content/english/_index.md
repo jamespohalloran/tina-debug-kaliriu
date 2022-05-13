@@ -13,7 +13,8 @@ benefits:
   description_1: We manage to convey the advantages of your product beyond of what
     is obvious.
   title_2: Experience
-  description_2: You will feel that you are in the hands of excellent professionals.
+  description_2: You will feel that you are in the hands of excellent professionals
+    at all times.
   title_3: Fast turnaround
   description_3: 'Not only do we move fast but will also be aware of all our steps
     moving forward. '
