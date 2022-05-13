@@ -17,9 +17,9 @@ benefits:
   title_3: Fast turnaround
   description_3: 'Not only do we move fast but will also be aware of all our steps
     moving forward. '
-  title_4: Leading edge
-  description_4: 'We are constantly updating our resources to bring you the most innovative
-    designs in the industry. '
+  title_4: Customer-First
+  description_4: We foresee the needs of users and aim to exceed their expectations
+    at every touchpoint.
 steps:
   title: Our steps to a great UI/UX design
   description: Great design is essential to build trust. Our process to achieve that
