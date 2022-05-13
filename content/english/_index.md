@@ -17,7 +17,7 @@ benefits:
   title_3: Fast turnaround
   description_3: 'Not only do we move fast but will also be aware of all our steps
     moving forward. '
-  title_4: Cutting edge technology
+  title_4: Leading edge
   description_4: 'We are constantly updating our resources to bring you the most innovative
     designs in the industry. '
 steps:
