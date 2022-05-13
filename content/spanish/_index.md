@@ -10,11 +10,13 @@ projects:
   link: "/es/projects"
 benefits:
   title_1: Calidad
-  description_1: El tipo de interacción que van a enganchar y enamorar a tus clientes.
+  description_1: Logramos transmitir las ventajas de tu producto más allá de lo aparente.
   title_2: Experiencia
-  description_2: Durante todo momento sentirás que estás en manos de los mejores profesionales.
-  title_3: Presentación
-  description_3: Un usuario seducido se convertirá más fácilmente en un cliente.
+  description_2: Sentirás claramente que estás en manos de excelentes profesionales
+    en todo momento.
+  title_3: Entrega rápida
+  description_3: 'No solo nos movemos velozmente, estás al tanto de todos nuestros
+    pasos. '
   title_4: Moderno
   description_4: 'Sorpresivo, evocador y de buen gusto. '
 steps:
