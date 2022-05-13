@@ -1,7 +1,8 @@
 ---
-title: UI/UX Design
-description: We create effective UI/UX design for product-driven enterprises all across
-  the world
+title: We create UI/UX designs for enterprises whose purpose is to create products
+  that make an impact
+description: We are an interface design agency striving to define and develop user
+  experiences in order to achieve a seamless interaction with your company.
 projects:
   title: Some of our UI/UX design projects...
   button: View all projects
