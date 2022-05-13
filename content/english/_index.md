@@ -21,17 +21,22 @@ benefits:
   description_4: 'We are constantly updating our resources to bring you the most innovative
     designs in the industry. '
 steps:
-  title: We take you through a step-by-step process...
-  description: We make sure that your project gets the care it needs all the way through
-  step_1_title: Brefing
+  title: Our steps to a great UI/UX design
+  description: Great design is essential to build trust. Our process to achieve that
+    level of quality is as follows.
+  step_1_title: Briefing
   step_1__description: Brefing description
-  step_1_description: Brefing description
+  step_1_description: We take into account the objectives, project requirements, target
+    audience and graphic details of your business.
   step_2_title: Research
-  step_2_description: Research description
+  step_2_description: We analyze your competition to discover their strengths and
+    weaknesses and help you stand out.
   step_3_title: Prototype
-  step_3_description: Prototype description
+  step_3_description: We deliver a prototype according to the results of our research
+    in which you can comment on the design itself.
   step_4_title: Validation
-  step_4_description: Validation description
+  step_4_description: We apply you’re the changes from your comments until we get
+    your total satisfaction.
 show_cta: true
 button_primary:
   link_text: Contact us
