@@ -823,7 +823,7 @@ input[type="text"]::placeholder{
   padding: 90px 20px;
 }
 .home-page__steps-title{
-  margin: 0 0 12px;
+  margin: 0 auto 12px;
 }
 .home-page__steps-list{
   margin: 44px 0 0;
@@ -1232,24 +1232,70 @@ input[type="text"]::placeholder{
 
 @media (max-width: 650px) {
 
-  /* PRIMARY TITLE */
-  .basic-page__title,
-  .contact__title,
-  .blog__header-title,
-  .projects__header-title,
-  .home-page__product-title {
-    font-size: 32px;
-    letter-spacing: 1.2px;
-    line-height: 1.5;
-  }
-
-  /* SECONDARY TITLE */
-  .home-page__hero-title,
-  .blog__h2,
-  .cta__title,
-  .home-page__steps-title {
-    font-size: 28px;
-  }
+/* PRIMARY TITLE */
+.basic-page__title,
+.contact__title,
+.blog__header-title,
+.projects__header-title,
+.home-page__product-title {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 1.3;
+}
+/* SECONDARY TITLE */
+.home-page__hero-title,
+.blog__h2,
+.cta__title,
+.home-page__steps-title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  line-height: 1.4;
+}
+/* TERCIARY TITLE */
+.blog__h3,
+.projects__list li a h2,
+.blog__list li article a h2 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.35;
+}
+/* SUBTITLE */
+.blog__h4,
+.home-page__steps-list h3,
+.home-page__benefits-list div h3 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 1.4;
+}
+/* PARAGRAPH - LARGE */
+.blog__h5{
+  font-size: 18px;
+}
+/* PARAGRAPH - SMALL */
+.home-page__hero-p,
+.blog__share-title,
+.cookies__text,
+.cta__p,
+.home-page__steps-p {
+  font-size: 16px;
+}
+/* PARAGRAPH - EXTRA SMALL */
+article#blog ol li,
+article#blog ul li,
+.projects__list li a p,
+.blog__p,
+.contact__form textarea,
+.contact__form input,
+.footer__list a,
+.footer__p,
+.home-page__steps-list p,
+.home-page__benefits-list p {
+  font-size: 14px;
+}
 
   /* PARTIAL - HEADER ********************************/
   .header__logo-white{
