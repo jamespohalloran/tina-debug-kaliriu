@@ -14,7 +14,7 @@ benefits:
     is obvious.
   title_2: Experience
   description_2: You will feel that you are in the hands of excellent professionals.
-  title_3: Fast
+  title_3: Fast turnaround
   description_3: 'Not only do we move fast but will also be aware of all our steps
     moving forward. '
   title_4: Cutting edge technology
