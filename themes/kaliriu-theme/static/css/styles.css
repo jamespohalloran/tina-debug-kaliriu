@@ -1339,11 +1339,8 @@ article#blog ul li,
 }
 
 @media (max-width: 400px){
-  .home-page__hero-btn{
-    flex-direction: column-reverse;
-  }
   .home-page__hero-btn a:first-of-type{
-    margin: 18px 0 0;
+    display: none;
   }
 
 }
