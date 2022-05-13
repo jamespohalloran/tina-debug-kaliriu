@@ -69,7 +69,7 @@ pageRef = '/'
 weight = 1
 
 [[languages.es.menu.main]]
-name = 'Projects'
+name = 'Proyectos'
 url = "/es/projects"
 weight = 1
 
