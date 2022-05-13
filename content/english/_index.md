@@ -10,13 +10,16 @@ projects:
   link: "/projects"
 benefits:
   title_1: Quality
-  description_1: Description
+  description_1: We manage to convey the advantages of your product beyond of what
+    is obvious.
   title_2: Experience
-  description_2: Description
+  description_2: You will feel that you are in the hands of excellent professionals.
   title_3: Fast
-  description_3: Description
-  title_4: Modern
-  description_4: Description
+  description_3: 'Not only do we move fast but will also be aware of all our steps
+    moving forward. '
+  title_4: Cutting edge technology
+  description_4: 'We are constantly updating our resources to bring you the most innovative
+    designs in the industry. '
 steps:
   title: We take you through a step-by-step process...
   description: We make sure that your project gets the care it needs all the way through
