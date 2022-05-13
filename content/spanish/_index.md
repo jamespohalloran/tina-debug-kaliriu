@@ -18,8 +18,8 @@ benefits:
   description_3: 'No solo nos movemos velozmente, estás al tanto de todos nuestros
     pasos. '
   title_4: El cliente primero
-  description_4: Prevemos las necesidades de los usuarios con el objetivo de superar
-    sus expectativas en cada punto.
+  description_4: Prevemos las necesidades del usuario con el objetivo de superar sus
+    expectativas en cada punto.
 steps:
   title: Nuestros pasos para lograr un gran diseño UI/UX
   description: Un excelente diseño es esencial para generar confianza. Nuestro proceso
