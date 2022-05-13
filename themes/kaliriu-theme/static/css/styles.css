@@ -557,6 +557,9 @@ input[type="text"]::placeholder{
 }
 
 /* PARTIAL - FOOTER ********************************/
+.footer__background{
+  position: relative;
+}
 .footer__container {
   display: flex;
   justify-content: space-between;
@@ -1342,5 +1345,12 @@ article#blog ul li,
   .home-page__hero-btn a:first-of-type{
     display: none;
   }
-
+  .footer__list{
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 10px;
+  }
+  .footer__list li{
+    padding-left: 0;
+  }
 }
