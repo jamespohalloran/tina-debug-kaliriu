@@ -20,18 +20,20 @@ benefits:
   title_4: Moderno
   description_4: 'Sorpresivo, evocador y de buen gusto. '
 steps:
-  title: El camino para llegar un gran diseño UI/UX
-  description: Convierte tu relación con los clientes en una ventaja competitiva estratégica
-  step_1_title: Brefing
-  step_1_description: Todo empieza con el briefing. Te escuchamos.
+  title: Nuestros pasos para lograr un gran diseño UI/UX
+  description: Un excelente diseño es esencial para generar confianza. Nuestro proceso
+    para alcanzar ese nivel de calidad es el siguiente.
+  step_1_title: Briefing
+  step_1_description: Tenemos en cuenta los objetivos, los requisitos del proyecto,
+    el público objetivo y los detalles a nivel gráfico de tu negocio.
   step_2_title: Investigación
-  step_2_description: 'Investigamos a tu competencia para saber qué hacen bien o mal,
-    y ayudarte a ser distinto. '
+  step_2_description: Analizamos tu competencia para descubrir tanto sus puntos fuertes
+    como los débiles y ayudarte a que te destaques.
   step_3_title: Prototipo
-  step_3_description: " Entregamos el prototipo según los resultados de la investigación "
+  step_3_description: Te entregamos un prototipo según los resultados de la investigación
+    donde puedas comentar en el diseño mismo.
   step_4_title: Validación
-  step_4_description: Todo esto tiene que ser validado por la investigación y por
-    ti, nuestro cliente.
+  step_4_description: Aplicamos tus comentarios hasta conseguir tu total satisfacción
 show_cta: true
 button_primary:
   link_text: Contáctanos
