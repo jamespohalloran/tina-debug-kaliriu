@@ -889,11 +889,11 @@ input[type="text"]::placeholder{
 }
 .projects__list li{
   height: 380px;
+  transition: 0.5s;
 }
 .projects__list li a{
   border-radius: 12px;
   opacity: 0;
-  transition: 0.5s;
   height: 100%;
   background-color: rgba(var(--primary-rgb), 0.8);
   display: flex;
@@ -1018,7 +1018,7 @@ input[type="text"]::placeholder{
   transition: 0.5s;
 }
 .blog__share-list li:not(.blog__share-list-banner) a:hover{
-  background-color: var(--secondary);
+  background-color: var(--terciary);
   transition: 0.5s;
 }
 .blog__share-list li:not(.blog__share-list-banner) a i{
