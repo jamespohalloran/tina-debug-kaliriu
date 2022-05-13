@@ -4,7 +4,7 @@ title: We create UI/UX designs for enterprises whose purpose is to create produc
 description: We are an interface design agency striving to define and develop user
   experiences in order to achieve a seamless interaction with your company.
 projects:
-  title: Some of our UI/UX design projects...
+  title: Some of our UI/UX design projects
   button: View all projects
   link_text: View all projects
   link: "/projects"
