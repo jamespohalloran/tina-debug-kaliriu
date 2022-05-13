@@ -1009,8 +1009,8 @@ input[type="text"]::placeholder{
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: var(--primary);
-  border: 2px solid var(--primary);
+  background-color: var(--secondary);
+  border: 2px solid var(--secondary);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1018,7 +1018,7 @@ input[type="text"]::placeholder{
   transition: 0.5s;
 }
 .blog__share-list li:not(.blog__share-list-banner) a:hover{
-  background-color: var(--terciary);
+  background-color: var(--secondary);
   transition: 0.5s;
 }
 .blog__share-list li:not(.blog__share-list-banner) a i{
@@ -1026,7 +1026,7 @@ input[type="text"]::placeholder{
   color: var(--terciary);
 }
 .blog__share-list li:not(.blog__share-list-banner) a:hover i{
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 /* PAGE - CONTACT ********************************/
