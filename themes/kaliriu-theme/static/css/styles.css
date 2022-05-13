@@ -16,7 +16,7 @@
   --terciary: #F1EFF5;
   --terciary-rgb: 241, 239, 245;
   --white: #FFF;
-  --gray: #212121;
+  --gray: #1e1e1e;
   --black: #000;
 }
 body {
@@ -267,6 +267,7 @@ article#blog ul li,
 .blog__share-title,
 .cookies__text,
 .blog__h2,
+.blog__h3,
 .home-page__steps-list h3{
   color: var(--primary);
 }
