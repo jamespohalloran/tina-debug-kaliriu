@@ -990,6 +990,7 @@ input[type="text"]::placeholder{
 .blog__p strong{
   font-weight: 700;
 }
+.blog__p strong a,
 .blog__p a{
   color: var(--secondary);
   text-decoration: underline;
