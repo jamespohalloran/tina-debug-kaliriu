@@ -1,6 +1,6 @@
 ---
-title: Contact
-description: Tell us about your project...
+title: Contact us
+description: Tell us about your project
 type: contact
 name_placeholder: Name
 email_placeholder: Email
