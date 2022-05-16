@@ -27,10 +27,6 @@
 
   {{ block "main" . }}{{ end }}
 
-  {{ if .Params.show_cta }}
-    {{ partial "cta" . }}
-  {{ end }}
-
   {{ partial "footer" . }}
 
   {{ partial "cookies" . }}
