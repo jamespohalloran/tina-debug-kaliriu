@@ -1,11 +1,12 @@
 {{ with (index .Site.Data .Site.Language.Lang).faq }}
-	<footer class="footer__background">
-		<div class="footer__container">
-			<p class="footer__p">{{ dateFormat "2006" now }} Kaliriu</p>
-			<ul class="footer__list">
+	<section class="faq__background">
+		<div class="faq__container">
+			<h4 class="faq__title">{{ .title }}</p>
+			<ul class="faq__list">
 				{{ range .q_a }}
 					<li>
-						<a href="{{ .question }}">{{ .answer }}</a>
+						<h3>{{ .question }}</h3>
+						<div>{{ .answer }}</div>
 					</li>
 				{{ end }}
 			</ul>
