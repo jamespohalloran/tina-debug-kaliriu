@@ -1190,18 +1190,17 @@ input[type="text"]::placeholder{
   border-radius: 8px;
   padding: 20px;
   cursor: pointer;
+  font-size: 24px;
   background-color: var(--terciary);
+  color: var(--primary);
 }
 .tab-label::after{
   content: '\e801';
   transition: all .35s;
-  font-size: 24px;
-  color: var(--primary);
 }
 .tab-content{
   max-height: 0;
   font-size: 0;
-  padding: 20px;
   transition: all .35s;
   color: var(--primary);
   background-color: var(--terciary);
@@ -1216,9 +1215,11 @@ input[type="text"]::placeholder{
   background-color: var(--secondary);
 }
 .tab-checkbox:checked + .tab-label::after {
-  content: '\e802'; 
+  content: '\e802';
+  color: var(--terciary);
 }
 .tab-checkbox:checked ~ .tab-content{
+  padding: 20px;
   font-size: 16px;
 }
 
@@ -1318,6 +1319,7 @@ input[type="text"]::placeholder{
 @media (max-width: 650px) {
 
 /* PRIMARY TITLE */
+.faq__title,
 .basic-page__title,
 .contact__title,
 .blog__header-title,
