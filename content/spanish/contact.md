@@ -1,6 +1,6 @@
 ---
 title: Contacto
-description: ''
+description: Cuéntanos de tu proyecto..
 type: contact
 name_placeholder: Nombre
 email_placeholder: Correo electrónico
