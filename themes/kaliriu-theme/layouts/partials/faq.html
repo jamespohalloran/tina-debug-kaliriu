@@ -5,8 +5,8 @@
 			<ul class="tabs">
 				{{ range .q_a }}
 					<li class="tab">
-						<input type="checkbox" id="chck1">
-						<label class="tab-label" for="chck1">{{ .question }}</label>
+						<input class="tab-checkbox" type="checkbox" id="{{ .question }}">
+						<label class="tab-label" for="{{ .question }}">{{ .question }}</label>
 						<div class="tab-content">{{ .answer }}</div>
 					</li>
 				{{ end }}
@@ -14,4 +14,3 @@
 		</div>
 	</section>
 {{ end }}
-
