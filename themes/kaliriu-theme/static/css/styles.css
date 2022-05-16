@@ -843,7 +843,7 @@ input[type="text"]::placeholder{
   margin: 0 0 4px;
 }
 .home-page__steps-container{
-  padding: 90px 20px 110px;
+  padding: 90px 20px;
 }
 .home-page__steps-title{
   margin: 0 auto 12px;
@@ -1171,6 +1171,7 @@ input[type="text"]::placeholder{
 .faq__background{
   position: relative;
   z-index: 2;
+  border-bottom: 1px solid var(--secondary);
 }
 .faq__container{
   padding: 84px 20px;
