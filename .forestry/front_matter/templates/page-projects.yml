@@ -35,9 +35,6 @@ fields:
     max: 
     labelField: 
   label: Projects
-- name: show_cta
-  type: boolean
-  label: Show CTA
 pages:
 - content/english/projects.md
 - content/spanish/projects.md

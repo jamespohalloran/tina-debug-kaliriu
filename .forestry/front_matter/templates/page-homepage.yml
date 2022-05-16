@@ -162,9 +162,6 @@ fields:
       required: false
     label: 'Step 4: Description'
   label: Steps
-- name: show_cta
-  type: boolean
-  label: Show CTA
 pages:
 - content/english/_index.md
 - content/spanish/_index.md
