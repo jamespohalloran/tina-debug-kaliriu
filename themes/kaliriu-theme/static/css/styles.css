@@ -1190,18 +1190,21 @@ input[type="text"]::placeholder{
   border-radius: 8px;
   padding: 20px;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 18px;
   background-color: var(--terciary);
   color: var(--primary);
 }
 .tab-label::after{
+  font-size: 24px;
   content: '\e801';
   transition: all .35s;
 }
 .tab-content{
-  max-height: 0;
+  margin-left: -100%;
+  opacity: 0;
   font-size: 0;
   transition: all .35s;
+  border-radius: 0 0 8px 8px;
   color: var(--primary);
   background-color: var(--terciary);
 }
@@ -1211,6 +1214,7 @@ input[type="text"]::placeholder{
   z-index: -1;
 }
 .tab-checkbox:checked + .tab-label {
+  border-radius: 8px 8px 0 0;
   color: var(--terciary);
   background-color: var(--secondary);
 }
@@ -1221,6 +1225,8 @@ input[type="text"]::placeholder{
 .tab-checkbox:checked ~ .tab-content{
   padding: 20px;
   font-size: 16px;
+  margin-left: 0;
+  opacity: 1;
 }
 
 /* MEDIA QUERY ********************************/
