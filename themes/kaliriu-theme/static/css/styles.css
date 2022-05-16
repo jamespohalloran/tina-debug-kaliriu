@@ -1052,7 +1052,7 @@ input[type="text"]::placeholder{
   padding: 44px 20px 120px;
 }
 .contact__p{
-  margin: 20px 0 44px;
+  margin: 16px 0 44px;
 }
 .contact__form{
   display: flex;

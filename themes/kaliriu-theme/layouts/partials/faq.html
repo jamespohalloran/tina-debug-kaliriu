@@ -1,0 +1,14 @@
+{{ with (index .Site.Data .Site.Language.Lang).faq }}
+	<footer class="footer__background">
+		<div class="footer__container">
+			<p class="footer__p">{{ dateFormat "2006" now }} Kaliriu</p>
+			<ul class="footer__list">
+				{{ range .q_a }}
+					<li>
+						<a href="{{ .link }}">{{ .link_text }}</a>
+					</li>
+				{{ end }}
+			</ul>
+		</div>
+	</footer>
+{{ end }}
