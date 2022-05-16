@@ -29,3 +29,6 @@ fields:
     max: 
     labelField: 
   label: Q&A
+pages:
+- data/en/faq.yml
+- data/es/faq.yml
