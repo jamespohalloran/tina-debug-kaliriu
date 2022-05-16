@@ -1,5 +1,5 @@
 ---
-title: We create UI/UX designs for enterprises whose purpose is to create products
+title: We create UI/UX designs for enterprises whose purpose is to provide products
   that make an impact
 description: We are an interface design agency striving to define and develop user
   experiences in order to achieve a seamless interaction with your company.
