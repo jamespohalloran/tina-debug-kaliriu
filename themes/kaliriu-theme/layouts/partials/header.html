@@ -17,7 +17,10 @@
       {{ end }}
     </ul>
 
-
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+      <a class="nav-links{{if or ($currentPage.IsMenuCurrent 'main' .) ($currentPage.HasMenuCurrent 'main' .) }} active {{ end }} " href="{{.URL}}">{{ .Name }}</a>
+    {{ end }}
 
     {{ partial "language-selector" . }}
 
