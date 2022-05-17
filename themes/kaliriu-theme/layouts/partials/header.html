@@ -11,13 +11,11 @@
       {{ $currentPage := . }}
       {{ $currentMenu := (print "main_" (.Site.Language.Lang)) }}
       {{ range .Site.Menus.main }}
-      <li class='header-nav__list-item {{ if $currentPage.IsMenuCurrent $currentMenu . }}active{{ end }}'>
+      <li class="header-nav__list-item {{ if $currentPage.IsMenuCurrent 'main' . }}active{{ end }}">
           <a class="header-nav__list-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
       </li>
       {{ end }}
     </ul>
-
-
 
     {{ partial "language-selector" . }}
 
