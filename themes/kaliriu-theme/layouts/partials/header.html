@@ -9,7 +9,7 @@
 
     <ul class="header-nav">
       {{- $currentPage := . -}}
-      {{ $currentMenu := (print "main_" (.Site.Language.Lang)) -}}
+      {{ $currentMenu := (print "main_" (.Site.Language.Lang)) }}
       {{ range .Site.Menus.main -}}
       <li class='header-nav__list-item {{ if $currentPage.IsMenuCurrent $currentMenu . }}active{{ end }}'>
           <a class="header-nav__list-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
