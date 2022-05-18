@@ -1204,8 +1204,9 @@ input[type="text"]::placeholder{
   transition: all .35s;
 }
 .tab-label::after{
-  font-size: 24px;
   content: '\e801';
+  font-size: 24px;
+  margin-left: 14px;
 }
 .tab-content{
   margin-left: -100%;
