@@ -7,11 +7,11 @@ meta_description: 'Nowadays, most people, before making the purchase of a produc
   to visit the stores. That is why companies need to offer their customers a good
   and intuitive interface design. '
 description: |-
-  Nowadays, most people, before making the purchase of a product will research on the Internet from the comfort of their own home before going out to visit the stores. That is why companies need to offer their customers a good and intuitive interface design.
+  Nowadays, most people, before making the purchase of a product will research on the Internet from the comfort of their own home before going out to visit the stores. That is why companies need to offer their customers **a good and intuitive interface design.**
 
   Social networks and different electronic devices are growing and changing every day. These changes force companies to stop and implement strategies to integrate them and compete with the rest. In fact, many people find YOUR company for the first time through the web.
 
-  UI/UX designers are in charge of creating a conscious design that will rank the website on the Internet so that it becomes among the best in their industry (SEO). Let's remember that when a user spends a long time on a certain page, it is because they like it and find it easy to navigate. That is what we are looking for.
+  **UI/UX designers are in charge of creating a conscious design that will rank the website on the Internet so that it becomes among the best in their industry (SEO).** Let's remember that when a user spends a long time on a certain page, it is because they like it and find it easy to navigate. That is what we are looking for.
 
   ## What Is an Interface?
 
@@ -29,7 +29,7 @@ description: |-
 
   Business owners should know that the user interface design can affect both positively and negatively. A good web design will make the product competitive.
 
-  Here are the benefits of having a good user interface for your business:
+  **Here are the benefits of having a good user interface for your business:**
 
   ### SEO Ranking
 
