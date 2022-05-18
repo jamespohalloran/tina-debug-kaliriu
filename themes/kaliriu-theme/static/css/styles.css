@@ -1186,27 +1186,22 @@ input[type="text"]::placeholder{
   margin: 0 0 44px;
 }
 .tabs {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  display: block;
 }
 .tab {
   width: 100%;
   overflow: hidden;
+  border-bottom: 1px solid rgb(var(--terciary-rgb), .15);
+  padding: 0 0 14px;
 }
 .tab-label{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 8px;
-  padding: 14px;
+  padding: 8px 0;
   line-height: 1.2;
-  height: 100%;
-  max-height: 86px;
   cursor: pointer;
-  background-color: var(--terciary);
-  color: var(--primary);
+  color: var(--terciary);
 }
 .tab-label::after{
   font-size: 24px;
@@ -1217,7 +1212,6 @@ input[type="text"]::placeholder{
   margin-left: -100%;
   opacity: 0;
   transition: all .35s;
-  border-radius: 0 0 8px 8px;
   color: var(--primary);
   background-color: var(--terciary);
 }
@@ -1225,11 +1219,6 @@ input[type="text"]::placeholder{
   position: absolute;
   opacity: 0;
   z-index: -1;
-}
-.tab-checkbox:checked + .tab-label {
-  border-radius: 8px 8px 0 0;
-  height: auto;
-  max-height: initial;
 }
 .tab-checkbox:checked + .tab-label,
 .tab-label:hover{
@@ -1322,9 +1311,6 @@ input[type="text"]::placeholder{
     .blog__list, 
     .home-page__product-list{
       grid-template-columns: repeat(2,1fr)
-    }
-    .tabs {
-      grid-template-columns: repeat(1, 1fr);
     }
 
     /* BLOG ********************************/
