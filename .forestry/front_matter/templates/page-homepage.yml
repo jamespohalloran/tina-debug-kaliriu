@@ -12,6 +12,11 @@ fields:
   config:
     required: false
   label: Description
+- name: meta_description
+  type: text
+  config:
+    required: false
+  label: meta_description
 - name: button_primary
   type: field_group
   config: {}
