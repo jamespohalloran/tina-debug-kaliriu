@@ -1191,14 +1191,14 @@ input[type="text"]::placeholder{
 .tab {
   width: 100%;
   overflow: hidden;
-  border-bottom: 1px solid rgb(var(--terciary-rgb), .15);
-  padding: 0 0 14px;
+  border-bottom: 1px solid var(--secondary);
+  margin: 0 0 14px;
 }
 .tab-label{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 0;
+  padding: 20px 12px 8px;
   line-height: 1.2;
   cursor: pointer;
   color: var(--terciary);
@@ -1233,7 +1233,7 @@ input[type="text"]::placeholder{
   color: var(--terciary);
 }
 .tab-checkbox:checked ~ .tab-content{
-  padding: 14px 20px;
+  padding: 8px 14px 20px;
   margin-left: 0;
   opacity: 1;
 }
