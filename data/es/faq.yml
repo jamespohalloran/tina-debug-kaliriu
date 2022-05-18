@@ -1,6 +1,13 @@
 ---
 title: Preguntas Frecuentes
 q_a:
+- question: Guíame a través de un ejemplo de diseño en el que te dispusiste a resolver
+    un problema empresarial.
+  answer: Cuando existe un problema empresarial, los profesionales encargados del
+    diseño revisan la construcción de la web o de la aplicación a partir de la información
+    de la cual disponen. El objetivo es encontrar el equilibrio perfecto entre el
+    problema y el proceso de diseño que se lleva a cabo. Se modifica el diseño, también
+    teniendo en cuenta la experiencia del usuario.
 - question: "¿Qué significa ser un gran diseñador UX?"
   answer: El diseño UX es una profesión que en este momento es tendencia y los profesionales
     del sector se encargan de crear y desarrollar interfaces que cumplan con las necesidades
