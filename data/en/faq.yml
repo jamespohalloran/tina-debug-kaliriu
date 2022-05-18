@@ -1,5 +1,7 @@
 ---
 title: FAQ
 q_a:
-- question: Question
-  answer: Answer
+- question: What is interface design?
+  answer: Interface design is the process designers go through to create interfaces,
+    focusing on appearance and style. This means, they design all the graphic elements,
+    with colors and typographies that help the user to "communicate" with a system.
