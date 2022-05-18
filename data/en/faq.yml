@@ -1,6 +1,22 @@
 ---
 title: FAQ
 q_a:
+- question: What is the difference between interface design and user experience?
+  answer: Interface design and user experience differ from each other because the
+    first one refers to the design of a website page or application, where the construction
+    of it is implemented with colors, typographies and visual design in general. While
+    the second one refers to the usability and ease of navigation for users (easy
+    and intuitive).
+- question: How does the design process work?
+  answer: The design process begins when the designers in charge identify user requirements,
+    among other things. Once this process is carried out, the different viable options
+    are created and analyzed, and the objectives and actions that the interface should
+    have been defined. Icons, descriptive texts, windows, titles, and other tools
+    are used to make the prototype and evaluate its quality.
+- question: What is interface design?
+  answer: Interface design is the process designers go through to create interfaces,
+    focusing on appearance and style. This means, they design all the graphic elements,
+    with colors and typographies that help the user to "communicate" with a system.
 - question: What are the biggest trends in the UX design industry at the moment?
   answer: 'There are some trends in the UX design industry at the moment and they
     are as follows: dark mode (reduces eyestrain, saves device power, highlights design
@@ -56,7 +72,3 @@ q_a:
 - question: What are the benefits of a good UX design?
   answer: With a good UX design you can increase sales, retain the user, reduce costs,
     increase web traffic, satisfy customers, and improve SEO.
-- question: What is interface design?
-  answer: Interface design is the process designers go through to create interfaces,
-    focusing on appearance and style. This means, they design all the graphic elements,
-    with colors and typographies that help the user to "communicate" with a system.
