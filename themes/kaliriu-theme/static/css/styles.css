@@ -1186,11 +1186,13 @@ input[type="text"]::placeholder{
   margin: 0 0 44px;
 }
 .tabs {
-  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 .tab {
   width: 100%;
-  max-width: 50%;
   overflow: hidden;
 }
 .tab-label{
@@ -1198,7 +1200,8 @@ input[type="text"]::placeholder{
   justify-content: space-between;
   align-items: center;
   border-radius: 8px;
-  padding: 14px 20px;
+  padding: 14px;
+  height: 100%;
   cursor: pointer;
   background-color: var(--terciary);
   color: var(--primary);
@@ -1223,11 +1226,17 @@ input[type="text"]::placeholder{
 }
 .tab-checkbox:checked + .tab-label {
   border-radius: 8px 8px 0 0;
+}
+.tab-checkbox:checked + .tab-label,
+.tab-label:hover{
   color: var(--terciary);
   background-color: var(--secondary);
 }
 .tab-checkbox:checked + .tab-label::after {
   content: '\e802';
+}
+.tab-checkbox:checked + .tab-label::after,
+.tab-label:hover{
   color: var(--terciary);
 }
 .tab-checkbox:checked ~ .tab-content{
