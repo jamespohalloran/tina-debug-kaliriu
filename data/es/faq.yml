@@ -1,2 +1,8 @@
 ---
 title: Preguntas Frecuentes
+q_a:
+- question: "¿Qué es un diseño de interfaz?"
+  answer: El diseño de interfaz es el proceso que realizan los diseñadores para crear
+    interfaces, para ello se centran en la apariencia y el estilo. Esto significa,
+    que diseñan todos los elementos gráficos, con colores y tipografías que ayudan
+    al usuario a “comunicarse” con un sistema.
