@@ -50,7 +50,7 @@ a {
 }
 
 /* ICONS */
-.tab-label::after,
+.tab-label *::after,
 .form_message::before,
 .form_email::before,
 .form_name::before,
@@ -1208,7 +1208,7 @@ input[type="text"]::placeholder{
   padding: 20px 12px 8px;
   width: 100%;
 }
-.tab-label::after{
+.tab-label *::after{
   content: '\e801';
   color: var(--terciary);
   font-size: 24px;
@@ -1232,10 +1232,10 @@ input[type="text"]::placeholder{
   color: var(--terciary);
   background-color: var(--secondary);
 }
-.tab-checkbox:checked + .tab-label::after {
+.tab-checkbox:checked + .tab-label *::after {
   content: '\e802';
 }
-.tab-checkbox:checked + .tab-label::after,
+.tab-checkbox:checked + .tab-label *::after,
 .tab-label:hover{
   color: var(--terciary);
 }
