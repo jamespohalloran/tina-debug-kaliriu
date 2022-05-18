@@ -1,5 +1,79 @@
 ---
 title: FAQ
 q_a:
-- question: Question
-  answer: Answer
+- question: What is interface design?
+  answer: Interface design is the process designers go through to create interfaces,
+    focusing on appearance and style. This means, they design all the graphic elements,
+    with colors and typographies that help the user to "communicate" with a system.
+- question: What is the goal of an interface design?
+  answer: The objective of the designers who create the user interface is to make
+    it easy for the potential clients to interact with the website and stay on it
+    for as long as possible. This influences the SEO ranking of the company and the
+    goal it has in the market, whether it is to sell a product or establish a service.
+- question: What is the difference between interface design and user experience?
+  answer: Interface design and user experience differ from each other because the
+    first one refers to the design of a website page or application, where the construction
+    of it is implemented with colors, typographies and visual design in general. While
+    the second one refers to the usability and ease of navigation for users (easy
+    and intuitive).
+- question: How does the design process work?
+  answer: The design process begins when the designers in charge identify user requirements,
+    among other things. Once this process is carried out, the different viable options
+    are created and analyzed, and the objectives and actions that the interface should
+    have been defined. Icons, descriptive texts, windows, titles, and other tools
+    are used to make the prototype and evaluate its quality.
+- question: What are the biggest trends in the UX design industry at the moment?
+  answer: 'There are some trends in the UX design industry at the moment and they
+    are as follows: dark mode (reduces eyestrain, saves device power, highlights design
+    elements), shadows, layers and floating elements, storytelling (closeness to users),
+    empty space (active or passive), voice UI, photo production, fonts, text and copy,
+    3D, and VR.'
+- question: 'When a client says: "I don''t like this design", what does the designer
+    do?'
+  answer: The objective of the designer in charge of carrying out the design of a
+    website or application of a company is to make sure the client loves it, and when
+    this does not happen, the designer will do it again until the client is satisfied
+    with the final result.
+- question: Guide me through a design example in which you set out to solve a business
+    problem.
+  answer: When there is a business problem, design professionals review the construction
+    of the website or application based on the information available to them. The
+    goal is to find the perfect balance between the problem and the design process
+    being carried out. The design is modified, as well as considering the user's experience.
+- question: What does it mean to be a great UX designer?
+  answer: UX design is a profession that is currently trending and professionals in
+    the sector are responsible for creating and developing interfaces that meet the
+    needs of users, with the aim of offering them a unique, simple, and intuitive
+    experience. These professionals are considered great UX designers.
+- question: Would investing in UX design increase my ROI?
+  answer: ROI (return on investment) has to do with the amount of money that is generated
+    after investing, in this case in a UI/UX design. It evaluates the profitability
+    of the benefit/investment. Does it improve the final result? Of course it does,
+    UX processes increase ROI because they keep customers engaged with a company's
+    service and product.
+- question: How long does it usually take to design a website?
+  answer: The time it takes depends a lot on the complexity of the website to be developed,
+    but the minimum is two days, since it also depends on the deadlines for review,
+    approval, and final adjustments. These points also influence the final budget
+    of the website or application. Each design is different, so each one has a unique
+    structure and time.
+- question: 'How many changes can I expect on my site at no additional cost? '
+  answer: Once the designer presents the final result to the client, it may happen
+    that the client does not like some aspects of the website or application and requests
+    some changes. These changes, if they are minor, will have no additional cost.
+    If the changes required are large, the designer will evaluate what is the appropriate
+    amount to charge.
+- question: 'How does the payment process work for a UI/UX design? '
+  answer: 'The UI/UX designer carries out different stages during the creation and
+    development of the website or application, which are the following: research and
+    analysis, creation, implementation, and follow-up. Therefore, the client who requests
+    the work must pay 50% at the beginning of the work and the remaining 50% when
+    the final result is delivered.'
+- question: What is the participation of a company in the design process?
+  answer: 'Companies or clients of any industry have an important role in the design
+    process of a website or application because they are the ones in charge of transmitting
+    in a clear way what they want to obtain from the design developed team. For example:
+    to sell a product, to establish a service, etc.'
+- question: What are the benefits of a good UX design?
+  answer: With a good UX design you can increase sales, retain the user, reduce costs,
+    increase web traffic, satisfy customers, and improve SEO.
