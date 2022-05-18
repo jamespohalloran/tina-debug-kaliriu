@@ -2,10 +2,10 @@
     {{ with .Params }}
         <main id="main">
             <section class="contact__background">
-                <div class="contact__container">
+                <div class="contact__container" id="contact">
                     <h1 class="contact__title">{{ .Title }}</h1>
                     <p class="contact__p">{{ .description }}</h1>
-                    <form class="contact__form" data-netlify="true" method="POST" name="quote" action="/#contact">
+                    <form class="contact__form" data-netlify="true" method="POST" name="contact" action="/#contact">
                         <div class="form_name">
                             <input name="name" type="text" id="name" required placeholder="{{ .name_placeholder }}">
                         </div>
@@ -15,7 +15,7 @@
                         <div class="form_message">
                             <textarea class="data-hj-allow" name="message" id="message" rows="6" required placeholder="{{ .message_placeholder }}"></textarea>
                         </div>
-                        <button type="submit">{{ .button }}</button>
+                        <button onclick="location.href='#popup1'" type="submit">{{ .button }}</button>
                     </form>
                 </div>
                 <!--Waves Container-->
@@ -33,6 +33,43 @@
                     </svg>
                 <!--Waves end-->
             </section>
+
+            <section id="popup1" class="popup-overlay">
+                <div class="popup-background">
+                  <div class="popup-container">
+                    <p class="popup-title">THANK YOU</p>
+                    <a class="popup-close" href="#">&times;</a>
+                    <p class="popup-subtitle">Your message was sent successfully.</p>
+                    <a href="/" class="popup-button">Go back</a>
+                  </div>
+                </div>
+            </section>
+
+            <script>
+                /* CONFIRMATION PAGE */
+                let testForm = document.querySelector("#contact form");      
+                testForm.addEventListener('submit', e => {
+                  e.preventDefault();
+                  const formData = new FormData(testForm);
+                  fetch(testForm.getAttribute('action'), {
+                    method: 'POST',
+                    headers: {
+                      'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
+                      'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+                    },
+                    body: new URLSearchParams(formData).toString()
+                  })
+                  .then(res => {
+                    if (res) {
+                      M.toast({
+                        html: 'Thank you for your submission!',
+                        classes: 'pulse'
+                      });
+                    }
+                  });
+                });
+            </script>
+
         </main>
     {{ end }}
 {{ end }}

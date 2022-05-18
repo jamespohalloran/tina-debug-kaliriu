@@ -1239,6 +1239,67 @@ input[type="text"]::placeholder{
   opacity: 1;
 }
 
+/* OVERLAY POPUP ********************************/
+html[lang=es] .popup-title::before,
+.popup-title {
+  text-align: center;
+  content: 'GRACIAS';
+}
+html[lang=es] .popup-subtitle::before,
+.popup-subtitle {
+  margin: 10px auto 30px;
+  text-align: center;
+  max-width: 400px;
+  content: 'Tu mensaje fue enviado con éxito.';
+}
+html[lang=es] .popup-button::before,
+.popup-button {
+  content: 'Regresar';
+}
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.7);
+  display: none;
+  opacity: 0;
+  z-index: 999;
+}
+.popup-overlay:target {
+  display: flex;
+  opacity: 1;
+}
+.popup-background {
+  width: 100%;
+  max-width: 550px;
+  padding: 40px 20px;
+}
+.popup-container {
+  box-shadow: 2px 2px 9px 0 rgba(56, 112, 224, 0.10);
+  background-color: white;
+  padding: 55px 20px;
+  border-radius: 12px;
+  position: relative;
+  text-align: center;
+}
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 18px;
+}
+.popup-close:hover {
+  color: var(--primary);
+}
+
 /* MEDIA QUERY ********************************/
 
 @media (max-width: 1100px){
