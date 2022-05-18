@@ -17,7 +17,7 @@ benefits:
   title_3: Entrega rápida
   description_3: 'No solo nos movemos velozmente, estás al tanto de todos nuestros
     pasos. '
-  title_4: El cliente primero
+  title_4: El cliente es prioridad
   description_4: Prevemos las necesidades del usuario con el objetivo de superar sus
     expectativas en cada punto.
 steps:
@@ -42,5 +42,8 @@ button_primary:
 button_secondary:
   link_text: Ver proyectos
   link: "/es/projects"
+meta_description: Somos una agencia de diseño de interfaz para definir y desarrollar
+  las experiencias del usuario con el fin de lograr una interacción fluida con tu
+  empresa.
 
 ---
