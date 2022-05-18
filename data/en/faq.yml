@@ -1,6 +1,12 @@
 ---
 title: FAQ
 q_a:
+- question: Guide me through a design example in which you set out to solve a business
+    problem.
+  answer: When there is a business problem, design professionals review the construction
+    of the website or application based on the information available to them. The
+    goal is to find the perfect balance between the problem and the design process
+    being carried out. The design is modified, as well as considering the user's experience.
 - question: What does it mean to be a great UX designer?
   answer: UX design is a profession that is currently trending and professionals in
     the sector are responsible for creating and developing interfaces that meet the
