@@ -1,13 +1,15 @@
 {{ with (index .Site.Data .Site.Language.Lang).faq }}
 	<section class="faq__background">
 		<div class="faq__container">
-			<h4 class="faq__title">{{ .title }}</h4>
+			<h2 class="faq__title">{{ .title }}</h4>
 			<ul class="tabs">
 				{{ range .q_a }}
 					<li class="tab">
 						<input class="tab-checkbox" type="checkbox" id="{{ .question }}">
-						<label class="tab-label" for="{{ .question }}">{{ .question }}</label>
-						<div class="tab-content">{{ .answer }}</div>
+						<label class="tab-label" for="{{ .question }}">
+							<h3>{{ .question }}</h3>
+						</label>
+						<p class="tab-content">{{ .answer }}</p>
 					</li>
 				{{ end }}
 			</ul>
