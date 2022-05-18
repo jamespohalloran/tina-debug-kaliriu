@@ -15,4 +15,21 @@
 			</ul>
 		</div>
 	</section>
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "FAQPage",
+		  "mainEntity":
+		  {{ range .q_a }}
+			{
+				"@type": "Question",
+				"name": "{{ .question }}",
+				"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "{{ .answer }}"
+				}
+			},
+		  {{ end }}
+		}
+	</script>
 {{ end }}
