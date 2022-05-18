@@ -1,6 +1,30 @@
 ---
 title: Preguntas Frecuentes
 q_a:
+- question: "¿Qué es un diseño de interfaz?"
+  answer: El diseño de interfaz es el proceso que realizan los diseñadores para crear
+    interfaces, para ello se centran en la apariencia y el estilo. Esto significa,
+    que diseñan todos los elementos gráficos, con colores y tipografías que ayudan
+    al usuario a “comunicarse” con un sistema.
+- question: "¿Cuál es el objetivo del diseño de interfaz?"
+  answer: El objetivo que poseen los diseñadores que crean la interfaz de usuario
+    es lograr que potenciales clientes o fijos puedan interactuar sencillamente en
+    la web desarrollada y permanezcan la mayor parte del tiempo en la misma. Esto
+    influye en el posicionamiento de la empresa y en el objetivo que posee en el mercado,
+    ya sea vender algún producto o establecer algún servicio.
+- question: "¿Cuál es la diferencia entre diseño de interfaz y experiencia de usuario?"
+  answer: El diseño de interfaz y la experiencia de usuario se diferencian entre sí
+    porque la primera se refiere al diseño de una página web o aplicación, donde se
+    implementa la construcción de la misma con colores, tipografías y el diseño visual
+    en general. Mientras que la segunda, se estudia que la usabilidad y facilidad
+    de navegación sea la óptima para los usuarios (fácil e intuitiva).
+- question: "¿Cómo funciona el proceso de diseño?"
+  answer: El proceso de diseño comienza cuando los diseñadores encargados identifican
+    los requerimientos de los usuarios, entre otras cosas. Una vez que se lleva a
+    cabo este proceso, se crean y se analizan las diferentes opciones viables y se
+    definen los objetivos y las acciones que la interfaz debe tener. En la misma se
+    emplean iconos, textos descriptivos, ventanas, títulos y otras herramientas con
+    las que se hace el prototipo y se evalúa la calidad.
 - question: "¿Cuáles son las mayores tendencias en la industria del diseño UX en este
     momento?"
   answer: 'En la actualidad existen algunas tendencias en la industria del diseño
@@ -62,14 +86,3 @@ q_a:
     por las cuales están trabajando, ya que si se crea un buen diseño se logra incrementar
     las ventas, retener al usuario, reducir los costos, aumentar el tráfico de la
     web y satisfacer a los clientes y mejorar el SEO.
-- question: "¿Qué es un diseño de interfaz?"
-  answer: El diseño de interfaz es el proceso que realizan los diseñadores para crear
-    interfaces, para ello se centran en la apariencia y el estilo. Esto significa,
-    que diseñan todos los elementos gráficos, con colores y tipografías que ayudan
-    al usuario a “comunicarse” con un sistema.
-- question: "¿Cuál es el objetivo del diseño de interfaz?"
-  answer: El objetivo que poseen los diseñadores que crean la interfaz de usuario
-    es lograr que potenciales clientes o fijos puedan interactuar sencillamente en
-    la web desarrollada y permanezcan la mayor parte del tiempo en la misma. Esto
-    influye en el posicionamiento de la empresa y en el objetivo que posee en el mercado,
-    ya sea vender algún producto o establecer algún servicio.
