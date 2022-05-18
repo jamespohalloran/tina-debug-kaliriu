@@ -1,6 +1,15 @@
 ---
 title: FAQ
 q_a:
+- question: What is the goal of an interface design?
+  answer: The objective of the designers who create the user interface is to make
+    it easy for the potential clients to interact with the website and stay on it
+    for as long as possible. This influences the SEO ranking of the company and the
+    goal it has in the market, whether it is to sell a product or establish a service.
+- question: What is interface design?
+  answer: Interface design is the process designers go through to create interfaces,
+    focusing on appearance and style. This means, they design all the graphic elements,
+    with colors and typographies that help the user to "communicate" with a system.
 - question: What is the difference between interface design and user experience?
   answer: Interface design and user experience differ from each other because the
     first one refers to the design of a website page or application, where the construction
@@ -13,10 +22,6 @@ q_a:
     are created and analyzed, and the objectives and actions that the interface should
     have been defined. Icons, descriptive texts, windows, titles, and other tools
     are used to make the prototype and evaluate its quality.
-- question: What is interface design?
-  answer: Interface design is the process designers go through to create interfaces,
-    focusing on appearance and style. This means, they design all the graphic elements,
-    with colors and typographies that help the user to "communicate" with a system.
 - question: What are the biggest trends in the UX design industry at the moment?
   answer: 'There are some trends in the UX design industry at the moment and they
     are as follows: dark mode (reduces eyestrain, saves device power, highlights design
