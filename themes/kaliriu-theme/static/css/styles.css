@@ -1203,7 +1203,7 @@ input[type="text"]::placeholder{
   padding: 14px;
   line-height: 1.2;
   height: 100%;
-  max-height: 100px;
+  max-height: 86px;
   cursor: pointer;
   background-color: var(--terciary);
   color: var(--primary);
@@ -1322,6 +1322,9 @@ input[type="text"]::placeholder{
     .blog__list, 
     .home-page__product-list{
       grid-template-columns: repeat(2,1fr)
+    }
+    .tabs {
+      grid-template-columns: repeat(1, 1fr);
     }
 
     /* BLOG ********************************/
