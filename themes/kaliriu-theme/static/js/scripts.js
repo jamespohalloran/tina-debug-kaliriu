@@ -54,12 +54,3 @@ cookieButton.addEventListener('click', function(e){
   setCookie("consent","cookiesconsented",90);
   document.body.classList.remove('is-noConsent');
 });
-
-/* OPEN NEW TAB */
- window.onload = function(){
-  var anchors = document.getElementById('blog').getElementsByTagName('a');
-  for (var i=0; i<anchors.length; i++){
-    anchors[i].setAttribute('target', '_blank');
-    anchors[i].setAttribute('rel', 'noreferrer nofollow');
-  }
-}
