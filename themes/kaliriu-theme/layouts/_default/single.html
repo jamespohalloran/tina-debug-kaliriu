@@ -82,4 +82,30 @@
         }
         }
     </script>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ $currentPermalink }}"
+          },
+          "headline": "{{ .Title }}",
+          "articleBody": " {{ .description }} ",
+          "image": "https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .Params.image }}",  
+          "author": {
+            "@type": "Organization",
+            "name": "Kaliriu"
+          },  
+          "publisher": {
+            "@type": "Organization",
+            "name": "Kaliriu",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649273027/Kaliriu/Logo/Color.svg"
+            }
+          },
+          "datePublished": ""
+        }
+    </script>
 {{ end }}
