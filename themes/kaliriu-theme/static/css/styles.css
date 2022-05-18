@@ -349,14 +349,12 @@ article#blog ul li,
 }
 
 /* Secondary */
-.home-page__hero-btn-secondary,
-.popup-button {
+.home-page__hero-btn-secondary {
   background-color: var(--primary);
   color: var(--terciary);
   border-color: var(--terciary);
 }
-.home-page__hero-btn-secondary:hover,
-.popup-button:hover {
+.home-page__hero-btn-secondary:hover {
   transition: 0.5s;
   background-color: var(--terciary);
   color: var(--primary);
@@ -1251,7 +1249,7 @@ input[type="text"]::placeholder{
   right: 0;
   justify-content: center;
   align-items: center;
-  background: rgba(var(--terciary-rgb), 0.7);
+  background: rgba(var(--primary-rgb), 0.8);
   display: none;
   opacity: 0;
   z-index: 999;
@@ -1262,7 +1260,7 @@ input[type="text"]::placeholder{
 }
 .popup_background {
   width: 100%;
-  max-width: 500px;
+  max-width: 800px;
   padding: 64px 20px;
 }
 .popup_container {
@@ -1273,10 +1271,18 @@ input[type="text"]::placeholder{
   position: relative;
 }
 .popup_close {
+  box-shadow: 2px 2px 9px 0 rgba(var(--primary-rgb), 0.10);
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: -10px;
+  right: -10px;
   text-decoration: none;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
 }
 .popup_close i{
   font-size: 24px;
