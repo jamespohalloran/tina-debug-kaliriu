@@ -1,6 +1,13 @@
 ---
 title: Preguntas Frecuentes
 q_a:
+- question: "¿Cuáles son las mayores tendencias en la industria del diseño UX en este
+    momento?"
+  answer: 'En la actualidad existen algunas tendencias en la industria del diseño
+    UX y son las siguientes: modo oscuro (reduce el cansancio visual, ahorra energía
+    del dispositivo, resalta elementos del diseño), sombras, capas y elementos flotantes,
+    narrativa (cercanía con los usuarios), espacio vacío (activos o pasivos), interfaz
+    de usuario de voz, producción fotográfica, fuentes, textos y copy, 3D y VR.'
 - question: 'Cuándo un cliente dice: “No me gusta este diseño”, ¿qué hace el diseñador?'
   answer: Por supuesto que el objetivo del diseñador encargado de llevar a cabo el
     diseño de una web o aplicación de una empresa es lograr que al cliente le agrade
