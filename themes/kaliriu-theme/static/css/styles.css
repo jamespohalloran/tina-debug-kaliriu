@@ -1192,7 +1192,6 @@ input[type="text"]::placeholder{
   width: 100%;
   overflow: hidden;
   border-bottom: 1px solid var(--secondary);
-  margin: 0 0 14px;
 }
 .tab-label{
   display: flex;
@@ -1202,11 +1201,11 @@ input[type="text"]::placeholder{
   line-height: 1.2;
   cursor: pointer;
   color: var(--terciary);
+  transition: all .35s;
 }
 .tab-label::after{
   font-size: 24px;
   content: '\e801';
-  transition: all .35s;
 }
 .tab-content{
   margin-left: -100%;
@@ -1222,6 +1221,7 @@ input[type="text"]::placeholder{
 }
 .tab-checkbox:checked + .tab-label,
 .tab-label:hover{
+  transition: all .35s;
   color: var(--terciary);
   background-color: var(--secondary);
 }
