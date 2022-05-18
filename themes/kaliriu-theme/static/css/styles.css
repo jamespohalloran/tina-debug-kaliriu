@@ -1199,16 +1199,18 @@ input[type="text"]::placeholder{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 12px 8px;
   line-height: 1.2;
   cursor: pointer;
   transition: all .35s;
 }
 .tab-label *{
   color: var(--terciary);
+  padding: 20px 12px 8px;
+  width: 100%;
 }
 .tab-label::after{
   content: '\e801';
+  color: var(--terciary);
   font-size: 24px;
   margin-left: 14px;
 }
