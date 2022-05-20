@@ -25,7 +25,7 @@ steps:
   step_1_title: Briefing
   step_1__description: Brefing description
   step_1_description: We take into account the objectives, project requirements, target
-    audience and graphic details of your business.
+    audience, and graphic details of your business.
   step_2_title: Research
   step_2_description: We analyze your competition to discover their strengths and
     weaknesses and help you stand out.
@@ -33,8 +33,8 @@ steps:
   step_3_description: We deliver a prototype according to the results of our research
     in which you can comment on the design itself.
   step_4_title: Validation
-  step_4_description: We apply you’re the changes from your comments until we get
-    your total satisfaction.
+  step_4_description: We apply your changes from your comments until we get your total
+    satisfaction.
 show_cta: true
 button_primary:
   link_text: Contact us
