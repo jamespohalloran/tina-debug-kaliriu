@@ -724,6 +724,7 @@ input[type="text"]::placeholder{
   background-size: cover;
   background-position: bottom;
 }
+.home-page__hero-background::before,
 .blog__header-background::after,
 .home-page__hero-background::after {
   content: '';
@@ -738,7 +739,7 @@ input[type="text"]::placeholder{
 .blog__header-background::after{
   background-color: var(--secondary);
 }
-.home-page__hero-background::after{
+.home-page__hero-background::before{
   background:  #fe5757;
   animation: colorChange 30s ease-in-out infinite;
   animation-fill-mode: both;
