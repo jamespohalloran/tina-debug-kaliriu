@@ -745,8 +745,7 @@ input[type="text"]::placeholder{
   animation-fill-mode: both;
   mix-blend-mode: overlay;
 }
-@keyframes colorChange { 0%, 100% {opacity: 0;} 50% {opacity: .9;}
-}
+@keyframes colorChange { 0%, 100% {opacity: 0;} 50% {opacity: .9;}}
 @keyframes slideInFromTop { 0% {transform: translateY(-100%);} 100% {transform: translateY(0);}}
 .home-page__hero-container{
   animation: 1s ease-out 0s 1 slideInFromTop;
