@@ -106,9 +106,10 @@ i {
 .projects__list-background {
   background-color: var(--terciary);
 }
+.home-page__hero-background::after,
 .contact__background,
 .home-page__background-gradient{
-  background-image: linear-gradient(to bottom, var(--primary), var(--secondary));
+  background: linear-gradient(to bottom, var(--primary), var(--secondary));
 }
 .blog__list li article a::after,
 .home-page__benefits-list li div{
@@ -731,9 +732,19 @@ input[type="text"]::placeholder{
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: var(--secondary);
   opacity: 0.8;
   z-index: 0;
+}
+.blog__header-background::after{
+  background-color: var(--secondary);
+}
+.home-page__hero-background::after{
+  background:  #fe5757;
+  animation: colorChange 30s ease-in-out infinite;
+  animation-fill-mode: both;
+  mix-blend-mode: overlay;
+}
+@keyframes colorChange { 0%, 100% {opacity: 0;} 50% {opacity: .9;}
 }
 @keyframes slideInFromTop { 0% {transform: translateY(-100%);} 100% {transform: translateY(0);}}
 .home-page__hero-container{
