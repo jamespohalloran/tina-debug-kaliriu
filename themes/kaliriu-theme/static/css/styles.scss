@@ -13,6 +13,7 @@
 $primary: #0f0c29;
 $secondary: #3a3c86;
 $terciary: #F1EFF5;
+$cta: #00a6ff;
 $gray: #1e1e1e;
 body {
   background-color: $terciary;
@@ -86,6 +87,7 @@ i {
 .footer__background{
   background-color: $primary;
 }
+.blog__header-background::after,
 .basic-page__background,
 .cta__background,
 .blog__header-background,
@@ -99,7 +101,7 @@ i {
 .projects__list-background {
   background-color: $terciary;
 }
-.home-page__hero-background::after,
+.home-page__hero-background,
 .contact__background,
 .home-page__background-gradient{
   background: linear-gradient(to bottom, $primary, $secondary);
@@ -207,22 +209,21 @@ article#blog ul li{
 }
 article#blog ol li{
   counter-increment: inst;
-}
-article#blog ol li::before,
-article#blog ul li::before{
-  content: '\e804';
-  position: absolute;
-  left: 0;
-  top: 4px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  font-size: 12px;
-  background-color: $secondary;
-  color: $terciary;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  &:before{
+    content: '\e804';
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 12px;
+    background-color: $secondary;
+    color: $terciary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 article#blog ol li::before{
   content: counter(inst);
@@ -705,8 +706,9 @@ input[type="text"]::placeholder{
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
-.home-page__hero-background::before,
+#stars__container,
 .blog__header-background::after,
 .home-page__hero-background::after {
   content: '';
@@ -718,11 +720,8 @@ input[type="text"]::placeholder{
   opacity: 0.8;
   z-index: 0;
 }
-.blog__header-background::after{
-  background-color: $secondary;
-}
-.home-page__hero-background::before{
-  background:  #fe5757;
+.home-page__hero-background::after{
+  background:  $cta;
   animation: colorChange 30s ease-in-out infinite;
   animation-fill-mode: both;
   mix-blend-mode: overlay;
@@ -1169,64 +1168,30 @@ $shadows-big:    multiple-box-shadow(100);
 	margin: auto;
 }
 #one{
-	-webkit-animation: one 5s ease-in-out infinite alternate;
-	-moz-animation: one 5s ease-in-out infinite alternate;
-	-ms-animation: one 5s ease-in-out infinite alternate;
-	-o-animation: one 5s ease-in-out infinite alternate;
 	animation: one 5s ease-in-out infinite alternate;
 }
-@-webkit-keyframes one { from {-webkit-box-shadow: 0 0 250px 20px #51C2D5;}to { -webkit-box-shadow: 0 0 100px 15px #151965; }}
-@-moz-keyframes one { from {-moz-box-shadow: 0 0 250px 20px #51C2D5;}to { -moz-box-shadow: 0 0 100px 15px #151965; }}
-@-o-keyframes one { from {-o-box-shadow: 0 0 250px 20px #51C2D5;}to { -o-box-shadow: 0 0 100px 15px #151965; }}
-@keyframes one { from {box-shadow: 0 0 250px 20px #51C2D5;}to {box-shadow: 0 0 100px 15px #151965; }}
+@keyframes one { from {box-shadow: 0 0 250px 20px $cta;}to {box-shadow: 0 0 100px 15px $primary; }}
 #two{
 	width: 90%;
 	-webkit-animation: two 4s ease-in-out infinite alternate;
-	-moz-animation: two 4s ease-in-out infinite alternate;
-	-ms-animation: two 4s ease-in-out infinite alternate;
-	-o-animation: two 4s ease-in-out infinite alternate;
 	animation: two 4s ease-in-out infinite alternate;
 }
-@-webkit-keyframes two { from {-webkit-box-shadow: 0 0 250px 20px #050953;}to { -webkit-box-shadow: 0 0 100px 15px #7DEDFF; }}
-@-moz-keyframes two { from {-moz-box-shadow: 0 0 250px 20px #050953;}to { -moz-box-shadow: 0 0 100px 15px #7DEDFF; }}
-@-o-keyframes two { from {-o-box-shadow: 0 0 250px 20px #050953;}to { -o-box-shadow: 0 0 100px 15px #7DEDFF; }}
-@keyframes two { from {box-shadow: 0 0 250px 20px #050953;}to { box-shadow: 0 0 100px 15px #7DEDFF; }}
+@keyframes two { from {box-shadow: 0 0 250px 20px $primary;}to { box-shadow: 0 0 100px 15px $cta; }}
 #three{
 	width: 80%;
-	-webkit-animation: three 3s ease-in-out infinite alternate;
-	-moz-animation: three 3s ease-in-out infinite alternate;
-	-ms-animation: three 3s ease-in-out infinite alternate;
-	-o-animation: three 3s ease-in-out infinite alternate;
 	animation: three 3s ease-in-out infinite alternate;
 }
-@-webkit-keyframes three { from {-webkit-box-shadow: 0 0 250px 20px #516BEB;}to { -webkit-box-shadow: 0 0 100px 15px #84DFFF; }}
-@-moz-keyframes three { from {-moz-box-shadow: 0 0 250px 20px #516BEB;}to { -moz-box-shadow: 0 0 100px 15px #84DFFF }}
-@-o-keyframes three { from {-o-box-shadow: 0 0 250px 20px #516BEB;}to { -o-box-shadow: 0 0 100px 15px #84DFFF }}
-@keyframes three { from {box-shadow: 0 0 250px 20px #516BEB;}to { box-shadow: 0 0 100px 15px #84DFFF }}
+@keyframes three { from {box-shadow: 0 0 250px 20px $cta;}to { box-shadow: 0 0 100px 15px $primary }}
 #four{
 	width: 70%;
-	-webkit-animation: four 2s ease-in-out infinite alternate;
-	-moz-animation: four 2s ease-in-out infinite alternate;
-	-ms-animation: four 2s ease-in-out infinite alternate;
-	-o-animation: four 2s ease-in-out infinite alternate;
 	animation: four 2s ease-in-out infinite alternate;
 }
-@-webkit-keyframes four { from {-webkit-box-shadow: 0 0 250px 20px #010038;}to { -webkit-box-shadow: 0 0 100px 15px #85F4FF; }}
-@-moz-keyframes four { from {-moz-box-shadow: 0 0 250px 20px #010038;}to { -moz-box-shadow: 0 0 100px 15px #85F4FF; }}
-@-o-keyframes four { from {-o-box-shadow: 0 0 250px 20px #010038;}to { -o-box-shadow: 0 0 100px 15px #85F4FF; }}
-@keyframes four { from {shadow: 0 0 250px 20px #010038;}to { shadow: 0 0 100px 15px #85F4FF; }}
+@keyframes four { from {shadow: 0 0 250px 20px $primary;}to { shadow: 0 0 100px 15px $cta; }}
 #five{
 	width: 60%;
-	-webkit-animation: five 1s ease-in-out infinite alternate;
-	-moz-animation: five 1s ease-in-out infinite alternate;
-	-ms-animation: five 1s ease-in-out infinite alternate;
-	-o-animation: five 1s ease-in-out infinite alternate;
 	animation: five 1s ease-in-out infinite alternate;
 }
-@-webkit-keyframes five { from {-webkit-box-shadow: 0 0 250px 20px #2155CD;} to { -webkit-box-shadow: 0 0 100px 15px #0AA1DD; }}
-@-moz-keyframes five { from {-moz-box-shadow: 0 0 250px 20px #2155CD;} to { -moz-box-shadow: 0 0 100px 15px #0AA1DD; }}
-@-o-keyframes five { from {-o-box-shadow: 0 0 250px 20px #2155CD;} to { -o-box-shadow: 0 0 100px 15px #0AA1DD; }}
-@keyframes five { from {box-shadow: 0 0 250px 20px #2155CD;} to { box-shadow: 0 0 100px 15px #0AA1DD; }}
+@keyframes five { from {box-shadow: 0 0 250px 20px $cta;} to { box-shadow: 0 0 100px 15px $primary; }}
 
 /* PARTIAL - FAQ ********************************/
 .faq__background{
