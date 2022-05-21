@@ -724,7 +724,7 @@ input[type="text"]::placeholder{
   background:  $cta;
   animation: colorChange 30s ease-in-out infinite;
   animation-fill-mode: both;
-  mix-blend-mode: overlay;
+  mix-blend-mode: soft-light;
 }
 // n is number of stars required
 @function multiple-box-shadow ($n) {
@@ -1258,7 +1258,7 @@ $shadows-big:    multiple-box-shadow(100);
   color: $terciary;
 }
 .tab-checkbox:checked ~ .tab-content{
-  padding: 8px 14px 20px;
+  padding: 14px 20px;
   margin-left: 0;
   opacity: 1;
 }
