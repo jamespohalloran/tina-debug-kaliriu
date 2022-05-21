@@ -721,7 +721,7 @@ input[type="text"]::placeholder{
   z-index: 0;
 }
 .home-page__hero-background::after{
-  background:  $cta;
+  background: linear-gradient(to bottom, black, $cta);
   animation: colorChange 30s ease-in-out infinite;
   animation-fill-mode: both;
   mix-blend-mode: soft-light;
