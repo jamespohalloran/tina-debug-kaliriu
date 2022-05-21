@@ -27,9 +27,6 @@ HUGO_ENV = "production"
 HUGO_VERSION = "0.81.0"
 
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = true
-
-defaultContentLanguage = 'en'
 [languages]
   [languages.es]
     languageName = 'Spanish'
