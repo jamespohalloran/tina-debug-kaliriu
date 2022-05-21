@@ -126,7 +126,7 @@ i {
 /* BACKGROUND COLOR */
 .faq__background,
 .footer__background {
-  background-color: var(--primary);
+  background-color: #0f0c29;
 }
 
 .basic-page__background,
@@ -147,13 +147,13 @@ i {
 .home-page__hero-background::after,
 .contact__background,
 .home-page__background-gradient {
-  background: -webkit-gradient(linear, left top, left bottom, from(var(--primary)), to(#3a3c86));
-  background: linear-gradient(to bottom, var(--primary), #3a3c86);
+  background: -webkit-gradient(linear, left top, left bottom, from(#0f0c29), to(#3a3c86));
+  background: linear-gradient(to bottom, #0f0c29, #3a3c86);
 }
 
 .blog__list li article a::after,
 .home-page__benefits-list li div {
-  background-image: linear-gradient(320deg, var(--primary), #3a3c86);
+  background-image: linear-gradient(320deg, #0f0c29, #3a3c86);
 }
 
 /* CONTAINER */
@@ -336,7 +336,7 @@ article#blog ul li,
 .blog__h2,
 .blog__h3,
 .home-page__steps-list h3 {
-  color: var(--primary);
+  color: #0f0c29;
 }
 
 /* Gray */
@@ -393,8 +393,8 @@ article#blog ul li,
 .cta__btn,
 .home-page__product-btn {
   background-color: #F1EFF5;
-  color: var(--primary);
-  border-color: var(--primary);
+  color: #0f0c29;
+  border-color: #0f0c29;
 }
 
 .home-page__hero-btn-primary:hover,
@@ -405,14 +405,14 @@ article#blog ul li,
 .home-page__product-btn:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background-color: var(--primary);
+  background-color: #0f0c29;
   color: #F1EFF5;
   border-color: #F1EFF5;
 }
 
 /* Secondary */
 .home-page__hero-btn-secondary {
-  background-color: var(--primary);
+  background-color: #0f0c29;
   color: #F1EFF5;
   border-color: #F1EFF5;
 }
@@ -421,7 +421,7 @@ article#blog ul li,
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background-color: #F1EFF5;
-  color: var(--primary);
+  color: #0f0c29;
 }
 
 /* FORMULARIO ********************************/
@@ -473,7 +473,7 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-  -webkit-box-shadow: 0 0 0 30px var(--primary) inset;
+  -webkit-box-shadow: 0 0 0 30px #0f0c29 inset;
 }
 
 input:-webkit-autofill {
@@ -483,7 +483,7 @@ input:-webkit-autofill {
 textarea:focus,
 input[type="email"]:focus,
 input[type="text"]:focus {
-  background-color: var(--primary);
+  background-color: #0f0c29;
   outline: none;
 }
 
@@ -535,7 +535,7 @@ input[type="text"]::placeholder {
 }
 
 #header.fade-in {
-  background-color: var(--primary);
+  background-color: #0f0c29;
   border-bottom: 1px solid #3a3c86;
 }
 
@@ -705,7 +705,7 @@ input[type="text"]::placeholder {
 }
 
 .language-item a:hover {
-  color: var(--primary);
+  color: #0f0c29;
 }
 
 .available-languages {
@@ -743,7 +743,7 @@ input[type="text"]::placeholder {
       -ms-flex-align: center;
           align-items: center;
   padding: 15px 20px;
-  border-top: 1px solid var(--primary);
+  border-top: 1px solid #0f0c29;
 }
 
 .footer__list {
@@ -847,7 +847,7 @@ input[type="text"]::placeholder {
 
 .contact__background .waves *,
 .home-page__hero-background .waves * {
-  fill: var(--primary);
+  fill: #0f0c29;
 }
 
 .waves g use:nth-child(1) {
@@ -1720,7 +1720,7 @@ input[type="text"]::placeholder {
   opacity: 0;
   -webkit-transition: all .35s;
   transition: all .35s;
-  color: var(--primary);
+  color: #0f0c29;
   background-color: #F1EFF5;
 }
 
@@ -1818,7 +1818,7 @@ input[type="text"]::placeholder {
 
 .popup_close i {
   font-size: 24px;
-  color: var(--primary);
+  color: #0f0c29;
   opacity: .8;
 }
 
@@ -1885,7 +1885,7 @@ input[type="text"]::placeholder {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: var(--primary);
+    background-color: #0f0c29;
     background-color: rgba(15, 12, 41, 0.7);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);

@@ -84,7 +84,7 @@ i {
 /* BACKGROUND COLOR */
 .faq__background,
 .footer__background{
-  background-color: var(--primary);
+  background-color: $primary;
 }
 .basic-page__background,
 .cta__background,
@@ -102,11 +102,11 @@ i {
 .home-page__hero-background::after,
 .contact__background,
 .home-page__background-gradient{
-  background: linear-gradient(to bottom, var(--primary), $secondary);
+  background: linear-gradient(to bottom, $primary, $secondary);
 }
 .blog__list li article a::after,
 .home-page__benefits-list li div{
-  background-image: linear-gradient(320deg, var(--primary), $secondary);
+  background-image: linear-gradient(320deg, $primary, $secondary);
 }
 
 /* CONTAINER */
@@ -276,7 +276,7 @@ article#blog ul li,
 .blog__h2,
 .blog__h3,
 .home-page__steps-list h3{
-  color: var(--primary);
+  color: $primary;
 }
 /* Gray */
 .blog__p{
@@ -328,8 +328,8 @@ article#blog ul li,
 .cta__btn,
 .home-page__product-btn {
   background-color: $terciary;
-  color: var(--primary);
-  border-color: var(--primary);
+  color: $primary;
+  border-color: $primary;
 }
 .home-page__hero-btn-primary:hover,
 .cookies__button:hover,
@@ -338,21 +338,21 @@ article#blog ul li,
 .cta__btn:hover,
 .home-page__product-btn:hover {
   transition: 0.5s;
-  background-color: var(--primary);
+  background-color: $primary;
   color: $terciary;
   border-color: $terciary;
 }
 
 /* Secondary */
 .home-page__hero-btn-secondary {
-  background-color: var(--primary);
+  background-color: $primary;
   color: $terciary;
   border-color: $terciary;
 }
 .home-page__hero-btn-secondary:hover {
   transition: 0.5s;
   background-color: $terciary;
-  color: var(--primary);
+  color: $primary;
 }
 
 /* FORMULARIO ********************************/
@@ -397,7 +397,7 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
 input:-webkit-autofill:active{
-  -webkit-box-shadow: 0 0 0 30px var(--primary) inset;
+  -webkit-box-shadow: 0 0 0 30px $primary inset;
 }
 input:-webkit-autofill{
   -webkit-text-fill-color: $terciary;
@@ -405,7 +405,7 @@ input:-webkit-autofill{
 textarea:focus,
 input[type="email"]:focus,
 input[type="text"]:focus{
-  background-color: var(--primary);
+  background-color: $primary;
   outline: none;
 }
 textarea::placeholder,
@@ -429,7 +429,7 @@ input[type="text"]::placeholder{
   transition: 0.3s;
 }
 #header.fade-in{
-  background-color: var(--primary);
+  background-color: $primary;
   border-bottom: 1px solid $secondary;
 }
 .header__container {
@@ -552,7 +552,7 @@ input[type="text"]::placeholder{
   width: 100%;
 }
 .language-item a:hover{
-  color: var(--primary);
+  color: $primary;
 }
 .available-languages {
   background-color: $terciary;
@@ -581,7 +581,7 @@ input[type="text"]::placeholder{
   justify-content: space-between;
   align-items: center;
   padding: 15px 20px;
-  border-top: 1px solid var(--primary);
+  border-top: 1px solid $primary;
 }
 .footer__list{
   display: flex;
@@ -665,7 +665,7 @@ input[type="text"]::placeholder{
 }
 .contact__background .waves *,
 .home-page__hero-background .waves *{
-  fill: var(--primary);
+  fill: $primary;
 }
 .waves g use:nth-child(1) {
   opacity: .7;
@@ -1223,7 +1223,7 @@ input[type="text"]::placeholder{
   margin-left: -100%;
   opacity: 0;
   transition: all .35s;
-  color: var(--primary);
+  color: $primary;
   background-color: $terciary;
 }
 .tab-checkbox {
@@ -1296,7 +1296,7 @@ input[type="text"]::placeholder{
 }
 .popup_close i{
   font-size: 24px;
-  color: var(--primary);
+  color: $primary;
   opacity: .8;
 }
 .popup_close i:hover {
@@ -1356,7 +1356,7 @@ input[type="text"]::placeholder{
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background-color: var(--primary);
+      background-color: $primary;
       background-color: rgba($primary, 0.7);
       -webkit-backdrop-filter: blur(5px);
       backdrop-filter: blur(5px);
