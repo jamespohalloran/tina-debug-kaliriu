@@ -29,64 +29,46 @@ HUGO_VERSION = "0.81.0"
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 
-[languages.en]
-contentDir = 'content/english'
-description = 'Kaliriu in English'
-languageCode = 'en-US'
-languageName = 'English'
-weight = 1
-
-[[languages.en.menu.main]]
-identifier = 'home'
-name = 'Home'
-pageRef = '/'
-weight = 1
-
-[[languages.en.menu.main]]
-identifier = 'projects'
-name = 'Projects'
-url = "/projects"
-weight = 2
-
-[[languages.en.menu.main]]
-identifier = 'blog'
-name = 'Blog'
-url = "/blog"
-weight = 3
-
-[[languages.en.menu.main]]
-identifier = 'contact'
-name = 'Contact'
-url = "/contact"
-weight = 4
-
-[languages.es]
-contentDir = 'content/spanish'
-description = 'Kaliriu en Español'
-languageCode = 'es-ES'
-languageName = 'Español'
-weight = 2
-
+defaultContentLanguage = 'en'
+[languages]
+  [languages.es]
+    languageName = 'Spanish'
+    weight = 10
+    [languages.es.menu]
 [[languages.es.menu.main]]
-identifier = 'inicio'
-name = 'Inicio'
-pageRef = '/'
-weight = 1
-
+        name = 'Inicio'
+        url = '/'
+        weight = 0
 [[languages.es.menu.main]]
-identifier = 'proyectos'
-name = 'Proyectos'
-url = "/es/projects"
-weight = 1
-
+        name = 'Proyectos'
+        url = "/es/projects"
+        weight = 1
 [[languages.es.menu.main]]
-identifier = 'blog'
-name = 'Blog'
-url = "/es/blog"
-weight = 2
-
+        name = 'Blog'
+        url = "/es/blog"
+        weight = 2
 [[languages.es.menu.main]]
-identifier = 'contacto'
-name = 'Contacto'
-url = "/es/contact"
-weight = 3
+        name = 'Contacto'
+        url = "/es/contact"
+        weight = 3
+  [languages.en]
+    languageName = 'English'
+    weight = 0
+    [languages.en.menu]
+[[languages.en.menu.main]]
+        name = 'Home'
+        url = '/'
+        weight = 0
+[[languages.en.menu.main]]
+        name = 'Projects'
+        url = "/projects"
+        weight = 2
+[[languages.en.menu.main]]
+        name = 'Blog'
+        url = "/blog"
+        weight = 3
+[[languages.en.menu.main]]
+        name = 'Contact'
+        url = "/contact"
+        weight = 4
+
