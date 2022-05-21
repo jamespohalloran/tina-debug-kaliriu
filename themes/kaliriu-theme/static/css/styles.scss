@@ -1170,28 +1170,28 @@ $shadows-big:    multiple-box-shadow(100);
 #one{
 	animation: one 5s ease-in-out infinite alternate;
 }
-@keyframes one { from {box-shadow: 0 0 250px 20px $cta;}to {box-shadow: 0 0 100px 15px $primary; }}
+@keyframes one { from {box-shadow: 0 0 250px 20px $cta;}to {box-shadow: 0 0 100px 15px $secondary; }}
 #two{
 	width: 90%;
 	-webkit-animation: two 4s ease-in-out infinite alternate;
 	animation: two 4s ease-in-out infinite alternate;
 }
-@keyframes two { from {box-shadow: 0 0 250px 20px $primary;}to { box-shadow: 0 0 100px 15px $cta; }}
+@keyframes two { from {box-shadow: 0 0 250px 20px $secondary;}to { box-shadow: 0 0 100px 15px $cta; }}
 #three{
 	width: 80%;
 	animation: three 3s ease-in-out infinite alternate;
 }
-@keyframes three { from {box-shadow: 0 0 250px 20px $cta;}to { box-shadow: 0 0 100px 15px $primary }}
+@keyframes three { from {box-shadow: 0 0 250px 20px $cta;}to { box-shadow: 0 0 100px 15px $secondary }}
 #four{
 	width: 70%;
 	animation: four 2s ease-in-out infinite alternate;
 }
-@keyframes four { from {shadow: 0 0 250px 20px $primary;}to { shadow: 0 0 100px 15px $cta; }}
+@keyframes four { from {shadow: 0 0 250px 20px $secondary;}to { shadow: 0 0 100px 15px $cta; }}
 #five{
 	width: 60%;
 	animation: five 1s ease-in-out infinite alternate;
 }
-@keyframes five { from {box-shadow: 0 0 250px 20px $cta;} to { box-shadow: 0 0 100px 15px $primary; }}
+@keyframes five { from {box-shadow: 0 0 250px 20px $cta;} to { box-shadow: 0 0 100px 15px $secondary; }}
 
 /* PARTIAL - FAQ ********************************/
 .faq__background{
