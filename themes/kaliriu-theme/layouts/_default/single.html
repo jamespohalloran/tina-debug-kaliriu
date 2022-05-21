@@ -31,7 +31,7 @@
                     <p class="blog__share-title">{{ T "Share" }}</p>
                     {{ $currentPermalink := .Permalink }}
                     {{ $currentTitle := .Title }}
-        
+                    {{ with .Site.GetPage "/blog" }}
                         <ul class="blog__share-list">
                             <!-- PINTEREST 
                             <li>
@@ -65,7 +65,7 @@
                                 </a>
                             </li>
                         </ul>
-  
+                    {{ end }}
                 </div>
 
             </div>
