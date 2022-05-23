@@ -1,7 +1,6 @@
 baseURL = "https://kaliriu.com/"
 title = "Kaliriu"
 theme = "kaliriu-theme"
-metaDataFormat = "yaml"
 
 [build]
 command = "hugo --gc --minify"
@@ -19,12 +18,12 @@ HUGO_ENABLEGITINFO = "true"
 [context.production.environment]
 HUGO_ENABLEGITINFO = "true"
 HUGO_ENV = "production"
-HUGO_VERSION = "0.81.0"
+HUGO_VERSION = "0.99.1"
 [context.split1]
 command = "hugo --gc --minify --enableGitInfo"
 [context.split1.environment]
 HUGO_ENV = "production"
-HUGO_VERSION = "0.81.0"
+HUGO_VERSION = "0.99.1"
 
 
 [languages.en]
