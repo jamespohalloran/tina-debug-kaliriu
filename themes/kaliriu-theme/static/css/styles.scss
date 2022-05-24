@@ -455,15 +455,19 @@ input[type="text"]::placeholder{
   padding-left: 30px;
   opacity: .8;
 }
-.header-nav__list-item.active {
-  opacity: 1;
-  .header-nav__list-link{
-    border-bottom: 2px solid $terciary;
+.header-nav__list-item{
+  &:hover,
+  &.active {
+    opacity: 1;
+    .header-nav__list-link{
+      border-bottom: 2px solid $terciary;
+    }
   }
 }
 .header-nav__list-link {
   font-size: 16px;
   color: $terciary;
+
 }
 .menu-icon {
   cursor: pointer;
@@ -728,10 +732,10 @@ input[type="text"]::placeholder{
   z-index: 0;
 }
 .home-page__hero-background::after{
-  background: linear-gradient(to bottom, black, $cta);
+  background: linear-gradient(to bottom, $primary, #da4141);
   animation: colorChange 30s ease-in-out infinite;
   animation-fill-mode: both;
-  mix-blend-mode: soft-light;
+  mix-blend-mode: color-dodge;
 }
 // n is number of stars required
 @function multiple-box-shadow ($n) {
