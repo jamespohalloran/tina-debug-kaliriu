@@ -1169,6 +1169,7 @@ $shadows-big:    multiple-box-shadow(100);
 	bottom: -60px;
 	position: absolute;
 	width: 100%;
+  mix-blend-mode: color-dodge;
 }
 #lightings div{
 	-webkit-border-radius: 50%;
