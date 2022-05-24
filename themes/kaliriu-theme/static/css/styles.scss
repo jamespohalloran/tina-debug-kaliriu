@@ -453,6 +453,13 @@ input[type="text"]::placeholder{
 }
 .header-nav__list-item {
   padding-left: 30px;
+  opacity: .8;
+}
+.header-nav__list-item.active {
+  opacity: 1;
+  .header-nav__list-link{
+    border-bottom: 2px solid $terciary;
+  }
 }
 .header-nav__list-link {
   font-size: 16px;
