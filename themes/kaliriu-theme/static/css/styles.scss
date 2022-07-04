@@ -208,7 +208,8 @@ article#blog ul li{
   padding-left: 30px;
   position: relative;
 }
-article#blog ol li{
+article#blog ol li,
+article#blog ul li{
   counter-increment: inst;
   &:before{
     content: '\e804';
