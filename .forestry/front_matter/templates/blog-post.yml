@@ -39,6 +39,7 @@ fields:
   label: Image
 pages:
 - content/english/blog/ui-design.md
+- content/english/blog/what-are-the-advantages-of-responsive-design.md
 - content/english/blog/what-impact-does-ui-ux-design-have-on-businesses.md
 - content/english/blog/what-is-the-difference-between-ux-and-ui-design.md
 - content/spanish/blog/cual-es-la-diferencia-entre-diseno-de-interfaz-y-experiencia-de-usuario.md
