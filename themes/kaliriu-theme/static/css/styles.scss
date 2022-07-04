@@ -229,6 +229,7 @@ article#blog ul li{
 }
 article#blog ol li::before{
   content: counter(inst);
+  line-height: 1;
 }
 
 /* PARAGRAPH - EXTRA SMALL */
