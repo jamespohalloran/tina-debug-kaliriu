@@ -65,3 +65,33 @@ name = 'Contacto'
 pageRef = '/contact'
 weight = 4
 
+[languages.fr]
+contentDir = 'content/french'
+description = 'Kaliriu en Français'
+languageCode = 'fr-FR'
+languageName = 'Français'
+weight = 2
+
+[[languages.fr.menu.main]]
+identifier = 'accueil'
+name = 'Accueil'
+pageRef = '/'
+weight = 1
+
+[[languages.fr.menu.main]]
+identifier = 'projets'
+name = 'Projets'
+pageRef = '/projects'
+weight = 2
+
+[[languages.fr.menu.main]]
+identifier = 'blog'
+name = 'Blog'
+pageRef = '/blog'
+weight = 3
+
+[[languages.fr.menu.main]]
+identifier = 'contacte'
+name = 'Contacte'
+pageRef = '/contact'
+weight = 4
