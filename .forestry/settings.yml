@@ -94,6 +94,51 @@ sections:
 - type: document
   path: i18n/es.yaml
   label: Hilo ID
+  - type: heading
+  label: FRENCH
+- type: document
+  path: content/french/_index.md
+  label: Acceuil
+- type: document
+  path: content/french/projects.md
+  label: Projects
+- type: document
+  path: content/french/about.md
+  label: About
+- type: document
+  path: content/french/contact.md
+  label: Contacte
+- type: document
+  path: content/french/blog/_index.html
+  label: Blog
+- type: directory
+  path: content/french/blog
+  label: Posts
+  create: documents
+  match: "**/*"
+  exclude: _index.html
+  templates:
+  - blog-post
+- type: directory
+  path: data/fr
+  label: Modules
+  create: documents
+  match: "**/*"
+  new_doc_ext: yml
+  templates:
+  - module-cta
+  - module-footer
+- type: directory
+  path: content/french/legal
+  label: Legal
+  create: documents
+  match: "**/*"
+  exclude: _index.html
+  templates:
+  - legal-post
+- type: document
+  path: i18n/fr.yaml
+  label: String ID
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
