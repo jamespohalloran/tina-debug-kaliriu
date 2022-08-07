@@ -169,4 +169,5 @@ fields:
   label: Steps
 pages:
 - content/english/_index.md
+- content/french/_index.md
 - content/spanish/_index.md
