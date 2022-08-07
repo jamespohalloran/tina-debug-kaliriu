@@ -567,7 +567,8 @@ input[type="text"]::placeholder{
   width: 100%;
 }
 .language-item a:hover{
-  color: $primary;
+  color: white;
+  background-color: $primary;
 }
 .available-languages {
   background-color: $terciary;
@@ -579,7 +580,7 @@ input[type="text"]::placeholder{
   padding: 4px 0;
   position: absolute;
   left: -2px;
-  bottom: -42px;
+  bottom: -75px;
   width: calc(100% + 4px);
 }
 .language-selector:hover
