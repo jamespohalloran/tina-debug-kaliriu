@@ -94,7 +94,7 @@ sections:
 - type: document
   path: i18n/es.yaml
   label: Hilo ID
-  - type: heading
+- type: heading
   label: FRENCH
 - type: document
   path: content/french/_index.md

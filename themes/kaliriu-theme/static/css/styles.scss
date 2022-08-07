@@ -567,8 +567,8 @@ input[type="text"]::placeholder{
   width: 100%;
 }
 .language-item a:hover{
-  color: white;
-  background-color: $primary;
+  color: $primary;
+  text-decoration: underline;
 }
 .available-languages {
   background-color: $terciary;
