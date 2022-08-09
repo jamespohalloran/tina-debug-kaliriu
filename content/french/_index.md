@@ -1,9 +1,8 @@
 ---
 title: Nous créons des designs UI/UX pour les entreprises dont l’objectif est de fournir
   des produits impactants.
-description: Nous sommes une agence de design d'interfaces avec l’ambition de définir
-  et développer des expériences utilisateur pour obtenir une interaction transparente
-  avec votre entreprise.
+description: Nous sommes une agence de design d'interfaces avec la volonté de définir
+  et développer des expériences utilisateur fluides avec votre entreprise.
 projects:
   title: Certains de nos projets de design UI/UX
   button: View all projects
@@ -44,8 +43,7 @@ button_primary:
 button_secondary:
   link_text: Voir le portfolio
   link: "/fr/projects"
-meta_description: Nous sommes une agence de design d'interfaces avec l’ambition de
-  définir et développer des expériences utilisateur pour obtenir une interaction transparente
-  avec votre entreprise.
+meta_description: Nous sommes une agence de design d'interfaces avec la volonté de
+  définir et développer des expériences utilisateur fluides avec votre entreprise.
 
 ---
