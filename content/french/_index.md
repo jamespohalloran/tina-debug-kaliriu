@@ -10,15 +10,16 @@ projects:
   link_text: Voir tous les projets
   link: "/fr/projects"
 benefits:
-  title_1: Quality
-  description_1: We convey the advantages of your product beyond of what is obvious.
-  title_2: Experience
-  description_2: You will be in the hands of professionals at all times.
-  title_3: Fast turnaround
-  description_3: Not only do we move fast and take you along every step of the way.
-  title_4: Customer-First
-  description_4: We foresee the needs of users and aim to exceed their expectations
-    at every touchpoint.
+  title_1: Qualité
+  description_1: Nous amenons votre produit à libérer son plein potentiel
+  title_2: Expérience
+  description_2: Vous serez à chaque instant entre les mains de professionnels.
+  title_3: Délai rapide
+  description_3: Vous n’obtenez pas seulement un delair rapide mais nous vous accompagnons
+    à chaque étape du processus.
+  title_4: Le client d'abord
+  description_4: Nous anticipons les besoins des utilisateurs et visons à dépasser
+    leurs attentes à chaque interaction.
 steps:
   title: Our steps to a great UI/UX design
   description: Great design is essential to build trust. Our process to achieve that
