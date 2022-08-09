@@ -19,12 +19,13 @@ q_a:
     application, où sa construction est mise en œuvre avec des couleurs, des typographies
     et un design visuel en général. Alors que le second fait référence à la convivialité
     et la facilité de navigation pour les utilisateurs (facile et intuitive).
-- question: How does the design process work?
-  answer: The design process begins when the designers in charge identify user requirements,
-    among other things. Once this process is carried out, the different viable options
-    are created and analyzed, and the objectives and actions that the interface should
-    have been defined. Icons, descriptive texts, windows, titles, and other tools
-    are used to make the prototype and evaluate its quality.
+- question: Comment se passe le travail de design ?
+  answer: Le procédé de design commence lorsque les designers responsables identifient,
+    entre autres, les besoins des utilisateurs. Une fois ce processus effectué, les
+    différentes options viables sont créées, analysées, et les objectifs et actions
+    que l'interface aurait dû être définis. Icônes, textes descriptifs, fenêtres,
+    titres et autres outils sont utilisés pour réaliser le prototype et évaluer sa
+    qualité.
 - question: What are the biggest trends in the UI/UX design industry at the moment?
   answer: 'There are some trends in the UI/UX design industry at the moment and they
     are as follows: dark mode (reduces eyestrain, saves device power, highlights design
