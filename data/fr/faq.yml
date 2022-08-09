@@ -76,11 +76,13 @@ q_a:
     et analyse, création, mise en place et suivi. Par conséquent, le client qui demande
     le travail doit payer 50% au début de celui-ci et les 50% restants à la livraison
     du résultat final.'
-- question: What is the participation of a company in the design process?
-  answer: 'Companies or clients of any industry have an important role in the design
-    process of a website or application because they are the ones in charge of transmitting
-    in a clear way what they want to obtain from the design developed team. For example:
-    to sell a product, to establish a service, etc.'
-- question: What are the benefits of a good UI/UX design?
-  answer: With a good UX design you can increase sales, retain the user, reduce costs,
-    increase web traffic, satisfy customers, and improve SEO.
+- question: Quelle est la participation d'une entreprise dans le processus de conception?
+  answer: 'Les entreprises ou les clients de toute industrie ont un rôle important
+    dans le processus de conception d''un site internet ou d''une application car
+    ce sont eux qui sont chargés de transmettre de manière claire ce qu''ils veulent
+    obtenir de l''équipe de design développée. Par exemple : vendre un produit, établir
+    un service, etc.'
+- question: Quels sont les avantages d'un bon design UI/UX?
+  answer: Avec une bon design UX, vous pouvez augmenter les ventes, fidéliser l'utilisateur,
+    réduire les coûts, augmenter le trafic Web, satisfaire les clients et améliorer
+    le référencement.
