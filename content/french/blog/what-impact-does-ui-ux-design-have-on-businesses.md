@@ -77,5 +77,6 @@ description: |-
 
   When a person enters the web for the first time, he/she wants to find easily and quickly what he/she is looking for, if this happens, he/she will come back again.
 image: "/v1652472996/luis-villasmil-4V8uMZx8FYA-unsplash_pa44ix.jpg"
+draft: true
 
 ---
