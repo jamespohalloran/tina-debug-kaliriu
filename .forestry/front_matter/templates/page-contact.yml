@@ -39,4 +39,5 @@ fields:
   label: Lightbox Message
 pages:
 - content/english/contact.md
+- content/french/contact.md
 - content/spanish/contact.md
