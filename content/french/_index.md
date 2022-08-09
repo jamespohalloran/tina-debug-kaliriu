@@ -21,22 +21,22 @@ benefits:
   description_4: Nous anticipons les besoins des utilisateurs et visons à dépasser
     leurs attentes à chaque interaction.
 steps:
-  title: Our steps to a great UI/UX design
-  description: Great design is essential to build trust. Our process to achieve that
-    level of quality is as follows.
+  title: Nos étapes vers une excellente conception UI/UX
+  description: Un excellent design est essentiel pour instaurer la confiance. Notre
+    cheminement vers ce niveau de qualité est le suivant.
   step_1_title: Briefing
   step_1__description: Brefing description
-  step_1_description: We take into account the objectives, project requirements, target
-    audience, and graphic details of your business.
-  step_2_title: Research
-  step_2_description: We analyze your competition to discover their strengths and
-    weaknesses and help you stand out.
+  step_1_description: Nous considérons les objectifs, les exigences du projet, l’audience
+    cible et les détails graphiques de votre entreprise.
+  step_2_title: Rechercher
+  step_2_description: Nous analysons vos concurrents pour découvrir leurs forces et
+    faiblesses et vous aidons à vous démarquer.
   step_3_title: Prototype
-  step_3_description: We deliver a prototype according to the results of our research
-    in which you can comment on the design itself.
+  step_3_description: Nous livrons un prototype en fonction des résultats de nos recherches
+    dans lequel vous pouvez commenter le design lui-même.
   step_4_title: Validation
-  step_4_description: We apply your changes from your comments until we get your total
-    satisfaction.
+  step_4_description: Nous appliquons vos modifications à partir de vos commentaires
+    jusqu'à obtenir votre entière satisfaction.
 show_cta: true
 button_primary:
   link_text: Contactez-nous
