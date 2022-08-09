@@ -15,7 +15,7 @@ benefits:
   title_2: Expérience
   description_2: Vous serez à chaque instant entre les mains de professionnels.
   title_3: Délai rapide
-  description_3: Vous n’obtenez pas seulement un delair rapide mais nous vous accompagnons
+  description_3: Vous n’obtenez pas seulement un délai rapide mais nous vous accompagnons
     à chaque étape du processus.
   title_4: Le client d'abord
   description_4: Nous anticipons les besoins des utilisateurs et visons à dépasser
