@@ -37,4 +37,5 @@ fields:
   label: Projects
 pages:
 - content/english/projects.md
+- content/french/projects.md
 - content/spanish/projects.md
