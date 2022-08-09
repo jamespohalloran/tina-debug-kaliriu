@@ -14,11 +14,10 @@ q_a:
     un service.
 - question: Quelle est la différence entre le design de l'interface et l'expérience
     utilisateur ?
-  answer: Le design d'interface et l'expérience utilisateur diffèrent l'un de l'autre
-    car le premier fait référence à la conception d'une page de site internet ou d'une
-    application, où sa construction est mise en œuvre avec des couleurs, des typographies
-    et un design visuel en général. Alors que le second fait référence à la convivialité
-    et la facilité de navigation pour les utilisateurs (facile et intuitive).
+  answer: |-
+    Le design d'interface fait référence à la conception d'une page de site internet ou d'une application, où sa construction est mise en œuvre avec des couleurs, des typographies et un design visuel en général.
+
+    L’expérience utilisateur fait référence à la convivialité et la facilité de navigation pour les utilisateurs (facile et intuitive).
 - question: Comment se passe le travail de design ?
   answer: Le procédé de design commence lorsque les designers responsables identifient,
     entre autres, les besoins des utilisateurs. Une fois ce processus effectué, les
