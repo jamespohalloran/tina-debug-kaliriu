@@ -34,12 +34,11 @@ q_a:
     calques et éléments flottants, narration (proximité avec les utilisateurs), espace
     vide (actif ou passif), interface utilisateur vocale, production photo, polices,
     texte et copie, 3D et réalité virtuelle.'
-- question: 'When a client says: "I don''t like this design", what does the designer
-    do?'
-  answer: The objective of the designer in charge of carrying out the design of a
-    website or application of a company is to make sure the client loves it, and when
-    this does not happen, the designer will do it again until the client is satisfied
-    with the final result.
+- question: 'Quand un client dit : « Je n''aime pas ce design », que fait le designer?'
+  answer: L'objectif du designer en charge de réaliser le design d'un site internet
+    ou d'une application d'une entreprise est de faire en sorte que le client soit
+    satisfait, et dans le cas contraire, de le refaire jusqu’à ce que le client soit
+    satisfait du résultat final.
 - question: Guide me through a design example in which you set out to solve a business
     problem.
   answer: When there is a business problem, design professionals review the construction
