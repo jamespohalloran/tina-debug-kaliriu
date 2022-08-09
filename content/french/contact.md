@@ -1,11 +1,11 @@
 ---
-title: Contact us
-description: Tell us about your project...
+title: Contactez-nous
+description: Parlez nous de votre projet...
 type: contact
-name_placeholder: Name
+name_placeholder: Prénom
 email_placeholder: Email
-message_placeholder: Write your message here...
-button: Send
-lightbox_message: Your message was sent successfully.
+message_placeholder: Votre message
+button: Envoyer
+lightbox_message: Votre message a bien été envoyé.
 
 ---
