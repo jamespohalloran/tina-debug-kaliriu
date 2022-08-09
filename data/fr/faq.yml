@@ -39,12 +39,13 @@ q_a:
     ou d'une application d'une entreprise est de faire en sorte que le client soit
     satisfait, et dans le cas contraire, de le refaire jusqu’à ce que le client soit
     satisfait du résultat final.
-- question: Guide me through a design example in which you set out to solve a business
-    problem.
-  answer: When there is a business problem, design professionals review the construction
-    of the website or application based on the information available to them. The
-    goal is to find the perfect balance between the problem and the design process
-    being carried out. The design is modified, as well as considering the user's experience.
+- question: Guidez-moi à travers un exemple de design dans lequel vous avez entrepris
+    de résoudre un problème commercial.
+  answer: Lorsqu'il y a un problème commercial, les professionnels du design examinent
+    la construction du site internet ou de l'application en fonction des informations
+    dont ils disposent. L'objectif est de trouver le parfait équilibre entre le problème
+    et le processus de conception en cours. Le design est modifié, tout en tenant
+    compte de l'expérience d'utilisateur.
 - question: What does it mean to be a great UI/UX designer?
   answer: UI/UX design is a profession that is currently trending and professionals
     in the sector are responsible for creating and developing interfaces that meet
