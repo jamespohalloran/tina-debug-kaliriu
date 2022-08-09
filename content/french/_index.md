@@ -41,8 +41,8 @@ button_primary:
   link_text: Contactez-nous
   link: "/fr/contact"
 button_secondary:
-  link_text: See portfolio
-  link: "/projects"
+  link_text: Voir le portfolio
+  link: "/fr/projects"
 meta_description: Nous sommes une agence de design d'interfaces avec l’ambition de
   définir et développer des expériences utilisateur pour obtenir une interaction transparente
   avec votre entreprise.
