@@ -5,10 +5,10 @@ description: Nous sommes une agence de design d'interfaces avec l’ambition de 
   et développer des expériences utilisateur pour obtenir une interaction transparente
   avec votre entreprise.
 projects:
-  title: Some of our UI/UX design projects
+  title: Certains de nos projets de design UI/UX
   button: View all projects
-  link_text: View all projects
-  link: "/projects"
+  link_text: Voir tous les projets
+  link: "/fr/projects"
 benefits:
   title_1: Quality
   description_1: We convey the advantages of your product beyond of what is obvious.
