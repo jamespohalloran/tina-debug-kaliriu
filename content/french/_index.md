@@ -32,7 +32,7 @@ steps:
     faiblesses et vous aidons à vous démarquer.
   step_3_title: Prototype
   step_3_description: Nous livrons un prototype en fonction des résultats de nos recherches
-    dans lequel vous pouvez commenter le design lui-même.
+    au sein duquel vous pouvez ajouter des commentaires sur le design lui-même.
   step_4_title: Validation
   step_4_description: Nous appliquons vos modifications à partir de vos commentaires
     jusqu'à obtenir votre entière satisfaction.
