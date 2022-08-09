@@ -11,7 +11,7 @@ projects:
   link: "/fr/projects"
 benefits:
   title_1: Qualité
-  description_1: Nous amenons votre produit à libérer son plein potentiel
+  description_1: Nous amenons votre produit à libérer son plein potentiel.
   title_2: Expérience
   description_2: Vous serez à chaque instant entre les mains de professionnels.
   title_3: Délai rapide
