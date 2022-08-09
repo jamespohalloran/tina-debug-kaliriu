@@ -1,10 +1,11 @@
 ---
 title: Foire aux questions sur la conception d’interface
 q_a:
-- question: What is interface design?
-  answer: Interface design is the process designers go through to create interfaces,
-    focusing on appearance and style. This means, they design all the graphic elements,
-    with colors and typographies that help the user to "communicate" with a system.
+- question: Qu'est-ce que la conception d'interface ?
+  answer: La conception d'interface est le processus des designers pour créer des
+    interfaces, en se concentrant sur l'apparence et le style. Ils conçoivent tous
+    les éléments graphiques, avec des couleurs et typographies qui aident l'utilisateur
+    à "communiquer" avec un système.
 - question: What is the goal of an interface design?
   answer: The objective of the designers who create the user interface is to make
     it easy for the potential clients to interact with the website and stay on it
