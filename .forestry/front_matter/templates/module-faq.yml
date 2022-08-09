@@ -32,3 +32,4 @@ fields:
 pages:
 - data/en/faq.yml
 - data/es/faq.yml
+- data/fr/faq.yml
