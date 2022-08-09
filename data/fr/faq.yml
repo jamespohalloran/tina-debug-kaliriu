@@ -26,12 +26,14 @@ q_a:
     que l'interface aurait dû être définis. Icônes, textes descriptifs, fenêtres,
     titres et autres outils sont utilisés pour réaliser le prototype et évaluer sa
     qualité.
-- question: What are the biggest trends in the UI/UX design industry at the moment?
-  answer: 'There are some trends in the UI/UX design industry at the moment and they
-    are as follows: dark mode (reduces eyestrain, saves device power, highlights design
-    elements), shadows, layers and floating elements, storytelling (closeness to users),
-    empty space (active or passive), voice UI, photo production, fonts, text and copy,
-    3D, and VR.'
+- question: Quelles sont les plus grandes tendances dans l'industrie du design UI/UX
+    en ce moment?
+  answer: 'Il existe actuellement certaines tendances dans l''industrie du design
+    UI/UX et elles sont les suivantes : mode sombre (réduit la fatigue oculaire, économise
+    l''énergie de l''appareil, met en évidence les éléments de conception), ombres,
+    calques et éléments flottants, narration (proximité avec les utilisateurs), espace
+    vide (actif ou passif), interface utilisateur vocale, production photo, polices,
+    texte et copie, 3D et réalité virtuelle.'
 - question: 'When a client says: "I don''t like this design", what does the designer
     do?'
   answer: The objective of the designer in charge of carrying out the design of a
