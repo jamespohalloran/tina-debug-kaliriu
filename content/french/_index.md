@@ -25,7 +25,7 @@ steps:
     cheminement vers ce niveau de qualité est le suivant.
   step_1_title: Briefing
   step_1__description: Brefing description
-  step_1_description: Nous considérons les objectifs, les exigences du projet, l’audience
+  step_1_description: Nous définissions les objectifs, les exigences du projet, l’audience
     cible et les détails graphiques de votre entreprise.
   step_2_title: Rechercher
   step_2_description: Nous analysons vos concurrents pour découvrir leurs forces et
