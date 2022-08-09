@@ -38,6 +38,7 @@ sections:
   templates:
   - module-cta
   - module-footer
+  - module-faq
 - type: directory
   path: content/english/legal
   label: Legal
@@ -83,6 +84,7 @@ sections:
   templates:
   - module-cta
   - module-footer
+  - module-faq
 - type: directory
   path: content/spanish/legal
   label: Legal
@@ -128,6 +130,7 @@ sections:
   templates:
   - module-cta
   - module-footer
+  - module-faq
 - type: directory
   path: content/french/legal
   label: Legal
