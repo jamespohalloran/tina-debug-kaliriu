@@ -1408,6 +1408,8 @@ article#blog li strong,
       order: 3;
     }
     .language-selector{
+      margin-right: 16px;
+      margin-left: auto;
       order: 2;
     }
 
@@ -1510,8 +1512,6 @@ article#blog ul li,
     height: 34px;
   }
   .language-selector {
-    margin-right: 16px;
-    margin-left: auto;
     padding: 4px 22px 4px 10px;
   }
   .language-selector::after {
