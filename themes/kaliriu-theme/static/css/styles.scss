@@ -1404,6 +1404,11 @@ article#blog li strong,
     }
     .menu-icon {
       display: inline-block;
+      margin-left: 0;
+      order: 3;
+    }
+    .language-selector{
+      order: 2;
     }
 
     /* COLUMNS ********************************/
@@ -1505,7 +1510,8 @@ article#blog ul li,
     height: 34px;
   }
   .language-selector {
-    margin-left: 16px;
+    margin-right: 16px;
+    margin-left: auto;
     padding: 4px 22px 4px 10px;
   }
   .language-selector::after {
