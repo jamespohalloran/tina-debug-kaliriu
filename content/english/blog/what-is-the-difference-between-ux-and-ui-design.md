@@ -4,6 +4,7 @@ description = "**User Experience and User Interface design are defining factors 
 image = "/v1656929441/alvaro-reyes-zvmZiw3vdsQ-unsplash_ymzh4a.jpg"
 meta_description = "User Experience and User Interface design are defining factors in the field of digital design when discussing the look and feel of a platform. "
 slug = "what-is-the-difference-between-user-experience-design-and-user-interface-design?"
+tag = ["Article"]
 title = "What Is the Difference Between UX and UI Design?"
 
 +++
