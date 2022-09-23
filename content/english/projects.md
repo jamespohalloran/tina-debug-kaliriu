@@ -13,7 +13,7 @@ projects:
   link_text: View prototype
 - img: "/v1651857979/Kaliriu/Projects/Paladria-1.jpg"
   title: Paladria
-  link: https://palomaminino563316.invisionapp.com/console/share/5NYVZ7BPEX4
+  link: "/blog/paladria-ui-ux/"
   link_text: View prototype
 show_cta: true
 
