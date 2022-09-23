@@ -11,6 +11,10 @@ fields:
 - name: slug
   type: text
   label: slug
+- name: tag
+  type: tag_list
+  default: []
+  label: Tag
 - name: date
   type: datetime
   label: Date
@@ -41,6 +45,7 @@ pages:
 - content/english/blog/how-can-web-design-improve-online-sales.md
 - content/english/blog/is-it-possible-to-increase-my-roi-by-investing-in-ui-ux-design.md
 - content/english/blog/ui-design.md
+- content/english/blog/ui-ux-design-paladria-translation-services.md
 - content/english/blog/what-are-the-advantages-of-responsive-design.md
 - content/english/blog/what-are-the-biggest-trends-in-ui-ux-design.md
 - content/english/blog/what-are-the-main-characteristics-of-interface-design.md
