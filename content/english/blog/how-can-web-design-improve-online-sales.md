@@ -4,6 +4,7 @@ description = "If you want to improve the online sales of your business, make yo
 image = "/v1657097703/ecommerce_vtpzkb.jpg"
 meta_description = "If you want to improve the online sales of your business, make your company visible, you should invest in a good web design to achieve these goals."
 slug = "how-can-web-design-improve-online-sales"
+tag = ["Article"]
 title = "How Can Web Design Improve Online Sales?"
 
 +++
