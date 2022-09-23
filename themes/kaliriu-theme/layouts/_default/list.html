@@ -19,13 +19,13 @@
           </svg>
       <!--Waves end-->
     </section>
-    {{ range.Data.Pages }}
     <ul>
-      {{ range .Params.tag }}
-        <li>{{ . }}</li>
+      {{ range.Data.Pages }}
+        {{ range .Params.tag }}
+          <li>{{ . }}</li>
+        {{ end }}
       {{ end }}
-      </ul>
-    {{ end }}
+    </ul>
     <section class="blog__list-background">
       <div class="blog__list-container">
         <ul class="blog__list">
