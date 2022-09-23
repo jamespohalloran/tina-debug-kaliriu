@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <main id="main" {{ range .tag }} class="{{ . }}" {{ end }}>
+    <main id="main">
         <section class="blog__header-background" style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .Params.image }}');">
             <div class="blog__header-container">
                 <h1 class="blog__header-title">{{ .Title }}</h1>
@@ -20,7 +20,7 @@
             <!--Waves end-->
         </section>
 
-        <section class="blog__background">
+        <section class="blog__background" {{ range .Params.tag }} id="{{ . }}" {{ end }}>
             <div class="blog__container">
                 {{ with .Params }}
                     <article id="blog">
