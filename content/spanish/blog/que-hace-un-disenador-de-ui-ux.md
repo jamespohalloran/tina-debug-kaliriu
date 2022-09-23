@@ -76,5 +76,7 @@ description: "¿Sabías que un diseñador de UI/UX se encarga de desarrollar y c
   imágenes y espacios entre los bloques."
 image: "/v1652218563/daniel-korpai-mxPiMiz7KCo-unsplash_wbsjaf.jpg"
 date: 2022-05-10T22:00:00.000+00:00
+tag:
+- Artículo
 
 ---
