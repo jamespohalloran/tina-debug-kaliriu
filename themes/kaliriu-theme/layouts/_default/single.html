@@ -20,7 +20,7 @@
             <!--Waves end-->
         </section>
 
-        <section class="blog__background" {{ range .tag }} id="{{ . }}" {{ end }}>
+        <section class="blog__background"  id="{{ range .tag }}{{ . }}{{ end }}" >
             <div class="blog__container">
                 {{ with .Params }}
                     <article id="blog">
