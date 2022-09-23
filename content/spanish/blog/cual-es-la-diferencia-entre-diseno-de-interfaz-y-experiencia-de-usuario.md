@@ -4,6 +4,7 @@ description = "**La experiencia del usuario y el diseño de la interfaz del usua
 image = "/v1656929441/alvaro-reyes-zvmZiw3vdsQ-unsplash_ymzh4a.jpg"
 meta_description = "La experiencia del usuario y el diseño de la interfaz del usuario son factores definitorios en el campo del diseño digital cuando se habla del aspecto y la perspectiva de una plataforma."
 slug = "cual-es-la-diferencia-entre-diseno-de-interfaz-y-experiencia-de-usuario"
+tag = ["Artículo"]
 title = "¿Cuál es la diferencia entre diseño de interfaz y experiencia de usuario?"
 
 +++
