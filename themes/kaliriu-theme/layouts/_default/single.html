@@ -20,8 +20,8 @@
             <!--Waves end-->
         </section>
 
-        <section class="blog__background {{ range .tag }}{{ . }}{{ end }}" >
-            <div class="blog__container">
+        <section class="blog__background">
+            <div {{ range .tag }} class="{{ . }} blog__container" {{ end }}>
                 {{ with .Params }}
                     <article id="blog">
                         {{ .description | markdownify | replaceRE "<h2 " "<h2 class=\"blog__h2\"" | replaceRE "<h3 " "<h3 class=\"blog__h3\""| replaceRE "<h4 " "<h4 class=\"blog__h4\""  | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}

@@ -181,7 +181,7 @@ i {
 }
 
 /* PARAGRAPH - LARGE */
-#UI .blog__p,
+.UI .blog__p,
 .contact__p,
 .blog__h5{
   font-size: 20px;
@@ -1098,7 +1098,7 @@ $shadows-big:    multiple-box-shadow(100);
   width: 100%;
   height: auto;
 }
-#UI {
+.UI {
   .blog__container{
     display: block;
   }
@@ -1512,7 +1512,7 @@ article#blog li strong,
     line-height: 1.4;
   }
   /* PARAGRAPH - LARGE */
-  #UI .blog__p,
+  .UI .blog__p,
   .blog__h5{
     font-size: 18px;
   }
