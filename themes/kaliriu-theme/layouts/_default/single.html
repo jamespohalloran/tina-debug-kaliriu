@@ -23,12 +23,12 @@
         <section class="blog__background">
             <div class="blog__container">
                 {{ with .Params }}
-                    <ul>
-                        {{ range .tag }}
-                            <li>{{ . }}</li>
-                        {{ end }}
-                    </ul>
                     <article id="blog">
+                        <ul>
+                            {{ range .tag }}
+                                <li>{{ . }}</li>
+                            {{ end }}
+                        </ul>
                         {{ .description | markdownify | replaceRE "<h2 " "<h2 class=\"blog__h2\"" | replaceRE "<h3 " "<h3 class=\"blog__h3\""| replaceRE "<h4 " "<h4 class=\"blog__h4\""  | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}
                     </article>
                 {{ end }}
