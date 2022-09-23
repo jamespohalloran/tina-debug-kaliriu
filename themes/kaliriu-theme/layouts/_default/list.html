@@ -19,6 +19,7 @@
           </svg>
       <!--Waves end-->
     </section>
+    <!--
     <ul>
       {{ range.Data.Pages }}
         {{ range .Params.tag }}
@@ -26,6 +27,7 @@
         {{ end }}
       {{ end }}
     </ul>
+    -->
     <section class="blog__list-background">
       <div class="blog__list-container">
         <ul class="blog__list">
@@ -36,7 +38,11 @@
                   <h2>{{ .Title }}</h2>
                   <ul>
                     {{ range .Params.tag }}
-                      <li>{{ . }}</li>
+                      <li>
+                        <h3>
+                          {{ . }}
+                        </h3>
+                      </li>
                     {{ end }}
                   </ul>
                 </a>
