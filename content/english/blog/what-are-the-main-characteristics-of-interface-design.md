@@ -4,6 +4,7 @@ description = "Nowadays, a lot of attention is paid to the experience and the in
 image = "/v1657225520/theme-photos-CGpifH3FjOA-unsplash_dp7jop.jpg"
 meta_description = "A lot of attention is paid to the experience and the interaction that the user has when entering an app or website, therefore the design of an interface has certain main characteristics that must be respected to achieve their objectives."
 slug = "what-are-the-main-characteristics-of-interface-design"
+tag = ["Article"]
 title = "What Are the Main Characteristics of Interface Design?"
 
 +++

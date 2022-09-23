@@ -4,6 +4,7 @@ description = "To introduce the subject and to know the advantages that Responsi
 image = "/v1656933984/firos-nv-Z2c6ounF-iE-unsplash_ewbavr.jpg"
 meta_description = "This technique is currently widely used so that the same website adapts to different platforms, such as a tablet, computer or smartphone."
 slug = "what-are-the-advantages-of-responsive-design"
+tag = ["Article"]
 title = "What Are the Advantages of Responsive Design?"
 
 +++

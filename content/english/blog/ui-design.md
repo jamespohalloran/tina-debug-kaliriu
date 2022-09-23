@@ -4,6 +4,7 @@ description = "Did you know that a UI/UX designer is in charge of developing and
 image = "/v1652218563/daniel-korpai-mxPiMiz7KCo-unsplash_wbsjaf.jpg"
 meta_description = "Did you know that a UI/UX designer is in charge of developing and creating intuitive and simple interfaces according to the needs and tastes of the users of a product or service? "
 slug = "what-does-a-ui-ux-designer-do?"
+tag = ["Article"]
 title = "What Does a UI/UX Designer Do?"
 
 +++

@@ -4,6 +4,7 @@ description = "En la actualidad son cada vez más las empresas/negocios que enti
 image = "/v1657960709/piggybank-CBbxr3JgCoo-unsplash_jmgdkc.jpg"
 meta_description = "Cuando se tienen en cuenta ambos diseños (UX/UI), el beneficio es amplio tanto para la empresa como para los usuarios. Por supuesto que la compañía es la que lleva a cabo la inversión y por ello es importante medir los resultados realizando un mapeo de métricas específicas."
 slug = "aumentar-mi-roi-invirtiendo-en-un-diseno-ui-ux-es-posible"
+tag = ["Artículo"]
 title = "Aumentar mi ROI invirtiendo en un diseño UI/UX, ¿es posible?"
 
 +++

@@ -4,6 +4,7 @@ description = "Si quieres mejorar las ventas online de tu negocio, hacer visible
 image = "/v1657097703/ecommerce_vtpzkb.jpg"
 meta_description = "Si quieres mejorar las ventas online de tu negocio, hacer visible tu empresa, deberás invertir en un buen diseño web para alcanzar esos objetivos"
 slug = "como-puede-el-diseno-web-mejorar-las-ventas-online"
+tag = ["Artículo"]
 title = "¿Cómo puede el diseño web mejorar las ventas online?"
 
 +++
