@@ -1097,6 +1097,7 @@ $shadows-big:    multiple-box-shadow(100);
 .blog__p img{
   width: 100%;
   height: auto;
+  display: block;
 }
 #UI {
   .blog__container{
@@ -1105,10 +1106,14 @@ $shadows-big:    multiple-box-shadow(100);
   .blog__share{
     display: none;
   }
-  .blog__p img{
-    border: 2px solid $terciary;
-    border-radius: 12px;
-    box-shadow: 0 4px 14px rgba($primary, 0.25);
+  .blog__p{
+    margin: 0 0 28px;
+    img{
+      margin: 0 0 28px;
+      border: 2px solid $terciary;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba($primary, 0.25);
+    }
   }
 }
 .blog__h2{
