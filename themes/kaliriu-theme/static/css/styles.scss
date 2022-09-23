@@ -181,6 +181,7 @@ i {
 }
 
 /* PARAGRAPH - LARGE */
+#UI .blog__p,
 .contact__p,
 .blog__h5{
   font-size: 20px;
@@ -1097,10 +1098,18 @@ $shadows-big:    multiple-box-shadow(100);
   width: 100%;
   height: auto;
 }
-.UI .blog__p img{
-  border: 2px solid $terciary;
-  border-radius: 12px;
-  box-shadow: 0 4px 14px rgba($primary, 0.25);
+#UI {
+  .blog__container{
+    display: block;
+  }
+  .blog__share{
+    display: none;
+  }
+  .blog__p img{
+    border: 2px solid $terciary;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba($primary, 0.25);
+  }
 }
 .blog__h2{
   margin: 64px 0 20px;
@@ -1398,137 +1407,138 @@ article#blog li strong,
 
 @media (max-width: 850px){
   
-    /* PARTIAL - HEADER ********************************/
-    .header-nav {
-      clear: both;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity .4s;
-      position: absolute;
-      top: 55px;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 100vh;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-color: $primary;
-      background-color: rgba($primary, 0.7);
-      -webkit-backdrop-filter: blur(5px);
-      backdrop-filter: blur(5px);
-    }
-    .header-nav__list-item{
-      padding-left: 0;
-    }
-    .header-nav__list-link {
-      padding: 10px 0;
-      font-size: 24px;
-    }
-    .menu-icon {
-      display: inline-block;
-      margin-left: 0;
-      order: 3;
-    }
-    .language-selector{
-      margin-right: 16px;
-      margin-left: auto;
-      order: 2;
-    }
+  /* PARTIAL - HEADER ********************************/
+  .header-nav {
+    clear: both;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .4s;
+    position: absolute;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary;
+    background-color: rgba($primary, 0.7);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+  }
+  .header-nav__list-item{
+    padding-left: 0;
+  }
+  .header-nav__list-link {
+    padding: 10px 0;
+    font-size: 24px;
+  }
+  .menu-icon {
+    display: inline-block;
+    margin-left: 0;
+    order: 3;
+  }
+  .language-selector{
+    margin-right: 16px;
+    margin-left: auto;
+    order: 2;
+  }
 
-    /* COLUMNS ********************************/
-    .blog__list, 
-    .home-page__product-list{
-      grid-template-columns: repeat(2,1fr)
-    }
+  /* COLUMNS ********************************/
+  .blog__list, 
+  .home-page__product-list{
+    grid-template-columns: repeat(2,1fr)
+  }
 
-    /* BLOG ********************************/
-    .blog__container {
-      display: block;
-    }
-    .blog__share-list{
-      display: flex;
-      justify-content: center;
-    }
-    .blog__share-list li{
-      margin: 0 6px;
-    }
+  /* BLOG ********************************/
+  .blog__container {
+    display: block;
+  }
+  .blog__share-list{
+    display: flex;
+    justify-content: center;
+  }
+  .blog__share-list li{
+    margin: 0 6px;
+  }
 
-    .projects__list li{
-      height: 200px;
-    }
+  .projects__list li{
+    height: 200px;
+  }
 
 }
 
 @media (max-width: 650px) {
 
-/* PRIMARY TITLE */
-.basic-page__title,
-.contact__title,
-.blog__header-title,
-.projects__header-title,
-.home-page__product-title {
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  line-height: 1.3;
-}
-/* SECONDARY TITLE */
-.faq__title,
-.home-page__hero-title,
-.blog__h2,
-.cta__title,
-.home-page__steps-title {
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: 1.2px;
-  line-height: 1.4;
-}
-/* TERCIARY TITLE */
-.blog__h3,
-.projects__list li a h2,
-.blog__list li article a h2 {
-  font-size: 22px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  line-height: 1.35;
-}
-/* SUBTITLE */
-.blog__h4,
-.home-page__steps-list h3,
-.home-page__benefits-list div h3 {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: .8px;
-  line-height: 1.4;
-}
-/* PARAGRAPH - LARGE */
-.blog__h5{
-  font-size: 18px;
-}
-/* PARAGRAPH - SMALL */
-.tab-label *,
-.home-page__hero-p,
-.blog__share-title,
-.cookies__text,
-.cta__p,
-.home-page__steps-p {
-  font-size: 16px;
-}
-/* PARAGRAPH - EXTRA SMALL */
-.tab-checkbox:checked ~ .tab-content,
-article#blog ol li,
-article#blog ul li,
-.projects__list li a p,
-.blog__p,
-.contact__form textarea,
-.contact__form input,
-.footer__list a,
-.footer__p,
-.home-page__steps-list p,
-.home-page__benefits-list p {
-  font-size: 14px;
-}
+  /* PRIMARY TITLE */
+  .basic-page__title,
+  .contact__title,
+  .blog__header-title,
+  .projects__header-title,
+  .home-page__product-title {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 1.3;
+  }
+  /* SECONDARY TITLE */
+  .faq__title,
+  .home-page__hero-title,
+  .blog__h2,
+  .cta__title,
+  .home-page__steps-title {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 1.4;
+  }
+  /* TERCIARY TITLE */
+  .blog__h3,
+  .projects__list li a h2,
+  .blog__list li article a h2 {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.35;
+  }
+  /* SUBTITLE */
+  .blog__h4,
+  .home-page__steps-list h3,
+  .home-page__benefits-list div h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 1.4;
+  }
+  /* PARAGRAPH - LARGE */
+  #UI .blog__p,
+  .blog__h5{
+    font-size: 18px;
+  }
+  /* PARAGRAPH - SMALL */
+  .tab-label *,
+  .home-page__hero-p,
+  .blog__share-title,
+  .cookies__text,
+  .cta__p,
+  .home-page__steps-p {
+    font-size: 16px;
+  }
+  /* PARAGRAPH - EXTRA SMALL */
+  .tab-checkbox:checked ~ .tab-content,
+  article#blog ol li,
+  article#blog ul li,
+  .projects__list li a p,
+  .blog__p,
+  .contact__form textarea,
+  .contact__form input,
+  .footer__list a,
+  .footer__p,
+  .home-page__steps-list p,
+  .home-page__benefits-list p {
+    font-size: 14px;
+  }
 
   /* PARTIAL - HEADER ********************************/
   .header__logo-white{
