@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <main id="main">
+    <main id="main" {{ range .tag }} class="{{ . }}" {{ end }}>
         <section class="blog__header-background" style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .Params.image }}');">
             <div class="blog__header-container">
                 <h1 class="blog__header-title">{{ .Title }}</h1>
@@ -23,7 +23,7 @@
         <section class="blog__background">
             <div class="blog__container">
                 {{ with .Params }}
-                    <article id="blog" {{ range .tag }} class="{{ . }}" {{ end }}>
+                    <article id="blog">
                         {{ .description | markdownify | replaceRE "<h2 " "<h2 class=\"blog__h2\"" | replaceRE "<h3 " "<h3 class=\"blog__h3\""| replaceRE "<h4 " "<h4 class=\"blog__h4\""  | replaceRE "<p>" "<p class=\"blog__p\">" | safeHTML }}
                     </article>
                 {{ end }}
