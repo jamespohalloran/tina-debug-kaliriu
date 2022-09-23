@@ -4,6 +4,7 @@ description = "Para introducirnos en el tema y conocer las ventajas que aporta e
 image = "/v1656933984/firos-nv-Z2c6ounF-iE-unsplash_ewbavr.jpg"
 meta_description = " Esta técnica se utiliza mucho en la actualidad para que una misma web se adapte a distintas plataformas, como por ejemplo una tablet, ordenador o smartphone."
 slug = "cuales-son-las-ventajas-del-diseno-responsive"
+tag = ["Artículo"]
 title = "¿Cuáles son las ventajas del diseño Responsive?"
 
 +++
