@@ -1079,6 +1079,11 @@ $shadows-big:    multiple-box-shadow(100);
   width: 100%;
   height: auto;
 }
+.UI.UX .blog__p img{
+  border: 2px solid $terciary;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba($primary, 0.25);
+}
 .blog__h2{
   margin: 64px 0 20px;
 }
