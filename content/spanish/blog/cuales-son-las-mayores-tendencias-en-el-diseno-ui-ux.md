@@ -4,6 +4,7 @@ description = "El año que pasó trajo consigo muchos cambios en cuanto al dise�
 image = "/v1657098155/virtual-reality_zabfiu.jpg"
 meta_description = "A lo largo de este artículo desarrollaremos en detalle cuáles son, pero te adelantamos los puntos que incluyen: minimalismo, neomorfismo, microinteracciones, visualización de datos, control vía gestos de aire, realidad virtual, storytelling emotivo y wearables."
 slug = "cuales-son-las-mayores-tendencias-en-el-diseno-UI-UX"
+tag = ["Artículo"]
 title = "¿Cuáles son las mayores tendencias en el diseño UI/UX?"
 
 +++
