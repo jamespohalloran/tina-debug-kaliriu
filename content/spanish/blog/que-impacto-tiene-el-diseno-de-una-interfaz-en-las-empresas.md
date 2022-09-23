@@ -1,7 +1,7 @@
 ---
 title: "¿Qué impacto tiene el diseño de una interfaz en las empresas?"
 slug: que-impacto-tiene-el-diseno-de-una-interfaz-en-las-empresas
-date: 2022-05-12T22:00:00+00:00
+date: 2022-05-12T22:00:00.000+00:00
 meta_description: En la actualidad, la mayoría de las personas antes de concretar
   una compra (de cualquier producto) lleva a cabo una “investigación” en internet
   desde la comodidad de su hogar antes de salir a recorrer todos los negocios. Es
@@ -78,5 +78,7 @@ description: |-
 
   Cuando una persona ingresa a la web por primera vez desea encontrar fácilmente y rápidamente lo que está buscando, si esto sucede, volverá a ingresar otra vez.
 image: "/v1652472996/luis-villasmil-4V8uMZx8FYA-unsplash_pa44ix.jpg"
+tag:
+- Artículo
 
 ---
