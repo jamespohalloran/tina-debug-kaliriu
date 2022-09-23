@@ -4,6 +4,7 @@ description = "En la actualidad se presta mucha atención en la experiencia y en
 image = "/v1657225520/theme-photos-CGpifH3FjOA-unsplash_dp7jop.jpg"
 meta_description = "En la actualidad se presta mucha atención en la experiencia y en la interacción que tiene el usuario cuando ingresa a una aplicación o web, por ello el diseño de una interfaz posee ciertas características principales que deben respetarse para lograr los objetivos."
 slug = "9-caracteristicas-principales-del-diseno-de-interfaz"
+tag = ["Artículo"]
 title = "9 características principales del diseño de interfaz"
 
 +++
