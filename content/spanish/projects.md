@@ -13,7 +13,7 @@ projects:
   link: ''
 - title: Paladria
   img: "/v1651857979/Kaliriu/Projects/Paladria-1.jpg"
-  link_text: Ver proyecto
+  link_text: Ver diseño
   link: "/es/blog/paladria-ui-ux/"
 show_cta: true
 
