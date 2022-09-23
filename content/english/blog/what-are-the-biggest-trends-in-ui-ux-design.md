@@ -4,6 +4,7 @@ description = "The past year brought in many new changes to user experience (UX)
 image = "/v1657098155/virtual-reality_zabfiu.jpg"
 meta_description = "Generally speaking, these \"abrupt\" changes occur as technology advances and it is at that moment when UI/UX designers must be up to the task of offering the user the best possible experience. "
 slug = "what-are-the-biggest-trends-in-ui-ux-design"
+tag = ["Article"]
 title = "What Are the Biggest Trends in UI/UX Design?"
 
 +++
