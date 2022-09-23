@@ -96,6 +96,7 @@ i {
 .home-page__hero-background {
   background-color: $secondary;
 }
+.blog__list li article a ul li h3,
 .cookies__background,
 .blog__background,
 .blog__list-background,
@@ -235,6 +236,7 @@ article#blog ol li::before{
 /* PARAGRAPH - EXTRA SMALL */
 .tab-content{font-size: 0;}
 .tab-checkbox:checked ~ .tab-content,
+.blog__list li article a ul li h3,
 article#blog ol li,
 article#blog ul li,
 .projects__list li a p,
@@ -274,6 +276,7 @@ article#blog ul li,
   color: $terciary;
 }
 /* Primary */
+.blog__list li article a ul li h3,
 .popup_message,
 .blog__share-title,
 .cookies__text,
@@ -1060,18 +1063,21 @@ $shadows-big:    multiple-box-shadow(100);
   transition: opacity .6s;
   opacity: .95;
 }
+.blog__list li article a ul,
 .blog__list li article a h2 {
   position: relative;
   z-index: 9;
 }
 .blog__list li article a ul {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 4px 0 0;
   li{
     padding: 4px;
     h3{
-      padding: 2px 4px;
+      padding: 2px 12px;
       border-radius: 60px;
-      background-color: $terciary;
     }
   }
 }
