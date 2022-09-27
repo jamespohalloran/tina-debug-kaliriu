@@ -16,5 +16,6 @@ projects:
   link_text: Ver diseño
   link: "/es/blog/paladria-ui-ux/"
 show_cta: true
+meta_description: Proyectos de diseño UI/UX
 
 ---
