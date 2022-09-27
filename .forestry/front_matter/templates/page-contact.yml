@@ -12,6 +12,11 @@ fields:
   config:
     required: false
   label: Description
+- name: meta_description
+  type: text
+  config:
+    required: false
+  label: Meta description
 - name: name_placeholder
   type: text
   config:
