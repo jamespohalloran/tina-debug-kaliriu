@@ -3,6 +3,10 @@ title: UI/UX Design Projects
 description: ''
 type: projects
 projects:
+- title: SweetShop
+  img: "/v1664291474/Kaliriu/Projects/SweetsShop-1.png"
+  link_text: View design
+  link: ''
 - title: Pascual Designer
   img: "/v1652298829/Kaliriu/Projects/Pascual-1.jpg"
   link_text: View design
