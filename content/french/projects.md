@@ -16,5 +16,6 @@ projects:
   link: https://palomaminino563316.invisionapp.com/console/share/5NYVZ7BPEX4
   link_text: View prototype
 show_cta: true
+meta_description: 'Design UI/UX '
 
 ---
