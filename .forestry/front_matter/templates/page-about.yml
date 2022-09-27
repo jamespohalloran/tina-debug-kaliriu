@@ -14,4 +14,5 @@ fields:
   label: Meta description
 pages:
 - content/english/about.md
+- content/french/about.md
 - content/spanish/about.md
