@@ -3,10 +3,6 @@ title: UI/UX Design Projects
 description: ''
 type: projects
 projects:
-- title: Paloma Chiara
-  img: "/v1652298821/Kaliriu/Projects/Chiara-1.jpg"
-  link: https://palomaminino563316.invisionapp.com/console/share/8N3AEANTHT/864592816
-  link_text: View prototype
 - title: SweetShop
   img: "/v1664291474/Kaliriu/Projects/SweetsShop-1.png"
   link_text: View design
@@ -19,6 +15,10 @@ projects:
   title: Paladria
   link: "/blog/paladria-ui-ux/"
   link_text: View project
+- title: Paloma Chiara
+  img: "/v1652298821/Kaliriu/Projects/Chiara-1.jpg"
+  link: https://palomaminino563316.invisionapp.com/console/share/8N3AEANTHT/864592816
+  link_text: View prototype
 show_cta: true
 
 ---
