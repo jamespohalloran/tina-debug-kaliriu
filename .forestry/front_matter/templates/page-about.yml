@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Title
+- name: meta_description
+  type: text
+  config:
+    required: false
+  label: Meta description
 pages:
 - content/english/about.md
 - content/spanish/about.md
