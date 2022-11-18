@@ -1585,6 +1585,7 @@ article#blog li strong,
 }
 
 @media (max-width: 400px){
+
   .home-page__hero-btn a:first-of-type{
     display: none;
   }
@@ -1596,4 +1597,5 @@ article#blog li strong,
   .footer__list li{
     padding-left: 0;
   }
+  
 }
