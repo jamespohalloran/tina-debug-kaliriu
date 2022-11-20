@@ -7,21 +7,21 @@ meta_description: 'Nowadays, most people, before making the purchase of a produc
   to visit the stores. That is why companies need to offer their customers a good
   and intuitive interface design. '
 description: |-
-  Nowadays, most people, before making the purchase of a product will research on the Internet from the comfort of their own home before going out to visit the stores. That is why companies need to offer their customers **a good and intuitive interface design.**
+  Désormais, la plupart des gens~~,~~ vont, avant d'acheter un produit, effectuer des recherches sur Internet avant de se rendre dans les magasins, en étant confortablement installés chez eux. C'est la raison pour laquelle les entreprises doivent offrir à leurs clients une interface qui soit à la fois **qualitative et intuitive.**
 
-  Social networks and different electronic devices are growing and changing every day. These changes force companies to stop and implement strategies to integrate them and compete with the rest. In fact, many people find YOUR company for the first time through the web.
+  Les réseaux sociaux et les divers appareils électroniques se développent et changent tous les jours. Ces évolutions obligent les entreprises à se poser et à mettre en œuvre des stratégies pour intégrer cela et faire face à la concurrence. En réalité, de nombreuses personnes trouvent VOTRE entreprise pour la première fois, grâce à internet.
 
-  **UI/UX designers are in charge of creating a conscious design that will rank the website on the Internet so that it becomes among the best in their industry (SEO).** Let's remember that when a user spends a long time on a certain page, it is because they like it and find it easy to navigate. That is what we are looking for.
+  **Les concepteurs UI/UX sont chargés de créer un design qui rendra le site Web plus attrayant pour les internautes. C'est ce qu'on appelle le référencement SEO.** Il est prudent de dire que lorsqu'un internaute passe beaucoup de temps sur une page spécifique, il l'apprécie probablement et la trouve simple à naviguer. C'est exactement ce que nous recherchons.
 
-  ## What Is an Interface?
+  ## Qu'est-ce qu'une interface?
 
-  Before continuing on with the impact that interface design has on companies, it is important to define what an interface is in order to understand in depth what we are talking about.
+  Avant de poursuivre sur l'impact de la conception d'interface pour les entreprises, il faut d’abord définir ce qu'est une interface pour bien comprendre ce dont nous parlons.
 
-  Believe it or not, in everyday life we are interacting with different interfaces all the time, but it turns out that many times we do not know how they work, and this is because their design is not the best. When this happens, the user usually gets frustrated and immediately closes the page in search of another one.
+  Même si vous ne le réalisez pas toujours, dans la vie de tous les jours, nous interagissons en permanence avec différentes interfaces. Il s'avère toutefois que, bien souvent, nous ne savons pas comment elles fonctionnent, car leur conception n'est pas optimale. Lorsque cela se produit, c’est que l'utilisateur est généralement frustré et qu’il ferme immédiatement la page qu’il consultait pour en chercher une autre.
 
-  This is what a company needs to avoid, which is why it is so valuable to create an interface that is simple, intuitive, and where users can quickly achieve the objective for which they entered.
+  C'est ce qu'une entreprise doit éviter. Voilà pourquoi il faut absolument créer une interface simple, intuitive qui permette aux utilisateurs d’obtenir rapidement ce pour quoi ils sont venus.
 
-  Having said all this, it is clear that the success of a company's interface depends a lot on the purpose for which it was designed for and also on the type of user it is aimed at. Regardless of this, it must be easy to use and understand.
+  Ceci étant dit, le succès de l'interface d'une entreprise dépend clairement beaucoup de l'objectif pour lequel elle a été conçue et aussi du type d'utilisateur auquel elle s'adresse. Quoi qu'il en soit, elle doit être facile à utiliser et à comprendre.
 
   ## Benefits of Having a Good User Interface Design for Your Business
 
