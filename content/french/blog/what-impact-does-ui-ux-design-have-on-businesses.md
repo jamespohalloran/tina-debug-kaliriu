@@ -2,10 +2,10 @@
 title: Quel est l'impact de l'UI/UX design sur les entreprises?
 slug: quel-est-l-impact-de-l-UI-UX-design-sur-les-entreprises
 date: 2022-05-17T22:00:00.000+00:00
-meta_description: 'Nowadays, most people, before making the purchase of a product
-  will research on the Internet from the comfort of their own home before going out
-  to visit the stores. That is why companies need to offer their customers a good
-  and intuitive interface design. '
+meta_description: Désormais, la plupart des gens vont, avant d'acheter un produit,
+  effectuer des recherches sur Internet avant de se rendre dans les magasins, en étant
+  confortablement installés chez eux. C'est la raison pour laquelle les entreprises
+  doivent offrir à leurs clients une interface qui soit à la fois qualitative et intuitive.
 description: |-
   Désormais, la plupart des gens vont, avant d'acheter un produit, effectuer des recherches sur Internet avant de se rendre dans les magasins, en étant confortablement installés chez eux. C'est la raison pour laquelle les entreprises doivent offrir à leurs clients une interface qui soit à la fois **qualitative et intuitive.**
 
