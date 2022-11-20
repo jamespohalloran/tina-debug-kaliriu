@@ -1,6 +1,6 @@
 ---
-title: What Impact Does UI/UX Design Have on Businesses?
-slug: what-impact-does-ui-ux-design-have-on-businesses
+title: Quel est l'impact de l'UI/UX design sur les entreprises?
+slug: quel-est-l-impact-de-l-UI-UX-design-sur-les-entreprises
 date: 2022-05-17T22:00:00.000+00:00
 meta_description: 'Nowadays, most people, before making the purchase of a product
   will research on the Internet from the comfort of their own home before going out
@@ -77,6 +77,7 @@ description: |-
 
   When a person enters the web for the first time, he/she wants to find easily and quickly what he/she is looking for, if this happens, he/she will come back again.
 image: "/v1652472996/luis-villasmil-4V8uMZx8FYA-unsplash_pa44ix.jpg"
-draft: true
+tag:
+- Article
 
 ---
