@@ -55,27 +55,27 @@ description: |-
 
   Ainsi, lorsque les designers UI/UX effectuent des tests, ils se mettent à la place de l'utilisateur qui entre pour la première fois sur l'interface, ce qui est une manière simple de vérifier son bon fonctionnement.
 
-  ### Direct Communication and Easy Access
+  ### Communication directe et accès facile
 
-  Of course, any user when making a purchase on a website needs to feel secure during the process and also in the previous and subsequent steps. Therefore, the interface must contain a means of direct contact with the customer, this generates confidence, and you will gain more visits.
+  Bien entendu, tout utilisateur qui effectue un achat sur un site web doit se sentir en sécurité pendant le processus, mais aussi lors des étapes qui précèdent et celles qui suivent. De fait, l'interface doit contenir un moyen de contact direct avec le client, ce qui génère de la confiance, et vous fera obtenir plus de visites.
 
-  ### User Experience
+  ### Expérience utilisateur
 
-  The design of the interface must also be designed so that the user can use it from any electronic device, this will produce a better user experience, which is a fundamental aspect for the customer.
+  La conception de l'interface doit également être conçue de manière que l'utilisateur puisse l'utiliser depuis n'importe quel équipement électronique. Cela créera une meilleure expérience utilisateur, ce qui est un aspect fondamental pour le client.
 
-  Another point to consider is, as the company grows, the interface covers different types of users, therefore, an alternative is to add tutorials (which can be omitted), for those who need some help.
+  Par ailleurs, au fur et à mesure que l'entreprise se développe, l'interface va servir à différents types d'utilisateurs. L’idée peut être alors d'ajouter des tutoriels (qui peuvent être sinon mis de côté), pour ceux qui ont besoin d'aide.
 
-  ### Harmonious Design
+  ### Un design harmonieux
 
-  Throughout the entire interface, the design must remain coherent so that the user, as he/she advances, feels that he/she is in the same place and associates the company with its own style.
+  Pour l’ensemble de l'interface, le design doit rester cohérent afin que l'utilisateur, au fur et à mesure qu'il évolue sur le site, ait le sentiment d'être au même endroit et intègre le style spécifique de l'entreprise.
 
-  The content and information added must be relevant and well distributed. Harmony will benefit the company to obtain a more professional image.
+  Le contenu et les informations ajoutées doivent être pertinents et bien répartis. L'harmonie apportera ainsi à l'entreprise une image plus professionnelle.
 
-  ### Customers: Attracting and Retaining Them
+  ### Les clients: Les attirer et les fidéliser
 
-  There is no doubt that the main objective of any company is to attract and retain customers, so the good interface design is essential for this to happen.
+  Il ne fait aucun doute que l'objectif principal de toute entreprise est d'attirer et de fidéliser les clients. Une bonne conception de l'interface est donc essentielle pour y parvenir.
 
-  When a person enters the web for the first time, he/she wants to find easily and quickly what he/she is looking for, if this happens, he/she will come back again.
+  Lorsqu'une personne entre sur le web pour la première fois, elle veut trouver facilement et rapidement ce qu'elle cherche. Et si c’est bien ce qui se passe, alors elle reviendra.
 image: "/v1652472996/luis-villasmil-4V8uMZx8FYA-unsplash_pa44ix.jpg"
 tag:
 - Article
