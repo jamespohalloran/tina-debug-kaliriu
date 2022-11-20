@@ -31,17 +31,17 @@ description: |-
 
   **Voici les avantages d'avoir une bonne interface utilisateur pour votre entreprise:**
 
-  ### SEO Ranking
+  ### Classement SEO
 
-  A high-ranking website is what most companies are looking for. One of the ways that it can be achieved is by having a great user interface design.
+  La plupart des entreprises cherchent à avoir un site web bien classé. L'une des façons d'y parvenir est d'avoir une interface utilisateur qui soit de qualité.
 
-  Internet search engines calculate the time in which the user remains on a certain website and the relevance that it has for the search they performed. The objective is that the user stays on the site for as long as possible, which would indicate that it is easy to navigate.
+  Les moteurs de recherche sur Internet calculent la durée pendant laquelle l'utilisateur reste sur un site Web donné et la pertinence de ce site par rapport à la recherche qu'il a effectuée. L'objectif est que l'utilisateur reste sur le site aussi longtemps que possible, ce qui indique que la navigation est facile.
 
-  ### Clarity For Your Users
+  ### Clarté pour vos utilisateurs
 
-  Although this may seem more of a benefit to the users, it is not. Companies must be clear and precise about who they are and what they offer. By achieving that, they will be able to design a good interface that meets the users' expectations.
+  Même si cela peut sembler être un avantage pour les utilisateurs, ce n'est pas le cas. Les entreprises doivent être claires et précises sur qui elles sont et ce qu'elles offrent. En y parvenant, elles seront en mesure de concevoir une bonne interface qui réponde bien aux attentes des utilisateurs.
 
-  In short, the goal of every company is to achieve an interface design that accurately communicates what they want to offer.
+  En bref, l'objectif de toute entreprise est de concevoir une interface qui communique avec précision ce qu'elle veut offrir.
 
   ### First Impressions
 
