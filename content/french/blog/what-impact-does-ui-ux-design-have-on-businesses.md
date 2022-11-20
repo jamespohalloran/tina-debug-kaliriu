@@ -43,17 +43,17 @@ description: |-
 
   En bref, l'objectif de toute entreprise est de concevoir une interface qui communique avec précision ce qu'elle veut offrir.
 
-  ### First Impressions
+  ### Premières impressions
 
-  In different aspects of life, first impressions get in the way of people's decisions, and a company's website is no exception. That is why it is key that the interface design is good, catches the eye and above all is intuitive.
+  Dans divers aspects de la vie, les premières impressions influencent les décisions des gens, et le site web d'une entreprise ne fait pas exception à cela. C'est la raison pour laquelle il est essentiel que l'interface soit bien conçue, qu'elle attire le regard et, surtout, qu'elle soit intuitive.
 
-  The content must be clear, separated by sections, where the user can clearly understand what they are seeing.
+  Le contenu doit être clair, séparé par des sections, où l'utilisateur peut comprendre clairement ce qu'il voit.
 
-  ### Websites: Must Remain Intuitive and Easy To Use
+  ### Sites web: ils doivent rester intuitifs et faciles à utiliser
 
-  The design of a company's interface must focus on the user, so that he/she feels satisfied when staying on the site. It is essential that people entering the website can understand in a few steps how to use it without problems.
+  La conception de l'interface d'une entreprise doit être centrée sur l'utilisateur, afin qu'il se sente bien en restant sur le site. Il est essentiel que les personnes qui entrent sur le site puissent comprendre en quelques étapes comment l'utiliser sans avoir de difficultés.
 
-  This is why UI/UX designers, when performing the corresponding tests, put themselves in the place of the user who enters the interface for the first time, a simple way to corroborate the proper functioning.
+  Ainsi, lorsque les designers UI/UX effectuent des tests, ils se mettent à la place de l'utilisateur qui entre pour la première fois sur l'interface, ce qui est une manière simple de vérifier son bon fonctionnement.
 
   ### Direct Communication and Easy Access
 
