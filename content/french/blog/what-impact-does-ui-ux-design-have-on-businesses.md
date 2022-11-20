@@ -7,7 +7,7 @@ meta_description: 'Nowadays, most people, before making the purchase of a produc
   to visit the stores. That is why companies need to offer their customers a good
   and intuitive interface design. '
 description: |-
-  Désormais, la plupart des gens~~,~~ vont, avant d'acheter un produit, effectuer des recherches sur Internet avant de se rendre dans les magasins, en étant confortablement installés chez eux. C'est la raison pour laquelle les entreprises doivent offrir à leurs clients une interface qui soit à la fois **qualitative et intuitive.**
+  Désormais, la plupart des gens vont, avant d'acheter un produit, effectuer des recherches sur Internet avant de se rendre dans les magasins, en étant confortablement installés chez eux. C'est la raison pour laquelle les entreprises doivent offrir à leurs clients une interface qui soit à la fois **qualitative et intuitive.**
 
   Les réseaux sociaux et les divers appareils électroniques se développent et changent tous les jours. Ces évolutions obligent les entreprises à se poser et à mettre en œuvre des stratégies pour intégrer cela et faire face à la concurrence. En réalité, de nombreuses personnes trouvent VOTRE entreprise pour la première fois, grâce à internet.
 
