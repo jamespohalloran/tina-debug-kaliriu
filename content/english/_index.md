@@ -22,7 +22,7 @@ benefits:
   title: Why Work With Us
   description: ''
 steps:
-  title: Our steps to a great UI/UX design
+  title: Our Steps to a Great UI/UX Design
   description: Great design is essential to build trust. Our process to achieve that
     level of quality is as follows.
   step_1_title: Briefing
