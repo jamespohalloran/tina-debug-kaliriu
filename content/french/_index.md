@@ -20,6 +20,9 @@ benefits:
   title_4: Le client d'abord
   description_4: Nous anticipons les besoins des utilisateurs et visons à dépasser
     leurs attentes à chaque interaction.
+  title: Pourquoi nous?
+  description: Nous sommes des concepteurs, des créateurs et des solutionneurs de
+    problèmes.
 steps:
   title: Nos étapes vers une excellente conception UI/UX
   description: Un excellent design est essentiel pour instaurer la confiance. Notre
