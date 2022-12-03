@@ -4,7 +4,7 @@ title: Nous créons des designs UI/UX pour les entreprises dont l’objectif est
 description: Nous sommes une agence de design d'interfaces avec la volonté de définir
   et développer des expériences utilisateur fluides avec votre entreprise.
 projects:
-  title: Certains de nos projets de design UI/UX
+  title: Nos projets de design UI/UX
   button: View all projects
   link_text: Voir tous les projets
   link: "/fr/projects"
@@ -45,5 +45,8 @@ button_secondary:
   link: "/fr/projects"
 meta_description: Nous sommes une agence de design d'interfaces avec la volonté de
   définir et développer des expériences utilisateur fluides avec votre entreprise.
+testimonials:
+  title: ''
+  testimonial: []
 
 ---
