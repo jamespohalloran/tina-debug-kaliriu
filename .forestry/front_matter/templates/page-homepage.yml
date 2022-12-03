@@ -167,6 +167,38 @@ fields:
       required: false
     label: 'Step 4: Description'
   label: Steps
+- name: testimonials
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: testimonial
+    type: field_group_list
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: Name
+    - name: comment
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Comment
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Testimonial
+  label: Testimonials
 pages:
 - content/english/_index.md
 - content/french/_index.md
