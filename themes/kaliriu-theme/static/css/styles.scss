@@ -197,7 +197,8 @@ i {
 .blog__share-title,
 .cookies__text,
 .cta__p,
-.home-page__steps-p {
+.home-page__steps-p,
+.home-page__product-p {
   font-size: 18px;
   font-weight: 500;
   letter-spacing: .4px;
@@ -271,6 +272,7 @@ article#blog ul li,
 .cta__title,
 .home-page__benefits-list li div *,
 .home-page__steps-p,
+.home-page__product-p,
 .home-page__steps-title,
 .home-page__hero-p,
 .home-page__product-title,
@@ -301,12 +303,12 @@ article#blog ul li,
 .blog__header-title,
 .projects__header-title,
 .home-page__steps-p,
+.home-page__product-p,
 .home-page__steps-title,
 .home-page__product-container,
 .home-page__hero-p,
 .home-page__product-title,
 .home-page__hero-title{
-  
   text-align: center;
 }
 
@@ -1527,7 +1529,8 @@ article#blog li strong,
   .blog__share-title,
   .cookies__text,
   .cta__p,
-  .home-page__steps-p {
+  .home-page__steps-p,
+  .home-page__product-p {
     font-size: 16px;
   }
   /* PARAGRAPH - EXTRA SMALL */
