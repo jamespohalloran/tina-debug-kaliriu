@@ -44,5 +44,8 @@ button_secondary:
   link: "/projects"
 meta_description: We are an interface design agency striving to define and develop
   user experiences in order to achieve a seamless interaction with your company.
+testimonials:
+  title: Testimonials
+  testimonial: []
 
 ---
