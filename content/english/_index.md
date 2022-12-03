@@ -8,6 +8,7 @@ projects:
   button: View all projects
   link_text: View all projects
   link: "/projects"
+  description: We have worked with various clients from all around the world.
 benefits:
   title_1: Quality
   description_1: We convey the advantages of your product beyond of what is obvious.
