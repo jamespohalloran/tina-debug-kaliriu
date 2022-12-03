@@ -8,6 +8,7 @@ projects:
   button: View all projects
   link_text: Voir tous les projets
   link: "/fr/projects"
+  description: Nous avons travaillé avec divers clients du monde entier.
 benefits:
   title_1: Qualité
   description_1: Nous amenons votre produit à libérer son plein potentiel.
