@@ -153,7 +153,8 @@ i {
 .blog__h2,
 .cta__title,
 .home-page__steps-title,
-.home-page__product-title {
+.home-page__product-title,
+.home-page__benefits-title {
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 1.2px;
@@ -198,7 +199,8 @@ i {
 .cookies__text,
 .cta__p,
 .home-page__steps-p,
-.home-page__product-p {
+.home-page__product-p,
+.home-page__benefits-p  {
   font-size: 18px;
   font-weight: 500;
   letter-spacing: .4px;
@@ -273,9 +275,11 @@ article#blog ul li,
 .home-page__benefits-list li div *,
 .home-page__steps-p,
 .home-page__product-p,
+.home-page__benefits-p,
 .home-page__steps-title,
 .home-page__hero-p,
 .home-page__product-title,
+.home-page__benefits-title,
 .home-page__hero-title{
   color: $terciary;
 }
@@ -304,10 +308,12 @@ article#blog ul li,
 .projects__header-title,
 .home-page__steps-p,
 .home-page__product-p,
+.home-page__benefits-p,
 .home-page__steps-title,
 .home-page__product-container,
 .home-page__hero-p,
 .home-page__product-title,
+.home-page__benefits-title,
 .home-page__hero-title{
   text-align: center;
 }
@@ -856,10 +862,12 @@ $shadows-big:    multiple-box-shadow(100);
   width: 100%;
   margin: 0 34px 0 0;
 }
+.home-page__benefits-title,
 .home-page__product-title{
   margin: 0 0 12px;
 }
-.home-page__product-p{
+.home-page__product-p,
+.home-page__benefits-p {
   margin: 0 0 44px;
 }
 .home-page__product-btn {
@@ -1499,7 +1507,8 @@ article#blog li strong,
   .blog__h2,
   .cta__title,
   .home-page__steps-title,
-  .home-page__product-title {
+  .home-page__product-title,
+  .home-page__benefits-title {
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 1.2px;
@@ -1535,7 +1544,8 @@ article#blog li strong,
   .cookies__text,
   .cta__p,
   .home-page__steps-p,
-  .home-page__product-p {
+  .home-page__product-p,
+  .home-page__benefits-p {
     font-size: 16px;
   }
   /* PARAGRAPH - EXTRA SMALL */
