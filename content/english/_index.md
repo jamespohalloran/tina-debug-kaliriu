@@ -19,8 +19,8 @@ benefits:
   title_4: Customer-First
   description_4: We foresee the needs of users and aim to exceed their expectations
     at every touchpoint.
-  title: Why Work With Us
-  description: ''
+  title: Why Work With Us?
+  description: We are designers, creators, and world-class problem solvers.
 steps:
   title: Our Steps to a Great UI/UX Design
   description: Great design is essential to build trust. Our process to achieve that
