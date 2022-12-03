@@ -19,6 +19,8 @@ benefits:
   title_4: Customer-First
   description_4: We foresee the needs of users and aim to exceed their expectations
     at every touchpoint.
+  title: Why Work With Us
+  description: ''
 steps:
   title: Our steps to a great UI/UX design
   description: Great design is essential to build trust. Our process to achieve that
