@@ -845,6 +845,8 @@ $shadows-big:    multiple-box-shadow(100);
 }
 .home-page__benefits-container{
   padding: 90px 20px;
+}
+.home-page__benefits-list-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1385,7 +1387,7 @@ article#blog li strong,
 
   /* COLUMNS ********************************/
   .cta__container,
-  .home-page__benefits-container{
+  .home-page__benefits-list-container{
     display: flex;
     flex-direction: column;
   }
