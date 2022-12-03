@@ -8,6 +8,7 @@ projects:
   button: ''
   link_text: Ver todos los proyectos
   link: "/es/projects"
+  description: Hemos trabajado con varios clientes de todo el mundo.
 benefits:
   title_1: Calidad
   description_1: Logramos transmitir las ventajas de tu producto más allá de lo aparente.
@@ -45,5 +46,8 @@ button_secondary:
 meta_description: Somos una agencia de diseño de interfaz para definir y desarrollar
   las experiencias del usuario con el fin de lograr una interacción fluida con tu
   empresa.
+testimonials:
+  title: ''
+  testimonial: []
 
 ---
