@@ -140,8 +140,7 @@ i {
 .basic-page__title,
 .contact__title,
 .blog__header-title,
-.projects__header-title,
-.home-page__product-title {
+.projects__header-title{
   font-size: 44px;
   font-weight: 700;
   letter-spacing: 1.5px;
@@ -153,7 +152,8 @@ i {
 .home-page__hero-title,
 .blog__h2,
 .cta__title,
-.home-page__steps-title {
+.home-page__steps-title,
+.home-page__product-title {
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 1.2px;
@@ -1479,8 +1479,7 @@ article#blog li strong,
   .basic-page__title,
   .contact__title,
   .blog__header-title,
-  .projects__header-title,
-  .home-page__product-title {
+  .projects__header-title {
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 1.5px;
@@ -1491,7 +1490,8 @@ article#blog li strong,
   .home-page__hero-title,
   .blog__h2,
   .cta__title,
-  .home-page__steps-title {
+  .home-page__steps-title,
+  .home-page__product-title {
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 1.2px;
