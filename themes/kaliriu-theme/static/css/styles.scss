@@ -440,7 +440,6 @@ input[type="text"]::placeholder{
   justify-content: center;
   align-items: center;
   background: rgba($primary, 0.8);
-  display: none;
   opacity: 0;
   z-index: 999;
   display: none;
@@ -450,7 +449,9 @@ input[type="text"]::placeholder{
   opacity: 1;
   display: block;
 }
-
+.popup_overlay.off {
+  display: none;
+}
 
 /* PARTIAL - HEADER ********************************/
 .header {
