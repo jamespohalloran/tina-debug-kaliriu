@@ -1222,46 +1222,6 @@ article#blog li strong,
   max-width: 620px;
   margin: 0 0 0 auto;
 }
-#lightings{
-	bottom: -60px;
-	position: absolute;
-	width: 100%;
-  mix-blend-mode: color-dodge;
-}
-#lightings div{
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-	height: 20px;
-	width: 100%;
-	position: relative;
-	margin: auto;
-}
-#one{
-	animation: one 5s ease-in-out infinite alternate;
-}
-@keyframes one { from {box-shadow: 0 0 250px 20px $cta;}to {box-shadow: 0 0 100px 15px $auxiliar; }}
-#two{
-	width: 90%;
-	-webkit-animation: two 4s ease-in-out infinite alternate;
-	animation: two 4s ease-in-out infinite alternate;
-}
-@keyframes two { from {box-shadow: 0 0 250px 20px $auxiliar;}to { box-shadow: 0 0 100px 15px $cta; }}
-#three{
-	width: 80%;
-	animation: three 3s ease-in-out infinite alternate;
-}
-@keyframes three { from {box-shadow: 0 0 250px 20px $cta;}to { box-shadow: 0 0 100px 15px $auxiliar }}
-#four{
-	width: 70%;
-	animation: four 2s ease-in-out infinite alternate;
-}
-@keyframes four { from {shadow: 0 0 250px 20px $auxiliar;}to { shadow: 0 0 100px 15px $cta; }}
-#five{
-	width: 60%;
-	animation: five 1s ease-in-out infinite alternate;
-}
-@keyframes five { from {box-shadow: 0 0 250px 20px $cta;} to { box-shadow: 0 0 100px 15px#da4141; }}
 
 /* PARTIAL - FAQ ********************************/
 .faq__background{
