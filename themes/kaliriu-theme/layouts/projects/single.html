@@ -32,7 +32,12 @@
                                 </button>
                             </li>
                             <section id="popup1" class="popup_overlay">
-                                <img src="https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .img | relURL }}" alt="{{ .title }}">
+                                <div class="popup_container">
+                                    <a class="popup_close" href="/">
+                                        <i>&#xe806;</i>
+                                    </a>
+                                    <img src="https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .img | relURL }}" alt="{{ .title }}">
+                                </div>
                             </section>
                         {{ end }}
                     </ul>
