@@ -2,7 +2,7 @@
 title: We create UI/UX designs for enterprises whose purpose is to provide products
   that make an impact
 description: We are an interface design agency striving to define and develop user
-  experiences in order to achieve a seamless interaction with your company.
+  experiences that will achieve a seamless interaction with your company.
 projects:
   title: Our UI/UX Design Projects
   button: View all projects
@@ -46,7 +46,7 @@ button_secondary:
   link_text: See portfolio
   link: "/projects"
 meta_description: We are an interface design agency striving to define and develop
-  user experiences in order to achieve a seamless interaction with your company.
+  user experiences that will achieve a seamless interaction with your company.
 testimonials:
   title: Testimonials
   testimonial:
