@@ -97,7 +97,6 @@ i {
 .home-page__hero-background {
   background-color: $secondary;
 }
-.blog__list li article a ul li h3,
 .cookies__background,
 .blog__background,
 .blog__list-background,
@@ -240,7 +239,6 @@ article#blog ol li::before{
 /* PARAGRAPH - EXTRA SMALL */
 .tab-content{font-size: 0;}
 .tab-checkbox:checked ~ .tab-content,
-.blog__list li article a ul li h3,
 article#blog ol li,
 article#blog ul li,
 .projects__list li a p,
@@ -283,7 +281,6 @@ article#blog ul li,
   color: $terciary;
 }
 /* Primary */
-.blog__list li article a ul li h3,
 .blog__share-title,
 .cookies__text,
 .blog__h2,
@@ -1100,32 +1097,17 @@ $shadows-big:    multiple-box-shadow(100);
   right: 0;
   top: 0;
   bottom: 0;
-  opacity: .65;
+  opacity: .75;
   transition: opacity .6s;
   border-radius: 8px;
 }
 .blog__list li article a:hover::after {
   transition: opacity .6s;
-  opacity: .95;
+  opacity: 1;
 }
-.blog__list li article a ul,
 .blog__list li article a h2 {
   position: relative;
   z-index: 9;
-}
-.blog__list li article a ul {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 4px 0 0;
-  li{
-    padding: 4px;
-    h3{
-      padding: 2px 16px;
-      border-radius: 60px;
-      font-size: 14px;
-    }
-  }
 }
 .blog__container {
   padding: 64px 20px 120px;

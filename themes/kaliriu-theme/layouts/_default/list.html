@@ -36,15 +36,6 @@
               <article>
                 <a href="{{ .RelPermalink }}" style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .Params.image }}');">
                   <h2>{{ .Title }}</h2>
-                  <ul>
-                    {{ range .Params.tag }}
-                      <li>
-                        <h3>
-                          {{ . }}
-                        </h3>
-                      </li>
-                    {{ end }}
-                  </ul>
                 </a>
               </article>
             </li>
