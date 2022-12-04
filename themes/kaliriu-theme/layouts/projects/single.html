@@ -25,15 +25,15 @@
                 <div class="projects__list-container">
                     <ul class="projects__list">
                         {{ range .projects }}
-                            <li id="project" style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .img | relURL }}')">
+                            <li style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .img | relURL }}')">
                                 <a onclick="myFunction()" href="#">
                                     <h2>{{ .title }}</h2>
                                     <p>{{ .link_text }}</p>
+                                    <div id="popup{{ .title }}" class="popup_overlay">
+                                        <img src="https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .full_img | relURL }}" alt="{{ .title }}">
+                                    </div>
                                 </a>
                             </li>
-                            <div onclick="myFunction2()" id="popup{{ .title }}" class="popup_overlay">
-                                <img src="https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .full_img | relURL }}" alt="{{ .title }}">
-                            </div>
                         {{ end }}
                     </ul>
                 </div>
@@ -42,11 +42,7 @@
             <script>
                 function myFunction() {
                     var element = document.getElementById("popup{{ .title }}");
-                    element.classList.add("on");
-                }
-                function myFunction2() {
-                    var element = document.getElementById("popup{{ .title }}");
-                    element.classList.remove("on");
+                    element.classList.toggle("on");
                 }
             </script>
 
