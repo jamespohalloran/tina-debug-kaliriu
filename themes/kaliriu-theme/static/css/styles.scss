@@ -440,9 +440,7 @@ input[type="text"]::placeholder{
     justify-content: center;
     align-items: center;
     background: rgba($primary, 0.8);
-    opacity: 0;
     z-index: 999;
-    display: none;
     img{
       width: 100%;
       max-width: 850px;
@@ -462,13 +460,13 @@ input[type="text"]::placeholder{
   right: 0;
   bottom: 0;
   z-index: 9999;
-  visibility: hidden;
+  + .popup_overlay {
+    display: none;
+  }
 }
 .popup input:checked{
   position: fixed;
   + .popup_overlay {
-    display: flex;
-    opacity: 1;
     display: block;
   }
 }
