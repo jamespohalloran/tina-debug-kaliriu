@@ -31,7 +31,7 @@
                                     <p>{{ .link_text }}</p>
                                 </a>
                             </li>
-                            <div onclick="myFunction2()" id="popup" class="popup_overlay">
+                            <div onclick="myFunction2()" id="popup{{ .title }}" class="popup_overlay">
                                 <img src="https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .full_img | relURL }}" alt="{{ .title }}">
                             </div>
                         {{ end }}
@@ -41,11 +41,11 @@
 
             <script>
                 function myFunction() {
-                    var element = document.getElementById("popup");
+                    var element = document.getElementById("popup{{ .title }}");
                     element.classList.add("on");
                 }
                 function myFunction2() {
-                    var element = document.getElementById("popup");
+                    var element = document.getElementById("popup{{ .title }}");
                     element.classList.remove("on");
                 }
             </script>
