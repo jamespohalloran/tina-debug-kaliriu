@@ -49,6 +49,10 @@ meta_description: We are an interface design agency striving to define and devel
   user experiences in order to achieve a seamless interaction with your company.
 testimonials:
   title: Testimonials
-  testimonial: []
+  testimonial:
+  - name: Adriana Aristizábal
+    comment: Kaliriu understood my needs very well and was great with coming up with
+      many design ideas as well as giving some direction when needed. I will surely
+      hire them again for my next project.
 
 ---
