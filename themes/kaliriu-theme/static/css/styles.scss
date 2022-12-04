@@ -468,7 +468,7 @@ input[type="text"]::placeholder{
   cursor: pointer;
   opacity: 0;
   + i,
-  + .popup_overlay {
+  ~ .popup_overlay {
     display: none;
   }
 }
@@ -480,7 +480,7 @@ input[type="text"]::placeholder{
   height: 40px;
   width: 40px;
   + i,
-  + .popup_overlay {
+  ~ .popup_overlay {
     display: block;
   }
 }
