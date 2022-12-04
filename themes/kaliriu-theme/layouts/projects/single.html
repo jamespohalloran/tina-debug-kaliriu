@@ -26,10 +26,11 @@
                     <ul class="projects__list">
                         {{ range .projects }}
                             <li style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .img | relURL }}')">
-                                <div class="popup" onclick="myFunction()">
+                                <div class="popup">
+                                    <input type="radio">
                                     <h2>{{ .title }}</h2>
                                     <p>{{ .link_text }}</p>
-                                    <div id="popup{{ .title }}" class="popup_overlay">
+                                    <div class="popup_overlay">
                                         <img src="https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .full_img | relURL }}" alt="{{ .title }}">
                                     </div>
                                 </div>
@@ -38,14 +39,7 @@
                     </ul>
                 </div>
             </section>
-            
-            <script>
-            // When the user clicks on div, open the popup
-            function myFunction() {
-                var popup = document.getElementById("myPopup{{ .title }}");
-                popup.classList.toggle("on");
-                }
-            </script>
+        
 
         </main>
     {{ end }}

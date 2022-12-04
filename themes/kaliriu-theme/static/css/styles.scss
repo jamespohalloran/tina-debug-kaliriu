@@ -428,6 +428,7 @@ input[type="text"]::placeholder{
 }
 
 /* OVERLAY POPUP ********************************/
+
 .popup_overlay {
   position: fixed;
   overflow: auto;
@@ -452,11 +453,14 @@ input[type="text"]::placeholder{
     border-radius: 12px;
   }
 }
-.popup_overlay.on {
-  display: flex;
-  opacity: 1;
-  display: block;
+.popup input:checked{
+  .popup_overlay {
+    display: flex;
+    opacity: 1;
+    display: block;
+  }
 }
+
 
 
 /* PARTIAL - HEADER ********************************/
