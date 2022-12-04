@@ -12,7 +12,7 @@ projects:
   img: "/v1651857979/Kaliriu/Projects/Paladria-1.jpg"
   link_text: Ver diseño
   link: "/es/blog/paladria-ui-ux/"
-  full_img: ''
+  full_img: "/v1663951784/Kaliriu/Projects/Paladria-2-Homepage.png"
 - title: Pascual Designer
   img: "/v1652298829/Kaliriu/Projects/Pascual-1.jpg"
   link_text: Ver diseño
