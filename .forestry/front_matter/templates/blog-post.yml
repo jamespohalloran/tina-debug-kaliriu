@@ -11,10 +11,6 @@ fields:
 - name: slug
   type: text
   label: slug
-- name: tag
-  type: tag_list
-  default: []
-  label: Tag
 - name: date
   type: datetime
   label: Date
