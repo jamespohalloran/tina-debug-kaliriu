@@ -50,6 +50,10 @@ meta_description: We are an interface design agency striving to define and devel
 testimonials:
   title: Testimonials
   testimonial:
+  - name: Maelle J
+    comment: Great work. There was positive communication throughout the entire project.
+      She also delivered quickly without compromising the design quality, and made
+      sure it was always up to my satisfaction.
   - name: Adriana Aristizábal
     comment: Kaliriu understood my needs very well and was great with coming up with
       many design ideas as well as giving some direction when needed. I will surely
