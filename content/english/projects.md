@@ -13,7 +13,7 @@ projects:
   link: "/blog/paladria-ui-ux/"
   link_text: View project
   full_img: ''
-- title: Pascual Designer
+- title: PascualDesigner
   img: "/v1652298829/Kaliriu/Projects/Pascual-1.jpg"
   link_text: View design
   link: "/blog/ui-ux-pascual/"
