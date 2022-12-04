@@ -7,7 +7,7 @@ projects:
   img: "/v1664291474/Kaliriu/Projects/SweetsShop-1.png"
   link_text: View design
   link: "/blog/ui-ux-sweetshop"
-  full_img: ''
+  full_img: "/v1664292317/Kaliriu/Projects/SweetsShop-3-Homepage.png"
 - img: "/v1651857979/Kaliriu/Projects/Paladria-1.jpg"
   title: Paladria
   link: "/blog/paladria-ui-ux/"
