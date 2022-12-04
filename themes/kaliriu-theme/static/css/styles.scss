@@ -462,6 +462,7 @@ input[type="text"]::placeholder{
   right: 0;
   bottom: 0;
   z-index: 9999;
+  visibility: hidden;
 }
 .popup input:checked{
   position: fixed;
@@ -1049,7 +1050,6 @@ $shadows-big:    multiple-box-shadow(100);
 }
 .projects__list li div{
   border-radius: 12px;
-  opacity: 0;
   height: 100%;
   background-color: rgba($primary, 0.8);
   display: flex;
