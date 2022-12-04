@@ -15,7 +15,7 @@
                         <div class="form_message">
                             <textarea class="data-hj-allow" name="message" id="message" rows="6" required placeholder="{{ .message_placeholder }}"></textarea>
                         </div>
-                        <button onclick="location.href='#popup1'" type="submit">{{ .button }}</button>
+                        <button type="submit">{{ .button }}</button>
                     </form>
                 </div>
                 <!--Waves Container-->
@@ -33,42 +33,6 @@
                     </svg>
                 <!--Waves end-->
             </section>
-
-            <section id="popup1" class="popup_overlay">
-                <div class="popup_background">
-                  <div class="popup_container">
-                    <a class="popup_close" href="/">
-                        <i>&#xe806;</i>
-                    </a>
-                    <p class="popup_message">{{ .lightbox_message }}</p>
-                  </div>
-                </div>
-            </section>
-
-            <script>
-                /* CONFIRMATION PAGE */
-                let testForm = document.querySelector("#contact form");      
-                testForm.addEventListener('submit', e => {
-                  e.preventDefault();
-                  const formData = new FormData(testForm);
-                  fetch(testForm.getAttribute('action'), {
-                    method: 'POST',
-                    headers: {
-                      'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
-                      'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
-                    },
-                    body: new URLSearchParams(formData).toString()
-                  })
-                  .then(res => {
-                    if (res) {
-                      M.toast({
-                        html: 'Thank you for your submission!',
-                        classes: 'pulse'
-                      });
-                    }
-                  });
-                });
-            </script>
 
         </main>
     {{ end }}
