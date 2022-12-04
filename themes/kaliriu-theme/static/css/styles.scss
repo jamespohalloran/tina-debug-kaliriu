@@ -454,7 +454,7 @@ input[type="text"]::placeholder{
   }
 }
 .popup input:checked{
-  .popup_overlay {
+  + .popup_overlay {
     display: flex;
     opacity: 1;
     display: block;
