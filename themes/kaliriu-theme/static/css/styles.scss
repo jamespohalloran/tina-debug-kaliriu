@@ -438,7 +438,7 @@ input[type="text"]::placeholder{
     left: 0;
     right: 0;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     background: rgba($primary, 0.8);
     padding: 40px;
     z-index: 999;
@@ -1074,11 +1074,13 @@ $shadows-big:    multiple-box-shadow(100);
 .projects__list li > div{
   border-radius: 12px;
   height: 100%;
-  background-color: rgba($primary, 0.8);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  h2{
+    display: none;
+  }
 }
 
 /* PAGE - BLOG ********************************/
