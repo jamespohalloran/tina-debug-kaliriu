@@ -433,6 +433,7 @@ input[type="text"]::placeholder{
 /* OVERLAY POPUP ********************************/
 .popup_overlay {
   position: fixed;
+  overflow: auto;
   top: 0;
   bottom: 0;
   left: 0;
@@ -443,6 +444,16 @@ input[type="text"]::placeholder{
   opacity: 0;
   z-index: 999;
   display: none;
+  img{
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 20px;
+    border-radius: 12px;
+  }
 }
 .popup_overlay.on {
   display: flex;
