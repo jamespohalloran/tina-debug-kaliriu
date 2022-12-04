@@ -12,7 +12,7 @@ projects:
   title: Paladria
   link: https://palomaminino563316.invisionapp.com/console/share/5NYVZ7BPEX4
   link_text: View prototype
-  full_img: ''
+  full_img: "/v1663951784/Kaliriu/Projects/Paladria-2-Homepage.png"
 - title: Pascual Designer
   img: "/v1652298829/Kaliriu/Projects/Pascual-1.jpg"
   link_text: View prototype
