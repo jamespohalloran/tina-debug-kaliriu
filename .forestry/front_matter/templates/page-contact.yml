@@ -37,11 +37,6 @@ fields:
   config:
     required: false
   label: Button
-- name: lightbox_message
-  type: text
-  config:
-    required: false
-  label: Lightbox Message
 pages:
 - content/english/contact.md
 - content/french/contact.md
