@@ -31,14 +31,14 @@
                                     <p>{{ .link_text }}</p>
                                 </a>
                             </li>
-                            <section id="myDIV" class="popup_overlay">
+                            <a onclick="myFunction()" id="myDIV" class="popup_overlay" href="#">
                                 <div class="popup_container">
                                     <a class="popup_close" href="/">
                                         <i>&#xe806;</i>
                                     </a>
                                     <img src="https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .img | relURL }}" alt="{{ .title }}">
                                 </div>
-                            </section>
+                            </a>
                         {{ end }}
                     </ul>
                 </div>
@@ -47,7 +47,11 @@
             <script>
                 function myFunction() {
                     var element = document.getElementById("myDIV");
-                    element.classList.toggle("on");
+                    element.classList.add("on");
+                }
+                function myFunction2() {
+                    var element = document.getElementById("myDIV");
+                    element.classList.remove("on");
                 }
             </script>
 
