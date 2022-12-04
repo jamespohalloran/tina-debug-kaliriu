@@ -428,32 +428,42 @@ input[type="text"]::placeholder{
 }
 
 /* OVERLAY POPUP ********************************/
-
-.popup_overlay {
-  position: fixed;
-  overflow: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  justify-content: center;
-  align-items: center;
-  background: rgba($primary, 0.8);
-  opacity: 0;
-  z-index: 999;
-  display: none;
-  img{
-    width: 100%;
-    max-width: 850px;
-    margin: auto;
-    display: flex;
+.popup{
+  position: relative;
+  .popup_overlay {
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     justify-content: center;
-    align-items: baseline;
-    padding: 20px;
-    border-radius: 12px;
+    align-items: center;
+    background: rgba($primary, 0.8);
+    opacity: 0;
+    z-index: 999;
+    display: none;
+    img{
+      width: 100%;
+      max-width: 850px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      padding: 20px;
+      border-radius: 12px;
+    }
   }
 }
+.popup input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 .popup input:checked{
+  position: fixed;
   + .popup_overlay {
     display: flex;
     opacity: 1;
