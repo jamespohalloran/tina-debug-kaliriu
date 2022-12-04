@@ -26,12 +26,12 @@
                     <ul class="projects__list">
                         {{ range .projects }}
                             <li id="project" style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .img | relURL }}')">
-                                <button type="button" onclick="location.href='#popup1'" href="#">
+                                <a onclick="myFunction()" href="#">
                                     <h2>{{ .title }}</h2>
                                     <p>{{ .link_text }}</p>
-                                </button>
+                                </a>
                             </li>
-                            <section id="popup1" class="popup_overlay">
+                            <section id="myDIV" class="popup_overlay">
                                 <div class="popup_container">
                                     <a class="popup_close" href="/">
                                         <i>&#xe806;</i>
@@ -45,28 +45,10 @@
             </section>
 
             <script>
-                /* CONFIRMATION PAGE */
-                let testForm = document.querySelector("#project");      
-                testForm.addEventListener('button', e => {
-                  e.preventDefault();
-                  const formData = new FormData(testForm);
-                  fetch(testForm.getAttribute('action'), {
-                    method: 'POST',
-                    headers: {
-                      'Accept': 'application/x-www-form-urlencoded;charset=UTF-8',
-                      'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
-                    },
-                    body: new URLSearchParams(formData).toString()
-                  })
-                  .then(res => {
-                    if (res) {
-                      M.toast({
-                        html: 'Thank you for your submission!',
-                        classes: 'pulse'
-                      });
-                    }
-                  });
-                });
+                function myFunction() {
+                var element = document.getElementById("myDIV");
+                element.classList.add("on");
+                }
             </script>
 
         </main>
