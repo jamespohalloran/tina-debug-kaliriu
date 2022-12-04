@@ -89,6 +89,7 @@ i {
 .footer__background{
   background-color: $primary;
 }
+.home-page__benefits-list li div,
 .blog__header-background::after,
 .basic-page__background,
 .cta__background,
@@ -108,8 +109,7 @@ i {
 .home-page__background-gradient{
   background: linear-gradient(to bottom, $primary, $secondary);
 }
-.blog__list li article a::after,
-.home-page__benefits-list li div{
+.blog__list li article a::after{
   background-image: linear-gradient(320deg, $primary, $secondary);
 }
 
@@ -992,7 +992,6 @@ $shadows-big:    multiple-box-shadow(100);
   padding: 20px;
   border: 2px solid $terciary;
   border-radius: 12px;
-  box-shadow: 0 4px 14px rgba($primary, 0.25);
 }
 .home-page__benefits-list li div img {
   height: 34px;
@@ -1027,17 +1026,16 @@ $shadows-big:    multiple-box-shadow(100);
   color: rgba($primary, 0.09);
   line-height: 1;
   position: absolute;
-  left: 10px;
-  top: 5px;
+  left: 6px;
+  top: 0;
   z-index: 2;
 }
 .home-page__steps-list li div{
   height: 100%;
-  padding: 54px 20px 20px 20px;
+  padding: 64px 20px 20px 20px;
   background-color: $terciary;
-  border: 2px solid $terciary;
+  border: 2px solid $primary;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba($primary, 0.12);
 }
 .home-page__steps-list li div h3{
   margin: 0 0 4px;
