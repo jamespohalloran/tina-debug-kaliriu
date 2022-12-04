@@ -52,7 +52,7 @@ a {
 .form_email::before,
 .form_name::before,
 article#blog ul li::before,
-.projects__list li a p::after,
+.projects__list li p::after,
 .language-selector::after,
 i {
   font-family: "fontello";
@@ -162,7 +162,7 @@ i {
 
 /* TERCIARY TITLE */
 .blog__h3,
-.projects__list li a h2,
+.projects__list li h2,
 .blog__list li article a h2 {
   font-size: 24px;
   font-weight: 700;
@@ -241,7 +241,7 @@ article#blog ol li::before{
 .tab-checkbox:checked ~ .tab-content,
 article#blog ol li,
 article#blog ul li,
-.projects__list li a p,
+.projects__list li p,
 .blog__p,
 .contact__form textarea,
 .contact__form input,
@@ -259,8 +259,8 @@ article#blog ul li,
 .faq__title,
 .contact__p,
 .basic-page__title,
-.projects__list li a p,
-.projects__list li a h2,
+.projects__list li p,
+.projects__list li h2,
 .blog__list li article a h2,
 .contact__title,
 .blog__header-title,
@@ -1047,7 +1047,7 @@ $shadows-big:    multiple-box-shadow(100);
   height: 380px;
   transition: 0.5s;
 }
-.projects__list li a{
+.projects__list li div{
   border-radius: 12px;
   opacity: 0;
   height: 100%;
@@ -1056,18 +1056,6 @@ $shadows-big:    multiple-box-shadow(100);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.projects__list li:hover a{
-  opacity: 1;
-  transition: 0.5s;
-}
-.projects__list li a p{
-  margin-top: 6px;
-  position: relative;
-}
-.projects__list li a p::after{
-  content: '\f08e';
-  margin-left: 6px;
 }
 
 /* PAGE - BLOG ********************************/
@@ -1449,7 +1437,7 @@ article#blog li strong,
   }
   /* TERCIARY TITLE */
   .blog__h3,
-  .projects__list li a h2,
+  .projects__list li h2,
   .blog__list li article a h2 {
     font-size: 22px;
     font-weight: 700;
@@ -1485,7 +1473,7 @@ article#blog li strong,
   .tab-checkbox:checked ~ .tab-content,
   article#blog ol li,
   article#blog ul li,
-  .projects__list li a p,
+  .projects__list li p,
   .blog__p,
   .contact__form textarea,
   .contact__form input,

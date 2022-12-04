@@ -26,14 +26,14 @@
                     <ul class="projects__list">
                         {{ range .projects }}
                             <li style="background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .img | relURL }}')">
-                                <a class="popup" href="#">
+                                <div class="popup">
                                     <h2>{{ .title }}</h2>
                                     <p>{{ .link_text }}</p>
                                     <input type="checkbox">
                                     <div class="popup_overlay">
                                         <img src="https://res.cloudinary.com/ddtcgm4kc/image/upload{{ .full_img | relURL }}" alt="{{ .title }}">
                                     </div>
-                                </a>
+                                </div>
                             </li>
                         {{ end }}
                     </ul>
