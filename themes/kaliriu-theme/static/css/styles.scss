@@ -440,13 +440,12 @@ input[type="text"]::placeholder{
     justify-content: center;
     align-items: center;
     background: rgba($primary, 0.8);
-    padding: 20px;
+    padding: 40px;
     z-index: 999;
     img{
       width: 100%;
       max-width: 850px;
       height: auto;
-      margin: auto;
       display: flex;
       justify-content: center;
       align-items: baseline;
@@ -457,7 +456,8 @@ input[type="text"]::placeholder{
     position: fixed;
     right: 20px;
     top: 20px;
-    background-color: $terciary;
+    background-color: rgba($terciary, 0.6);
+    border: 2px solid $terciary;
     color: $primary;
     border-radius: 50%;
     z-index: 9990;
