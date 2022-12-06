@@ -1329,15 +1329,16 @@ $shooting-time: 3000ms;
   position: relative;
   width: 100px;
   transform: rotateZ(315deg);
+  opacity: .6;
   // animation: sky 200000ms linear infinite;
   .shooting_star {
     position: absolute;
     left: 50%;
     top: 50%;
     height: 2px;
-    background: linear-gradient(-45deg, rgba($auxiliar, 1), rgba($auxiliar, 0));
+    background: linear-gradient(-45deg, rgba($terciary, 1), rgba($terciary, 0));
     border-radius: 999px;
-    filter: drop-shadow(0 0 6px rgba($auxiliar, 1));
+    filter: drop-shadow(0 0 6px rgba($terciary, 1));
     animation:
       tail $shooting-time ease-in-out infinite,
       shooting $shooting-time ease-in-out infinite;
@@ -1348,7 +1349,7 @@ $shooting-time: 3000ms;
       top: calc(50% - 1px);
       right: 0;
       height: 2px;
-      background: linear-gradient(-45deg, rgba($auxiliar, 0), rgba($auxiliar, 1), rgba($auxiliar, 0));
+      background: linear-gradient(-45deg, rgba($terciary, 0), rgba($terciary, 1), rgba($terciary, 0));
       transform: translateX(50%) rotateZ(45deg);
       border-radius: 100%;
       animation: shining $shooting-time ease-in-out infinite;
@@ -1362,7 +1363,7 @@ $shooting-time: 3000ms;
         top: calc(50% - #{random(400) - 200px});
         left: calc(50% - #{random(300) + 0px});
         animation-delay: $delay;
-        // opacity: random(50) / 100 + 0.5;
+        opacity: random(50) / 100 + 0.5;
         &::before,
         &::after {
           animation-delay: $delay;
