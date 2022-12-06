@@ -59,5 +59,17 @@ testimonials:
       many design ideas as well as giving some direction when needed. I will surely
       hire them again for my next project.
   description: A few words from our clients...
+  client_1_name: Maelle J.
+  client_1_comment: Great work. There was positive communication throughout the entire
+    project. She also delivered quickly without compromising the design quality, and
+    made sure it was always up to my satisfaction.
+  client_2_name: Adriana A.
+  client_2_comment: Kaliriu understood my needs very well and was great with coming
+    up with many design ideas as well as giving some direction when needed. I will
+    surely hire them again for my next project.
+  client_3_name: Maelle J.
+  client_3_comment: Great work. There was positive communication throughout the entire
+    project. She also delivered quickly without compromising the design quality, and
+    made sure it was always up to my satisfaction.
 
 ---
