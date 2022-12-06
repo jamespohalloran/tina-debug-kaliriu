@@ -195,6 +195,11 @@ fields:
     config:
       required: false
     label: Title
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
   - name: testimonial
     type: field_group_list
     fields:
