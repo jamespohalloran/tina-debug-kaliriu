@@ -153,6 +153,7 @@ i {
 .blog__h2,
 .cta__title,
 .home-page__steps-title,
+.home-page__testimonials-title,
 .home-page__product-title,
 .home-page__benefits-title {
   font-size: 32px;
@@ -198,6 +199,7 @@ i {
 .cookies__text,
 .cta__p,
 .home-page__steps-p,
+.home-page__testimonials-p,
 .home-page__product-p,
 .home-page__benefits-p  {
   font-size: 18px;
@@ -272,8 +274,10 @@ article#blog ul li,
 .cta__title,
 .home-page__benefits-list li div *,
 .home-page__steps-p,
+.home-page__testimonials-p,
 .home-page__product-p,
 .home-page__benefits-p,
+.home-page__testimonials-title,
 .home-page__steps-title,
 .home-page__hero-p,
 .home-page__product-title,
@@ -302,8 +306,10 @@ article#blog ul li,
 .blog__header-title,
 .projects__header-title,
 .home-page__steps-p,
+.home-page__testimonials-p,
 .home-page__product-p,
 .home-page__benefits-p,
+.home-page__testimonials-title,
 .home-page__steps-title,
 .home-page__product-container,
 .home-page__hero-p,
@@ -1042,20 +1048,27 @@ $shadows-big:    multiple-box-shadow(100);
   margin: 0 0 4px;
 }
 .home-page__testimonials-background{
+  .home-page__testimonials-title{
+    margin: 0 auto 12px;
+  }
+  .home-page__testimonials-p{
+    margin: 0 auto 44px;
+  }
   input[type=radio] {
     display: none;
   }
   .home-page__testimonials-container {
     padding: 0 20px;
+  }
+  .cards {
+    position: relative;
+    height: 200px;
+    width: 100%;
     transform-style: preserve-3d;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  }
-  .cards {
-    position: relative;
-    height: 200px;
     .card {
       position: absolute;
       width: 60%;
@@ -1498,6 +1511,7 @@ article#blog li strong,
   .home-page__hero-title,
   .blog__h2,
   .cta__title,
+  .home-page__testimonials-title,
   .home-page__steps-title,
   .home-page__product-title,
   .home-page__benefits-title {
@@ -1536,6 +1550,7 @@ article#blog li strong,
   .cookies__text,
   .cta__p,
   .home-page__steps-p,
+  .home-page__testimonials-p,
   .home-page__product-p,
   .home-page__benefits-p {
     font-size: 16px;
