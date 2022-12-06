@@ -18,11 +18,11 @@ projects:
   link_text: Ver diseño
   link: "/es/blog/pascual-ui-ux/"
   full_img: "/v1663962257/Kaliriu/Projects/Pascual-3-Home.png"
-- title: Paloma Chiara
-  img: "/v1652298821/Kaliriu/Projects/Chiara-1.jpg"
+- title: BitcoinKonsulten
+  img: "/v1670324017/Kaliriu/Projects/BitcoinKonsulten-1.png"
   link_text: Ver prototipo
   link: ''
-  full_img: ''
+  full_img: "/v1670324052/Kaliriu/Projects/BitcoinKonsulten-2-Homepage.png"
 show_cta: true
 meta_description: Proyectos de diseño UI/UX
 
