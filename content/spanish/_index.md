@@ -21,6 +21,8 @@ benefits:
   title_4: El cliente es prioridad
   description_4: Prevemos las necesidades del usuario con el objetivo de superar sus
     expectativas en cada punto.
+  title: "¿Por qué elegirnos?"
+  description: 'Nuestra pasión: Diseñar, crear y resolver problemas.'
 steps:
   title: Nuestros pasos para lograr un gran diseño UI/UX
   description: Un excelente diseño es esencial para generar confianza. Nuestro proceso
@@ -49,5 +51,6 @@ meta_description: Somos una agencia de diseño de interfaz para definir y desarr
 testimonials:
   title: ''
   testimonial: []
+  description: ''
 
 ---

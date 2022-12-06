@@ -58,5 +58,6 @@ testimonials:
     comment: Kaliriu understood my needs very well and was great with coming up with
       many design ideas as well as giving some direction when needed. I will surely
       hire them again for my next project.
+  description: A few words from our clients...
 
 ---
