@@ -18,11 +18,11 @@ projects:
   link_text: View design
   link: "/blog/ui-ux-pascual/"
   full_img: "/v1663962257/Kaliriu/Projects/Pascual-3-Home.png"
-- title: Paloma Chiara
-  img: "/v1652298821/Kaliriu/Projects/Chiara-1.jpg"
+- title: BitcoinKonsulten
+  img: "/v1670324017/Kaliriu/Projects/BitcoinKonsulten-1.png"
   link: https://palomaminino563316.invisionapp.com/console/share/8N3AEANTHT/864592816
   link_text: View prototype
-  full_img: ''
+  full_img: "/v1670324052/Kaliriu/Projects/BitcoinKonsulten-2-Homepage.png"
 show_cta: true
 meta_description: UI/UX Design Projects
 

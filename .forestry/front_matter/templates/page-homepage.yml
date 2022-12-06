@@ -200,28 +200,36 @@ fields:
     config:
       required: false
     label: Description
-  - name: testimonial
-    type: field_group_list
-    fields:
-    - name: name
-      type: text
-      config:
-        required: false
-      label: Name
-    - name: comment
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: false
-        schema:
-          format: markdown
-      label: Comment
+  - name: client_1_name
+    type: text
     config:
-      min: 
-      max: 
-      labelField: 
-    label: Testimonial
+      required: false
+    label: 'Client 1: Name'
+  - name: client_1_comment
+    type: text
+    config:
+      required: false
+    label: 'Client 1: Comment'
+  - name: client_2_name
+    type: text
+    config:
+      required: false
+    label: 'Client 2: Name'
+  - name: client_2_comment
+    type: text
+    config:
+      required: false
+    label: 'Client 2: Comment'
+  - name: client_3_name
+    type: text
+    config:
+      required: false
+    label: 'Client 3: Name'
+  - name: client_3_comment
+    type: text
+    config:
+      required: false
+    label: 'Client 3: Comment'
   label: Testimonials
 pages:
 - content/english/_index.md
