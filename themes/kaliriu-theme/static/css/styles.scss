@@ -1006,6 +1006,8 @@ $shadows-big:    multiple-box-shadow(100);
   border-radius: 12px;
   img{
     height: 44px;
+    display: flex;
+    margin: 0 0 8px;
   }
 }
 .home-page__steps-list li div h3{
