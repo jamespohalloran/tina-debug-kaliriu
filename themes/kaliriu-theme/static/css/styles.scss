@@ -945,47 +945,6 @@ $shadows-big:    multiple-box-shadow(100);
 .home-page__product-btn {
   margin: 64px 0 0;
 }
-.home-page__steps-background,
-.home-page__benefits-background{
-  position: relative;
-}
-.home-page__steps-background::before,
-.home-page__benefits-background::before{
-  content: '';
-  background-image: url('https://res.cloudinary.com/ddtcgm4kc/image/upload/v1649273130/Kaliriu/Design/space.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
-  width: 100%;
-  height: 500px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: -1;
-}
-.home-page__steps-background::before{
-  transform: translateY(-50%) rotateY(180deg);
-  top: calc(50% - -46px);
-}
-.home-page__steps-background::after,
-.home-page__benefits-background::after{
-  content: '';
-  background-color: $terciary;
-  width: 54%;
-  height: 170px;
-  position: absolute;
-  top: 53%;
-  transform: translateY(-50%);
-  right: 0;
-  border-radius: 50px 0 0 50px;
-  z-index: -1;
-}
-.home-page__steps-background::after{
-  right: initial;
-  left: 0;
-  border-radius: 0 50px 50px 0;
-  top: calc(53% - -49px);
-}
 .home-page__benefits-list{
   width: 100%;
   max-width: 700px;
@@ -1468,14 +1427,6 @@ $shooting-time: 3000ms;
   .home-page__benefits-img {
     margin: 0 auto -33px;
   }
-  .home-page__steps-background::before,
-  .home-page__benefits-background::before{
-    top: 66%;
-  }
-  .home-page__steps-background::after,
-  .home-page__benefits-background::after{
-    display: none;
-  }
 
   .projects__list li{
     height: 300px;
@@ -1652,13 +1603,6 @@ $shooting-time: 3000ms;
 
   .home-page__steps-container {
     padding-top: 32px;
-  }
-
-  .home-page__steps-background::before,
-  .home-page__benefits-background::before,
-  .home-page__steps-background::after,
-  .home-page__benefits-background::after{
-    display: none;
   }
 
 }
