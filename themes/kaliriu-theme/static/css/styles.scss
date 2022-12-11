@@ -995,13 +995,18 @@ $shadows-big:    multiple-box-shadow(100);
   left: 6px;
   top: 0;
   z-index: 2;
+
+  display: none;
 }
 .home-page__steps-list li div{
   height: 100%;
-  padding: 64px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
   background-color: $terciary;
   border: 2px solid $secondary;
   border-radius: 12px;
+  img{
+    height: 44px;
+  }
 }
 .home-page__steps-list li div h3{
   margin: 0 0 4px;
