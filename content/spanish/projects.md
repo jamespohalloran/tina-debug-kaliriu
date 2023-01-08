@@ -3,6 +3,9 @@ title: Proyectos de diseño UI/UX
 description: ''
 type: projects
 projects:
+- title: Klonk
+  img: "/v1673182423/Kaliriu/Projects/Klonk.jpg"
+  full_img: "/v1673182423/Kaliriu/Projects/Klonk-2-Homepage.png"
 - title: BitcoinKonsulten
   img: "/v1670324017/Kaliriu/Projects/BitcoinKonsulten-1.png"
   link_text: Ver prototipo
