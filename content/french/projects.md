@@ -3,6 +3,9 @@ title: 'Design UI/UX '
 description: ''
 type: projects
 projects:
+- title: Klonk
+  img: "/v1673182423/Kaliriu/Projects/Klonk.jpg"
+  full_img: "/v1673182423/Kaliriu/Projects/Klonk-2-Homepage.png"
 - title: BitcoinKonsulten
   img: "/v1670324017/Kaliriu/Projects/BitcoinKonsulten-1.png"
   link: https://palomaminino563316.invisionapp.com/console/share/8N3AEANTHT/864592816
