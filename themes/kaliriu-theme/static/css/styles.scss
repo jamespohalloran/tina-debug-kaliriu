@@ -260,7 +260,6 @@ article#blog ul li,
 }
 
 /* White */
-.home-page__testimonials-background .card p,
 .faq__title,
 .contact__p,
 .basic-page__title,
@@ -288,6 +287,7 @@ article#blog ul li,
   color: $terciary;
 }
 /* Primary */
+.home-page__testimonials-background .card p,
 .blog__share-title,
 .cookies__text,
 .blog__h2,
@@ -300,6 +300,7 @@ article#blog ul li,
   color: $gray;
 }
 /* Center */
+.home-page__testimonials-background .card p,
 .faq__title,
 .contact__p,
 .blog__list li article a h2,
@@ -1049,7 +1050,7 @@ $shadows-big:    multiple-box-shadow(100);
       background-color: $terciary;
       border-radius: 12px;
       p:first-child{
-        text-align: center;
+        font-weight: bold;
       }
     }
   }
