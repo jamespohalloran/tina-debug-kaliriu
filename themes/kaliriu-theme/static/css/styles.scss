@@ -251,6 +251,7 @@ article#blog ul li,
 .footer__list a,
 .footer__p,
 .home-page__steps-list p,
+.home-page__testimonials-background .card p,
 .home-page__benefits-list p {
   font-size: 16px;
   font-weight: 500;
@@ -259,6 +260,7 @@ article#blog ul li,
 }
 
 /* White */
+.home-page__testimonials-background .card p,
 .faq__title,
 .contact__p,
 .basic-page__title,
@@ -1028,7 +1030,7 @@ $shadows-big:    multiple-box-shadow(100);
   }
   .cards {
     position: relative;
-    height: 200px;
+    min-height: 200px;
     width: 100%;
     transform-style: preserve-3d;
     display: flex;
@@ -1038,7 +1040,6 @@ $shadows-big:    multiple-box-shadow(100);
     .card {
       position: absolute;
       width: 60%;
-      height: 100%;
       left: 0;
       right: 0;
       margin: auto;
@@ -1047,6 +1048,9 @@ $shadows-big:    multiple-box-shadow(100);
       padding: 64px 20px 20px 20px;
       background-color: $terciary;
       border-radius: 12px;
+      p:first-child{
+        text-align: center;
+      }
     }
   }
   #item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
