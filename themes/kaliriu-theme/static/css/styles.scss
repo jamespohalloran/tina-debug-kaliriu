@@ -1031,11 +1031,11 @@ $shadows-big:    multiple-box-shadow(100);
   }
   .cards {
     position: relative;
-    min-height: 280px;
+    min-height: 310px;
     width: 100%;
     transform-style: preserve-3d;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
     align-items: center;
     .card {
@@ -1050,11 +1050,11 @@ $shadows-big:    multiple-box-shadow(100);
       background-color: $terciary;
       border-radius: 12px;
       img.portrait{
-        height: 52px;
-        width: 52px;
+        height: 82px;
+        width: 82px;
         object-fit: cover;
         border-radius: 50%;
-        margin: -12px auto 0;
+        margin: -22px auto 6px;
         display: block;
       }
       p:first-of-type{
