@@ -1054,6 +1054,10 @@ $shadows-big:    multiple-box-shadow(100);
         font-size: 22px;
         margin: 0 0 8px;
       }
+      img.rating{
+        height: 34px;
+        margin: 8px auto 0;
+      }
     }
   }
   #item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
@@ -1520,6 +1524,7 @@ $shooting-time: 3000ms;
         transition: none;
         transform: none !important;
         opacity: 1 !important;
+        margin: 0 0 18px;
       }
     }
   }
