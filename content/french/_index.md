@@ -49,7 +49,20 @@ button_secondary:
 meta_description: Nous sommes une agence de design d'interfaces avec la volonté de
   définir et développer des expériences utilisateur fluides avec votre entreprise.
 testimonials:
-  title: ''
+  title: Témoignages
   testimonial: []
+  description: Quelques mots de nos clients...
+  client_1_name: Oscar Skoglund
+  client_1_comment: "Je suis très heureux! Kaliriu m'a aidé avec le design de mon
+    site web et un nouveau logotype. C'était professionnel et facile à travailler
+    avec eux. Je retravaillerai avec eux certainement. 5 étoiles! \U0001F44D"
+  client_2_name: Adriana A.
+  client_2_comment: Kaliriu a très bien compris mes besoins et a été formidable pour
+    proposer de nombreuses idées de conception ainsi que pour donner des directives
+    en cas de besoin. Je referai sûrement appel à eux pour mon prochain projet.
+  client_3_name: Maelle J.
+  client_3_comment: Bon travail. Il y a eu une communication positive tout au long
+    du projet. Elle a également livré rapidement sans compromettre la qualité de la
+    conception et s'est assurée que tout était toujours à ma satisfaction.
 
 ---
