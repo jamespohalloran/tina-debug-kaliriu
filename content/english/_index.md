@@ -60,9 +60,9 @@ testimonials:
       hire them again for my next project.
   description: A few words from our clients...
   client_1_name: Oscar Skoglund
-  client_1_comment: "I am so happy! Kaliriu helped me with design for my website and
-    a new logotype. it was professional and easy to work with. I will definitely work
-    with them again. 5 stars! \U0001F44D"
+  client_1_comment: "I am so happy! Kaliriu helped me with the design for my website
+    and a new logotype. it was professional and easy to work with. I will definitely
+    work with them again. 5 stars! \U0001F44D"
   client_2_name: Adriana A.
   client_2_comment: Kaliriu understood my needs very well and was great with coming
     up with many design ideas as well as giving some direction when needed. I will
