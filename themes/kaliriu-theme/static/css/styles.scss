@@ -1514,12 +1514,12 @@ $shooting-time: 3000ms;
   .home-page__testimonials-background{
     .cards {
       min-height: initial;
-      flex-direction: row;
       .card {
         position: static;
         width: 100%;
         transition: none;
-        cursor: pointer;
+        transform: none !important;
+        opacity: 1 !important;
       }
     }
   }
