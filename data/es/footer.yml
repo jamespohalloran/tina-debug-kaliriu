@@ -1,14 +1,14 @@
----
 legal:
-- link_text: Términos y condiciones
-  link: "/es/legal/terminos-condiciones"
-- link_text: Política de privacidad
-  link: "/es/legal/politica-privacidad"
+  - link_text: Términos y condiciones
+    link: /es/legal/terminos-condiciones
+  - link_text: Política de privacidad
+    link: /es/legal/politica-privacidad
 title: Footer
 privacy_policy:
   link_text: Privacy Policy
-  link: "/privacy-policy"
+  link: /privacy-policy
 terms_and_conditions:
   link_text: Términos y condiciones
   link: legal/terminos-condiciones
 link_1_title: Privacy Policy
+_template: module_footer

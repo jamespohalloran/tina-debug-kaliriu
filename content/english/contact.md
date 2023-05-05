@@ -8,5 +8,6 @@ message_placeholder: Write your message here...
 button: Send
 lightbox_message: Your message was sent successfully.
 meta_description: Contact us for a UI/UX project
-
+_template: page_contact
 ---
+

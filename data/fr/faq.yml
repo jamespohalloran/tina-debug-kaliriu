@@ -1,87 +1,113 @@
----
 title: Foire aux questions sur la conception d’interface
 q_a:
-- question: Qu'est-ce que la conception d'interface ?
-  answer: La conception d'interface est le processus des designers pour créer des
-    interfaces, en se concentrant sur l'apparence et le style. Ils conçoivent tous
-    les éléments graphiques, avec des couleurs et typographies qui aident l'utilisateur
-    à "communiquer" avec un système.
-- question: Quel est l'objectif d'un design d'interface ?
-  answer: L'objectif des designers qui créent l'interface utilisateur est de permettre
-    aux clients potentiels d'interagir facilement avec le site internet et d'y rester
-    le plus longtemps possible. Cela influence le référencement SEO de l'entreprise
-    et son objectif sur le marché, qu'il s'agisse de vendre un produit ou d'établir
-    un service.
-- question: Quelle est la différence entre le design de l'interface et l'expérience
-    utilisateur ?
-  answer: |-
-    Le design d'interface fait référence à la conception d'une page de site internet ou d'une application, où sa construction est mise en œuvre avec des couleurs, des typographies et un design visuel en général.
+  - question: Qu'est-ce que la conception d'interface ?
+    answer: >-
+      La conception d'interface est le processus des designers pour créer des
+      interfaces, en se concentrant sur l'apparence et le style. Ils conçoivent
+      tous les éléments graphiques, avec des couleurs et typographies qui aident
+      l'utilisateur à "communiquer" avec un système.
+  - question: Quel est l'objectif d'un design d'interface ?
+    answer: >-
+      L'objectif des designers qui créent l'interface utilisateur est de
+      permettre aux clients potentiels d'interagir facilement avec le site
+      internet et d'y rester le plus longtemps possible. Cela influence le
+      référencement SEO de l'entreprise et son objectif sur le marché, qu'il
+      s'agisse de vendre un produit ou d'établir un service.
+  - question: >-
+      Quelle est la différence entre le design de l'interface et l'expérience
+      utilisateur ?
+    answer: >-
+      Le design d'interface fait référence à la conception d'une page de site
+      internet ou d'une application, où sa construction est mise en œuvre avec
+      des couleurs, des typographies et un design visuel en général.
 
-    L’expérience utilisateur fait référence à la convivialité et la facilité de navigation pour les utilisateurs (facile et intuitive).
-- question: Comment se passe le travail de design ?
-  answer: Le procédé de design commence lorsque les designers responsables identifient,
-    entre autres, les besoins des utilisateurs. Une fois ce processus effectué, les
-    différentes options viables sont créées, analysées, et les objectifs et actions
-    que l'interface aurait dû être définis. Icônes, textes descriptifs, fenêtres,
-    titres et autres outils sont utilisés pour réaliser le prototype et évaluer sa
-    qualité.
-- question: Quelles sont les plus grandes tendances dans l'industrie du design UI/UX
-    en ce moment?
-  answer: 'Il existe actuellement certaines tendances dans l''industrie du design
-    UI/UX et elles sont les suivantes : mode sombre (réduit la fatigue oculaire, économise
-    l''énergie de l''appareil, met en évidence les éléments de conception), ombres,
-    calques et éléments flottants, narration (proximité avec les utilisateurs), espace
-    vide (actif ou passif), interface utilisateur vocale, production photo, polices,
-    texte et copie, 3D et réalité virtuelle.'
-- question: 'Quand un client dit : « Je n''aime pas ce design », que fait le designer?'
-  answer: L'objectif du designer en charge de réaliser le design d'un site internet
-    ou d'une application d'une entreprise est de faire en sorte que le client soit
-    satisfait, et dans le cas contraire, de le refaire jusqu’à ce que le client soit
-    satisfait du résultat final.
-- question: Guidez-moi à travers un exemple de design dans lequel vous avez entrepris
-    de résoudre un problème commercial.
-  answer: Lorsqu'il y a un problème commercial, les professionnels du design examinent
-    la construction du site internet ou de l'application en fonction des informations
-    dont ils disposent. L'objectif est de trouver le parfait équilibre entre le problème
-    et le processus de conception en cours. Le design est modifié, tout en tenant
-    compte de l'expérience d'utilisateur.
-- question: Que signifie être un grand designer UI/UX?
-  answer: Le design UI/UX est un métier en vogue actuellement et les professionnels
-    du secteur sont chargés de créer et de développer des interfaces qui répondent
-    aux besoins des utilisateurs, dans le but de leur offrir une expérience unique,
-    simple et intuitive. Ces professionnels sont considérés comme de grands designers
-    UI/UX.
-- question: " Investir dans le design UI/UX augmenterait-il mon retour sur investissement?"
-  answer: Le retour sur investissement (ROI) concerne le montant d'argent généré après
-    avoir investi, dans ce cas dans un design UI/UX. Cela évalue la rentabilité du
-    bénéfice/investissement. Améliore-t-il le résultat final ? Bien sûr, les processus
-    UI/UX augmentent le retour sur investissement car ils maintiennent l'engagement
-    des clients avec le service et le produit d'une entreprise.
-- question: Combien de temps faut-il généralement pour concevoir un site internet?
-  answer: Le temps nécessaire dépend beaucoup de la complexité du site internet à
-    développer, mais le minimum est de deux jours, puisqu'il dépend aussi des délais
-    de révision, d'approbation et des corrections finales. Ces points influencent
-    également le budget final du site ou de l'application. Chaque design est différent,
-    donc chacun a une structure et un temps uniques.
-- question: À combien de changements puis-je m'attendre sur mon site sans frais supplémentaires?
-  answer: Une fois que le designer a présenté le résultat final au client, il peut
-    arriver que le client n'aime pas certains aspects du site internet ou de l'application
-    et demande des modifications. Ces changements, s'ils sont mineurs, n'auront aucun
-    coût supplémentaire. Si les modifications requises sont importantes, le designer
-    évaluera le montant approprié à facturer.
-- question: Comment fonctionne le processus de paiement pour un design UI/UX?
-  answer: 'Le designer UI/UX réalise différentes étapes lors de la création et du
-    développement du site ou de l''application qui sont les suivantes : recherche
-    et analyse, création, mise en place et suivi. Par conséquent, le client qui demande
-    le travail doit payer 50% au début de celui-ci et les 50% restants à la livraison
-    du résultat final.'
-- question: Quelle est la participation d'une entreprise dans le processus de conception?
-  answer: 'Les entreprises ou les clients de toute industrie ont un rôle important
-    dans le processus de conception d''un site internet ou d''une application car
-    ce sont eux qui sont chargés de transmettre de manière claire ce qu''ils veulent
-    obtenir de l''équipe de design développée. Par exemple : vendre un produit, établir
-    un service, etc.'
-- question: Quels sont les avantages d'un bon design UI/UX?
-  answer: Avec une bon design UX, vous pouvez augmenter les ventes, fidéliser l'utilisateur,
-    réduire les coûts, augmenter le trafic Web, satisfaire les clients et améliorer
-    le référencement.
+
+      L’expérience utilisateur fait référence à la convivialité et la facilité
+      de navigation pour les utilisateurs (facile et intuitive).
+  - question: Comment se passe le travail de design ?
+    answer: >-
+      Le procédé de design commence lorsque les designers responsables
+      identifient, entre autres, les besoins des utilisateurs. Une fois ce
+      processus effectué, les différentes options viables sont créées,
+      analysées, et les objectifs et actions que l'interface aurait dû être
+      définis. Icônes, textes descriptifs, fenêtres, titres et autres outils
+      sont utilisés pour réaliser le prototype et évaluer sa qualité.
+  - question: >-
+      Quelles sont les plus grandes tendances dans l'industrie du design UI/UX
+      en ce moment?
+    answer: >-
+      Il existe actuellement certaines tendances dans l'industrie du design
+      UI/UX et elles sont les suivantes : mode sombre (réduit la fatigue
+      oculaire, économise l'énergie de l'appareil, met en évidence les éléments
+      de conception), ombres, calques et éléments flottants, narration
+      (proximité avec les utilisateurs), espace vide (actif ou passif),
+      interface utilisateur vocale, production photo, polices, texte et copie,
+      3D et réalité virtuelle.
+  - question: 'Quand un client dit : « Je n''aime pas ce design », que fait le designer?'
+    answer: >-
+      L'objectif du designer en charge de réaliser le design d'un site internet
+      ou d'une application d'une entreprise est de faire en sorte que le client
+      soit satisfait, et dans le cas contraire, de le refaire jusqu’à ce que le
+      client soit satisfait du résultat final.
+  - question: >-
+      Guidez-moi à travers un exemple de design dans lequel vous avez entrepris
+      de résoudre un problème commercial.
+    answer: >-
+      Lorsqu'il y a un problème commercial, les professionnels du design
+      examinent la construction du site internet ou de l'application en fonction
+      des informations dont ils disposent. L'objectif est de trouver le parfait
+      équilibre entre le problème et le processus de conception en cours. Le
+      design est modifié, tout en tenant compte de l'expérience d'utilisateur.
+  - question: Que signifie être un grand designer UI/UX?
+    answer: >-
+      Le design UI/UX est un métier en vogue actuellement et les professionnels
+      du secteur sont chargés de créer et de développer des interfaces qui
+      répondent aux besoins des utilisateurs, dans le but de leur offrir une
+      expérience unique, simple et intuitive. Ces professionnels sont considérés
+      comme de grands designers UI/UX.
+  - question: ' Investir dans le design UI/UX augmenterait-il mon retour sur investissement?'
+    answer: >-
+      Le retour sur investissement (ROI) concerne le montant d'argent généré
+      après avoir investi, dans ce cas dans un design UI/UX. Cela évalue la
+      rentabilité du bénéfice/investissement. Améliore-t-il le résultat final ?
+      Bien sûr, les processus UI/UX augmentent le retour sur investissement car
+      ils maintiennent l'engagement des clients avec le service et le produit
+      d'une entreprise.
+  - question: Combien de temps faut-il généralement pour concevoir un site internet?
+    answer: >-
+      Le temps nécessaire dépend beaucoup de la complexité du site internet à
+      développer, mais le minimum est de deux jours, puisqu'il dépend aussi des
+      délais de révision, d'approbation et des corrections finales. Ces points
+      influencent également le budget final du site ou de l'application. Chaque
+      design est différent, donc chacun a une structure et un temps uniques.
+  - question: >-
+      À combien de changements puis-je m'attendre sur mon site sans frais
+      supplémentaires?
+    answer: >-
+      Une fois que le designer a présenté le résultat final au client, il peut
+      arriver que le client n'aime pas certains aspects du site internet ou de
+      l'application et demande des modifications. Ces changements, s'ils sont
+      mineurs, n'auront aucun coût supplémentaire. Si les modifications requises
+      sont importantes, le designer évaluera le montant approprié à facturer.
+  - question: Comment fonctionne le processus de paiement pour un design UI/UX?
+    answer: >-
+      Le designer UI/UX réalise différentes étapes lors de la création et du
+      développement du site ou de l'application qui sont les suivantes :
+      recherche et analyse, création, mise en place et suivi. Par conséquent, le
+      client qui demande le travail doit payer 50% au début de celui-ci et les
+      50% restants à la livraison du résultat final.
+  - question: >-
+      Quelle est la participation d'une entreprise dans le processus de
+      conception?
+    answer: >-
+      Les entreprises ou les clients de toute industrie ont un rôle important
+      dans le processus de conception d'un site internet ou d'une application
+      car ce sont eux qui sont chargés de transmettre de manière claire ce
+      qu'ils veulent obtenir de l'équipe de design développée. Par exemple :
+      vendre un produit, établir un service, etc.
+  - question: Quels sont les avantages d'un bon design UI/UX?
+    answer: >-
+      Avec une bon design UX, vous pouvez augmenter les ventes, fidéliser
+      l'utilisateur, réduire les coûts, augmenter le trafic Web, satisfaire les
+      clients et améliorer le référencement.
+_template: module_faq

@@ -1,8 +1,9 @@
----
-title: "¿Buscas un diseño UI/UX que te destaque de la competencia?"
-description: Con Kaliriu como tu aliado, lograrás que más usuarios se transformen
-  en clientes. Te ofrecemos un diseño de interfaz único e irrepetible con el fin de
-  colaborar y aportar valor con una interfaz que eleve a tu empresa a nuevos niveles
-  de competitividad.
+title: ¿Buscas un diseño UI/UX que te destaque de la competencia?
+description: >-
+  Con Kaliriu como tu aliado, lograrás que más usuarios se transformen en
+  clientes. Te ofrecemos un diseño de interfaz único e irrepetible con el fin de
+  colaborar y aportar valor con una interfaz que eleve a tu empresa a nuevos
+  niveles de competitividad.
 button_text: Contáctanos
-button_link: "/es/contacto"
+button_link: /es/contacto
+_template: module_cta

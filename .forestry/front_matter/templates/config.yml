@@ -34,10 +34,10 @@ fields:
 - name: Paginate
   type: number
   description: Number of posts displayed in the blog index
-  default: '5'
+  default: 5
   required: true
   config:
-    min: '2'
+    min: 2
     max: 
     step: 
     required: true
